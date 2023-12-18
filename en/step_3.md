@@ -69,7 +69,7 @@ Can use:
 }
 
 .climate {
-    background: url('daytime-antartica.jpg') no-repeat;
+    background: url('daytime-antarctica.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
