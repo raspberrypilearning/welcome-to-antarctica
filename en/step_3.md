@@ -50,13 +50,10 @@ Can use:
     <div class="navigation-items" id="navigation-items">
         <a href="index.html">Home</a>
         <a href="wildlife.html">Wildlife</a>
-        <a class="active" href="climate.html">Climate</a>
-    </div>
-    <div class="hamburger">
-        <span id="openHam">&#9776;</span>
-        <span id="closeHam">&#x2716;</span>
+        <a href="climate.html" class="active">Climate</a>
     </div>
 </nav>
+<div class="hero-image wildlife"></div>
 
 **CSS**
 .hero-image {

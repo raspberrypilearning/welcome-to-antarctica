@@ -1,0 +1,183 @@
+body {
+    background-color: #ECE8EF;
+    color: #000500;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh; /* Make the content fill the page so the footer is at the bottom */
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    height: 100%;
+    justify-content: center;
+    margin: 0 auto; /* Center if the browser is really wide */
+    min-width: 25rem; /* Don't let the content get too narrow */
+    max-width: 70rem; /*  Don't let the content get too wide */
+    padding: 0;
+}
+
+section {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+h1 {
+    width: 100%;
+}
+
+/* Nav bar */
+
+nav {
+    padding: 0 15px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #33658A;
+}
+
+.navigation-items {
+    display: flex;
+    gap: 100px;
+}
+
+.navigation-items > a {
+    color: #55DDE0;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 22px;
+    transition: .4s ease-in-out;
+}
+
+.navigation-items > a:hover {
+    color: white;
+}
+
+.navigation-items .active {
+    color: white;
+    pointer-events: none;
+}
+
+/* Hero Images */
+
+.hero-image {
+    min-height: 50vh;
+    background-image: url('northern-lights.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.wildlife {
+    background-image: url('penguins.jpg');
+}
+
+.climate {
+    background-image: url('daytime-antarctica.jpg');
+}
+
+
+/* Fact cards */
+
+.fact-holder {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    height: 50vh;
+}
+
+.sun {
+    background: url('antartic-sun.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.discovery {
+    background: url('aerial-Antarctica.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.explorers {
+    background: url('explorers.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ownership {
+    background: url('world_flags.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.penguins {
+    background: url('penguin-photo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.krill {
+    background: url('krill-photo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.seals {
+    background: url('seal-photo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.orcas {
+    background: url('orca-photo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.temperature {
+    background: url('snow.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.sunburn {
+    background: url('sun.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.ice {
+    background: url('ice.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.rainfall {
+    background: url('rain.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.fact-card {
+    width: 100%;
+    display: flex;
+}
+
+.fact {
+    font-size: 20px;
+    color:#ECE8EF;
+    background-color: #000500A5;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 5px;
+}
