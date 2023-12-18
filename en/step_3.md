@@ -57,19 +57,15 @@ Can use:
 **CSS**
 .hero-image {
     min-height: 50vh;
-    background: url('northern-lights.jpg') no-repeat;
+    background-image: url('northern-lights.jpg'); 
     background-size: cover;
     background-position: center;
 }
 
 .wildlife {
-    background: url('penguins.jpg') no-repeat;
-    background-size: cover;
-    background-position: bottom;
+    background-image: url('penguins.jpg');
 }
 
 .climate {
-    background: url('daytime-antarctica.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-image: url('daytime-antarctica.jpg');
 }
