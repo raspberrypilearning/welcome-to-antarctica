@@ -34,11 +34,11 @@ Can use:
 **HTML**
 <div class="hero-image"></div>
 
-#### wildife.html
+#### wildlife.html
 
 <div class="navigation-items" id="navigation-items">
         <a href="index.html">Home</a>
-        <a class="active" href="wildlife.html">Wildlife</a>
+        <a href="wildlife.html" class="active">Wildlife</a>
         <a href="climate.html">Climate</a>
     </div>
 </nav>
@@ -48,8 +48,8 @@ Can use:
 
 <div class="navigation-items" id="navigation-items">
         <a href="index.html">Home</a>
-        <a class="active" href="wildlife.html">Wildlife</a>
-        <a href="climate.html">Climate</a>
+        <a href="wildlife.html">Wildlife</a>
+        <a href="climate.html" class="active">Climate</a>
     </div>
 </nav>
 <div class="hero-image climate"></div>
