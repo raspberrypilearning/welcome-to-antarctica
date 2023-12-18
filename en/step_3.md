@@ -46,13 +46,17 @@ Can use:
 
 #### climate.html
 
-<div class="navigation-items" id="navigation-items">
+<nav class="navigation-header">
+    <div class="navigation-items" id="navigation-items">
         <a href="index.html">Home</a>
         <a href="wildlife.html">Wildlife</a>
-        <a href="climate.html" class="active">Climate</a>
+        <a class="active" href="climate.html">Climate</a>
+    </div>
+    <div class="hamburger">
+        <span id="openHam">&#9776;</span>
+        <span id="closeHam">&#x2716;</span>
     </div>
 </nav>
-<div class="hero-image climate"></div>
 
 **CSS**
 .hero-image {
