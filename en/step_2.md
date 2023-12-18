@@ -37,9 +37,9 @@ Can use:
 
 #### HTML
 
-<nav>
-    <div>
-        <a href="index.html">Home</a>
+<nav class="navigation-header">
+    <div class="navigation-items" id="navigation-items">
+        <a class="active" href="index.html">Home</a>
         <a href="wildlife.html">Wildlife</a>
         <a href="climate.html">Climate</a>
     </div>
