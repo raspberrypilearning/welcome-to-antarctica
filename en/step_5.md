@@ -26,3 +26,47 @@ Can use:
 --- /task ---
 
 --- save ---
+
+### Code to add
+
+
+
+
+#### CSS
+
+.fact-holder-animals {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 3fr;
+    height: 70vh;
+}
+
+**Inside .penguins**
+grid-row-start: 1;
+grid-row-end: 3;
+
+**Inside .orcas**
+grid-column-start: 1;
+grid-column-end: 3;
+
+.fact-holder-climate {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "top top"
+        "right left"
+        "bottom bottom";
+    height: 70vh;
+}
+
+**Inside .temperature**
+grid-area: top;
+
+**Inside .sunburn**
+grid-area: right;
+
+**Inside .ice**
+grid-area: left;
+
+**Inside .rainfall**
+grid-area: bottom;

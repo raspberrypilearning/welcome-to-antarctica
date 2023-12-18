@@ -32,3 +32,42 @@ Can use:
 --- /task ---
 
 --- save ---
+
+### Code to add
+
+#### HTML
+
+<nav>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="wildlife.html">Wildlife</a>
+        <a href="climate.html">Climate</a>
+    </div>
+</nav>
+
+#### CSS
+
+**Inside .nav**
+background-color: #33658A;
+
+.navigation-items {
+    display: flex;
+    gap: 100px;
+}
+
+.navigation-items > a {
+    color: #55DDE0;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 22px;
+    transition: .4s ease-in-out;
+}
+
+.navigation-items > a:hover {
+    color: white;
+}
+
+.navigation-items .active {
+    color: white;
+    pointer-events: none;
+}

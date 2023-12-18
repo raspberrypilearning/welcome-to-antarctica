@@ -26,3 +26,50 @@ Can use:
 --- /task ---
 
 --- save ---
+
+### Code to add
+
+#### index.html
+
+**HTML**
+<div class="hero-image"></div>
+
+#### wildife.html
+
+<div class="navigation-items" id="navigation-items">
+        <a href="index.html">Home</a>
+        <a class="active" href="wildlife.html">Wildlife</a>
+        <a href="climate.html">Climate</a>
+    </div>
+</nav>
+<div class="hero-image wildlife"></div>
+
+#### climate.html
+
+<div class="navigation-items" id="navigation-items">
+        <a href="index.html">Home</a>
+        <a class="active" href="wildlife.html">Wildlife</a>
+        <a href="climate.html">Climate</a>
+    </div>
+</nav>
+<div class="hero-image climate"></div>
+
+**CSS**
+.hero-image {
+    min-height: 50vh;
+    background: url('northern-lights.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wildlife {
+    background: url('penguins.jpg') no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.climate {
+    background: url('daytime-antartica.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
