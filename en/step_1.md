@@ -11,9 +11,16 @@ In this project, <mark> short project description </mark>
 <mark>Objectives in language that learners will understand</mark>
 
 You will:
++ Create a website that uses a navigation bar
++ Set accessible colours (use Variables in Tessy's explore) and fonts
++ Add some 'hero' images
++ Use a grid layout (50%)
++ Change the style of the grid (fr / areas:top/right/etc)
++ Make elements responsive
+
 + 
-+ 
-+ 
+
+
 
 --- no-print ---
 --- task ---
