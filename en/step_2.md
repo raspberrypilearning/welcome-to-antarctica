@@ -47,9 +47,10 @@ Can use:
 
 #### CSS
 
-**Inside .nav**
+**Inside nav**
 background-color: #33658A;
 
+**Create new selectors:**
 .navigation-items {
     display: flex;
     gap: 100px;
