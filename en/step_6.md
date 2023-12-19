@@ -58,6 +58,7 @@ Change font-size to `100%`
         display: flex;
         cursor: pointer;
     }
+    
     .hamburger #closeHam {
         display: none;
     }
@@ -107,7 +108,7 @@ Change font-size to `100%`
             "left"
             "right"
             "bottom";
-        height: 70vh;
+        height: 140vh;
     }
 }
 
