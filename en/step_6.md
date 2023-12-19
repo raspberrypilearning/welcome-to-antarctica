@@ -110,3 +110,5 @@ font-family: 'Orbitron', sans-serif;
 }
 
 ### Javascript
+
+<script type="text/javascript" src="responsive-navbar.js"></script>
