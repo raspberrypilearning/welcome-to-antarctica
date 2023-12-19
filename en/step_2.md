@@ -39,7 +39,7 @@ Can use:
 
 <nav class="navigation-header">
     <div class="navigation-items" id="navigation-items">
-        <a class="active" href="index.html">Home</a>
+        <a href="index.html" class="active">Home</a>
         <a href="wildlife.html">Wildlife</a>
         <a href="climate.html">Climate</a>
     </div>
@@ -72,3 +72,8 @@ background-color: #33658A;
     color: white;
     pointer-events: none;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap')
+
+### inside body
+font-family: 'Orbitron', sans-serif;

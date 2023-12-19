@@ -29,6 +29,8 @@ Can use:
 
 ### Code to Add
 
+#### Inside of <nav> in each HTML file
+
 <div class="hamburger">
     <span id="openHam">&#9776;</span>
     <span id="closeHam">&#x2716;</span>
@@ -36,19 +38,19 @@ Can use:
 
 ### CSS styles
 
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap')
+#### inside .fact 
 
-### inside body
-font-family: 'Orbitron', sans-serif;
+Change font-size to `100%`
+
+#### New classes
 
 .hamburger {
     display: none;
     font-size: 20px;
     font-weight: 800;
     color: white;
-    margin-left: auto
+    margin-left: auto;
 }
-
 
 @media screen and (max-width:768px) {
     
@@ -109,6 +111,6 @@ font-family: 'Orbitron', sans-serif;
     }
 }
 
-### Javascript
+### Javascript add at bottom above </body> of each HTML file
 
 <script type="text/javascript" src="responsive-navbar.js"></script>
