@@ -29,7 +29,7 @@ Can use:
 
 ### Code to Add
 
-Classes to all of this...
+Classes to all of this on the index page...
 
 <div class="fact-holder">
     <span class="fact-card sun">

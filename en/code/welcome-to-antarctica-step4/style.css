@@ -41,11 +41,47 @@ nav {
     justify-content: center;
     align-content: center;
     align-items: center;
+    background-color: #33658A;
 }
 
+.navigation-items {
+    display: flex;
+    gap: 100px;
+}
 
-/* Hero images */
+.navigation-items > a {
+    color: #55DDE0;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 22px;
+    transition: .4s ease-in-out;
+}
 
+.navigation-items > a:hover {
+    color: white;
+}
+
+.navigation-items .active {
+    color: white;
+    pointer-events: none;
+}
+
+/* Hero Images */
+
+.hero-image {
+    min-height: 50vh;
+    background-image: url('northern-lights.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.wildlife {
+    background-image: url('penguins.jpg');
+}
+
+.climate {
+    background-image: url('daytime-antarctica.jpg');
+}
 
 
 /* Fact cards */
@@ -107,11 +143,6 @@ nav {
 }
 
 
-.fact-card {
-    width: 100%;
-    display: flex;
-}
-
 .fact {
     font-size: 20px;
     color:#ECE8EF;
@@ -122,4 +153,15 @@ nav {
     flex-wrap: wrap;
     align-content: center;
     padding: 5px;
+    opacity: 0;
+    transition: .4s ease-in-out;
+}
+
+.fact-card {
+    width: 100%;
+    display: flex;
+}
+
+.fact:hover {
+    opacity: 1;
 }

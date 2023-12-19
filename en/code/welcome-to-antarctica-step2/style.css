@@ -80,75 +80,52 @@ nav {
 }
 
 .sun {
-    background: url('antartic-sun.jpg');
-    background-size: cover;
-    background-position: center;
+    background-image: url('antarctic-sun.jpg');
 }
 
 .discovery {
-    background: url('aerial-Antarctica.jpeg');
-    background-size: cover;
-    background-position: center;
+    background-image: url('aerial-antarctica.jpeg');
 }
 
 .explorers {
-    background: url('explorers.jpg');
-    background-size: cover;
-    background-position: center;
+    background-image: url('explorers.jpg');
 }
 
 .ownership {
-    background: url('world_flags.png');
-    background-size: cover;
-    background-position: center;
+    background-image: url('world_flags.png');
 }
 
 .penguins {
-    background: url('penguin-photo.jpg');
-    background-size: cover;
-    background-position: center;
+    background-image: url('penguin-photo.jpg');
 }
 
 .krill {
-    background: url('krill-photo.jpg');
-    background-size: cover;
-    background-position: center;
+    background-image: url('krill-photo.jpg');
 }
 
 .seals {
-    background: url('seal-photo.jpg');
-    background-size: cover;
-    background-position: center;
+    background-image: url('seal-photo.jpg');
 }
 
+
 .orcas {
-    background: url('orca-photo.jpg');
-    background-size: cover;
-    background-position: center;
+    background-image: url('orca-photo.jpg');
 }
 
 .temperature {
-    background: url('snow.jpg');
-    background-size: cover;
-    background-position: center;
+    background-image: url('snow.jpg');
 }
 
 .sunburn {
-    background: url('sun.jpg');
-    background-size: cover;
-    background-position: center;
+    background-image: url('sun.jpg');
 }
 
 .ice {
-    background: url('ice.jpg');
-    background-size: cover;
-    background-position: center;
+    background-image: url('ice.jpg');
 }
 
 .rainfall {
-    background: url('rain.jpg');
-    background-size: cover;
-    background-position: center;
+    background-image: url('rain.jpg');
 }
 
 .fact-card {
