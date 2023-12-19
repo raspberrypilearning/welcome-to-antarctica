@@ -51,6 +51,8 @@ Classes to all of this on the index page...
 .fact-card {
     width: 100%;
     display: flex;
+    background-size: cover;
+    background-position: center;
 }
 
 .fact:hover {

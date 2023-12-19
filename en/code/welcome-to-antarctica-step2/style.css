@@ -128,11 +128,6 @@ nav {
     background-image: url('rain.jpg');
 }
 
-.fact-card {
-    width: 100%;
-    display: flex;
-}
-
 .fact {
     font-size: 20px;
     color:#ECE8EF;

@@ -34,6 +34,13 @@ Can use:
     <span id="closeHam">&#x2716;</span>
 </div>
 
+### CSS styles
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap')
+
+### inside body
+font-family: 'Orbitron', sans-serif;
+
 .hamburger {
     display: none;
     font-size: 20px;
@@ -101,3 +108,5 @@ Can use:
         height: 70vh;
     }
 }
+
+### Javascript
