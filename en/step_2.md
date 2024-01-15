@@ -97,12 +97,5 @@ Click a link to navigate to the Wildlife or Climate page.
 Notice that the navbar does not appear on the Wildlife or Climate page.
 
 **TODO**
---- collapse ---
-
----
-title: Debug 
----
-
---- /collapse ---
 
 Next you are going to add the navbar to the other pages and then style your pages to make them look even better!
