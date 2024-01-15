@@ -5,7 +5,7 @@
 In this step, you will create a navbar to link the pages on the website. This will allow users to navigate from one page to another.
 </div>
 <div>
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-Antarctica-step2" width="600" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-Antarctica-step2" width="600" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
