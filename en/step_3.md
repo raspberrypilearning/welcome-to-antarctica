@@ -9,6 +9,16 @@ In this step, you will style the navbar you created and add it to the other page
 </div>
 </div>
 
+--- collapse ---
+
+---
+title: How do I style my navbar?
+---
+
+If you want to apply styling to specific HTML elements, you can create a class in a CSS file. You can then add a class= attribute to an element in your HTML code to let the browser know what styling should be applied.
+
+--- /collapse ---
+
 --- task ---
 
 Add a CSS class inside the opening <nav> tag to style the navbar.
@@ -21,7 +31,34 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 10
-line_highlights: 11-13, 16
+line_highlights: 11-12
+---
+
+    <header>
+      <nav class="navigation-header">
+        <div class="navigation-items">
+          <a href="index.html">Home</a>
+          <a href="wildlife.html">Wildlife</a>
+          <a href="climate.html">Climate</a>
+        </div>
+      </nav>
+    </header>
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+Add a class `active` to the index.html `<a>` tags.
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 10
+line_highlights: 13
 ---
 
     <header>
