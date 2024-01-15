@@ -41,6 +41,7 @@ line_numbers: true
 line_number_start: 10
 line_highlights: 11-13
 ---
+
     <header>
       <nav>
         
@@ -69,6 +70,7 @@ line_numbers: true
 line_number_start: 10
 line_highlights: 12-14
 ---
+
     <header>
       <nav>
         <a href="index.html">Home</a>
@@ -81,7 +83,12 @@ line_highlights: 12-14
 
 --- /task ---
 
+
 --- task ---
+
+Add a CSS class inside the opening <nav> tag to style the navbar.
+
+Also add a CSS class to syle each nav item.
 
 --- code ---
 ---
@@ -91,6 +98,7 @@ line_numbers: true
 line_number_start: 10
 line_highlights: 11-13, 16
 ---
+
     <header>
       <nav class="navigation-header">
         <div class="navigation-items">
@@ -103,6 +111,33 @@ line_highlights: 11-13, 16
 
 --- /code ---
 
+--- /task ---
+
+--- task ---
+
+Click on the `style.css` file and find the `nav` class.
+
+You can style this by changing the background colour.
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 37
+line_highlights: 44
+---
+    nav {
+        padding: 0 15px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        background-color: #33658A;
+}
+
+--- /code ---
 --- /task ---
 
 #### HTML
