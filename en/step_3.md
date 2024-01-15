@@ -5,7 +5,7 @@
 In this step, you will style the navbar you created and add it to the other pages.
 </div>
 <div>
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-Antarctica-step3" width="600" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-Antarctica-step3" width="700" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
@@ -49,8 +49,8 @@ Add a background colour property to style the nav bar.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 37
-line_highlights: 44
+line_number_start: 38
+line_highlights: 45
 ---
     nav {
         padding: 0 15px;
@@ -77,8 +77,8 @@ Create a selector to style how each navbar item is displayed.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 37
-line_highlights: 44
+line_number_start: 48
+line_highlights: 48-51
 ---
     .navigation-items {
         display: flex;
@@ -98,8 +98,8 @@ Create another selector to style each navbar item's font.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 37
-line_highlights: 44
+line_number_start: 53
+line_highlights: 53-59
 ---
     .navigation-items > a {
       color: #55DDE0;
@@ -122,8 +122,8 @@ Add a selector to style each menu item when you hover over it.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 37
-line_highlights: 44
+line_number_start: 61
+line_highlights: 63
 ---
     .navigation-items > a:hover {
        color: white;
@@ -142,8 +142,8 @@ Finally, add a property for the active state.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 37
-line_highlights: 44
+line_number_start: 65
+line_highlights: 65-68
 ---
   .navigation-items .active {
       color: white;
@@ -165,8 +165,8 @@ Place it at the top of your style.css file.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 37
-line_highlights: 44
+line_number_start: 1
+line_highlights: 1
 ---
   @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap')
 
@@ -183,8 +183,8 @@ Add the font property inside the body selector.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 37
-line_highlights: 44
+line_number_start: 3
+line_highlights: 13
 ---
     body {
       display: flex;
