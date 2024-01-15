@@ -86,94 +86,23 @@ line_highlights: 12-14
 
 --- /task ---
 
+## Save your project
 
---- task ---
+Your project is saved automatically. Return to the starter link in the same web browser to see your changes. 
 
-Add a CSS class inside the opening <nav> tag to style the navbar.
+**Test:** Click the **Run** button to see the changes you have made. The navigation links will appear at the top.
 
-Also add a CSS class to syle each nav item.
+Click a link to navigate to the Wildlife or Climate page.
 
---- code ---
+Notice that the navbar does not appear on the Wildlife or Climate page.
+
+**TODO**
+--- collapse ---
+
 ---
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 10
-line_highlights: 11-13, 16
+title: Debug 
 ---
 
-    <header>
-      <nav class="navigation-header">
-        <div class="navigation-items">
-          <a href="index.html" class="active">Home</a>
-          <a href="wildlife.html">Wildlife</a>
-          <a href="climate.html">Climate</a>
-        </div>
-      </nav>
-    </header>
+--- /collapse ---
 
---- /code ---
-
---- /task ---
-
---- task ---
-
-Click on the `style.css` file and find the `nav` class.
-
-You can style this by changing the background colour.
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 37
-line_highlights: 44
----
-    nav {
-        padding: 0 15px;
-        height: 60px;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-        background-color: #33658A;
-}
-
---- /code ---
---- /task ---
-
-#### HTML
-
-#### CSS
-
-**Inside nav**
-background-color: #33658A;
-
-**Create new selectors:**
-.navigation-items {
-    display: flex;
-    gap: 100px;
-}
-
-.navigation-items > a {
-    color: #55DDE0;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 22px;
-    transition: .4s ease-in-out;
-}
-
-.navigation-items > a:hover {
-    color: white;
-}
-
-.navigation-items .active {
-    color: white;
-    pointer-events: none;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap')
-
-### inside body
-font-family: 'Orbitron', sans-serif;
+Next you are going to add the navbar to the other pages and then style your pages to make them look even better!

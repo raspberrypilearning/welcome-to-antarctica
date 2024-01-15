@@ -112,8 +112,17 @@ nav {
     background-image: url('world_flags.png');
 }
 
+.fact-holder-wildlife {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 3fr;
+    height: 70vh;
+}
+
 .penguins {
     background-image: url('penguin-photo.jpg');
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
 .krill {
@@ -127,23 +136,40 @@ nav {
 
 .orcas {
     background-image: url('orca-photo.jpg');
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.fact-holder-climate {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "top top"
+        "right left"
+        "bottom bottom";
+    height: 70vh;
 }
 
 .temperature {
     background-image: url('snow.jpg');
+    grid-area: top;
 }
 
 .sunburn {
     background-image: url('sun.jpg');
+    grid-area: right;
 }
 
 .ice {
     background-image: url('ice.jpg');
+    grid-area: left;
 }
 
 .rainfall {
     background-image: url('rain.jpg');
+    grid-area: bottom;
 }
+
 
 .fact {
     font-size: 20px;
@@ -155,4 +181,18 @@ nav {
     flex-wrap: wrap;
     align-content: center;
     padding: 5px;
+    opacity: 0;
+    transition: .4s ease-in-out;
+}
+
+.fact-card {
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.fact:hover {
+    opacity: 1;
 }

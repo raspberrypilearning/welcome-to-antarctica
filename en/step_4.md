@@ -1,4 +1,4 @@
-## Using grids and animations
+## Add hero images
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -27,38 +27,46 @@ Can use:
 
 --- save ---
 
-### Code to Add
+### Code to add
 
-Classes to all of this on the index page...
+#### index.html
 
-<div class="fact-holder">
-    <span class="fact-card sun">
-        <p class="fact">You probably know it’s the coldest continent on the planet, but did you know Antarctica is also the driest? On average, the 7th Continent sees just 200 mm (8 in) of precipitation a year, the majority of it along the coast.</p>
-    </span>
-    <span class="fact-card discovery">
-        <p class="fact">The southernmost continent is thought to have been discovered relatively late in human history, in 1820 by the Russian expedition of Fabian Gottlieb von Bellingshausen and Mikhail Lazarev.</p>
-    </span>
-    <span class="fact-card explorers">
-        <p class="fact">One of the more controversial Antarctic facts among historians is who first set foot on the continent. Many believe it was sealer John Davis in February, 1821. However, the first documented and confirmed landing was by a whaling and sealing Antarctic expedition in January, 1895. A crew led by Norwegian Leonard Kristensen landed a small boat with six men aboard from their ship - aptly named Antarctic - at Cape Adare. </p>
-    </span>
-    <span class="fact-card ownership">
-        <p class="fact">Antarctica is governed by the Antarctic Treaty system, which suspends all territorial claims. First signed by 12 nations in 1959, the Treaty now has 53 supporting nations, 29 of which are considered “Consultative Parties” and are actively involved in decision-making.</p>
-    </span>
-</div>
+**HTML**
+<div class="hero-image"></div>
 
-#### CSS
+#### wildlife.html
 
-.fact-card {
-    width: 100%;
-    display: flex;
+<div class="navigation-items" id="navigation-items">
+        <a href="index.html">Home</a>
+        <a href="wildlife.html" class="active">Wildlife</a>
+        <a href="climate.html">Climate</a>
+    </div>
+</nav>
+<div class="hero-image wildlife"></div>
+
+#### climate.html
+
+<nav class="navigation-header">
+    <div class="navigation-items" id="navigation-items">
+        <a href="index.html">Home</a>
+        <a href="wildlife.html">Wildlife</a>
+        <a href="climate.html" class="active">Climate</a>
+    </div>
+</nav>
+<div class="hero-image wildlife"></div>
+
+**CSS**
+.hero-image {
+    min-height: 50vh;
+    background-image: url('northern-lights.jpg'); 
     background-size: cover;
     background-position: center;
 }
 
-.fact:hover {
-    opacity: 1;
+.wildlife {
+    background-image: url('penguins.jpg');
 }
 
-**Inside fact**
-opacity: 0;
-transition: .4s ease-in-out;
+.climate {
+    background-image: url('daytime-antarctica.jpg');
+}
