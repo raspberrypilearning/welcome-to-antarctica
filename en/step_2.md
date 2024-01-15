@@ -1,49 +1,111 @@
 ## Create a navbar
 
-~~~
-
-~~~
-
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add an introductory sentence. What will learners achieve by the end of this step?
+In this step, you will create a navbar to link the pages on the website. This will allow users to navigate from one page to another.
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-Antarctica-step2" width="600" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
-
-[[[working-offline]]]
+Open the [Welcome to Antarctica starter project](https://staging-editor.raspberrypi.org/en/projects/welcome-to-Antarctica-starter){:target="_blank"}.
 
 --- /task ---
+
+Your starter project contains:
++ three HTML pages with some text content
++ a CSS file that contains styling for some of the content
++ the images you will use in the project
++ a JavaScript file to make the navbar respond when the page size changes.
+
+
+### Add the HTML to show the navbar
+
+Webpage content is placed in the <body> tags.
+
+The navbar is placed in <nav> tags in the webpage header.
 
 --- task ---
 
-Step content... 
-Can use:
-**Test:**
-**Choose:**
-**Tip:**
+Find the <header> and </header> tags.
+Add the <nav> tags.
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 10
+line_highlights: 11-13
+---
+    <header>
+      <nav>
+        
+      </nav>
+    </header>
+
+--- /code ---
 
 --- /task ---
 
---- save ---
+In HTML, the `<a>` tag is used to create links: 
 
-### Code to add
++ You put the link text that appears on the webpage inside `<a>` and `</a>` 
++ The `href` attribute provides the web address (usually beginning with 'https://') of the page you want to link to 
++ You can also add `target="_blank"` to make the linked webpage open in a new tab in the web browser, instead of the new page replacing the current webpage.
 
-#### HTML
+--- task ---
 
-<nav class="navigation-header">
-    <div class="navigation-items" id="navigation-items">
-        <a href="index.html" class="active">Home</a>
+Add <a> tags to create links to each page.
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 10
+line_highlights: 12-14
+---
+    <header>
+      <nav>
+        <a href="index.html">Home</a>
         <a href="wildlife.html">Wildlife</a>
         <a href="climate.html">Climate</a>
-    </div>
-</nav>
+      </nav>
+    </header>
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 10
+line_highlights: 11-13, 16
+---
+    <header>
+      <nav class="navigation-header">
+        <div class="navigation-items">
+          <a href="index.html" class="active">Home</a>
+          <a href="wildlife.html">Wildlife</a>
+          <a href="climate.html">Climate</a>
+        </div>
+      </nav>
+    </header>
+
+--- /code ---
+
+--- /task ---
+
+#### HTML
 
 #### CSS
 
