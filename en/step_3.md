@@ -1,13 +1,7 @@
 ## Style a navbar
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 In this step, you will style the navbar you created and add it to the other pages.
-</div>
-<div>
 <iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-Antarctica-step3" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
-</div>
-</div>
 
 --- collapse ---
 
