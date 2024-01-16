@@ -84,7 +84,6 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 48
-line_highlights: 48-51
 ---
 .nav-items {
   display: flex;
@@ -109,7 +108,6 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 53
-line_highlights: 53-59
 ---
 .nav-items > a {
   color: #55DDE0;
@@ -135,7 +133,6 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 61
-line_highlights: 63
 ---
 .nav-items > a:hover {
     color: white;
@@ -161,7 +158,6 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 65
-line_highlights: 65-68
 ---
 .nav-items .active {
   color: white;
@@ -173,6 +169,8 @@ line_highlights: 65-68
 --- /task ---
 
 Add the `active` class attribute to the index.html `<a>` tag.
+
+--- task ---
 
 --- code ---
 ---
@@ -213,7 +211,6 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 1
-line_highlights: 1
 ---
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap')
@@ -232,7 +229,7 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 3
-line_highlights: 13
+line_highlights: 6
 ---
     body {
       display: flex;
