@@ -1,19 +1,26 @@
 ## What next?
 
-If you are following the [PathName](https://projects.raspberrypi.org/en/raspberrypi/path-name) path, you can move on to the [ProjectName](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make a (add description here).
+If you are following the [More web](https://projects.raspberrypi.org/en/pathways/more-web) path, you can move on to the [Personalise me](https://projects.raspberrypi.org/en/projects/personalise-me) project. In this project, make a... **TODO** 
 
 --- print-only ---
 
-![ProjectName project](images/projectname-project.png)
+![The finished Personalise me project](images/personalise-project.png) **TODO** 
 
 --- /print-only ---
 
 --- no-print ---
 
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719199/?autostart=false" frameborder="0"></iframe>
+### Try it
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 175px; flex-grow: 1">  
+
+**TODO** Watch the animations on this webpage. How often do they repeat? Can you spot a list, quote, and link?
+
 </div>
+<div>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/personalise-me-complete" width="700" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+</div>
+</div>
+--- /task ---
 
 --- /no-print ---
-
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).

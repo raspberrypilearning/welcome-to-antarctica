@@ -25,7 +25,7 @@ Can use:
 
 --- /task ---
 
---- save ---
+Next, you will make your webpages awesome by arranging things with grids and adding fun movements with animations!
 
 ### Code to add
 

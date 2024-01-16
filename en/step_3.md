@@ -46,11 +46,14 @@ line_highlights: 11-12
 
 --- /code ---
 
+**TODO** Add 'Run to test'?
+
 --- /task ---
 
 --- task ---
 
 Add a class `active` to the index.html `<a>` tags.
+**TODO** Add why
 
 --- code ---
 ---
@@ -72,6 +75,8 @@ line_highlights: 13
     </header>
 
 --- /code ---
+
+**TODO** Add 'Run to test'?
 
 --- /task ---
 
@@ -101,6 +106,8 @@ line_highlights: 45
 
 --- /code ---
 
+**TODO** Add 'Run to test'?
+
 --- /task ---
 
 ### Create new selectors
@@ -123,6 +130,8 @@ line_highlights: 48-51
     }
 
 --- /code ---
+
+**TODO** Add 'Run to test'?
 
 --- /task ---
 
@@ -148,6 +157,8 @@ line_highlights: 53-59
 
 --- /code ---
 
+**TODO** Add 'Run to test'?
+
 --- /task ---
 
 --- task ---
@@ -167,6 +178,8 @@ line_highlights: 63
     }
 
 --- /code ---
+
+**TODO** Add 'Run to test'?
 
 --- /task ---
 
@@ -189,6 +202,8 @@ line_highlights: 65-68
 
 --- /code ---
 
+**TODO** Add 'Run to test'?
+
 --- /task ---
 
 --- task ---
@@ -205,9 +220,12 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 1
 ---
-  @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap')
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap')
 
 --- /code ---
+
+**TODO** Add 'Run to test'?
 
 --- /task ---
 
@@ -230,8 +248,11 @@ line_highlights: 13
     }
 --- /code ---
 
+**TODO** Add 'Run to test'
+
 --- /task ---
 
+Next, you're going to put some cool images at the top of your webpage to show everyone what it's about!
 
 #### HTML
 

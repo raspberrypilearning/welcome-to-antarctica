@@ -25,7 +25,7 @@ Can use:
 
 --- /task ---
 
---- save ---
+Next, make your content smart! No matter if the page is big or small or if someone's using a different device, it will always look amazing!
 
 ### Code to add
 Change title on wildlife html page

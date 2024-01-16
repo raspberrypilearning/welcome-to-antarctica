@@ -25,7 +25,7 @@ Can use:
 
 --- /task ---
 
---- save ---
+Next, you will use a new grid arrangement to organise content in a different way to keep things interesting!
 
 ### Code to Add
 

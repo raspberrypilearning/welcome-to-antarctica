@@ -2,7 +2,8 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Summary or upgrade project task
+
+If you have time, you can ... **TODO** 
 </div>
 <div>
 ![](images/image.png){:width="300px"}
@@ -12,10 +13,10 @@ Summary or upgrade project task
 --- collapse ---
 
 ---
-title: Completed project
+title: Upgraded project
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/485673032/){:target="_blank"}.
+You can view the [upgraded project here](https://editor.raspberrypi.org/en/projects/anime-expressions-step-9){:target="_blank"}. **TODO**
 
 --- /collapse ---
 
