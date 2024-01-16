@@ -23,7 +23,7 @@ If you want to apply styling to specific HTML elements, you can create a class i
 
 Add a CSS class inside the opening <nav> tag to style the navbar.
 
-Also add a CSS class to syle each nav item.
+Also add a CSS class to style each nav item.
 
 --- code ---
 ---
