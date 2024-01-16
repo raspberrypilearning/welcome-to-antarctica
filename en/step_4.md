@@ -78,18 +78,16 @@ line_highlights:
 
 --- task ---
 
-Highlight and copy (Ctrl + C or Cmd + C) the whole `<header>` section in `index.html`.
+Highlight and copy (Ctrl + C or Cmd + C) the contents of the `<header>` section in `index.html`.
 
 --- code ---
 ---
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 9
-line_highlights: 10-19
+line_number_start: 10
+line_highlights: 11-18
 ---
-    
-  <body>
     <header>
       <nav class="navigation-header">
         <div class="nav-items">
@@ -107,18 +105,16 @@ line_highlights: 10-19
 
 --- task ---
 
-Paste the `<header>` into `wildlife.html` and change which link has the active class.
+Paste the `<header>` contents into `wildlife.html` and change which link has the active class.
 
 --- code ---
 ---
 language: html
 filename: wildlife.html
 line_numbers: true
-line_number_start: 9
-line_highlights: 10-19
+line_number_start: 10
+line_highlights: 11-18
 ---
-
-  <body>
     <header>
       <nav class="navigation-header">
         <div class="nav-items">
@@ -140,24 +136,22 @@ line_highlights: 10-19
 
 --- task ---
 
-Highlight and copy (Ctrl + C or Cmd + C) the whole `<header>` section in `index.html` again.
+Highlight and copy (Ctrl + C or Cmd + C) the contents of the `<header>` section in `index.html` again.
 
 --- /task ---
 
 --- task ---
 
-Paste the `<header>` into `climate.html` and change which link has the active class.
+Paste the `<header>` contents into `climate.html` and change which link has the active class.
 
 --- code ---
 ---
 language: html
 filename: climate.html
 line_numbers: true
-line_number_start: 9
-line_highlights: 10-19
+line_number_start: 10
+line_highlights: 11-18
 ---
-
-  <body>
     <header>
       <nav class="navigation-header">
         <div class="nav-items">
@@ -185,7 +179,7 @@ The other pages should have different hero images that represent their content!
 
 Inside `style.css` add a new class selector for wildlife.
 
-Rather than recreating the whole class, you can just set a new `background-image` property.
+You can set a new `background-image` property which will overwrite the one set in the `hero-image` class.
 
 --- code ---
 ---
