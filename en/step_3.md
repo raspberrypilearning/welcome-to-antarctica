@@ -17,13 +17,45 @@ title: How do I style my navbar?
 
 If you want to apply styling to specific HTML elements, you can create a class in a CSS file. You can then add a class= attribute to an element in your HTML code to let the browser know what styling should be applied.
 
+You can also style elements (like `<header>` or `<nav>`) directly.
+
 --- /collapse ---
+
+### Style the whole navbar
 
 --- task ---
 
-Add a CSS class inside the opening <nav> tag to style the navbar.
+Click on the `style.css` file and find the `nav` class.
 
-Also add a CSS class to style each nav item.
+Add a background colour property.
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 38
+line_highlights: 45
+---
+nav {
+  padding: 0 15px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: #33658A;
+}
+
+--- /code ---
+
+--- /task ---
+
+As well as styling the whole navbar, you can style individual links.
+
+--- task ---
+
+Add a `nav-items` class attribute to the `<div>` containing the navbar links. 
 
 --- code ---
 ---
@@ -31,12 +63,12 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 10
-line_highlights: 11-12
+line_highlights: 12
 ---
 
     <header>
-      <nav class="navigation-header">
-        <div class="navigation-items">
+      <nav>
+        <div class="nav-items">
           <a href="index.html">Home</a>
           <a href="wildlife.html">Wildlife</a>
           <a href="climate.html">Climate</a>
@@ -46,14 +78,105 @@ line_highlights: 11-12
 
 --- /code ---
 
-**TODO** Add 'Run to test'?
+--- /task ---
+
+Create a selector for the `nav-items` class to space out the links.
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 48
+line_highlights: 48-51
+---
+.nav-items {
+  display: flex;
+  gap: 100px;
+}
+
+--- /code ---
+
+**Click the Run button** to see your changes.
+
+--- task ---
+
+### Style the links
+
+--- task ---
+
+Create another selector to style each `<a>` tag in the `nav-items` div.
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 53
+line_highlights: 53-59
+---
+.nav-items > a {
+  color: #55DDE0;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 22px;
+  transition: .4s ease-in-out;
+}
+
+--- /code ---
+
+**Click the Run button** to see your changes.
 
 --- /task ---
 
 --- task ---
 
-Add a class `active` to the index.html `<a>` tags.
-**TODO** Add why
+Add a selector to style each link when you hover over it.
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 61
+line_highlights: 63
+---
+.nav-items > a:hover {
+    color: white;
+}
+
+--- /code ---
+
+**Click the Run button** to see your changes.
+
+--- /task ---
+
+The index.html page will be loaded first.
+
+When that page is open, there is no need for its link to be clickable.
+
+--- task ---
+
+Add a new `active` CSS class for the link to the page that is currently open.
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 65
+line_highlights: 65-68
+---
+.nav-items .active {
+  color: white;
+  pointer-events: none;
+}
+
+--- /code ---
+
+--- /task ---
+
+Add the `active` class attribute to the index.html `<a>` tag.
 
 --- code ---
 ---
@@ -76,135 +199,11 @@ line_highlights: 13
 
 --- /code ---
 
-**TODO** Add 'Run to test'?
+**Click the Run button** to see your changes.
 
 --- /task ---
 
---- task ---
-
-Click on the `style.css` file and find the `nav` class.
-
-Add a background colour property to style the nav bar.
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 38
-line_highlights: 45
----
-    nav {
-        padding: 0 15px;
-        height: 60px;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-        background-color: #33658A;
-    }
-
---- /code ---
-
-**TODO** Add 'Run to test'?
-
---- /task ---
-
-### Create new selectors
-
---- task ---
-
-Create a selector to style how each navbar item is displayed.
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 48
-line_highlights: 48-51
----
-    .navigation-items {
-        display: flex;
-        gap: 100px;
-    }
-
---- /code ---
-
-**TODO** Add 'Run to test'?
-
---- /task ---
-
---- task ---
-
-Create another selector to style each navbar item's font.
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 53
-line_highlights: 53-59
----
-    .navigation-items > a {
-      color: #55DDE0;
-      text-decoration: none;
-      font-weight: 500;
-      font-size: 22px;
-      transition: .4s ease-in-out;
-    }
-
---- /code ---
-
-**TODO** Add 'Run to test'?
-
---- /task ---
-
---- task ---
-
-Add a selector to style each menu item when you hover over it.
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 61
-line_highlights: 63
----
-    .navigation-items > a:hover {
-       color: white;
-    }
-
---- /code ---
-
-**TODO** Add 'Run to test'?
-
---- /task ---
-
---- task ---
-
-Finally, add a property for the active state.
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 65
-line_highlights: 65-68
----
-  .navigation-items .active {
-      color: white;
-      pointer-events: none;
-  }
-
---- /code ---
-
-**TODO** Add 'Run to test'?
-
---- /task ---
+### Change the fonts
 
 --- task ---
 
@@ -224,8 +223,6 @@ line_highlights: 1
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap')
 
 --- /code ---
-
-**TODO** Add 'Run to test'?
 
 --- /task ---
 
@@ -248,43 +245,8 @@ line_highlights: 13
     }
 --- /code ---
 
-**TODO** Add 'Run to test'
+**Click the Run button** to see your changes.
 
 --- /task ---
 
 Next, you're going to put some cool images at the top of your webpage to show everyone what it's about!
-
-#### HTML
-
-#### CSS
-
-**Inside nav**
-background-color: #33658A;
-
-**Create new selectors:**
-.navigation-items {
-    display: flex;
-    gap: 100px;
-}
-
-.navigation-items > a {
-    color: #55DDE0;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 22px;
-    transition: .4s ease-in-out;
-}
-
-.navigation-items > a:hover {
-    color: white;
-}
-
-.navigation-items .active {
-    color: white;
-    pointer-events: none;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap')
-
-### inside body
-font-family: 'Orbitron', sans-serif;

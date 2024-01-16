@@ -47,12 +47,12 @@ nav {
     background-color: #33658A;
 }
 
-.navigation-items {
+.nav-items {
     display: flex;
     gap: 100px;
 }
 
-.navigation-items > a {
+.nav-items > a {
     color: #55DDE0;
     text-decoration: none;
     font-weight: 500;
@@ -60,11 +60,11 @@ nav {
     transition: .4s ease-in-out;
 }
 
-.navigation-items > a:hover {
+.nav-items > a:hover {
     color: white;
 }
 
-.navigation-items .active {
+.nav-items .active {
     color: white;
     pointer-events: none;
 }
