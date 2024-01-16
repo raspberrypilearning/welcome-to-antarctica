@@ -27,6 +27,7 @@ line_numbers: true
 line_number_start: 10
 line_highlights: 18
 ---
+
     <header>
       <nav class="navigation-header">
         <div class="nav-items">
@@ -87,7 +88,7 @@ line_numbers: true
 line_number_start: 9
 line_highlights: 10-19
 ---
-
+    
   <body>
     <header>
       <nav class="navigation-header">
@@ -286,7 +287,5 @@ line_highlights: 18
 --- /task ---
 
 **Debug step:** Make sure there is a space between the `hero-image` and `climate` classes.
-
---- task ---
 
 Next, you will make your webpages awesome by arranging things with grids and adding fun movements with animations!
