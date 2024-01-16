@@ -80,6 +80,8 @@ line_highlights: 12
 
 --- /task ---
 
+--- task ---
+
 Create a selector for the `nav-items` class to space out the links.
 
 --- code ---
@@ -99,7 +101,7 @@ line_highlights: 48-51
 
 **Click the Run button** to see your changes.
 
---- task ---
+--- /task ---
 
 ### Style the links
 
