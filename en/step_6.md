@@ -1,8 +1,7 @@
 ## Different types of grids
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add an introductory sentence. What will learners achieve by the end of this step?
+Use a new grid arrangement on the wildlife page to organise the fact cards in a different way to keep things interesting!
+
 <iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-Antarctica-step6" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 --- task ---
