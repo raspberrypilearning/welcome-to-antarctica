@@ -41,7 +41,7 @@ line_highlights: 18
 
 In `style.css` add a new selector for the `hero-image` class.
 
-Instead of adding a `<img>` element, you can use the CSS `background-image` property to add your image. 
+Instead of adding an `<img>` element to the HTML, you can use the CSS `background-image` property to add your image. 
 
 The image should fill the `<div>` element (by setting the size to `cover`) and be centered.
 
