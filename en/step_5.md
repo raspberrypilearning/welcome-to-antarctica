@@ -4,6 +4,116 @@ Make your webpages awesome by arranging things with grids and adding fun movemen
 
 <iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-Antarctica-step5" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
+### Add a grid
+
+--- task ---
+
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 26
+line_highlights: 34
+---
+    <div>
+        <span>
+        <p>
+            You probably know it’s the coldest continent on the planet, but
+            did you know Antarctica is also the driest? On average, the 7th
+            Continent sees just 200 mm (8 in) of precipitation a year, the
+            majority of it along the coast.
+        </p>
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 10
+line_highlights: 18
+---
+
+--- /code ---
+
+--- /task ---
+
+### Style the facts
+
+--- task ---
+
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 10
+line_highlights: 18
+---
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 10
+line_highlights: 18
+---
+
+--- /code ---
+
+--- /task ---
+
+### Add animations on hover
+
+--- task ---
+
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 10
+line_highlights: 18
+---
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 10
+line_highlights: 18
+---
+
+--- /code ---
+
+--- /task ---
+
 --- task ---
 
 Another step of tasks to complete.
