@@ -4,64 +4,186 @@ Use a new grid arrangement on the wildlife page to organise the fact cards in a 
 
 <iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-Antarctica-step6" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
---- task ---
-
-Another step of tasks to complete.
-
---- /task ---
+### Change the title of the wildlife page
 
 --- task ---
 
-Step content... 
-Can use:
-**Test:**
-**Choose:**
-**Tip:**
+Open `wildlife.html`
+
+Change the `h1` text.
+
+--- code ---
+---
+language: html
+filename: wildlife.html
+line_numbers: true
+line_number_start: 
+line_highlights: 
+---
+    <section>
+      <h1>Hover on the cards below to learn about the animals in Antarctica</h1>
+    
+--- /code ---
+
+**Click the Run button** to see your changes.
 
 --- /task ---
 
-Next, make your content smart! No matter if the page is big or small or if someone's using a different device, it will always look amazing!
+### Add a grid to the wildlife page
+
+--- task ---
+
+Add the `fact-holder` class attribute to the `<div>`.
+
+Add a `fact-card` class and the background image attribute to each `<span>` element.
+
+Add the `fact` class attribute to each paragraph.
+
+--- code ---
+---
+language: html
+filename: wildlife.html
+line_numbers: true
+line_number_start: 
+line_highlights: 
+---
+    <div class="fact-holder">
+      <span class="fact-card penguins">
+        <p class="fact">
+          Emperor penguins, like all penguins in Antarctica, live in colonies dotted around the coastline. Emperor penguins are unique in having colonies on sea ice. Sea ice is frozen sea water which fringes the Antarctic continent. In the winter, the sea ice extent expands. In the summer, it shrinks as the sea ice melts. By the time the chicks are ready to fledge, the sea ice edge is close to the colony, so the young penguins don’t have to travel far to get their food.
+        </p>
+     </span>
+      <span class="fact-card krill">
+        <p class="fact">
+          The producer in Antarctica are tiny organisms, known as phytoplankton. These organisms get their energy from the sunlight. Krill is then the main consumer of the phytoplankton, which is eaten by many other organisms such as penguins, birds, or even ginormous elephant seals! Because there are so many different organisms feeding from the krill, there needs to be lots and lots of krill available, especially as they are only 2 inches long!
+        </p>
+      </span>
+      <span class="fact-card seals">
+        <p class="fact">
+          There are many different seals in Antarctica. They have thick beautiful fur coats and blubber, making them supremely adapted to the cold. There are six species in Antarctica: Antarctic Fur Seals, Leopard Seals, Ross Seals, Southern Elephant seals, Crabeater Seals and Weddell Seals.
+        </p>
+      </span>
+      <span class="fact-card orcas">
+        <p class="fact">
+          At the top of the food chain, there are Orcas, often known as Killer Whales. These are the biggest carnivores on Earth, reaching almost 10m in length! They can be found swimming all around the Earth’s oceans, but in particular in the Southern Ocean around Antarctica.
+        </p>
+      </span>
+    </div>
+    
+--- /code ---
+
+**Click the Run button** to see your changes.
+
+--- /task ---
+
+There are different ways to size your grid layout, you can use `fr` to create **fractions** of the sizing.
+
+**TODO** Fractions collapse
+
+--- task ---
+
+Open `style.css`
+
+Add the `fact-holder-wildlife` selector to the `style.css` file.
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 
+line_highlights: 
+---
+
+.fact-holder-wildlife {
+  display: grid;
+  height: 70vh;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 2fr 3fr;
+}
+
+--- /code ---
+
+**TODO** Check line numbering
+
+**Click the Run button** to see your changes.
+
+--- /task ---
+
+Grid layout will automatically position your items. You can also specify how you want items to be displayed.
+
+You will make it so the penguin fact takes up the whole first column, and the orca fact takes up the whole last row.
+
+--- task ---
+
+Add `grid-row-start` to `.penguins` and set it to `1`.
+
+Add `grid-row-end ` to `.penguins` and set it to `3`.
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 
+line_highlights: 
+---
+.penguins {
+  background-image: url('penguin-photo.jpg');
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+--- /code ---
+
+**TODO** Check line numbering
+
+**Click the Run button** to see your changes.
+
+--- /task ---
+
+**TODO** Add collapse about setting the row here
+
+--- task ---
+
+Add `grid-column-start` to `.orcas` and set it to `1`.
+
+Add `grid-column-end ` to `.orcas` and set it to `3`.
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 
+line_highlights: 
+---
+.orcas {
+  background-image: url('orca-photo.jpg');
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+--- /code ---
+
+**TODO** Check line numbering
+
+**Click the Run button** to see your changes.
+
+--- /task ---
+
+### Change the title of the climate page
+
+### Add a grid to the wildlife page
+
+
+
+
+
+
+
 
 ### Code to add
-Change title on wildlife html page
-<section>
-    <h1>Hover on the cards below to learn about the animals in Antarctica</h1>
-
-Classes to wildlife html page
-<section class="fact-holder-wildlife">
-    <span class="fact-card penguins">
-        <p class="fact">
-            Emperor penguins, like all penguins in Antarctica, live in colonies dotted around the coastline.
-            Emperor penguins are unique in having colonies on sea ice. Sea ice is frozen sea water which
-            fringes the Antarctic continent. In the winter, the sea ice extent expands. In the summer, it
-            shrinks as the sea ice melts. By the time the chicks are ready to fledge, the sea ice edge is
-            close to the colony, so the young penguins don’t have to travel far to get their food.
-        </p>
-    </span>
-    <span class="fact-card krill">
-        <p class="fact">
-            The producer in Antarctica are tiny organisms, known as phytoplankton. These organisms get their
-            energy from the sunlight. Krill is then the main consumer of the phytoplankton, which is eaten
-            by many other organisms such as penguins, birds, or even ginormous elephant seals! Because there
-            are so many different organisms feeding from the krill, there needs to be lots and lots of krill
-            available, especially as they are only 2 inches long!
-        </p>
-    </span>
-    <span class="fact-card seals">
-        <p class="fact">
-            There are many different seals in Antarctica. They have thick beautiful fur coats and blubber,
-            making them supremely adapted to the cold. There are six species in Antarctica: Antarctic Fur
-            Seals, Leopard Seals, Ross Seals, Southern Elephant seals, Crabeater Seals and Weddell Seals.
-        </p>
-    </span>
-    <div class="fact-card orcas">
-        <p class="fact">
-            At the top of the food chain, there are Orcas, often known as Killer Whales. These are the
-            biggest carnivores on Earth, reaching almost 10m in length! They can be found swimming all
-            around the Earth’s oceans, but in particular in the Southern Ocean around Antarctica.
-        </p>
-        </span>
-    </div>
 
 Change title on climate html page
 
@@ -96,21 +218,6 @@ Classes to climate html page
 
 
 #### CSS
-
-.fact-holder-wildlife {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 2fr 3fr;
-    height: 70vh;
-}
-
-**Inside .penguins**
-grid-row-start: 1;
-grid-row-end: 3;
-
-**Inside .orcas**
-grid-column-start: 1;
-grid-column-end: 3;
 
 .fact-holder-climate {
     display: grid;
