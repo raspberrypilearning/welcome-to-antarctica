@@ -121,19 +121,27 @@ line_highlights:
 
 --- /task ---
 
+--- collapse ---
+
+---
+title: Why have we chosen 768px?
+---
+
 When the page width is more than 768px, the navbar displays the three page links at the top of the page.
 
 When the page width is 768px or less, the navbar can be hidden and a 'hamburger' menu shown to save space.
 
-**TODO** Above two paras in a collapse?
+--- /collapse ---
 
-When the hamburger menu is clicked, the page links will be displayed and the close icon will be shown.
+Whent the hamburger menu icon is displayed, the cross will remain hidden.
+
+When the hamburger icon is clicked, the page links will be displayed and the close icon will be shown.
 
 --- task ---
 
 Add selectors to style the `.hamburger` `<div>`. 
 
-When the screen is small, the hamburger menu icon should show, but the cross will remain hidden.
+
 
 --- code ---
 ---
