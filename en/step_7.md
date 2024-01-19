@@ -12,17 +12,15 @@ Webpages can be viewed on many different devices and should be <span style="colo
 
 On a smaller screen the links in the navbar might get too close together. 
 
-You are going to make the links disappear and be replaced with a **burger menu**. 
-
-**ToDo** Add image of a burger menu button
+You are going to make the links disappear and be replaced with a **hamburger menu** (☰). 
 
 --- task ---
 
 Open `index.html`.
 
-Inside the `<nav>` tags add a new `<div>` with two `<span>` tags. 
+Inside the `<nav>` tags add a new `<div>` with the `class="hamburger"` attribute. 
 
-One for the burger menu icon and one for a cross to close the menu.
+Add two `<span>` tags. One is for the 'hamburger' icon (☰) used to open the menu. The other is for a cross icon (✖) used to close the menu.
 
 --- code ---
 ---
@@ -54,11 +52,11 @@ line_highlights:
 
 --- /task ---
 
-You are using an `id` attribute on the `<span>` elements. A unique `id` can be given to any element.
+You are using an `id` attribute on each `<span>` element. A unique `id` can be given to any element.
 
 The new icons should only be visible when the screen is small enough.
 
-When the page first loads you don't want them to display.
+When the page first loads you don't want the `<div>` to display.
 
 --- task ---
 
@@ -95,6 +93,8 @@ line_highlights:
 
 You are going to use a **media query** to change the styling of elements based on the width of the screen. 
 
+We have set 768px as the screen width below which the media query will trigger.
+
 **TODO** Add collapse about media queries (Media queries can be used to check many things, such as: width and height of the viewport width and height of the device orientation (is the tablet/phone in landscape or portrait mode?)
 resolution)
 
@@ -123,19 +123,17 @@ line_highlights:
 
 When the page width is more than 768px, the navbar displays the three page links at the top of the page.
 
-If the page width reduces, the navbar can be hidden and a 'hamburger' menu (☰) shown.
+When the page width is 768px or less, the navbar can be hidden and a 'hamburger' menu shown to save space.
 
-When the hamburger menu is clicked, the page links will be displayed and a close icon will show.
+**TODO** Above two paras in a collapse?
 
-**TODO** Pete
+When the hamburger menu is clicked, the page links will be displayed and the close icon will be shown.
 
 --- task ---
 
-Add selectors and styling for the `.hamburger` `<div>`. 
+Add selectors to style the `.hamburger` `<div>`. 
 
-The hamburger menu will `<span>`.
-
-When the screen is small, the burger icon should show but the cross will remain hidden.
+When the screen is small, the hamburger menu icon should show, but the cross will remain hidden.
 
 --- code ---
 ---
@@ -168,13 +166,13 @@ Resize the editor preview to see your navbar change!
 
 --- /task ---
 
+You need to open and close the navigation menu.
+
 --- task ---
 
 Open `index.html`.
 
 Add the **javascript** file to your page. 
-
-This will allow your users to open and close the navigation menu.
 
 --- code ---
 ---
@@ -198,9 +196,9 @@ Click on the burger menu to see your navigation items appear, click the cross to
 
 --- /task ---
 
---- task ---
-
 The navigation items don't look very good at the moment, add some new styling to make them look like a menu.
+
+--- task ---
 
 Open `style.css`.
 
@@ -215,6 +213,15 @@ line_number_start:
 line_highlights: 
 ---
 @media screen and (max-width:768px) {
+    
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .hamburger #closeHam {
+    display: none;
+  }   
   
   .nav-items {
     display: none;
@@ -244,13 +251,11 @@ line_highlights:
 
 When the screen is small, the grids you made earlier are hard to read. 
 
-You are now going to change the way they display on smaller screens.
+Make the layout taller by changing it to use four rows and one column.
 
 --- task ---
 
-Add styling to your media query for the `.fact-holder` grid on `index.html`. 
-
-You are going to make it taller, and change it to have 4 rows and 1 column.
+Add the `fact-holder` selector to the `@media` query.
 
 --- code ---
 ---
@@ -261,6 +266,29 @@ line_number_start:
 line_highlights: 
 ---
 @media screen and (max-width:768px) {
+    
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .hamburger #closeHam {
+    display: none;
+  }   
+  
+  .nav-items {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 58px;
+    background-color: #33658A;
+    width: 100%;
+    height: calc(100vh - 58px);
+    padding-top: 60px;
+    gap: 10vh;
+  }  
 
   .fact-holder {
     display: grid;
@@ -279,9 +307,17 @@ line_highlights:
 
 --- /task ---
 
+On the `wildlife.html page`, there is a different fact holder grid layout. 
+
+That layout also needs to change when the screen width reduces. 
+
+You are going to make it taller and change it to five rows in one column.
+
 --- task ---
 
+Add the `fact-holder-wildlife` selector to the `@media` query.
 
+**TODO**
 
 --- code ---
 ---
@@ -292,6 +328,98 @@ line_number_start:
 line_highlights: 
 ---
 @media screen and (max-width:768px) {
+    
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .hamburger #closeHam {
+    display: none;
+  }   
+  
+  .nav-items {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 58px;
+    background-color: #33658A;
+    width: 100%;
+    height: calc(100vh - 58px);
+    padding-top: 60px;
+    gap: 10vh;
+  }  
+
+  .fact-holder {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 100%;
+  }
+
+  .fact-holder-wildlife {
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    height: 140vh;
+  }
+  
+}
+
+--- /code ---
+
+**TODO** Check line numbering
+
+--- /task ---
+
+You can make the penguin image span two rows by changing its `grid-row-start` and `grid-row-end` properties.
+
+You also need to change the orca image to span the single column used in the `fact-holder-wildlife` layout (at the moment, it is styled to span two columns).
+
+--- task ---
+
+Add the `penguins` and `orcas` selectors to the `@media` query.
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 
+line_highlights: 
+---
+@media screen and (max-width:768px) {
+    
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .hamburger #closeHam {
+    display: none;
+  }   
+  
+  .nav-items {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 58px;
+    background-color: #33658A;
+    width: 100%;
+    height: calc(100vh - 58px);
+    padding-top: 60px;
+    gap: 10vh;
+  }  
+
+  .fact-holder {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 100%;
+  }
 
   .fact-holder-wildlife {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -305,8 +433,8 @@ line_highlights:
   }
 
   .orcas {
-    grid-column-start: revert;
-    grid-column-end: revert;
+    grid-column-start: 1;
+    grid-column-end: 2;
   }
   
 }
@@ -319,9 +447,15 @@ line_highlights:
 
 --- /task ---
 
+On the `climate.html page`, there is also a different fact holder grid layout. 
+
+The `height` property needs to be changed to make the grid taller.
+
+There also need to be four rows, and the template areas changed to stack each row.
+ 
 --- task ---
 
-
+Add the `fact-holder-climate` selector to the `@media` query.
 
 --- code ---
 ---
@@ -332,6 +466,52 @@ line_number_start:
 line_highlights: 
 ---
 @media screen and (max-width:768px) {
+
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .hamburger #closeHam {
+    display: none;
+  }   
+  
+  .nav-items {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 58px;
+    background-color: #33658A;
+    width: 100%;
+    height: calc(100vh - 58px);
+    padding-top: 60px;
+    gap: 10vh;
+  }  
+
+  .fact-holder {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 100%;
+  }
+
+  .fact-holder-wildlife {
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    height: 140vh;
+  }
+
+  .penguins {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .orcas {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
 
   .fact-holder-climate {
     display: grid;
@@ -388,6 +568,31 @@ line_highlights:
 
 --- /task ---
 
+--- task ---
+
+Add the **javascript** file to your page. 
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 
+line_highlights: 
+---
+    <script type="text/javascript" src="responsive-navbar.js"></script>
+  </body>
+</html>
+
+--- /code ---
+
+**TODO** Check line numbering
+
+**Click the Run button** to see your changes.
+
+Click on the burger menu to see your navigation items appear, click the cross to close the menu.
+
+--- /task ---
 
 
 

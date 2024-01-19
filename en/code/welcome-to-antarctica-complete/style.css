@@ -262,8 +262,8 @@ nav {
     }
 
     .orcas {
-        grid-column-start: revert;
-        grid-column-end: revert;
+        grid-column-start: 1;
+        grid-column-end: 2;
     }
 
     .fact-holder-climate {
