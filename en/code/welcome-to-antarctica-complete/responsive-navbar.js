@@ -10,10 +10,7 @@ const hamburgerEvent = (navigation, close, open) => {
 
 const handleResize = () => {
   const screenWidth = window.innerWidth;
-
-  // Check if the navigation is hidden (display set to "none")
   if (navigationItems.style.display === "none" && screenWidth > 768) {
-    // If screen width is greater than 768 pixels, show the navigation
     navigationItems.style.display = "flex";
   }
 };
