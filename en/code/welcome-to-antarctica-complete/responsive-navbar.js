@@ -1,6 +1,6 @@
 let openHam = document.querySelector('#openHam');
 let closeHam = document.querySelector('#closeHam');
-let navigationItems = document.querySelector('.navigation-items')
+let navigationItems = document.querySelector('.nav-items')
 
 const hamburgerEvent = (navigation, close, open) => {
     navigationItems.style.display = navigation;

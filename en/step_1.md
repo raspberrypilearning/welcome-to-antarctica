@@ -29,7 +29,7 @@ Explore the Welcome to Antarctica Website.
 + Hover over the images.
 + Resize the pages to see how the layout responds by changing.
 
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-Antarctica-complete" width="600" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-Antarctica-complete" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
