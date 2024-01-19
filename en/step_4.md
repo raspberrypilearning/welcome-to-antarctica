@@ -53,6 +53,7 @@ line_numbers: true
 line_number_start: 74
 line_highlights: 
 ---
+
 .hero-image {
   min-height: 50vh;
   background-image: url('northern-lights.jpg'); 
@@ -82,6 +83,7 @@ line_numbers: true
 line_number_start: 10
 line_highlights: 11-18
 ---
+
     <header>
       <nav class="navigation-header">
         <div class="nav-items">
@@ -109,6 +111,7 @@ line_numbers: true
 line_number_start: 10
 line_highlights: 11-18
 ---
+
     <header>
       <nav class="navigation-header">
         <div class="nav-items">
@@ -146,6 +149,7 @@ line_numbers: true
 line_number_start: 10
 line_highlights: 11-18
 ---
+
     <header>
       <nav class="navigation-header">
         <div class="nav-items">
@@ -183,8 +187,9 @@ line_numbers: true
 line_number_start: 81
 line_highlights: 
 ---
+
 .wildlife {
-    background-image: url('penguins.jpg');
+  background-image: url('penguins.jpg');
 }
 
 --- /code ---
@@ -203,6 +208,7 @@ line_numbers: true
 line_number_start: 10
 line_highlights: 18
 ---
+
     <header>
       <nav class="navigation-header">
         <div class="nav-items">
@@ -237,8 +243,9 @@ line_numbers: true
 line_number_start: 85
 line_highlights: 
 ---
+
 .climate {
-    background-image: url('daytime-antarctica.jpg');
+  background-image: url('daytime-antarctica.jpg');
 }
 
 --- /code ---
@@ -257,6 +264,7 @@ line_numbers: true
 line_number_start: 10
 line_highlights: 18
 ---
+
     <header>
       <nav class="navigation-header">
         <div class="nav-items">

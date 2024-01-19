@@ -45,6 +45,10 @@ nav {
 
 --- /task ---
 
+**Debug step:** Make sure that `color` is spelled without a 'u'.
+
+**Debug step:** Make sure there is a `;` at the end of the line.
+
 As well as styling the whole navbar, you can style individual links.
 
 --- task ---
@@ -135,7 +139,7 @@ line_numbers: true
 line_number_start: 61
 ---
 .nav-items > a:hover {
-    color: white;
+  color: white;
 }
 
 --- /code ---
@@ -231,11 +235,11 @@ line_numbers: true
 line_number_start: 3
 line_highlights: 6
 ---
-    body {
-      display: flex;
-      flex-direction: column;
-      font-family: 'Orbitron', sans-serif;
-    }
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Orbitron', sans-serif;
+}
 --- /code ---
 
 **Click the Run button** to see your changes.

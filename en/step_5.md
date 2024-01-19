@@ -28,9 +28,9 @@ line_highlights: 26
 ---
     <div class="fact-holder">
       <span>
-          <p>
-            You probably know it’s the coldest continent on the planet, but did you know Antarctica is also the driest? On average, the 7th Continent sees just 200 mm (8 in) of precipitation a year, the majority of it along the coast.
-          </p>
+        <p>
+          You probably know it’s the coldest continent on the planet, but did you know Antarctica is also the driest? On average, the 7th Continent sees just 200 mm (8 in) of precipitation a year, the majority of it along the coast.
+        </p>
       </span>
 
 --- /code ---
@@ -146,10 +146,10 @@ line_highlights:
 ---
 
 .fact-card {
-    width: 100%;
-    display: flex;
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  display: flex;
+  background-size: cover;
+  background-position: center;
 }
 
 --- /code ---
@@ -226,6 +226,7 @@ line_numbers: true
 line_number_start: 
 line_highlights: 
 ---
+
 .fact {
   font-size: 100%;
   color:#ECE8EF;
@@ -288,6 +289,7 @@ line_numbers: true
 line_number_start: 
 line_highlights: 
 ---
+
 .fact {
   font-size: 100%;
   color:#ECE8EF;
