@@ -548,7 +548,11 @@ line_highlights:
 
 Open `wildlife.html`.
 
-Copy and paste the `<div>` class inside the `<nav>` tags  . 
+Copy and paste the `<div>` class inside the `<nav>` tags. 
+
+Also remove the `active` class from the `<a>` tag linking to `index.html`.
+
+Add it to the `<a>` tag linking to `wildlife.html`
 
 --- code ---
 ---
@@ -578,12 +582,12 @@ line_highlights:
 
 --- task ---
 
-Add the **javascript** file to your page. 
+Also add the **javascript** file to your page. 
 
 --- code ---
 ---
 language: html
-filename: index.html
+filename: wildlife.html
 line_numbers: true
 line_number_start: 
 line_highlights: 
@@ -602,8 +606,75 @@ Click on the burger menu to see your navigation items appear, click the cross to
 
 --- /task ---
 
+You will now need to repeat the same steps for climate.html.
 
+--- task ---
 
+OOpen `climate.html`.
+
+Copy and paste the `<div>` class inside the `<nav>` tags. 
+
+Also remove the `active` class from the `<a>` tag linking to `climate.html`.
+
+Add it to the `<a>` tag linking to `climate.html`
+
+--- code ---
+---
+language: html
+filename: climate.html
+line_numbers: true
+line_number_start: 
+line_highlights: 
+---
+    <nav class="navigation-header">
+      <div class="nav-items" id="nav-items">
+        <a href="index.html">Home</a>
+        <a href="wildlife.html">Wildlife</a>
+        <a class="active" href="climate.html">Climate</a>
+      </div>
+      <div class="hamburger">
+        <span id="openHam">&#9776;</span>
+        <span id="closeHam">&#x2716;</span>
+      </div>
+    </nav>
+    
+--- /code ---
+
+**TODO** Check line numbering
+
+--- /task ---
+
+--- task ---
+
+Also copy and paste (CTRL + C or CMD + C) the **javascript** file to your page. 
+
+--- code ---
+---
+language: html
+filename: climate.html
+line_numbers: true
+line_number_start: 
+line_highlights: 
+---
+    <script type="text/javascript" src="responsive-navbar.js"></script>
+  </body>
+</html>
+
+--- /code ---
+
+**TODO** Check line numbering
+
+**Click the Run button** to see your changes.
+
+Click on each menu item to navigate from page to page.
+
+Resize the preview window to below 768px to see how it responds.
+
+--- /task ---
+
+Fantastic work! You have now built a responsive website that lets people discover a place they may never get a chance to visit - Antarctica. 
+
+Next, you will reflect on your learning by completing a quiz.
 
 ### Code to Add
 
