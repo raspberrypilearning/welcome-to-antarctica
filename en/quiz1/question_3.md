@@ -32,7 +32,7 @@ line_numbers: false
  
   --- /feedback ---
 
-- (x) To apply styles based on the characteristics of a device such as the screen width.
+- (x) To apply styles when the screen size changes.
 
   --- feedback ---
 
@@ -40,7 +40,7 @@ line_numbers: false
 
   --- /feedback ---
 
-  - () To create a grid layout
+  - ( ) To create a grid layout
 
   --- feedback ---
   

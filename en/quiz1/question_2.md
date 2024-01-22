@@ -6,7 +6,7 @@ legend: Question 2 of 3
 
 You used CSS properties in your project to specify the position of your content using a grid layout.
 
-Which lines of code below help you specify the position of an element in a grind layout?
+Which lines of code below help you specify the position of an element in a grid layout?
 
 --- code ---
 ---
@@ -27,20 +27,20 @@ line_highlights:
 
 --- choices ---
 
-- ( ) 2
-
-  --- feedback ---
-
-Take another look. The first line creates the `.orcas` selector but does not specify the position.
- 
-  --- /feedback ---
-
 - ( ) 1
 
   --- feedback ---
 
 Not quite. The second line sets the background URL image for the Orcas content.
 
+  --- /feedback ---
+  
+- ( ) 2
+
+  --- feedback ---
+
+Take another look. The first line creates the `.orcas` selector but does not specify the position.
+ 
   --- /feedback ---
 
 - (x) 3 and 4

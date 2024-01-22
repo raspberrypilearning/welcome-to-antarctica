@@ -22,7 +22,7 @@ line_numbers: false
 ---   
     <header>
       <nav class="navigation-header">
-        <div class="nav-items" id="nav-items">
+        <div class="nav-items">
           <a class="active" href="index.html">Home</a>
           <a href="wildlife.html">Wildlife</a>
           <a href="climate.html">Climate</a>
@@ -40,7 +40,7 @@ line_numbers: false
 
 --- choices ---
 
-- () `<link>`
+- ( ) `<nav>`
 
   --- feedback ---
   

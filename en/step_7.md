@@ -31,7 +31,7 @@ line_number_start:
 line_highlights: 
 ---
     <nav class="navigation-header">
-      <div class="nav-items" id="nav-items">
+      <div class="nav-items">
         <a class="active" href="index.html">Home</a>
         <a href="wildlife.html">Wildlife</a>
         <a href="climate.html">Climate</a>
@@ -563,7 +563,7 @@ line_number_start:
 line_highlights: 
 ---
     <nav class="navigation-header">
-      <div class="nav-items" id="nav-items">
+      <div class="nav-items">
         <a href="index.html">Home</a>
         <a class="active" href="wildlife.html">Wildlife</a>
         <a href="climate.html">Climate</a>
@@ -627,7 +627,7 @@ line_number_start:
 line_highlights: 
 ---
     <nav class="navigation-header">
-      <div class="nav-items" id="nav-items">
+      <div class="nav-items">
         <a href="index.html">Home</a>
         <a href="wildlife.html">Wildlife</a>
         <a class="active" href="climate.html">Climate</a>
