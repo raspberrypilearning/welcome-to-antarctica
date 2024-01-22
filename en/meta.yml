@@ -1,5 +1,5 @@
 ---
-title: welcome-to-antartica
+title: welcome-to-antarctica
 hero_image: images/banner.png
 description: Use CSS to make a great website
 version: 4
@@ -9,6 +9,7 @@ last_tested: '2021-03-26'
 steps:
 - title: Introduction
 - title: Create a navbar
+- title: Style the navbar
 - title: Add hero images
 - title: Using grids and animations
 - title: Different types of grids
