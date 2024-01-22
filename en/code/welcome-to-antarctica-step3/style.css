@@ -114,6 +114,10 @@ nav {
     background-image: url('world_flags.png');
 }
 
+.research {
+    background-image: url('research.jpg');
+}
+
 .penguins {
     background-image: url('wildlife-emperor-penguin.jpg');
 }

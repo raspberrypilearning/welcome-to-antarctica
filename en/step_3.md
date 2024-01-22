@@ -187,7 +187,7 @@ line_highlights: 13
 
     <header>
       <nav class="navigation-header">
-        <div class="navigation-items">
+        <div class="nav-items">
           <a href="index.html" class="active">Home</a>
           <a href="wildlife.html">Wildlife</a>
           <a href="climate.html">Climate</a>
@@ -233,9 +233,16 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 3
-line_highlights: 6
+line_highlights: 13
 ---
 body {
+  background-color: #ECE8EF;
+  color: #000500;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh; /* Make the content fill the page so the footer is at the bottom */
   display: flex;
   flex-direction: column;
   font-family: 'Orbitron', sans-serif;

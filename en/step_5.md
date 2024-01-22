@@ -65,14 +65,12 @@ line_highlights: 56-57
 
 .fact-holder {
   display: grid;
-  height: 50vh; /* 50% of the visible area of the page */
+  height: 50vh;
   grid-template-rows: 50% 50%;
   grid-template-columns: 50% 50%;
 }
 
 --- /code ---
-
-**TODO** Add collapse about vh
 
 **Click the Run button** to see your changes.
 
@@ -141,8 +139,7 @@ Add the `fact-card` selector to the `style.css` file.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 112
 ---
 
 .fact-card {
@@ -153,8 +150,6 @@ line_highlights:
 }
 
 --- /code ---
-
-**TODO** Check line numbering
 
 **Click the Run button** to see your changes.
 
@@ -223,8 +218,8 @@ Set the `opacity` property of `.fact` to `0`.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 100
+line_highlights: 110
 ---
 
 .fact {
@@ -242,8 +237,6 @@ line_highlights:
 
 --- /code ---
 
-**TODO** Check line numbering
-
 --- /task ---
 
 Make the facts visible again when the user hovers over it.
@@ -257,8 +250,7 @@ Add a new selector `.fact:hover`
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 121
 ---
 
 .fact:hover {
@@ -267,9 +259,19 @@ line_highlights:
 
 --- /code ---
 
-**TODO** Check line numbering
+--- collapse ---
 
-**TODO** Add collapse to explain the colon syntax in `.fact:hover`
+---
+title: Adding interaction styling to an element
+---
+
+When writing CSS you might want to change the styling on an element when the user interacts with it. 
+
+In the example above, you are changing the styling of the `.fact` class, but only when a user **hovers** over it with their mouse. The syntax for this is `fact:hover`. 
+
+The style in this selector will **only** be used when a user's mouse is on top of the element.
+
+--- /collapse ---
 
 **Click the Run button** to see your changes.
 
@@ -286,8 +288,8 @@ Add a `transition` property to `.fact`.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 100
+line_highlights: 111
 ---
 
 .fact {
@@ -305,8 +307,6 @@ line_highlights:
 }
 
 --- /code ---
-
-**TODO** Check line numbering
 
 **Click the Run button** to see your changes.
 
