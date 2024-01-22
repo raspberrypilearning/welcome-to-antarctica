@@ -93,7 +93,7 @@ nav {
 
 .hero-image {
     min-height: 50vh;
-    background-image: url('northern-lights.jpg'); 
+    background-image: url('antarctic-northern-lights.jpg'); 
     background-size: cover;
     background-position: center;
 }
@@ -103,7 +103,7 @@ nav {
 }
 
 .climate {
-    background-image: url('daytime-antarctica.jpg');
+    background-image: url('antarctic-daytime.jpg');
 }
 
 /* Fact holders */
@@ -179,23 +179,35 @@ nav {
 }
 
 .penguins {
-    background-image: url('penguin-photo.jpg');
+    background-image: url('wildlife-emperor-penguin.jpg');
     grid-row-start: 1;
     grid-row-end: 3;
 }
 
 .krill {
-    background-image: url('krill-photo.jpg');
+    background-image: url('wildlife-krill.jpg');
 }
 
 .seals {
-    background-image: url('seal-photo.jpg');
+    background-image: url('wildlife-seal.jpg');
 }
 
 .orcas {
-    background-image: url('orca-photo.jpg');
+    background-image: url('wildlife-orca.jpg');
     grid-column-start: 1;
     grid-column-end: 3;
+}
+
+.minke-whale {
+    background-image: url('wildlife-minke-whale.jpg');
+}
+
+.albatross {
+    background-image: url('wildlife-albatross.jpg');
+}
+
+.gentoo-penguin {
+    background-image: url('wildlife-gentoo-penguin.jpg');
 }
 
 .temperature {
@@ -244,16 +256,15 @@ nav {
     }
 
     .fact-holder {
-        display: grid;
+        height: 100vh;
         grid-template-rows: 25% 25% 25% 25%;
         grid-template-columns: 100%;
-        height: 100vh;
     }
     
     .fact-holder-wildlife {
+        height: 140vh;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr;
-        height: 140vh;
     }
 
     .penguins {
@@ -267,13 +278,13 @@ nav {
     }
 
     .fact-holder-climate {
+        height: 140vh;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-areas: 
             "top"
             "left"
             "right"
             "bottom";
-        height: 140vh;
     }
 
 }

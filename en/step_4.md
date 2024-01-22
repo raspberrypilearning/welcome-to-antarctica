@@ -56,7 +56,7 @@ line_highlights:
 
 .hero-image {
   min-height: 50vh;
-  background-image: url('northern-lights.jpg'); 
+  background-image: url('antarctic-northern-lights.jpg'); 
   background-size: cover;
   background-position: center;
 }
@@ -245,7 +245,7 @@ line_highlights:
 ---
 
 .climate {
-  background-image: url('daytime-antarctica.jpg');
+  background-image: url('antarctic-daytime.jpg');
 }
 
 --- /code ---
