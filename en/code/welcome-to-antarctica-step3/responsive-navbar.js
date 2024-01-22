@@ -1,9 +1,13 @@
 let openHam = document.querySelector('#openHam');
 let closeHam = document.querySelector('#closeHam');
-let navigationItems = document.querySelector(".nav-items");
+let navigationItems = document.getElementById('nav-items')
 
 const hamburgerEvent = (navigation, close, open) => {
-    navigationItems.style.display = navigation;
+    if (navigation == "none"){
+        navigationItems.style.removeProperty("display");
+    } else {
+        navigationItems.style.display = navigation;navigationItems.style.display = navigation;
+    }
     closeHam.style.display = close;
     openHam.style.display = open;
 }
