@@ -21,9 +21,9 @@ main {
 }
 
 section {
-    width: 100%;
+    width: 95%;
     text-align: center;
-    padding: 1rem 2rem;
+    padding: 2.5% 2.5%;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -44,12 +44,32 @@ nav {
     align-items: center;
 }
 
-/* Hero images */
+/* Nav items */
+
+
+/* Nav bar links */
+
+
+/* Nav links hover */
+
+
+/* Nav links active */
+
+
+/* Hamburger menu */
+
+
+/* Hero image - homepage */
+
+
+/* Hero image - wildlife */
+
+
+/* Hero image - climate */
 
 
 
-/* Fact holders */
-
+/* Fact holder - homepage */
 .fact-holder {
     display: grid;
     height: 50vh; /* 50% of the visible area of the page */
@@ -57,10 +77,14 @@ nav {
     grid-template-columns: 75% 25%;
 }
 
-/* Fact cards */
+/* Fact holder - wildlife */
+
+
+/* Fact holder - climate */
+
 
 .fact {
-    font-size: 20px;
+    font-size: 100%;
     color:#ECE8EF;
     background-color: #000500A5;
     height: 100%;
@@ -70,6 +94,12 @@ nav {
     align-content: center;
     padding: 5px;
 }
+
+/* Fact hover */
+
+
+/* Fact card */
+
 
 /* Fact images */
 
@@ -136,3 +166,5 @@ nav {
 .rainfall {
     background-image: url('rain.jpg');
 }
+
+/* Media query */

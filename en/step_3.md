@@ -1,7 +1,7 @@
 ## Style a navbar
 
 In this step, you will style the navbar you created and add it to the other pages.
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-Antarctica-step3" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step3" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 --- collapse ---
 
@@ -9,7 +9,7 @@ In this step, you will style the navbar you created and add it to the other page
 title: How do I style my navbar?
 ---
 
-If you want to apply styling to specific HTML elements, you can create a class in a CSS file. You can then add a class= attribute to an element in your HTML code to let the browser know what styling should be applied.
+If you want to apply styling to specific HTML elements, you can create a class in a CSS file. You can then add a `class` attribute to an element in your HTML code to let the browser know what styling should be applied.
 
 You can also style elements (like `<header>` or `<nav>`) directly.
 
@@ -28,9 +28,10 @@ Add a background colour property.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 38
-line_highlights: 45
+line_number_start: 35
+line_highlights: 43
 ---
+/* Nav bar */
 nav {
   padding: 0 15px;
   height: 60px;
@@ -52,6 +53,8 @@ nav {
 As well as styling the whole navbar, you can style individual links.
 
 --- task ---
+
+Open `index.html`.
 
 Add a `nav-items` class attribute to the `<div>` containing the navbar links. 
 

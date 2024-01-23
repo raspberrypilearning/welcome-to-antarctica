@@ -36,7 +36,6 @@ h1 {
 }
 
 /* Nav bar */
-
 nav {
     padding: 0 15px;
     height: 60px;
@@ -47,11 +46,13 @@ nav {
     background-color: #33658A;
 }
 
+/* Nav items */
 .nav-items {
     display: flex;
     gap: 100px;
 }
 
+/* Nav bar links */
 .nav-items > a {
     color: #55DDE0;
     text-decoration: none;
@@ -60,15 +61,18 @@ nav {
     transition: .4s ease-in-out;
 }
 
+/* Nav links hover */
 .nav-items > a:hover {
     color: white;
 }
 
+/* Nav links active */
 .nav-items .active {
     color: white;
     pointer-events: none;
 }
 
+/* Hamburger menu */
 .hamburger {
     display: none;
     font-size: 20px;
@@ -77,20 +81,7 @@ nav {
     margin-left: auto;
 }
 
-/* Footer */ 
-
-.bottom {
-    width: 100%;
-    bottom: 0;
-    background-color: #33658A;
-    color: #55DDE0;
-    align-items: center;
-    font-size: 20px;
-    text-align: center;
-}
-
-/* Hero images */
-
+/* Hero image - homepage */
 .hero-image {
     min-height: 50vh; /* 50% of the visible area of the page */
     background-image: url('antarctic-northern-lights.jpg'); 
@@ -98,16 +89,17 @@ nav {
     background-position: center;
 }
 
+/* Hero image - wildlife */
 .wildlife {
     background-image: url('antarctic-penguins.jpg');
 }
 
+/* Hero image - climate */
 .climate {
     background-image: url('antarctic-daytime.jpg');
 }
 
-/* Fact holders */
-
+/* Fact holder - homepage */
 .fact-holder {
     display: grid;
     height: 50vh;
@@ -115,6 +107,7 @@ nav {
     grid-template-columns: 50% 50%;
 }
 
+/* Fact holder - wildlife */
 .fact-holder-wildlife {
     display: grid;
     height: 70vh;
@@ -122,6 +115,7 @@ nav {
     grid-template-columns: 1fr 2fr;
 }
 
+/* Fact holder - climate */
 .fact-holder-climate {
     display: grid;
     height: 70vh;
@@ -130,15 +124,6 @@ nav {
         "top top"
         "left right"
         "bottom bottom";
-}
-
-/* Fact cards */
-
-.fact-card {
-    width: 100%;
-    display: flex;
-    background-size: cover;
-    background-position: center;
 }
 
 .fact {
@@ -156,8 +141,17 @@ nav {
     /* TODO Investigate padding */
 }
 
+/* Fact hover */
 .fact:hover {
     opacity: 1;
+}
+
+/* Fact card */
+.fact-card {
+  width: 100%;
+  display: flex;
+  background-size: cover;
+  background-position: center;
 }
 
 /* Fact images */
@@ -234,6 +228,7 @@ nav {
     grid-area: bottom;
 }
 
+/* Media query */
 @media screen and (max-width:768px) {
     
     .hamburger {
@@ -246,7 +241,7 @@ nav {
     }
 
     .nav-items {
-        display: none; /* TODO Investigate this being hidden */
+        display: none;
         flex-direction: column;
         align-items: center;
         position: absolute;

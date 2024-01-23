@@ -1,11 +1,13 @@
 ## Create a navbar
 
 In this step, you will create a navbar to link the pages on the website. This will allow users to navigate from one page to another.
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-Antarctica-step2" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step2" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+
+**Tip:** You can use the browser back button (←) to return to the homepage if you click the links.
 
 --- task ---
 
-Open the [Welcome to Antarctica starter project](https://staging-editor.raspberrypi.org/en/projects/welcome-to-Antarctica-starter){:target="_blank"}.
+Open the [Welcome to Antarctica starter project](https://staging-editor.raspberrypi.org/en/projects/welcome-to-antarctica-starter){:target="_blank"}.
 
 --- /task ---
 
@@ -15,6 +17,13 @@ Your starter project contains:
 + the images you will use in the project
 + a JavaScript file to make the navbar respond when the page size changes.
 
+--- task ---
+
+Have a look at the starter project, make sure you have all the files listed above. 
+
+Are there any HTML elements you recognise?
+
+--- /task ---
 
 ### Add the HTML to show the navbar
 
@@ -33,7 +42,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 10
-line_highlights: 11-13
+line_highlights: 11, 13
 ---
 
     <header>
@@ -82,7 +91,9 @@ line_highlights: 12-14
 
 ## Save your project
 
-Your project is saved automatically. Return to the starter link in the same web browser to see your changes. 
+Your project is saved automatically. Return to the starter link in the same web browser to see your changes.
+
+--- task ---
 
 **Test:** Click the **Run** button to see the changes you have made. The navigation links will appear at the top.
 
@@ -90,6 +101,6 @@ Click a link to navigate to the Wildlife or Climate page.
 
 Notice that the navbar does not appear on the Wildlife or Climate page.
 
-**TODO**
+--- /task ---
 
 Next you are going to add the navbar to the other pages and then style your pages to make them look even better!
