@@ -259,20 +259,6 @@ line_number_start: 121
 
 --- /code ---
 
---- collapse ---
-
----
-title: Adding interaction styling to an element
----
-
-When writing CSS you might want to change the styling on an element when the user interacts with it. 
-
-In the example above, you are changing the styling of the `.fact` class, but only when a user **hovers** over it with their mouse. The syntax for this is `fact:hover`. 
-
-The style in this selector will **only** be used when a user's mouse is on top of the element.
-
---- /collapse ---
-
 **Click the Run button** to see your changes.
 
 --- /task ---

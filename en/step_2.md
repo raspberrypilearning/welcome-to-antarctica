@@ -55,6 +55,33 @@ line_highlights: 11, 13
 
 --- /task ---
 
+--- task ---
+
+You are going to use a `<div>` to contain the links to the other pages. 
+
+Inside the `<nav>` tags add a new `<div>`.
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 10
+line_highlights: 11, 13
+---
+
+    <header>
+      <nav>
+        <div>
+
+        </div>
+      </nav>
+    </header>
+
+--- /code ---
+
+--- /task ---
+
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 In <span style="color: #0faeb0">**HTML**</span> the `<a>` tag is used to create links: 
 <br>
@@ -74,14 +101,16 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 10
-line_highlights: 12-14
+line_highlights: 13-15
 ---
 
     <header>
       <nav>
-        <a href="index.html">Home</a>
-        <a href="wildlife.html">Wildlife</a>
-        <a href="climate.html">Climate</a>
+        <div>
+          <a href="index.html">Home</a>
+          <a href="wildlife.html">Wildlife</a>
+          <a href="climate.html">Climate</a>
+        </div>
       </nav>
     </header>
 

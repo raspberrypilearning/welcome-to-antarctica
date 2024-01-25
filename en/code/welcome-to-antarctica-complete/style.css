@@ -37,13 +37,13 @@ h1 {
 
 /* Nav bar */
 nav {
-    padding: 0 15px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    background-color: #33658A;
+  padding: 0 15px;
+  height: 60px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #33658A;
 }
 
 /* Nav items */
@@ -56,8 +56,6 @@ nav {
 .nav-items > a {
     color: #55DDE0;
     text-decoration: none;
-    font-weight: 500;
-    font-size: 22px;
     transition: .4s ease-in-out;
 }
 

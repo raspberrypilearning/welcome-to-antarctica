@@ -35,9 +35,9 @@ line_highlights: 43
 nav {
   padding: 0 15px;
   height: 60px;
+  font-size: 22px;
   display: flex;
   justify-content: center;
-  align-content: center;
   align-items: center;
   background-color: #33658A;
 }
@@ -83,6 +83,8 @@ line_highlights: 12
 
 --- task ---
 
+Open `style.css`.
+
 Create a selector for the `nav-items` class to space out the links.
 
 --- code ---
@@ -90,8 +92,10 @@ Create a selector for the `nav-items` class to space out the links.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 48
+line_number_start: 47
+line_highlights: 48-51
 ---
+/* Nav items */
 .nav-items {
   display: flex;
   gap: 100px;
@@ -115,16 +119,30 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 53
+line_highlights: 54-58
 ---
+/* Nav bar links */
 .nav-items > a {
   color: #55DDE0;
   text-decoration: none;
-  font-weight: 500;
-  font-size: 22px;
   transition: .4s ease-in-out;
 }
 
 --- /code ---
+
+--- collapse ---
+
+---
+title: Selecting elements within a class
+---
+
+Sometimes you will want to style particular elements within a **container** that has a class. To do this you use the `>` operator.
+
+The example you just used styles all `<a>` elements within a container that has the `nav-items` class. 
+
+This allows you to style certain links without affecting all the links on your page. It saves you having to give a class to each individual link.
+
+--- /collapse ---
 
 **Click the Run button** to see your changes.
 
@@ -139,8 +157,10 @@ Add a selector to style each link when you hover over it.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 61
+line_number_start: 59
+line_highlights: 60-62
 ---
+/* Nav links hover */
 .nav-items > a:hover {
   color: white;
 }
@@ -153,7 +173,7 @@ line_number_start: 61
 
 The index.html page will be loaded first.
 
-When that page is open, there is no need for its link to be clickable.
+When that page is open, the link should stay white and its link should not be clickable.
 
 --- task ---
 
@@ -164,8 +184,10 @@ Add a new `active` CSS class for the link to the page that is currently open.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 65
+line_number_start: 64
+line_highlights: 65-68
 ---
+/* Nav links active */
 .nav-items .active {
   color: white;
   pointer-events: none;
@@ -174,6 +196,8 @@ line_number_start: 65
 --- /code ---
 
 --- /task ---
+
+Open `index.html`.
 
 Add the `active` class attribute to the index.html `<a>` tag.
 
