@@ -23,7 +23,7 @@ line_highlights: 18
 ---
 
     <header>
-      <nav class="navigation-header">
+      <nav>
         <div class="nav-items">
           <a href="index.html" class="active">Home</a>
           <a href="wildlife.html">Wildlife</a>
@@ -50,10 +50,11 @@ The image should fill the `<div>` element (by setting the size to `cover`) and b
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 74
-line_highlights: 
+line_number_start: 77
+line_highlights: 78-83
 ---
 
+/* Hero image - homepage */
 .hero-image {
   min-height: 50vh; /* 50% of the visible area of the page */
   background-image: url('antarctic-northern-lights.jpg'); 
@@ -96,10 +97,8 @@ Highlight and copy (Ctrl + C or Cmd + C) the contents of the `<header>` section 
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 10
-line_highlights: 11-18
+line_number_start: 11
 ---
-    <header>
       <nav class="navigation-header">
         <div class="nav-items">
           <a href="index.html" class="active">Home</a>
@@ -108,7 +107,6 @@ line_highlights: 11-18
         </div>
       </nav>
       <div class="hero-image"></div>
-    </header>
 
 --- /code ---
 
@@ -116,7 +114,7 @@ line_highlights: 11-18
 
 --- task ---
 
-Paste the `<header>` contents into `wildlife.html` and change which link has the active class.
+Paste the contents into the `<header>` on `wildlife.html` and change which link has the active class.
 
 --- code ---
 ---
@@ -124,7 +122,7 @@ language: html
 filename: wildlife.html
 line_numbers: true
 line_number_start: 10
-line_highlights: 11-18
+line_highlights: 14
 ---
     <header>
       <nav class="navigation-header">
@@ -197,10 +195,10 @@ You can set a new `background-image` property which will overwrite the one set i
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 81
-line_highlights: 
+line_number_start: 85
+line_highlights: 86-88
 ---
-
+/* Hero image - wildlife */
 .wildlife {
   background-image: url('antarctic-penguins.jpg');
 }
@@ -218,19 +216,11 @@ Now apply the new `wildlife` class as an **addition** to the `hero-image` class 
 language: html
 filename: wildlife.html
 line_numbers: true
-line_number_start: 10
+line_number_start: 17
 line_highlights: 18
 ---
-    <header>
-      <nav class="navigation-header">
-        <div class="nav-items">
-          <a href="index.html">Home</a>
-          <a href="wildlife.html" class="active">Wildlife</a>
-          <a href="climate.html">Climate</a>
-        </div>
       </nav>
       <div class="hero-image wildlife"></div>
-    </header>
 
 --- /code ---
 
@@ -252,10 +242,10 @@ Inside `style.css` add another new class selector for climate.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 85
-line_highlights: 
+line_number_start: 106
+line_highlights: 107-109
 ---
-
+/* Hero image - climate */
 .climate {
   background-image: url('antarctic-daytime.jpg');
 }
@@ -277,16 +267,8 @@ line_number_start: 10
 line_highlights: 18
 ---
 
-    <header>
-      <nav class="navigation-header">
-        <div class="nav-items">
-          <a href="index.html">Home</a>
-          <a href="wildlife.html">Wildlife</a>
-          <a href="climate.html" class="active">Climate</a>
-        </div>
       </nav>
       <div class="hero-image climate"></div>
-    </header>
 
 --- /code ---
 

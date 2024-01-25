@@ -27,8 +27,8 @@ Add two `<span>` tags. One is for the 'hamburger' icon (☰) used to open the me
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 11
+line_highlights: 17-20
 ---
     <nav class="navigation-header">
       <div class="nav-items">
@@ -44,9 +44,17 @@ line_highlights:
     
 --- /code ---
 
-**TODO** Check line numbering
+--- collapse ---
 
-**TODO** Add collapse about ASCII codes
+---
+title: Using ASCII codes for characters
+---
+
+To make the hamburger menue and cross you have used an **ASCII** code, this is a way of adding special characters that don't feature on your keyboard. 
+
+You can find a full list of ASCII codes on [this website](https://www.ascii-code.com/).
+
+--- /collapse ---
 
 **Click the Run button** to see your changes.
 
@@ -69,10 +77,11 @@ Add the `hamburger` selector to the `style.css` file.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 74
+line_highlights: 75-81
 ---
 
+/* Hamburger menu */
 .hamburger {
   display: none;
   font-size: 20px;
@@ -82,8 +91,6 @@ line_highlights:
 }
 
 --- /code ---
-
-**TODO** Check line numbering
 
 **Click the Run button** to see your changes.
 
@@ -95,8 +102,19 @@ You are going to use a **media query** to change the styling of elements based o
 
 We have set 768px as the screen width below which the media query will trigger.
 
-**TODO** Add collapse about media queries (Media queries can be used to check many things, such as: width and height of the viewport width and height of the device orientation (is the tablet/phone in landscape or portrait mode?)
-resolution)
+--- collapse ---
+
+---
+title: Using media queries
+---
+
+A CSS media query can be used to check lots of things about the way a webpage is currently being displayed. 
+
+You can check attributes of the device showing the page, like the width or the height. For mobile devices you can check whether they are in landscape or portrait mode. 
+
+You can also use media queries to change the styling of a page when it is printed.
+
+--- /collapse ---
 
 --- task ---
 
@@ -107,17 +125,16 @@ At the bottom of `style.css` add your media query.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 214
+line_highlights: 215-217
 ---
 
+/* Media query */
 @media screen and (max-width:768px) {
 
 }
 
 --- /code ---
-
-**TODO** Check line numbering
 
 --- /task ---
 
@@ -141,15 +158,13 @@ When the hamburger icon is clicked, the page links will be displayed and the clo
 
 Add selectors to style the `.hamburger` `<div>`. 
 
-
-
 --- code ---
 ---
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 215
+line_highlights: 217-220, 222-224
 ---
 @media screen and (max-width:768px) {
     
@@ -166,8 +181,6 @@ line_highlights:
 
 --- /code ---
 
-**TODO** Check line numbering
-
 **Click the Run button** to see your changes.
 
 Resize the editor preview to see your navbar change!
@@ -176,35 +189,9 @@ Resize the editor preview to see your navbar change!
 
 You need to open and close the navigation menu.
 
---- task ---
-
-Open `index.html`.
-
-Add the **javascript** file to your page. 
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 
-line_highlights: 
----
-    <script type="text/javascript" src="responsive-navbar.js"></script>
-  </body>
-</html>
-
---- /code ---
-
-**TODO** Check line numbering
-
-**Click the Run button** to see your changes.
-
-Click on the burger menu to see your navigation items appear, click the cross to close the menu.
-
---- /task ---
-
 The navigation items don't look very good at the moment, add some new styling to make them look like a menu.
+
+Before the menu is opened you will set the nav items to `display: none` so they are not shown.
 
 --- task ---
 
@@ -217,8 +204,8 @@ Add a new `.nav-items` selector and styling to the media query.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 215
+line_highlights: 226-238
 ---
 @media screen and (max-width:768px) {
     
@@ -249,9 +236,33 @@ line_highlights:
 
 --- /code ---
 
-**TODO** Check line numbering
+**Click the Run button** to see your changes.
+
+--- /task ---
+
+--- task ---
+
+Open `index.html`.
+
+Add the **javascript** file to your page. 
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 54
+line_highlights: 54
+---
+    <script type="text/javascript" src="responsive-navbar.js"></script>
+  </body>
+</html>
+
+--- /code ---
 
 **Click the Run button** to see your changes.
+
+Click on the burger menu to see your navigation items appear, click the cross to close the menu.
 
 --- /task ---
 
@@ -270,8 +281,8 @@ Add the `fact-holder` selector to the `@media` query.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 215
+line_highlights: 240-245
 ---
 @media screen and (max-width:768px) {
     
@@ -309,8 +320,6 @@ line_highlights:
 
 --- /code ---
 
-**TODO** Check line numbering
-
 **Click the Run button** to see your changes.
 
 --- /task ---
@@ -325,15 +334,13 @@ You are going to make it taller and change it to five rows in one column.
 
 Add the `fact-holder-wildlife` selector to the `@media` query.
 
-**TODO**
-
 --- code ---
 ---
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 215
+line_highlights: 247-251
 ---
 @media screen and (max-width:768px) {
     
@@ -376,8 +383,6 @@ line_highlights:
 }
 
 --- /code ---
-
-**TODO** Check line numbering
 
 --- /task ---
 
@@ -394,8 +399,8 @@ Add the `penguins` and `orcas` selectors to the `@media` query.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 215
+line_highlights: 253-256, 258-261
 ---
 @media screen and (max-width:768px) {
     
@@ -448,95 +453,6 @@ line_highlights:
 }
 
 --- /code ---
-
-**TODO** Check line numbering
-
-**Click the Run button** to see your changes.
-
---- /task ---
-
-On the `climate.html page`, there is also a different fact holder grid layout. 
-
-The `height` property needs to be changed to make the grid taller.
-
-There also need to be four rows, and the template areas changed to stack each row.
- 
---- task ---
-
-Add the `fact-holder-climate` selector to the `@media` query.
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 
-line_highlights: 
----
-@media screen and (max-width:768px) {
-
-  .hamburger {
-    display: flex;
-    cursor: pointer;
-  }
-  
-  .hamburger #closeHam {
-    display: none;
-  }   
-  
-  .nav-items {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    right: 0;
-    top: 58px;
-    background-color: #33658A;
-    width: 100%;
-    height: calc(100vh - 58px);
-    padding-top: 60px;
-    gap: 10vh;
-  }  
-
-  .fact-holder {
-    display: grid;
-    height: 100vh;
-    grid-template-rows: 25% 25% 25% 25%;
-    grid-template-columns: 100%;
-  }
-
-  .fact-holder-wildlife {
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr;
-    height: 140vh;
-  }
-
-  .penguins {
-    grid-row-start: 1;
-    grid-row-end: 3;
-  }
-
-  .orcas {
-    grid-column-start: 1;
-    grid-column-end: 2;
-  }
-
-  .fact-holder-climate {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-        "top"
-        "left"
-        "right"
-        "bottom";
-    height: 140vh;
-  }
-  
-}
-
---- /code ---
-
-**TODO** Check line numbering
 
 **Click the Run button** to see your changes.
 
@@ -559,8 +475,8 @@ Add it to the `<a>` tag linking to `wildlife.html`
 language: html
 filename: wildlife.html
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 11
+line_highlights: 17-20
 ---
     <nav class="navigation-header">
       <div class="nav-items">
@@ -576,8 +492,6 @@ line_highlights:
     
 --- /code ---
 
-**TODO** Check line numbering
-
 --- /task ---
 
 --- task ---
@@ -589,16 +503,14 @@ Also add the **javascript** file to your page.
 language: html
 filename: wildlife.html
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 54
+line_highlights: 54
 ---
     <script type="text/javascript" src="responsive-navbar.js"></script>
   </body>
 </html>
 
 --- /code ---
-
-**TODO** Check line numbering
 
 **Click the Run button** to see your changes.
 
@@ -623,8 +535,8 @@ Add it to the `<a>` tag linking to `climate.html`
 language: html
 filename: climate.html
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 11
+line_highlights: 17-20
 ---
     <nav class="navigation-header">
       <div class="nav-items">
@@ -640,8 +552,6 @@ line_highlights:
     
 --- /code ---
 
-**TODO** Check line numbering
-
 --- /task ---
 
 --- task ---
@@ -653,16 +563,14 @@ Also copy and paste (CTRL + C or CMD + C) the **javascript** file to your page.
 language: html
 filename: climate.html
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 54
+line_highlights: 54
 ---
     <script type="text/javascript" src="responsive-navbar.js"></script>
   </body>
 </html>
 
 --- /code ---
-
-**TODO** Check line numbering
 
 **Click the Run button** to see your changes.
 

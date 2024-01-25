@@ -1,3 +1,4 @@
+/* Import a font */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 body {
@@ -113,17 +114,6 @@ nav {
     grid-template-columns: 1fr 2fr;
 }
 
-/* Fact holder - climate */
-.fact-holder-climate {
-    display: grid;
-    height: 70vh;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: 
-        "top top"
-        "left right"
-        "bottom bottom";
-}
-
 .fact {
     font-size: 100%;
     color:#ECE8EF;
@@ -208,22 +198,18 @@ nav {
 
 .temperature {
     background-image: url('snow.jpg');
-    grid-area: top;
 }
 
 .sunburn {
     background-image: url('sun.jpg');
-    grid-area: left;
 }
 
 .ice {
     background-image: url('ice.jpg');
-    grid-area: right;
 }
 
 .rainfall {
     background-image: url('rain.jpg');
-    grid-area: bottom;
 }
 
 /* Media query */
@@ -272,16 +258,6 @@ nav {
     .orcas {
         grid-column-start: 1;
         grid-column-end: 2;
-    }
-
-    .fact-holder-climate {
-        height: 140vh;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-areas: 
-            "top"
-            "left"
-            "right"
-            "bottom";
     }
 
 }

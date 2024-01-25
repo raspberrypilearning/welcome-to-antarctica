@@ -44,35 +44,35 @@ Add the `fact` class attribute to each paragraph.
 language: html
 filename: wildlife.html
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 25
+line_highlights: 26, 27, 28, 32, 33, 37, 38, 42, 43
 ---
-<div class="fact-holder">
-  <span class="fact-card penguins">
-    <p class="fact">
-      Emperor penguins, live in colonies on sea ice. Sea ice is frozen sea water which fringes the Antarctic continent. In the winter sea ice expands. In the summer, it shrinks as the sea ice melts. By the time the chicks are ready to fledge, the sea ice edge is close to the colony, so the young penguins don’t have to travel far to get their food.
-    </p>
-  </span>
-  <span class="fact-card krill">
-    <p class="fact">
-      Krill is eaten by many other organisms such as penguins, birds, or even ginormous elephant seals! Because there are so many different organisms feeding from the krill, there needs to be lots and lots of krill available, especially as they are only 2 inches long!
-    </p>
-  </span>
-  <span class="fact-card seals">
-    <p class="fact">
-      Seals have thick beautiful fur coats and blubber, making them supremely adapted to the cold. There are six species in Antarctica: Antarctic Fur Seals, Leopard Seals, Ross Seals, Southern Elephant seals, Crabeater Seals and Weddell Seals.
-    </p>
-  </span>
-  <span class="fact-card orcas">
-    <p class="fact">
-      At the top of the food chain, there are Orcas, often known as Killer Whales. These are the biggest carnivores on Earth, reaching almost 10m in length! They can be found swimming all around the Earth’s oceans, but in particular in the Southern Ocean around Antarctica.
-    </p>
-  </span>
-</div>
+<section>
+  <div class="fact-holder">
+    <span class="fact-card penguins">
+      <p class="fact">
+        Emperor penguins, live in colonies on sea ice. Sea ice is frozen sea water which fringes the Antarctic continent. In the winter sea ice expands. In the summer, it shrinks as the sea ice melts. By the time the chicks are ready to fledge, the sea ice edge is close to the colony, so the young penguins don’t have to travel far to get their food.
+      </p>
+    </span>
+    <span class="fact-card krill">
+      <p class="fact">
+        Krill is eaten by many other organisms such as penguins, birds, or even ginormous elephant seals! Because there are so many different organisms feeding from the krill, there needs to be lots and lots of krill available, especially as they are only 2 inches long!
+      </p>
+    </span>
+    <span class="fact-card seals">
+      <p class="fact">
+        Seals have thick beautiful fur coats and blubber, making them supremely adapted to the cold. There are six species in Antarctica: Antarctic Fur Seals, Leopard Seals, Ross Seals, Southern Elephant seals, Crabeater Seals and Weddell Seals.
+      </p>
+    </span>
+    <span class="fact-card orcas">
+      <p class="fact">
+        At the top of the food chain, there are Orcas, often known as Killer Whales. These are the biggest carnivores on Earth, reaching almost 10m in length! They can be found swimming all around the Earth’s oceans, but in particular in the Southern Ocean around Antarctica.
+      </p>
+    </span>
+  </div>
+</section>
     
 --- /code ---
-
-**TODO** Check line numbering
 
 **Click the Run button** to see your changes.
 
@@ -80,7 +80,29 @@ line_highlights:
 
 There are different ways to size your grid layout, you can use `fr` to create **fractions** of the sizing.
 
-**TODO** Fractions collapse
+--- collapse ---
+
+---
+title: Using fractions for sizing grids
+---
+
+Rather than using percentages and having to check they add up to 100% you can instead use fractions of the space. 
+
+To do this you use the unit `fr` - so if you wanted four columns that are each a quarter of the width of the grid you would use this CSS;
+
+~~~css
+grid-columns: 1fr 1fr 1fr 1fr 
+~~~
+
+There are **4** in total and each column is 1/4 in width. 
+
+They don't have to be even either. You could also do 2 rows, one that is 3/4 and the other is 1/4:
+
+~~~css
+grid-rows: 3fr 1fr
+~~~
+
+--- /collapse ---
 
 --- task ---
 
@@ -93,10 +115,11 @@ Add the `fact-holder-wildlife` selector to the `style.css` file.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 103
+line_highlights: 104-109
 ---
 
+/* Fact holder - wildlife */
 .fact-holder-wildlife {
   display: grid;
   height: 70vh;
@@ -105,8 +128,6 @@ line_highlights:
 }
 
 --- /code ---
-
-**TODO** Check line numbering
 
 --- /task ---
 
@@ -121,15 +142,13 @@ Change the class attribute on the `<div>` to your new `fact-holder-wildlife` cla
 language: html
 filename: wildlife.html
 line_numbers: true
-line_number_start: 30
-line_highlights: 30
+line_number_start: 26
+line_highlights: 26
 ---
   <div class="fact-holder-wildlife">
     <span class="fact-card penguins">
         <p class="fact">
-        Emperor penguins, live in colonies on sea ice. Sea ice is frozen sea water which fringes the Antarctic continent. In the winter sea ice expands. In the summer, it shrinks as the sea ice melts. By the time the chicks are ready to fledge, the sea ice edge is close to the colony, so the young penguins don’t have to travel far to get their food.
-        </p>
-    </span>
+        Emperor penguins ...
 
 --- /code ---
 
@@ -156,8 +175,8 @@ Add `grid-row-end ` to `.penguins` and set it to `3`.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 163
+line_highlights: 165-166
 ---
 
 .penguins {
@@ -168,13 +187,13 @@ line_highlights:
 
 --- /code ---
 
-**TODO** Check line numbering
+The `grid-row-start` property is the **first** row the element will display in. 
+
+`grid-row-end` is the row where the element ends - the image will **not** display on this row. It is **1** more than you think it will be.
 
 **Click the Run button** to see your changes.
 
 --- /task ---
-
-**TODO** Add collapse about setting the row here
 
 --- task ---
 
@@ -187,8 +206,8 @@ Add `grid-column-end ` to `.orcas` and set it to `3`.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 177
+line_highlights: 179-180
 ---
 
 .orcas {
@@ -198,8 +217,6 @@ line_highlights:
 }
 
 --- /code ---
-
-**TODO** Check line numbering
 
 **Click the Run button** to see your changes.
 
@@ -218,15 +235,13 @@ Change the `h1` text.
 language: html
 filename: wildlife.html
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 22
+line_highlights: 23
 ---
     <section>
       <h1>Hover on the cards below to learn about the climate in Antarctica</h1>
     
 --- /code ---
-
-**TODO** Check line numbering
 
 **Click the Run button** to see your changes.
 
@@ -247,204 +262,38 @@ Add the `fact` class attribute to each paragraph.
 language: html
 filename: climate.html
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 25
+line_highlights: 26, 27, 28, 32, 33, 37, 38, 42, 43
 ---
+  <section>
     <div class="fact-holder">
       <span class="fact-card temperature">
         <p class="fact">
-          Antarctica is the coldest continent on Earth. The average temperature in the interior throughout the year is about -57°C, with the minimum temperature being -90°C during the winter season. Although the coast is warmer and temperatures can reach a maximum of between -2°C and 8°C during the summer. It is, on average, the coldest, windiest, and driest of all the continents on Earth.
+          Antarctica is the coldest continent on Earth. The average temperature in the interior is -57°C, during winter it can reach -90°C. The coast is warmer and temperatures can reach a maximum of 8°C during the summer.
         </p>
       </span>
       <span class="fact-card sunburn">
         <p class="fact">
-          Strangely enough, one can suffer serious sunburn whilst there as the snow acts as a reflector which reflects nearly all the ultraviolet rays, so although you may not feel the heat, you still need to make sure to keep your skin safe from the rays.
+          It is possible to get sunburn on Antarctica, the snow reflects nearly all the ultraviolet rays. You may not feel the heat, but you still need to keep your skin safe from the rays.
         </p>
       </span>
       <span class="fact-card ice">
         <p class="fact">
-          This ice sheet is, on average, 1.6 km thick and covers about 98% of the entire continent; this is nearly 90% of the entire world’s ice, so it’s no wonder the Antarctic climate is so cold!
+          This ice sheet is, on average, 1.6 km thick and covers about 98% of the entire continent. This ice sheet is nearly 90% of the entire world’s ice, so it’s no wonder the Antarctic climate is so cold!
         </p>
       </span>
       <span class="fact-card rainfall">
         <p class="fact">
-          Technically, Antarctica is a desert because it is so dry there; with an average annual precipitation of just 166mm along the coastal regions, and even less when moving further inland. With such cold conditions the snow hardly ever melts; instead, it will mostly become compressed over time to form part of the ice sheet. This is known as an ice cap climate (classified as a continent where the average monthly temperature never exceeds 0°C).
+          Technically, Antarctica is a desert because it is so dry there. The average annual precipitation on the coast is just 166mm. With such cold conditions the snow hardly ever melts; instead, it will mostly become compressed over time to form part of the ice sheet.
         </p>
       </span>
     </div>
+  </section>
     
 --- /code ---
 
-**TODO** Check line numbering
-
 **Click the Run button** to see your changes.
 
 --- /task ---
-
-You can also assign names to different areas of your grid to make placing items easier.
-
---- task ---
-
-Open `style.css`
-
-Add the `fact-holder-climate` selector to the `style.css` file.
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 
-line_highlights: 
----
-
-.fact-holder-climate {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: 
-    "top top"
-    "right left"
-    "bottom bottom";
-  height: 70vh;
-}
-
---- /code ---
-
-**TODO** Check line numbering
-
-**TODO** Add collapse about template areas.
-
---- /task ---
-
---- task ---
-
-Open `climate.html`.
-
-Change the class attribute on the `<div>` to your new `fact-holder-climate` class.
-
---- code ---
----
-language: html
-filename: climate.html
-line_numbers: true
-line_number_start: 
-line_highlights: 
----
-    <div class="fact-holder-climate">
-      <span class="fact-card temperature">
-        <p class="fact">
-          Antarctica is the coldest continent on Earth. The average temperature in the interior throughout the year is about -57°C, with the minimum temperature being -90°C during the winter season. Although the coast is warmer and temperatures can reach a maximum of between -2°C and 8°C during the summer. It is, on average, the coldest, windiest, and driest of all the continents on Earth.
-        </p>
-      </span>
-    
---- /code ---
-
-**TODO** Check line numbering
-
-**Click the Run button** to see your changes.
-
---- /task ---
-
-**TODO** Debug steps
-
-You can place specific facts into the labelled grid areas with CSS.
-
---- task ---
-
-Open `style.css`.
-
-Add the `grid-area` property to the `.temperature` selector and set it to `top`.
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 
-line_highlights: 
----
-
-.temperature {
-  background-image: url('snow.jpg');
-  grid-area: top;
-}
-
---- /code ---
-
-**Debug step:** Make sure that `top` **is not** between `"` marks.
-
---- /task ---
-
---- task ---
-
-Add the `grid-area` property to the `.sunburn` selector and set it to `left`.
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 
-line_highlights: 
----
-
-.sunburn {
-  background-image: url('sun.jpg');
-  grid-area: left;
-}
-
---- /code ---
-
---- /task ---
-
---- task ---
-
-Add the `grid-area` property to the `.ice` selector and set it to `right`.
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 
-line_highlights: 
----
-
-.ice {
-  background-image: url('ice.jpg');
-  grid-area: right;
-}
-
---- /code ---
-
---- /task ---
-
---- task ---
-
-Add the `grid-area` property to the `.rainfall` selector and set it to `bottom`.
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 
-line_highlights: 
----
-
-.rainfall {
-  background-image: url('rain.jpg');
-  grid-area: bottom;
-}
-
---- /code ---
-
-**TODO** Check line numbering
-
-**Click the Run button** to see your changes.
-
---- /task ---
-
-**TODO** Debug steps
 
 Next you will make your content smart. No matter if the page is big or small, or if someone is using a different device, it will always look amazing.
