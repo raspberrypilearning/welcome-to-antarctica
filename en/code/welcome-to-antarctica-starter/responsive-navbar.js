@@ -6,7 +6,7 @@ const hamburgerEvent = (navigation, close, open) => {
     if (navigation == "none"){
         navigationItems.style.removeProperty("display");
     } else {
-        navigationItems.style.display = navigation;navigationItems.style.display = navigation;
+        navigationItems.style.display = navigation;
     }
     closeHam.style.display = close;
     openHam.style.display = open;
