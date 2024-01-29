@@ -87,8 +87,8 @@ In <span style="color: #0faeb0">**HTML**</span> the `<a>` tag is used to create 
 <br>
 * You put the link text that appears on the webpage inside `<a>` and `</a>` 
 <br>
-* The `href` attribute provides the web address (usually beginning with 'https://') of the page you want to link to <br>
-* You can also add `target="_blank"` to make the linked webpage open in a new tab in the web browser, instead of the new page replacing the current webpage.
+* These links can be used to send users to another page in the same site, the `href` attribute provides the name of the page that the link leads to.</br>
+* For external pages the `href` attribute provides the web address (usually beginning with 'https://') of the page you want to link to.
 </p>
 
 --- task ---
