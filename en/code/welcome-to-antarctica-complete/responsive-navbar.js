@@ -2,7 +2,7 @@ let openHam = document.querySelector('#openHam');
 let closeHam = document.querySelector('#closeHam');
 let navigationItems = document.querySelector('.nav-items');
 
-function hamburgerEvent = (navigation, close, open) => {
+const hamburgerEvent = (navigation, close, open) => { 
     if (navigation == "none"){
         navigationItems.style.removeProperty("display");
     } else {
