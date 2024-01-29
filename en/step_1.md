@@ -12,8 +12,8 @@ You will:
 + Create a website that uses a navigation bar
 + Set accessible colours and fonts
 + Add some 'hero' images
-+ Use a grid layout (50%) **TODO**- Why does this say 50%?
-+ Change the style of the grid (fr / areas:top/right/etc) **TODO** - Mac to remove
++ Use a grid layout
++ Place items in a grid
 + Make elements responsive
 
 
