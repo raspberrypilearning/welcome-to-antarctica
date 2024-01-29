@@ -6,7 +6,9 @@ legend: Question 2 of 3
 
 You used CSS properties in your project to specify the position of your content using a grid layout.
 
-Which lines of code below help you specify the position of an element in a grid layout?
+Look at the css styling for the orcas selector. 
+
+Which columns will the orca image span?
 
 --- code ---
 ---
@@ -27,27 +29,27 @@ line_highlights:
 
 --- choices ---
 
-- ( ) 1
+- (x) 1 and 2
 
   --- feedback ---
 
-Not quite. The second line sets the background URL image for the Orcas content.
+  Correct! `grid-column-start` sets which column to start the display of the image (the image will start in the first column) and the value of `grid-column-end` sets which column to end the display of the image (the image will not be displayed in the third column).
 
   --- /feedback ---
   
-- ( ) 2
+- ( ) 2 and 3
 
   --- feedback ---
 
-Take another look. The first line creates the `.orcas` selector but does not specify the position.
+  Take another look. `grid-column-start` sets which column to start the display of the image and the value of `grid-column-end` sets the column from which the image will **not** be displayed.
  
   --- /feedback ---
 
-- (x) 3 and 4
+- ( ) 1, 2 and 3
 
   --- feedback ---
 
-  Correct! The third line and fourth line use the `grid-column` properties which allow you specify the position of an element within a grid
+  Almost! The orcas image will start in the first column, but the value of `grid-column-end` sets which column to end the display of the image.
 
   --- /feedback ---
 

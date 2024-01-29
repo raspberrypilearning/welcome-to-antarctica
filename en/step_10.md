@@ -1,6 +1,6 @@
 ## What next?
 
-If you are following the [More web](https://projects.raspberrypi.org/en/pathways/more-web) path, you can move on to the [Personalise me](https://projects.raspberrypi.org/en/projects/personalise-me) project. In this project, make a... **TODO** 
+If you are following the [More Web](https://projects.raspberrypi.org/en/pathways/more-web) path, you can move on to the [Personalise me](https://projects.raspberrypi.org/en/projects/personalise-me) project. In this project, make a... **TODO** 
 
 --- print-only ---
 

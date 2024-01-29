@@ -1,11 +1,13 @@
 ## Create a navbar
 
 In this step, you will create a navbar to link the pages on the website. This will allow users to navigate from one page to another.
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-Antarctica-step2" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step2" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+
+**Tip:** You can use the browser back button (←) to return to the homepage if you click the links.
 
 --- task ---
 
-Open the [Welcome to Antarctica starter project](https://staging-editor.raspberrypi.org/en/projects/welcome-to-Antarctica-starter){:target="_blank"}.
+Open the [Welcome to Antarctica starter project](https://staging-editor.raspberrypi.org/en/projects/welcome-to-antarctica-starter){:target="_blank"}.
 
 --- /task ---
 
@@ -15,6 +17,13 @@ Your starter project contains:
 + the images you will use in the project
 + a JavaScript file to make the navbar respond when the page size changes.
 
+--- task ---
+
+Have a look at the starter project, make sure you have all the files listed above. 
+
+Are there any HTML elements you recognise?
+
+--- /task ---
 
 ### Add the HTML to show the navbar
 
@@ -33,7 +42,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 10
-line_highlights: 11-13
+line_highlights: 11, 13
 ---
 
     <header>
@@ -46,13 +55,40 @@ line_highlights: 11-13
 
 --- /task ---
 
+--- task ---
+
+You are going to use a `<div>` to contain the links to the other pages. 
+
+Inside the `<nav>` tags add a new `<div>`.
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 10
+line_highlights: 11, 13
+---
+
+    <header>
+      <nav>
+        <div>
+
+        </div>
+      </nav>
+    </header>
+
+--- /code ---
+
+--- /task ---
+
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 In <span style="color: #0faeb0">**HTML**</span> the `<a>` tag is used to create links: 
 <br>
 * You put the link text that appears on the webpage inside `<a>` and `</a>` 
 <br>
-* The `href` attribute provides the web address (usually beginning with 'https://') of the page you want to link to <br>
-* You can also add `target="_blank"` to make the linked webpage open in a new tab in the web browser, instead of the new page replacing the current webpage.
+* These links can be used to send users to another page in the same site, the `href` attribute provides the name of the page that the link leads to.</br>
+* For external pages the `href` attribute provides the web address (usually beginning with 'https://') of the page you want to link to.
 </p>
 
 --- task ---
@@ -65,14 +101,16 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 10
-line_highlights: 12-14
+line_highlights: 13-15
 ---
 
     <header>
       <nav>
-        <a href="index.html">Home</a>
-        <a href="wildlife.html">Wildlife</a>
-        <a href="climate.html">Climate</a>
+        <div>
+          <a href="index.html">Home</a>
+          <a href="wildlife.html">Wildlife</a>
+          <a href="climate.html">Climate</a>
+        </div>
       </nav>
     </header>
 
@@ -82,7 +120,9 @@ line_highlights: 12-14
 
 ## Save your project
 
-Your project is saved automatically. Return to the starter link in the same web browser to see your changes. 
+Your project is saved automatically. Return to the starter link in the same web browser to see your changes.
+
+--- task ---
 
 **Test:** Click the **Run** button to see the changes you have made. The navigation links will appear at the top.
 
@@ -90,6 +130,6 @@ Click a link to navigate to the Wildlife or Climate page.
 
 Notice that the navbar does not appear on the Wildlife or Climate page.
 
-**TODO**
+--- /task ---
 
 Next you are going to add the navbar to the other pages and then style your pages to make them look even better!

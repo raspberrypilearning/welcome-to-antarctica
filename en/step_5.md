@@ -2,7 +2,7 @@
 
 Make your webpages awesome by arranging things with grids and adding fun movements with animations!
 
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-Antarctica-step5" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step5" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 ### Add a grid
 
@@ -10,11 +10,27 @@ The navbar looks great, but the paragraphs of text need some work.
 
 You can organise the text content using a grid layout.
 
-**TODO** Add collapse to talk about flex etc used before
+--- collapse ---
+
+---
+title: Using the display property to change layouts
+---
+
+One of the most important decisions when styling a webpage is how to layout the elements on the page. 
+
+To change the way elements are arranged you can use the CSS `display` property. 
+
+There are a few options available for layouts:
++ `inline` - the default, height and width are determined by the contents.
++ `block` - the element will start on a new line and take up the whole width.
++ `flex` - makes changing layout and alignment easier.
++ `grid` - creates a table layout with rows and columns so elements can be precisely placed.
+
+--- /collapse ---
 
 --- task ---
 
-Open `index.html`
+Open `index.html`.
 
 Add a `fact-holder` class attribute to the `<div>` that includes the four paragraphs of text.
 
@@ -23,13 +39,14 @@ Add a `fact-holder` class attribute to the `<div>` that includes the four paragr
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 26
+line_number_start: 25
 line_highlights: 26
 ---
+  <section>
     <div class="fact-holder">
       <span>
         <p>
-          You probably know it’s the coldest continent on the planet, but did you know Antarctica is also the driest? On average, the 7th Continent sees just 200 mm (8 in) of precipitation a year, the majority of it along the coast.
+          Antarctica is the coldest continent, but it is also the driest! On average there just 200 mm (8 in) of precipitation a year, the majority of it along the coast.
         </p>
       </span>
 
@@ -44,13 +61,13 @@ line_highlights: 26
 
 At the moment, the paragraphs are taking up different amounts of space.
 
-**TODO** Add image to show 75% and 25% on rows and columns
+![The index.html page after the grid has been added. A arrow stretches all the way across and is labelled 100%. Underneath an arrow spans the width of the first paragraph and is labelled 75%, next to it another arrow spans the width of the second paragraph and is labelled 25%.](images/grid-sizes.png)
 
-You can change the widths of the paragraphs to make them even.
+You can change the widths of the grid columns to make them even.
 
 --- task ---
 
-Open `style.css`
+Open `style.css`.
 
 Alter the heights of the two grid rows and the widths of the two grid columns to 50%.
 
@@ -59,20 +76,18 @@ Alter the heights of the two grid rows and the widths of the two grid columns to
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 53
-line_highlights: 56-57
+line_number_start: 95
+line_highlights: 96-101
 ---
-
+/* Fact holder - homepage */
 .fact-holder {
   display: grid;
-  height: 50vh; /* 50% of the visible area of the page */
+  height: 50vh;
   grid-template-rows: 50% 50%;
   grid-template-columns: 50% 50%;
 }
 
 --- /code ---
-
-**TODO** Add collapse about vh
 
 **Click the Run button** to see your changes.
 
@@ -105,22 +120,22 @@ line_highlights: 27, 32, 37, 42
     <div class="fact-holder">
       <span class="fact-card sun">
         <p>
-          You probably know it’s the coldest continent on the planet, but did you know Antarctica is also the driest? On average, the 7th Continent sees just 200 mm (8 in) of precipitation a year, the majority of it along the coast.
+          Antarctica is the coldest continent, but it is also the driest! On average there just 200 mm (8 in) of precipitation a year, the majority of it along the coast.
         </p>
       </span>
       <span class="fact-card discovery">
         <p>
-          The southernmost continent is thought to have been discovered relatively late in human history, in 1820 by the Russian expedition of Fabian Gottlieb von Bellingshausen and Mikhail Lazarev.
+          The continent is thought to have been discovered relatively late in human history, in 1820 by the Russian expedition of Fabian Gottlieb von Bellingshausen and Mikhail Lazarev.
         </p>
       </span>
       <span class="fact-card explorers">
         <p>
-          One of the more controversial Antarctic facts among historians is who first set foot on the continent. Many believe it was sealer John Davis in February, 1821. However, the first documented and confirmed landing was by a whaling and sealing Antarctic expedition in January, 1895. A crew led by Norwegian Leonard Kristensen landed a small boat with six men aboard from their ship - aptly named Antarctic - at Cape Adare.
+          Who first set foot on the continent? The first documented and confirmed landing was a crew led by Norwegian Leonard Kristensen at Cape Adare.
         </p>
       </span>
       <span class="fact-card ownership">
         <p>
-          Antarctica is governed by the Antarctic Treaty system, which suspends all territorial claims. First signed by 12 nations in 1959, the Treaty now has 53 supporting nations, 29 of which are considered “Consultative Parties” and are actively involved in decision-making.
+          Antarctica is governed by the Antarctic Treaty. The Treaty now has 53 supporting nations, 29 of which are considered “Consultative Parties” and are actively involved in decision-making.
         </p>
       </span>
 
@@ -141,10 +156,10 @@ Add the `fact-card` selector to the `style.css` file.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 109
+line_highlights: 110-115
 ---
-
+/* Fact card */ 
 .fact-card {
   width: 100%;
   display: flex;
@@ -154,8 +169,6 @@ line_highlights:
 
 --- /code ---
 
-**TODO** Check line numbering
-
 **Click the Run button** to see your changes.
 
 --- /task ---
@@ -164,9 +177,15 @@ line_highlights:
 
 **Debug step:** Leave a space between each class.
 
+### Style the facts
+
+With the images in place the text is hard to read. This means your website is not as **accessible** as it could be.
+
+Next you are going to change the colour of the text and add a transparent background.
+
 --- task ---
 
-Open `index.html`
+Open `index.html`.
 
 Add the `fact` class attribute to each paragraph.
 
@@ -181,22 +200,22 @@ line_highlights: 28, 33, 38, 43
     <div class="fact-holder">
       <span class="fact-card sun">
         <p class="fact">
-          You probably know it’s the coldest continent on the planet, but did you know Antarctica is also the driest? On average, the 7th Continent sees just 200 mm (8 in) of precipitation a year, the majority of it along the coast.
+          Antarctica is the coldest continent, but it is also the driest! On average there just 200 mm (8 in) of precipitation a year, the majority of it along the coast.
         </p>
       </span>
       <span class="fact-card discovery">
         <p class="fact">
-          The southernmost continent is thought to have been discovered relatively late in human history, in 1820 by the Russian expedition of Fabian Gottlieb von Bellingshausen and Mikhail Lazarev.
+          The continent is thought to have been discovered relatively late in human history, in 1820 by the Russian expedition of Fabian Gottlieb von Bellingshausen and Mikhail Lazarev.
         </p>
       </span>
       <span class="fact-card explorers">
         <p class="fact">
-          One of the more controversial Antarctic facts among historians is who first set foot on the continent. Many believe it was sealer John Davis in February, 1821. However, the first documented and confirmed landing was by a whaling and sealing Antarctic expedition in January, 1895. A crew led by Norwegian Leonard Kristensen landed a small boat with six men aboard from their ship - aptly named Antarctic - at Cape Adare.
+          Who first set foot on the continent? The first documented and confirmed landing was a crew led by Norwegian Leonard Kristensen at Cape Adare.
         </p>
       </span>
       <span class="fact-card ownership">
         <p class="fact">
-          Antarctica is governed by the Antarctic Treaty system, which suspends all territorial claims. First signed by 12 nations in 1959, the Treaty now has 53 supporting nations, 29 of which are considered “Consultative Parties” and are actively involved in decision-making.
+          Antarctica is governed by the Antarctic Treaty. The Treaty now has 53 supporting nations, 29 of which are considered “Consultative Parties” and are actively involved in decision-making.
         </p>
       </span>
 
@@ -208,7 +227,7 @@ line_highlights: 28, 33, 38, 43
 
 ### Add animations on hover
 
-Rather than just showing the fact cards, add some interaction to your page!
+Rather than just showing the fact text, add some interaction to your page!
 
 Make the facts invisible.
 
@@ -223,8 +242,8 @@ Set the `opacity` property of `.fact` to `0`.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 114
+line_highlights: 124
 ---
 
 .fact {
@@ -242,8 +261,6 @@ line_highlights:
 
 --- /code ---
 
-**TODO** Check line numbering
-
 --- /task ---
 
 Make the facts visible again when the user hovers over it.
@@ -257,19 +274,16 @@ Add a new selector `.fact:hover`
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 128
+line_highlights: 129-131
 ---
 
+/* Fact hover */
 .fact:hover {
   opacity: 1;
 }
 
 --- /code ---
-
-**TODO** Check line numbering
-
-**TODO** Add collapse to explain the colon syntax in `.fact:hover`
 
 **Click the Run button** to see your changes.
 
@@ -286,8 +300,8 @@ Add a `transition` property to `.fact`.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 114
+line_highlights: 125
 ---
 
 .fact {
@@ -305,8 +319,6 @@ line_highlights:
 }
 
 --- /code ---
-
-**TODO** Check line numbering
 
 **Click the Run button** to see your changes.
 

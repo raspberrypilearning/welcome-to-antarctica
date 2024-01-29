@@ -1,7 +1,7 @@
 ## Style a navbar
 
 In this step, you will style the navbar you created and add it to the other pages.
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-Antarctica-step3" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step3" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 --- collapse ---
 
@@ -9,7 +9,7 @@ In this step, you will style the navbar you created and add it to the other page
 title: How do I style my navbar?
 ---
 
-If you want to apply styling to specific HTML elements, you can create a class in a CSS file. You can then add a class= attribute to an element in your HTML code to let the browser know what styling should be applied.
+If you want to apply styling to specific HTML elements, you can create a class in a CSS file. You can then add a `class` attribute to an element in your HTML code to let the browser know what styling should be applied.
 
 You can also style elements (like `<header>` or `<nav>`) directly.
 
@@ -28,15 +28,16 @@ Add a background colour property.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 38
+line_number_start: 36
 line_highlights: 45
 ---
+/* Nav bar */
 nav {
   padding: 0 15px;
   height: 60px;
+  font-size: 22px;
   display: flex;
   justify-content: center;
-  align-content: center;
   align-items: center;
   background-color: #33658A;
 }
@@ -52,6 +53,8 @@ nav {
 As well as styling the whole navbar, you can style individual links.
 
 --- task ---
+
+Open `index.html`.
 
 Add a `nav-items` class attribute to the `<div>` containing the navbar links. 
 
@@ -78,7 +81,13 @@ line_highlights: 12
 
 --- /task ---
 
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Styling HTML elements with <span style="color: #0faeb0">**CSS**</span> requires you to specify what styling should apply to which elements. To do this you use **selectors**. You can select tags like `nav` or you can be more specific by selecting classes by adding a `.` before the class name - like `.nav-items`.
+</p>
+
 --- task ---
+
+Open `style.css`.
 
 Create a selector for the `nav-items` class to space out the links.
 
@@ -87,8 +96,10 @@ Create a selector for the `nav-items` class to space out the links.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 48
+line_number_start: 49
+line_highlights: 50-53
 ---
+/* Nav items */
 .nav-items {
   display: flex;
   gap: 100px;
@@ -111,17 +122,31 @@ Create another selector to style each `<a>` tag in the `nav-items` div.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 53
+line_number_start: 55
+line_highlights: 56-60
 ---
+/* Nav bar links */
 .nav-items > a {
   color: #55DDE0;
   text-decoration: none;
-  font-weight: 500;
-  font-size: 22px;
   transition: .4s ease-in-out;
 }
 
 --- /code ---
+
+--- collapse ---
+
+---
+title: Selecting elements within a class
+---
+
+Sometimes you will want to style particular elements within a **container** that has a class. To do this you use the `>` operator.
+
+The example you just used styles all `<a>` elements within a container that has the `nav-items` class. 
+
+This allows you to style certain links without affecting all the links on your page. It saves you having to give a class to each individual link.
+
+--- /collapse ---
 
 **Click the Run button** to see your changes.
 
@@ -136,21 +161,39 @@ Add a selector to style each link when you hover over it.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 61
+line_number_start: 62
+line_highlights: 63-65
 ---
+/* Nav links hover */
 .nav-items > a:hover {
   color: white;
 }
 
 --- /code ---
 
+--- collapse ---
+
+---
+title: Adding interaction styling to an element
+---
+
+When writing CSS you might want to change the styling on an element when the user interacts with it. 
+
+In the example above, you are changing the styling of the `a` elements, but only when a user **hovers** over them with their mouse. The syntax for this is `a:hover`. 
+
+The style in this selector will **only** be used when a user's mouse is on top of the element.
+
+--- /collapse ---
+
 **Click the Run button** to see your changes.
 
 --- /task ---
 
+### Creating an active link
+
 The index.html page will be loaded first.
 
-When that page is open, there is no need for its link to be clickable.
+When that page is open, the link should stay white and not be clickable.
 
 --- task ---
 
@@ -161,8 +204,10 @@ Add a new `active` CSS class for the link to the page that is currently open.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 65
+line_number_start: 67
+line_highlights: 68-71
 ---
+/* Nav links active */
 .nav-items .active {
   color: white;
   pointer-events: none;
@@ -171,6 +216,8 @@ line_number_start: 65
 --- /code ---
 
 --- /task ---
+
+Open `index.html`.
 
 Add the `active` class attribute to the index.html `<a>` tag.
 
@@ -186,8 +233,8 @@ line_highlights: 13
 ---
 
     <header>
-      <nav class="navigation-header">
-        <div class="navigation-items">
+      <nav>
+        <div class="nav-items">
           <a href="index.html" class="active">Home</a>
           <a href="wildlife.html">Wildlife</a>
           <a href="climate.html">Climate</a>
@@ -215,9 +262,11 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 1
+line_highlights: 2
 ---
 
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap')
+/* Import a font */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 --- /code ---
 
@@ -232,10 +281,17 @@ Add the font property inside the body selector.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 3
-line_highlights: 6
+line_number_start: 4
+line_highlights: 14
 ---
 body {
+  background-color: #ECE8EF;
+  color: #000500;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh; /* Make the content fill the page so the footer is at the bottom */
   display: flex;
   flex-direction: column;
   font-family: 'Orbitron', sans-serif;

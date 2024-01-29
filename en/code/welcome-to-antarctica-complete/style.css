@@ -1,279 +1,260 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+/* Import a font */
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 
 body {
-    background-color: #ECE8EF;
-    color: #000500;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    width: 100%;
-    min-height: 100vh; /* Make the content fill the page so the footer is at the bottom */
-    display: flex;
-    flex-direction: column;
-    font-family: 'Orbitron', sans-serif;
+  background-color: #ece8ef;
+  color: #000500;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh; /* Make the content fill the page so the footer is at the bottom */
+  display: flex;
+  flex-direction: column;
+  font-family: "Orbitron", sans-serif;
 }
 
 main {
-    height: 100%;
-    justify-content: center;
-    margin: 0 auto; /* Center if the browser is really wide */
-    min-width: 25rem; /* Don't let the content get too narrow */
-    max-width: 70rem; /*  Don't let the content get too wide */
-    padding: 0;
+  height: 100%;
+  justify-content: center;
+  margin: 0 auto; /* Center if the browser is really wide */
+  min-width: 25rem; /* Don't let the content get too narrow */
+  max-width: 70rem; /*  Don't let the content get too wide */
+  padding: 0;
 }
 
 section {
-    width: 95%;
-    text-align: center;
-    padding: 2.5% 2.5%;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
+  width: 95%;
+  text-align: center;
+  padding: 2.5% 2.5%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 h1 {
-    width: 100%;
+  width: 100%;
 }
 
 /* Nav bar */
-
 nav {
-    padding: 0 15px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    background-color: #33658A;
+  padding: 0 15px;
+  height: 60px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #33658a;
 }
 
+/* Nav items */
 .nav-items {
-    display: flex;
-    gap: 100px;
+  display: flex;
+  gap: 100px;
 }
 
+/* Nav bar links */
 .nav-items > a {
-    color: #55DDE0;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 22px;
-    transition: .4s ease-in-out;
+  color: #55dde0;
+  text-decoration: none;
+  transition: 0.4s ease-in-out;
 }
 
+/* Nav links hover */
 .nav-items > a:hover {
-    color: white;
+  color: white;
 }
 
+/* Nav links active */
 .nav-items .active {
-    color: white;
-    pointer-events: none;
+  color: white;
+  pointer-events: none;
 }
 
+/* Hamburger menu */
 .hamburger {
-    display: none;
-    font-size: 20px;
-    font-weight: 800;
-    color: white;
-    margin-left: auto;
+  display: none;
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+  margin-left: auto;
 }
 
-/* Footer */ 
-
-.bottom {
-    width: 100%;
-    bottom: 0;
-    background-color: #33658A;
-    color: #55DDE0;
-    align-items: center;
-    font-size: 20px;
-    text-align: center;
-}
-
-/* Hero images */
-
+/* Hero image - homepage */
 .hero-image {
-    min-height: 50vh;
-    background-image: url('northern-lights.jpg'); 
-    background-size: cover;
-    background-position: center;
+  min-height: 50vh; /* 50% of the visible area of the page */
+  background-image: url("antarctic-northern-lights.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
+/* Hero image - wildlife */
 .wildlife {
-    background-image: url('penguins.jpg');
+  background-image: url("antarctic-penguins.jpg");
 }
 
+/* Hero image - climate */
 .climate {
-    background-image: url('daytime-antarctica.jpg');
+  background-image: url("antarctic-daytime.jpg");
 }
 
-/* Fact holders */
-
+/* Fact holder - homepage */
 .fact-holder {
-    display: grid;
-    height: 50vh; /* 50% of the visible area of the page */
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 50% 50%;
+  display: grid;
+  height: 50vh; /* 50% of the visible area of the page */
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
 }
 
+/* Fact holder - wildlife */
 .fact-holder-wildlife {
-    display: grid;
-    height: 70vh;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 2fr;
+  display: grid;
+  height: 70vh;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
 }
 
-.fact-holder-climate {
-    display: grid;
-    height: 70vh;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: 
-        "top top"
-        "left right"
-        "bottom bottom";
-}
-
-/* Fact cards */
-
+/* Fact card */
 .fact-card {
-    width: 100%;
-    display: flex;
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  display: flex;
+  background-size: cover;
+  background-position: center;
 }
 
 .fact {
-    font-size: 100%;
-    color:#ECE8EF;
-    background-color: #000500A5;
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    padding: 5px;
-    opacity: 0;
-    transition: .4s ease-in-out;
-    /* TODO Investigate padding */
+  font-size: 100%;
+  color: #ece8ef;
+  background-color: #000500a5;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 0 5px 0 5px;
+  opacity: 0;
+  transition: 0.4s ease-in-out;
 }
 
+/* Fact hover */
 .fact:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 /* Fact images */
 
 .sun {
-    background-image: url('antarctic-sun.jpg');
+  background-image: url("antarctic-sun.jpg");
 }
 
 .discovery {
-    background-image: url('aerial-antarctica.jpeg');
+  background-image: url("aerial-antarctica.jpeg");
 }
 
 .explorers {
-    background-image: url('explorers.jpg');
+  background-image: url("explorers.jpg");
 }
 
 .ownership {
-    background-image: url('world_flags.png');
+  background-image: url("world_flags.png");
+}
+
+.research {
+  background-image: url("research.jpg");
 }
 
 .penguins {
-    background-image: url('penguin-photo.jpg');
-    grid-row-start: 1;
-    grid-row-end: 3;
+  background-image: url("wildlife-emperor-penguin.jpg");
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
 .krill {
-    background-image: url('krill-photo.jpg');
+  background-image: url("wildlife-krill.jpg");
 }
 
 .seals {
-    background-image: url('seal-photo.jpg');
+  background-image: url("wildlife-seal.jpg");
 }
 
 .orcas {
-    background-image: url('orca-photo.jpg');
-    grid-column-start: 1;
-    grid-column-end: 3;
+  background-image: url("wildlife-orca.jpg");
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.minke-whale {
+  background-image: url("wildlife-minke-whale.jpg");
+}
+
+.albatross {
+  background-image: url("wildlife-albatross.jpg");
+}
+
+.gentoo-penguin {
+  background-image: url("wildlife-gentoo-penguin.jpg");
 }
 
 .temperature {
-    background-image: url('snow.jpg');
-    grid-area: top;
+  background-image: url("climate-snow.jpg");
 }
 
 .sunburn {
-    background-image: url('sun.jpg');
-    grid-area: left;
+  background-image: url("climate-sun.jpg");
 }
 
 .ice {
-    background-image: url('ice.jpg');
-    grid-area: right;
+  background-image: url("climate-ice.jpg");
 }
 
 .rainfall {
-    background-image: url('rain.jpg');
-    grid-area: bottom;
+  background-image: url("climate-rain.jpg");
 }
 
-@media screen and (max-width:768px) {
-    
-    .hamburger {
-        display: flex;
-        cursor: pointer;
-    }
-    
-    .hamburger #closeHam {
-        display: none;
-    }
+/* Media query */
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+  }
 
-    .nav-items {
-        display: none; /* TODO Investigate this being hidden */
-        flex-direction: column;
-        align-items: center;
-        position: absolute;
-        right: 0;
-        top: 58px;
-        background-color: #33658A;
-        width: 100%;
-        height: calc(100vh - 58px);
-        padding-top: 60px;
-        gap: 10vh;
-    }
+  .hamburger #closeHam {
+    display: none;
+  }
 
-    .fact-holder {
-        display: grid;
-        grid-template-rows: 25% 25% 25% 25%;
-        grid-template-columns: 100%;
-        height: 100vh;
-    }
-    
-    .fact-holder-wildlife {
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr;
-        height: 140vh;
-    }
+  .nav-items {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 58px;
+    background-color: #33658a;
+    width: 100%;
+    height: calc(100vh - 58px);
+    padding-top: 60px;
+    gap: 10vh;
+  }
 
-    .penguins {
-        grid-row-start: 1;
-        grid-row-end: 3;
-    }
+  .fact-holder {
+    height: 100vh;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 100%;
+  }
 
-    .orcas {
-        grid-column-start: 1;
-        grid-column-end: 2;
-    }
+  .fact-holder-wildlife {
+    height: 140vh;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
 
-    .fact-holder-climate {
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-areas: 
-            "top"
-            "left"
-            "right"
-            "bottom";
-        height: 140vh;
-    }
+  .penguins {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
 
+  .orcas {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
 }
