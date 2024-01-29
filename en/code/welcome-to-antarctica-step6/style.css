@@ -190,19 +190,19 @@ nav {
 }
 
 .temperature {
-  background-image: url("snow.jpg");
+  background-image: url("climate-snow.jpg");
 }
 
 .sunburn {
-  background-image: url("sun.jpg");
+  background-image: url("climate-sun.jpg");
 }
 
 .ice {
-  background-image: url("ice.jpg");
+  background-image: url("climate-ice.jpg");
 }
 
 .rainfall {
-  background-image: url("rain.jpg");
+  background-image: url("climate-rain.jpg");
 }
 
 /* Media query */
