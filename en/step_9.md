@@ -25,7 +25,7 @@ line_number_start:
 line_highlights: 
 ---
 
-<p>Of the 56 countries signed on the Antartic Treaty, 55 of them operate some sort of research station on the continent. The number of researchers active on Antartica is roughly 4,800 in the summer and 1,200 in the winter.</p>
+<p>Of the 56 countries signed on the Antarctic Treaty, 55 of them operate some sort of research station on the continent. The number of researchers active on Antartica is roughly 4,800 in the summer and 1,200 in the winter.</p>
 
 --- /code ---
 
@@ -33,11 +33,11 @@ You can use the class `research` to add a new background image to this fact!
 
 **Wildlife**
 
-There are three more pictures of antartic wildlife - choose one to add to your `wildlife.html` page. 
+There are three more pictures of Antarctic wildlife - choose one to add to your `wildlife.html` page. 
 
 You can use the classes...
 
-`albatross` - an image of the Antarctice Albatross.
+`albatross` - an image of the Antarctic Albatross.
 `minke-whale` - for the Antarctic Minke Whale.
 `gentoo-penguin` - for another penguin the Gentoo species.
 
