@@ -156,7 +156,7 @@ line_highlights: 26
 
 Now your wildlife grid has 3 rows that take up a third of the space each, and two columns that are 1/3 and 2/3 of the width.
 
-**TODO** Create image to highlight the point above 
+![The wildlife grid, each row is labelled with one third. At the bottom the first column is labelled one third, and the second column is labelled two thirds. Showing the size of the grid.](images/wildlife_grid_size.png)
 
 --- /task ---
 

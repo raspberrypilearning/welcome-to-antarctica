@@ -21,23 +21,19 @@ You will:
 --- task ---
 
 ### Try it
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
+
 Explore the Welcome to Antarctica Website. 
 
 + Click on the links on the navbar at the top to see the different pages.
 + Hover over the images.
 + Resize the pages to see how the layout responds by changing.
 
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-complete" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
-</div>
-</div>
-
-**TODO** Check the height of complete project and update height of embed.
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-complete" width="100%" height="900" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 --- /task ---
+
 --- /no-print ---
 
 --- print-only ---
-![Completed project](images/showcase_static.png) **TODO**
+![Completed project](images/showcase_static.png) 
 --- /print-only ---
