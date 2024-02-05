@@ -24,9 +24,8 @@ You will:
 
 Explore the Welcome to Antarctica Website. 
 
-+ Click on the links on the navbar at the top to see the different pages.
++ Click the hamburger icon (☰) to access the links to the different pages.
 + Hover over the images.
-+ Resize the pages to see how the layout responds by changing.
 
 <iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-complete" width="100%" height="900" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
