@@ -468,10 +468,6 @@ Open `wildlife.html`.
 
 Copy and paste the `<div>` class inside the `<nav>` tags. 
 
-Also remove the `active` class from the `<a>` tag linking to `index.html`.
-
-Add it to the `<a>` tag linking to `wildlife.html`
-
 --- code ---
 ---
 language: html
@@ -520,17 +516,13 @@ Click on the burger menu to see your navigation items appear, click the cross to
 
 --- /task ---
 
-You will now need to repeat the same steps for climate.html.
+You now need to add the hamburger `<div>` and JavaScript file to climate.html as well.
 
 --- task ---
 
 Open `climate.html`.
 
 Copy and paste the `<div>` class inside the `<nav>` tags. 
-
-Also remove the `active` class from the `<a>` tag linking to `climate.html`.
-
-Add it to the `<a>` tag linking to `climate.html`
 
 --- code ---
 ---
