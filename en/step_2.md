@@ -3,8 +3,6 @@
 In this step, you will create a navbar to link the pages on the website. This will allow users to navigate from one page to another.
 <iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step2" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
-**Tip:** You can use the browser back button (←) to return to the homepage if you click the links.
-
 --- task ---
 
 Open the [Welcome to Antarctica starter project](https://staging-editor.raspberrypi.org/en/projects/welcome-to-antarctica-starter){:target="_blank"}.
@@ -19,9 +17,9 @@ Your starter project contains:
 
 --- task ---
 
-Have a look at the starter project, make sure you have all the files listed above. 
+Have a look at the starter project. 
 
-Are there any HTML elements you recognise?
+Open `index.html` - are there any HTML elements you recognise?
 
 --- /task ---
 
@@ -67,7 +65,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 10
-line_highlights: 11, 13
+line_highlights: 12-14
 ---
 
     <header>
@@ -85,9 +83,9 @@ line_highlights: 11, 13
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 In <span style="color: #0faeb0">**HTML**</span> the `<a>` tag is used to create links: 
 <br>
-* You put the link text that appears on the webpage inside `<a>` and `</a>` 
+* You put the link text that appears on the web page inside `<a>` and `</a>` 
 <br>
-* These links can be used to send users to another page in the same site, the `href` attribute provides the name of the page that the link leads to.</br>
+* These links can be used to send users to another page in the same site, the `href` attribute provides the filename of the page that the link leads to.<br>
 * For external pages the `href` attribute provides the web address (usually beginning with 'https://') of the page you want to link to.
 </p>
 
@@ -124,11 +122,15 @@ Your project is saved automatically. Return to the starter link in the same web 
 
 --- task ---
 
-**Test:** Click the **Run** button to see the changes you have made. The navigation links will appear at the top.
+**Test:** Click the **Run** button to see the changes you have made.
 
-Click a link to navigate to the Wildlife or Climate page.
++ The navigation links will appear at the top.
 
-Notice that the navbar does not appear on the Wildlife or Climate page.
++ Click a link to navigate to the Wildlife or Climate page. 
+
++ Notice that the navbar does not appear on the Wildlife or Climate page.
+
+**Tip:** In the Editor you can use the browser back button (←) to return to the homepage if you click the links.
 
 --- /task ---
 

@@ -43,7 +43,7 @@ In `style.css` add a new selector for the `hero-image` class.
 
 Instead of adding an `<img>` element to the HTML, you can use the CSS `background-image` property to add your image. 
 
-The image should fill the `<div>` element (by setting the size to `cover`) and be centered.
+The image should fill the `<div>` element (by setting the `background-size` property to `cover`) and be centered.
 
 --- code ---
 ---
@@ -114,7 +114,9 @@ line_number_start: 11
 
 --- task ---
 
-Paste the contents into the `<header>` on `wildlife.html` and change which link has the active class.
+Open the `wildlife.html` file.
+
+Paste the contents into the `<header>` and change which link has the active class.
 
 --- code ---
 ---
@@ -122,7 +124,7 @@ language: html
 filename: wildlife.html
 line_numbers: true
 line_number_start: 10
-line_highlights: 14
+line_highlights: 13-14
 ---
     <header>
       <nav class="navigation-header">

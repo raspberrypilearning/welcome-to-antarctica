@@ -141,8 +141,10 @@ line_highlights: 215-217
 --- collapse ---
 
 ---
-title: Why have we chosen 768px?
+title: Why use a max width of 768px?
 ---
+
+768px is the typical width of a tablet screen and mobile phone screens are even narrower. Using this width you can make sure your content looks great on all mobile devices. 
 
 When the page width is more than 768px, the navbar displays the three page links at the top of the page.
 
@@ -324,7 +326,7 @@ line_highlights: 240-245
 
 --- /task ---
 
-On the `wildlife.html page`, there is a different fact holder grid layout. 
+On the `wildlife.html` page, there is a different fact holder grid layout. 
 
 That layout also needs to change when the screen width reduces. 
 
@@ -522,7 +524,7 @@ You will now need to repeat the same steps for climate.html.
 
 --- task ---
 
-OOpen `climate.html`.
+Open `climate.html`.
 
 Copy and paste the `<div>` class inside the `<nav>` tags. 
 

@@ -4,7 +4,7 @@ Use a new grid arrangement on the wildlife page to organise the fact cards in a 
 
 <iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step6" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
-### Change the title of the wildlife page
+### Change the heading of the wildlife page
 
 --- task ---
 
@@ -162,7 +162,7 @@ Now your wildlife grid has 3 rows that take up a third of the space each, and tw
 
 Grid layout will automatically position your items. You can also specify how you want items to be displayed.
 
-You will make it so the penguin fact stretches over two rows, and the orca fact takes up the whole last row.
+You will make it so the penguin fact stretches down over two rows, and the orca fact stretches across both columns in the last row.
 
 --- task ---
 
@@ -189,7 +189,7 @@ line_highlights: 165-166
 
 The `grid-row-start` property is the **first** row the element will display in. 
 
-`grid-row-end` is the row where the element ends - the image will **not** display on this row. It is **1** more than you think it will be.
+`grid-row-end` is the row where the element ends - the image will **not** display on this row.
 
 **Click the Run button** to see your changes.
 
@@ -222,7 +222,7 @@ line_highlights: 179-180
 
 --- /task ---
 
-### Change the title of the climate page
+### Change the heading of the climate page
 
 --- task ---
 
