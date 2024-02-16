@@ -30,19 +30,11 @@ line_highlights: 12
 
 --- /task ---
 
---- collapse ---
-
----
-title: Style a class or an element?
----
-
-If you want to apply styling to specific HTML elements, you can create a class in a CSS file. You can then add the `class` attribute to an element in your HTML code to let the browser know what styling should be applied.
-
-You can also style elements (like `<header>` or `<nav>`) directly.
-
---- /collapse ---
-
 ### Style the whole navbar
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Styling HTML elements with <span style="color: #0faeb0">**CSS**</span> requires you to specify what styling should apply to which elements. To do this you use **selectors**. You can select tags like `nav` or you can be more specific by selecting classes by adding a `.` before the class name - like `.nav-items`.
+</p>
 
 --- task ---
 
@@ -71,19 +63,25 @@ nav {
 
 --- /code ---
 
---- /task ---
-
 **Debug step:** Make sure that `color` is spelled without a 'u'.
 
 **Debug step:** Make sure there is a `;` at the end of the line.
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Styling HTML elements with <span style="color: #0faeb0">**CSS**</span> requires you to specify what styling should apply to which elements. To do this you use **selectors**. You can select tags like `nav` or you can be more specific by selecting classes by adding a `.` before the class name - like `.nav-items`.
-</p>
+--- /task ---
+
+--- collapse ---
+
+---
+title: Style a class or an element?
+---
+
+If you want to apply styling to specific HTML elements, you can create a class in a CSS file. You can then add the `class` attribute to an element in your HTML code to let the browser know what styling should be applied.
+
+You can also style elements (like `<header>` or `<nav>`) directly.
+
+--- /collapse ---
 
 --- task ---
-
-Open `style.css`.
 
 Create a selector for the `nav-items` class to space out the links.
 
@@ -107,7 +105,7 @@ line_highlights: 50-53
 
 --- /task ---
 
-### Style the link
+### Style the links
 
 As well as styling the whole navbar, you can style individual links.
 

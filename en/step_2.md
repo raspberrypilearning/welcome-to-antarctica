@@ -81,17 +81,12 @@ line_highlights: 12-14
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-In <span style="color: #0faeb0">**HTML**</span> the `<a>` tag is used to create links: 
-<br>
-* You put the link text that appears on the web page inside `<a>` and `</a>` 
-<br>
-* These links can be used to send users to another page in the same site, the `href` attribute provides the filename of the page that the link leads to.<br>
-* For external pages the `href` attribute provides the web address (usually beginning with 'https://') of the page you want to link to.
+In <span style="color: #0faeb0">**HTML**</span> the `<a>` tag is used to create links. You put the link text that appears on the web page inside `<a>` and `</a>`. These links can be used to send users to another page in the same site, the `href` attribute provides the filename of the page that the link leads to. For external pages the `href` attribute provides the web address (usually beginning with "https://") of the page you want to link to.
 </p>
 
 --- task ---
 
-Add <a> tags to create links to each page.
+Add `<a>` tags to create links to each page.
 
 --- code ---
 ---

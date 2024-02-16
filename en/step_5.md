@@ -179,7 +179,7 @@ The `style.css` file already has the selectors for `sun`, `discovery`, `explorer
 
 **Debug step:** In `index.html` - make sure there is a space between each class.
 
-### Style the facts
+### Make it more accessible
 
 With the images in place the text is hard to read. This means your website is not as **accessible** as it could be.
 
