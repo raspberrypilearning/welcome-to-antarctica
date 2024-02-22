@@ -77,7 +77,7 @@ language: css
 filename: style.css
 line_numbers: true
 line_number_start: 95
-line_highlights: 96-101
+line_highlights: 99-100
 ---
 /* Fact holder - homepage */
 .fact-holder {
@@ -143,13 +143,13 @@ line_highlights: 27, 32, 37, 42
 
 --- /task ---
 
-The `style.css` file already has the selectors for `sun`, `discovery`, `explorers` and `ownership`.
+**Debug:** Check all your opening brackets `<` have closing brackets `>`.
 
 --- task ---
 
 Open `style.css`
 
-Add the `fact-card` selector to the `style.css` file.
+Add the `fact-card` selector to the `style.css` file. This will make sure the background images are centered and cover the whole `<span>` element.
 
 --- code ---
 ---
@@ -169,15 +169,17 @@ line_highlights: 110-115
 
 --- /code ---
 
+The `style.css` file already has the selectors for `sun`, `discovery`, `explorers` and `ownership`.
+
 **Click the Run button** to see your changes.
 
 --- /task ---
 
-**Debug step:** Both class attributes should be between the same `"` marks.
+**Debug step:** In `index.html` - check both class attributes are between the same `"` marks.
 
-**Debug step:** Leave a space between each class.
+**Debug step:** In `index.html` - make sure there is a space between each class.
 
-### Style the facts
+### Make it more accessible
 
 With the images in place the text is hard to read. This means your website is not as **accessible** as it could be.
 

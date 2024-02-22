@@ -3,58 +3,7 @@
 In this step, you will style the navbar you created and add it to the other pages.
 <iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step3" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
---- collapse ---
-
----
-title: How do I style my navbar?
----
-
-If you want to apply styling to specific HTML elements, you can create a class in a CSS file. You can then add a `class` attribute to an element in your HTML code to let the browser know what styling should be applied.
-
-You can also style elements (like `<header>` or `<nav>`) directly.
-
---- /collapse ---
-
-### Style the whole navbar
-
 --- task ---
-
-Click on the `style.css` file and find the `nav` class.
-
-Add a background colour property.
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 36
-line_highlights: 45
----
-/* Nav bar */
-nav {
-  padding: 0 15px;
-  height: 60px;
-  font-size: 22px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #33658A;
-}
-
---- /code ---
-
---- /task ---
-
-**Debug step:** Make sure that `color` is spelled without a 'u'.
-
-**Debug step:** Make sure there is a `;` at the end of the line.
-
-As well as styling the whole navbar, you can style individual links.
-
---- task ---
-
-Open `index.html`.
 
 Add a `nav-items` class attribute to the `<div>` containing the navbar links. 
 
@@ -81,13 +30,58 @@ line_highlights: 12
 
 --- /task ---
 
+### Style the whole navbar
+
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Styling HTML elements with <span style="color: #0faeb0">**CSS**</span> requires you to specify what styling should apply to which elements. To do this you use **selectors**. You can select tags like `nav` or you can be more specific by selecting classes by adding a `.` before the class name - like `.nav-items`.
 </p>
 
 --- task ---
 
-Open `style.css`.
+Open the `style.css` file and find the `nav` element selector.
+
+Add a background colour property.
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 36
+line_highlights: 44
+---
+/* Nav bar */
+nav {
+  padding: 0 15px;
+  height: 60px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #33658A;
+}
+
+--- /code ---
+
+**Debug step:** Make sure that `color` is spelled without a 'u'.
+
+**Debug step:** Make sure there is a `;` at the end of the line.
+
+--- /task ---
+
+--- collapse ---
+
+---
+title: Style a class or an element?
+---
+
+If you want to apply styling to specific HTML elements, you can create a class in a CSS file. You can then add the `class` attribute to an element in your HTML code to let the browser know what styling should be applied.
+
+You can also style elements (like `<header>` or `<nav>`) directly.
+
+--- /collapse ---
+
+--- task ---
 
 Create a selector for the `nav-items` class to space out the links.
 
@@ -112,6 +106,8 @@ line_highlights: 50-53
 --- /task ---
 
 ### Style the links
+
+As well as styling the whole navbar, you can style individual links.
 
 --- task ---
 
@@ -274,7 +270,7 @@ line_highlights: 2
 
 --- task ---
 
-Add the font property inside the body selector.
+Add the `font-family` property inside the body selector and set it to the new `Orbitron` font you have imported.
 
 --- code ---
 ---

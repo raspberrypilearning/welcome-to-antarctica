@@ -5,39 +5,37 @@ In this project, you will use HTML, CSS and JavaScript to create a website that 
 As well as the homepage, the website will have pages about Antarctica's wildlife and climate. 
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**JavaScript**</span> is a programming language that is often used to add interactivity to websites. 
+<span style="color: #0faeb0">**JavaScript**</span> is a programming language that runs in your browser! As of 2024 it is the most popular programming language in the world!
 </p>
 
 You will:
-+ Create a website that uses a navigation bar
++ Create an awesome modern website
++ Build a navigation bar
 + Set accessible colours and fonts
 + Add some 'hero' images
-+ Use a grid layout (50%) **TODO**- Why does this say 50%?
-+ Change the style of the grid (fr / areas:top/right/etc) **TODO** - Mac to remove
++ Use a grid layout
++ Place items in a grid
 + Make elements responsive
 
-
 --- no-print ---
+
 --- task ---
 
 ### Try it
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
-Explore the Welcome to Antarctica Website. 
 
-+ Click on the links on the navbar at the top to see the different pages.
-+ Hover over the images.
-+ Resize the pages to see how the layout responds by changing.
+Explore the Welcome to Antarctica Website.
 
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-complete" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
-</div>
-</div>
+What happens when you...
++ Click the hamburger icon (☰)?
++ Hover over the images?
++ Use the links to access the different pages?
 
-**TODO** Check the height of complete project and update height of embed.
+<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-complete" width="100%" height="900" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 --- /task ---
+
 --- /no-print ---
 
 --- print-only ---
-![Completed project](images/showcase_static.png) **TODO**
+![Completed project](images/showcase_static.png) 
 --- /print-only ---

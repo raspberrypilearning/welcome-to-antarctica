@@ -43,7 +43,7 @@ In `style.css` add a new selector for the `hero-image` class.
 
 Instead of adding an `<img>` element to the HTML, you can use the CSS `background-image` property to add your image. 
 
-The image should fill the `<div>` element (by setting the size to `cover`) and be centered.
+The image should fill the `<div>` element (by setting the `background-size` property to `cover`) and be centered.
 
 --- code ---
 ---
@@ -72,9 +72,11 @@ title: Using vh and vw in CSS
 
 When setting the size of an element using CSS you might want the height or width to change depending on the size of the screen it is being viewed on. 
 
-The visible area of a webpage is called the **viewport** and this will be differ between devices, a phone screen is a very different size to a laptop's for example. 
+![A box with a dotted line, representing the whole webpage. A representation of a browser window shows only the middle section of the webpage, this is labelled viewport.](images/viewport.png)
 
-Is CSS you can use `vh` to set the size of elements relative to the **height** of the viewport. The number you put before it is the **percentage** of the height the element should take up. So `50vh` is **half** of 50% of the viewports height. 
+The visible area of a webpage is called the **viewport** and this will differ between devices: a phone screen is a very different size to a laptop's for example. 
+
+Is CSS you can use `vh` to set the size of elements relative to the **height** of the viewport. The number you put before it is the **percentage** of the viewport height the element should take up. So `50vh` is **half** the viewport's height. 
 
 `vw` works the same way for the **width** of the viewport.
 
@@ -114,7 +116,9 @@ line_number_start: 11
 
 --- task ---
 
-Paste the contents into the `<header>` on `wildlife.html` and change which link has the active class.
+Open the `wildlife.html` file.
+
+Paste the contents into the `<header>` and change which link has the active class.
 
 --- code ---
 ---
@@ -122,7 +126,7 @@ language: html
 filename: wildlife.html
 line_numbers: true
 line_number_start: 10
-line_highlights: 14
+line_highlights: 13-14
 ---
     <header>
       <nav class="navigation-header">
