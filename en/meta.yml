@@ -12,8 +12,10 @@ steps:
 - title: Style the navbar
 - title: Add hero images
 - title: Using grids and animations
+- title: Add hover animations
 - title: Different types of grids
-- title: Make it responsive
+- title: Responsive navbar
+- title: Responsive grids
 - title: Reflection
   knowledge_quiz:
     path: quiz1

@@ -1,152 +1,203 @@
-## Upgrade your project
+## Responsive grids
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+Making the grids responsive will make sure that anyone can learn about Antarctica, no matter what device they are viewing on.
 
-If you have time, you can add some more facts, adjust the grid layouts and change the hero images to make the page your own! 
-</div>
-<div>
-![](images/image.png){:width="300px"}
-</div>
-</div>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-complete" width="600" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
-### Add more facts
+### Make your grids responsive
 
---- collapse ---
+When the screen is small, the grids you made earlier are hard to read. 
 
----
-title: Add a new fact to the homepage
----
+Make the layout taller by changing it to use four rows and one column.
 
-Here is a fact about the research stations on Antartica that you can add to the home page. 
+--- task ---
 
---- code ---
----
-language: html
-filename: 
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-
-<p>Of the 56 countries signed on the Antarctic Treaty, 55 of them operate some sort of research station on the continent. The number of researchers active on Antartica is roughly 4,800 in the summer and 1,200 in the winter.</p>
-
---- /code ---
-
-You can use the class `research` to add a new background image to this fact!
-
---- code ---
----
-language: html
-filename: 
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-
-<span class="fact-card research">
-
-</span>
-
---- /code ---
-
---- /collapse ---
-
---- collapse ---
-
----
-title: Add some new animals to wildlife.html
----
-
-There are three more pictures of Antarctic wildlife - choose one to add to your `wildlife.html` page. 
-
-You can use the classes:
-+ `albatross` - an image of the Antarctic Albatross.
-+ `minke-whale` - for the Antarctic Minke Whale.
-+ `gentoo-penguin` - for another penguin the Gentoo species.
-
---- code ---
----
-language: html
-filename: 
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
-
-<span class="fact-card albatross">
-
-</span>
-
---- /code ---
-
-Research the animal online and add an interesting fact about them to your page!
-
---- /collapse ---
-
-### Adjust your grids
-
-You can also change the grids on your pages to adjust the way your facts are displayed. 
-
---- collapse ---
-
----
-title: Add extra columns and rows
----
-
-You can edit the the `fact-holder` and `fact-holder-wildlife` classes to add more rows or columns. 
+Add the `fact-holder` selector to the `@media` query.
 
 --- code ---
 ---
 language: css
-filename: 
-line_numbers: false
-line_number_start: 
-line_highlights: 
+filename: style.css
+line_numbers: true
+line_number_start: 215
+line_highlights: 240-245
 ---
+@media screen and (max-width:768px) {
+    
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .hamburger #closeHam {
+    display: none;
+  }   
+  
+  .nav-items {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 58px;
+    background-color: #33658A;
+    width: 100%;
+    height: calc(100vh - 58px);
+    padding-top: 60px;
+    gap: 10vh;
+  }  
 
-/* Fact holder - homepage */
-.fact-holder {
-  display: grid;
-  height: 70vh; /* 70% of the visible area of the page */
-  grid-template-rows: 33% 33% 33%;
-  grid-template-columns: 50% 50%;
+  .fact-holder {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 100%;
+  }
+  
 }
 
 --- /code ---
 
-You could also add `grid-row-start` and `grid-row-end` properties, or `grid-column-start` and `grid-colum-end` to the background image classes to place your items across rows and columns to customise your layouts. 
+**Click the Run button** to see your changes.
 
---- /collapse ---
+--- /task ---
 
-### Change your hero images
+On the `wildlife.html` page, there is a different fact holder grid layout. 
 
---- collapse ---
+That layout also needs to change when the screen width reduces. 
 
+You are going to make it taller and change it to five rows in one column.
+
+--- task ---
+
+Add the `fact-holder-wildlife` selector to the `@media` query.
+
+--- code ---
 ---
-title: Add different hero images
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 215
+line_highlights: 247-251
 ---
+@media screen and (max-width:768px) {
+    
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .hamburger #closeHam {
+    display: none;
+  }   
+  
+  .nav-items {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 58px;
+    background-color: #33658A;
+    width: 100%;
+    height: calc(100vh - 58px);
+    padding-top: 60px;
+    gap: 10vh;
+  }  
 
-In the starter projects there are multiple images you can use for your hero images.
+  .fact-holder {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 100%;
+  }
 
-Images you have not used yet are...
+  .fact-holder-wildlife {
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    height: 140vh;
+  }
+  
+}
 
-`antarctic-landscape.jpg`
-`antarctic-seasons.jpg`
-`antarctic-walk.jpg`
+--- /code ---
 
-You can change the image URL in the CSS classes for your hero images to make the site your own.
+--- /task ---
 
---- /collapse ---
+You can make the penguin image span two rows by changing its `grid-row-start` and `grid-row-end` properties.
 
-### See the upgraded project
+You also need to change the orca image to span the single column used in the `fact-holder-wildlife` layout (at the moment, it is styled to span two columns).
 
---- collapse ---
+--- task ---
 
+Add the `penguins` and `orcas` selectors to the `@media` query.
+
+--- code ---
 ---
-title: Upgraded project
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 215
+line_highlights: 253-256, 258-261
 ---
+@media screen and (max-width:768px) {
+    
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .hamburger #closeHam {
+    display: none;
+  }   
+  
+  .nav-items {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 58px;
+    background-color: #33658A;
+    width: 100%;
+    height: calc(100vh - 58px);
+    padding-top: 60px;
+    gap: 10vh;
+  }  
 
-You can view the [upgraded project here](https://editor.raspberrypi.org/en/projects/welcome-to-antartica-upgraded){:target="_blank"}.
+  .fact-holder {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 100%;
+  }
 
---- /collapse ---
+  .fact-holder-wildlife {
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    height: 140vh;
+  }
+
+  .penguins {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .orcas {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  
+}
+
+--- /code ---
+
+**Click the Run button** to see your changes.
+
+Resize the preview window to below 768px to see how each page responds.
+
+--- /task ---
+
+Fantastic work! You have now built a responsive website that lets people discover a place they may never get a chance to visit - Antarctica. 
+
+Next, you will reflect on your learning by completing a quiz.

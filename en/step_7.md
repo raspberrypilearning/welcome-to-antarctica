@@ -1,579 +1,299 @@
-## Make it responsive
+## Different types of grids
 
-Make your content smart! No matter if the page is big or small, or if someone is using a different device, it will always look amazing.
+Use a new grid arrangement on the wildlife page to organise the fact cards in a different way to keep things interesting!
 
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-complete" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step7" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Webpages can be viewed on many different devices and should be <span style="color: #0faeb0">**responsive**</span> to each device. This means that if a user views your page on a mobile phone, it should respond to a smaller screen and if they view it on a desktop PC, it should respond to a larger screen. 
-</p>
-
-### Make the navbar responsive
-
-On a smaller screen the links in the navbar might get too close together. 
-
-You are going to make the links disappear and be replaced with a **hamburger menu** (☰). 
+### Change the heading of the wildlife page
 
 --- task ---
 
-Open `index.html`.
+Open `wildlife.html`
 
-Inside the `<nav>` tags add a new `<div>` with the `class="hamburger"` attribute. 
-
-Add two `<span>` tags. One is for the 'hamburger' icon (☰) used to open the menu. The other is for a cross icon (✖) used to close the menu.
+Change the `h1` text.
 
 --- code ---
 ---
 language: html
-filename: index.html
+filename: wildlife.html
 line_numbers: true
-line_number_start: 11
-line_highlights: 17-20
+line_number_start: 
+line_highlights: 
 ---
-    <nav class="navigation-header">
-      <div class="nav-items">
-        <a class="active" href="index.html">Home</a>
-        <a href="wildlife.html">Wildlife</a>
-        <a href="climate.html">Climate</a>
-      </div>
-      <div class="hamburger">
-        <span id="openHam">&#9776;</span>
-        <span id="closeHam">&#x2716;</span>
-      </div>
-    </nav>
+    <section>
+      <h1>Hover on the cards below to learn about the animals in Antarctica</h1>
     
 --- /code ---
 
---- collapse ---
-
----
-title: Using ASCII codes for characters
----
-
-To make the hamburger menue and cross you have used an **ASCII** code, this is a way of adding special characters that don't feature on your keyboard. 
-
-You can find a full list of ASCII codes on [this website](https://www.ascii-code.com/).
-
---- /collapse ---
-
 **Click the Run button** to see your changes.
 
 --- /task ---
 
-You are using an `id` attribute on each `<span>` element. A unique `id` can be given to any element.
-
-The new icons should only be visible when the screen is small enough.
-
-When the page first loads you don't want the `<div>` to display.
+### Add a grid to the wildlife page
 
 --- task ---
 
-Open `style.css`.
+Add the `fact-holder` class attribute to the `<div>`.
 
-Add the `hamburger` selector to the `style.css` file.
+Add a `fact-card` and a background image class to each `<span>` element.
 
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 74
-line_highlights: 75-81
----
-
-/* Hamburger menu */
-.hamburger {
-  display: none;
-  font-size: 20px;
-  font-weight: 800;
-  color: white;
-  margin-left: auto;
-}
-
---- /code ---
-
-**Click the Run button** to see your changes.
-
---- /task ---
-
-### Create a media query
-
-You are going to use a **media query** to change the styling of elements based on the width of the screen. 
-
-We have set 768px as the screen width below which the media query will trigger.
-
---- collapse ---
-
----
-title: Using media queries
----
-
-A CSS media query can be used to check lots of things about the way a webpage is currently being displayed. 
-
-You can check attributes of the device showing the page, like the width or the height. For mobile devices you can check whether they are in landscape or portrait mode. 
-
-You can also use media queries to change the styling of a page when it is printed.
-
---- /collapse ---
-
---- task ---
-
-At the bottom of `style.css` add your media query.
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 214
-line_highlights: 215-217
----
-
-/* Media query */
-@media screen and (max-width:768px) {
-
-}
-
---- /code ---
-
---- /task ---
-
---- collapse ---
-
----
-title: Why use a max width of 768px?
----
-
-768px is the typical width of a tablet screen and mobile phone screens are even narrower. Using this width you can make sure your content looks great on all mobile devices. 
-
-When the page width is more than 768px, the navbar displays the three page links at the top of the page.
-
-When the page width is 768px or less, the navbar can be hidden and a 'hamburger' menu shown to save space.
-
---- /collapse ---
-
-Whent the hamburger menu icon is displayed, the cross will remain hidden.
-
-When the hamburger icon is clicked, the page links will be displayed and the close icon will be shown.
-
---- task ---
-
-Add selectors to style the `.hamburger` `<div>`. 
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 215
-line_highlights: 217-220, 222-224
----
-@media screen and (max-width:768px) {
-    
-  .hamburger {
-    display: flex;
-    cursor: pointer;
-  }
-  
-  .hamburger #closeHam {
-    display: none;
-  }   
-
-}
-
---- /code ---
-
-**Click the Run button** to see your changes.
-
-Resize the editor preview to see your navbar change!
-
---- /task ---
-
-You need to open and close the navigation menu.
-
-The navigation items don't look very good at the moment, add some new styling to make them look like a menu.
-
-Before the menu is opened you will set the nav items to `display: none` so they are not shown.
-
---- task ---
-
-Open `style.css`.
-
-Add a new `.nav-items` selector and styling to the media query.
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 215
-line_highlights: 226-238
----
-@media screen and (max-width:768px) {
-    
-  .hamburger {
-    display: flex;
-    cursor: pointer;
-  }
-  
-  .hamburger #closeHam {
-    display: none;
-  }   
-  
-  .nav-items {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    right: 0;
-    top: 58px;
-    background-color: #33658A;
-    width: 100%;
-    height: calc(100vh - 58px);
-    padding-top: 60px;
-    gap: 10vh;
-  }  
-
-}
-
---- /code ---
-
-**Click the Run button** to see your changes.
-
---- /task ---
-
---- task ---
-
-Open `index.html`.
-
-Add the **javascript** file to your page. 
+Add the `fact` class attribute to each paragraph.
 
 --- code ---
 ---
 language: html
-filename: index.html
+filename: wildlife.html
 line_numbers: true
-line_number_start: 54
-line_highlights: 54
+line_number_start: 25
+line_highlights: 26, 27, 28, 32, 33, 37, 38, 42, 43
 ---
-    <script type="text/javascript" src="responsive-navbar.js"></script>
-  </body>
-</html>
-
---- /code ---
-
-**Click the Run button** to see your changes.
-
-Click on the burger menu to see your navigation items appear, click the cross to close the menu.
-
---- /task ---
-
-### Make your grids responsive
-
-When the screen is small, the grids you made earlier are hard to read. 
-
-Make the layout taller by changing it to use four rows and one column.
-
---- task ---
-
-Add the `fact-holder` selector to the `@media` query.
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 215
-line_highlights: 240-245
----
-@media screen and (max-width:768px) {
+<section>
+  <div class="fact-holder">
+    <span class="fact-card penguins">
+      <p class="fact">
+        Emperor penguins, live in colonies on sea ice. Sea ice is frozen sea water which fringes the Antarctic continent. In the winter sea ice expands. In the summer, it shrinks as the sea ice melts. By the time the chicks are ready to fledge, the sea ice edge is close to the colony, so the young penguins don’t have to travel far to get their food.
+      </p>
+    </span>
+    <span class="fact-card krill">
+      <p class="fact">
+        Krill is eaten by many other organisms such as penguins, birds, or even ginormous elephant seals! Because there are so many different organisms feeding from the krill, there needs to be lots and lots of krill available, especially as they are only 2 inches long!
+      </p>
+    </span>
+    <span class="fact-card seals">
+      <p class="fact">
+        Seals have thick beautiful fur coats and blubber, making them supremely adapted to the cold. There are six species in Antarctica: Antarctic Fur Seals, Leopard Seals, Ross Seals, Southern Elephant seals, Crabeater Seals and Weddell Seals.
+      </p>
+    </span>
+    <span class="fact-card orcas">
+      <p class="fact">
+        At the top of the food chain, there are Orcas, often known as Killer Whales. These are the biggest carnivores on Earth, reaching almost 10m in length! They can be found swimming all around the Earth’s oceans, but in particular in the Southern Ocean around Antarctica.
+      </p>
+    </span>
+  </div>
+</section>
     
-  .hamburger {
-    display: flex;
-    cursor: pointer;
-  }
-  
-  .hamburger #closeHam {
-    display: none;
-  }   
-  
-  .nav-items {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    right: 0;
-    top: 58px;
-    background-color: #33658A;
-    width: 100%;
-    height: calc(100vh - 58px);
-    padding-top: 60px;
-    gap: 10vh;
-  }  
-
-  .fact-holder {
-    display: grid;
-    height: 100vh;
-    grid-template-rows: 25% 25% 25% 25%;
-    grid-template-columns: 100%;
-  }
-  
-}
-
 --- /code ---
 
 **Click the Run button** to see your changes.
 
 --- /task ---
 
-On the `wildlife.html` page, there is a different fact holder grid layout. 
+There are different ways to size your grid layout, you can use `fr` to create **fractions** of the sizing.
 
-That layout also needs to change when the screen width reduces. 
+--- collapse ---
 
-You are going to make it taller and change it to five rows in one column.
+---
+title: Using fractions for sizing grids
+---
+
+Rather than using percentages and having to check they add up to 100% you can instead use fractions of the space. 
+
+To do this you use the unit `fr` - so if you wanted four columns that are each a quarter of the width of the grid you would use this CSS;
+
+~~~css
+grid-columns: 1fr 1fr 1fr 1fr 
+~~~
+
+There are **4** in total and each column is 1/4 in width. 
+
+They don't have to be even either. You could also do 2 rows, one that is 3/4 and the other is 1/4:
+
+~~~css
+grid-rows: 3fr 1fr
+~~~
+
+--- /collapse ---
 
 --- task ---
 
-Add the `fact-holder-wildlife` selector to the `@media` query.
+Open `style.css`
+
+Add the `fact-holder-wildlife` selector to the `style.css` file.
 
 --- code ---
 ---
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 215
-line_highlights: 247-251
+line_number_start: 103
+line_highlights: 104-109
 ---
-@media screen and (max-width:768px) {
-    
-  .hamburger {
-    display: flex;
-    cursor: pointer;
-  }
-  
-  .hamburger #closeHam {
-    display: none;
-  }   
-  
-  .nav-items {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    right: 0;
-    top: 58px;
-    background-color: #33658A;
-    width: 100%;
-    height: calc(100vh - 58px);
-    padding-top: 60px;
-    gap: 10vh;
-  }  
 
-  .fact-holder {
-    display: grid;
-    height: 100vh;
-    grid-template-rows: 25% 25% 25% 25%;
-    grid-template-columns: 100%;
-  }
-
-  .fact-holder-wildlife {
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr;
-    height: 140vh;
-  }
-  
+/* Fact holder - wildlife */
+.fact-holder-wildlife {
+  display: grid;
+  height: 70vh;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 2fr 3fr;
 }
 
 --- /code ---
 
 --- /task ---
-
-You can make the penguin image span two rows by changing its `grid-row-start` and `grid-row-end` properties.
-
-You also need to change the orca image to span the single column used in the `fact-holder-wildlife` layout (at the moment, it is styled to span two columns).
-
---- task ---
-
-Add the `penguins` and `orcas` selectors to the `@media` query.
-
---- code ---
----
-language: css
-filename: style.css
-line_numbers: true
-line_number_start: 215
-line_highlights: 253-256, 258-261
----
-@media screen and (max-width:768px) {
-    
-  .hamburger {
-    display: flex;
-    cursor: pointer;
-  }
-  
-  .hamburger #closeHam {
-    display: none;
-  }   
-  
-  .nav-items {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    right: 0;
-    top: 58px;
-    background-color: #33658A;
-    width: 100%;
-    height: calc(100vh - 58px);
-    padding-top: 60px;
-    gap: 10vh;
-  }  
-
-  .fact-holder {
-    display: grid;
-    height: 100vh;
-    grid-template-rows: 25% 25% 25% 25%;
-    grid-template-columns: 100%;
-  }
-
-  .fact-holder-wildlife {
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr;
-    height: 140vh;
-  }
-
-  .penguins {
-    grid-row-start: 1;
-    grid-row-end: 3;
-  }
-
-  .orcas {
-    grid-column-start: 1;
-    grid-column-end: 2;
-  }
-  
-}
-
---- /code ---
-
-**Click the Run button** to see your changes.
-
---- /task ---
-
-### Update the other pages
 
 --- task ---
 
 Open `wildlife.html`.
 
-Copy and paste the `<div>` class inside the `<nav>` tags. 
+Change the class attribute on the `<div>` to your new `fact-holder-wildlife` class.
 
 --- code ---
 ---
 language: html
 filename: wildlife.html
 line_numbers: true
-line_number_start: 11
-line_highlights: 17-20
+line_number_start: 26
+line_highlights: 26
 ---
-    <nav class="navigation-header">
-      <div class="nav-items">
-        <a href="index.html">Home</a>
-        <a class="active" href="wildlife.html">Wildlife</a>
-        <a href="climate.html">Climate</a>
-      </div>
-      <div class="hamburger">
-        <span id="openHam">&#9776;</span>
-        <span id="closeHam">&#x2716;</span>
-      </div>
-    </nav>
-    
---- /code ---
-
---- /task ---
-
---- task ---
-
-Also add the **javascript** file to your page. 
-
---- code ---
----
-language: html
-filename: wildlife.html
-line_numbers: true
-line_number_start: 54
-line_highlights: 54
----
-    <script type="text/javascript" src="responsive-navbar.js"></script>
-  </body>
-</html>
+  <div class="fact-holder-wildlife">
+    <span class="fact-card penguins">
+        <p class="fact">
+        Emperor penguins ...
 
 --- /code ---
 
 **Click the Run button** to see your changes.
 
-Click on the burger menu to see your navigation items appear, click the cross to close the menu.
+Now your wildlife grid has 3 rows that take up a third of the space each, and two columns that are 1/3 and 2/3 of the width.
+
+![The wildlife grid, each row is labelled with one third. At the bottom the first column is labelled one third, and the second column is labelled two thirds. Showing the size of the grid.](images/wildlife_grid_size.png)
 
 --- /task ---
 
-You now need to add the hamburger `<div>` and JavaScript file to climate.html as well.
+Grid layout will automatically position your items. You can also specify how you want items to be displayed.
+
+You will make it so the penguin fact stretches down over two rows, and the orca fact stretches across both columns in the last row.
+
+--- task ---
+
+Add `grid-row-start` to `.penguins` and set it to `1`.
+
+Add `grid-row-end ` to `.penguins` and set it to `3`.
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 163
+line_highlights: 165-166
+---
+
+.penguins {
+  background-image: url('penguin-photo.jpg');
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+--- /code ---
+
+The `grid-row-start` property is the **first** row the element will display in. 
+
+`grid-row-end` is the row where the element ends - the image will **not** display on this row.
+
+**Click the Run button** to see your changes.
+
+--- /task ---
+
+--- task ---
+
+Add `grid-column-start` to `.orcas` and set it to `1`.
+
+Add `grid-column-end ` to `.orcas` and set it to `3`.
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: true
+line_number_start: 177
+line_highlights: 179-180
+---
+
+.orcas {
+  background-image: url('orca-photo.jpg');
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+--- /code ---
+
+**Click the Run button** to see your changes.
+
+--- /task ---
+
+### Change the heading of the climate page
 
 --- task ---
 
 Open `climate.html`.
 
-Copy and paste the `<div>` class inside the `<nav>` tags. 
+Change the `h1` text.
 
 --- code ---
 ---
 language: html
-filename: climate.html
+filename: wildlife.html
 line_numbers: true
-line_number_start: 11
-line_highlights: 17-20
+line_number_start: 22
+line_highlights: 23
 ---
-    <nav class="navigation-header">
-      <div class="nav-items">
-        <a href="index.html">Home</a>
-        <a href="wildlife.html">Wildlife</a>
-        <a class="active" href="climate.html">Climate</a>
-      </div>
-      <div class="hamburger">
-        <span id="openHam">&#9776;</span>
-        <span id="closeHam">&#x2716;</span>
-      </div>
-    </nav>
+    <section>
+      <h1>Hover on the cards below to learn about the climate in Antarctica</h1>
     
---- /code ---
-
---- /task ---
-
---- task ---
-
-Also copy and paste (CTRL + C or CMD + C) the **javascript** file to your page. 
-
---- code ---
----
-language: html
-filename: climate.html
-line_numbers: true
-line_number_start: 54
-line_highlights: 54
----
-    <script type="text/javascript" src="responsive-navbar.js"></script>
-  </body>
-</html>
-
 --- /code ---
 
 **Click the Run button** to see your changes.
 
-Click on each menu item to navigate from page to page.
+--- /task ---
 
-Resize the preview window to below 768px to see how it responds.
+### Add a grid to the climate page
+
+--- task ---
+
+Add the `fact-holder` class attribute to the `<div>`.
+
+Add a `fact-card` and a background image class to each `<span>` element.
+
+Add the `fact` class attribute to each paragraph.
+
+--- code ---
+---
+language: html
+filename: climate.html
+line_numbers: true
+line_number_start: 25
+line_highlights: 26, 27, 28, 32, 33, 37, 38, 42, 43
+---
+  <section>
+    <div class="fact-holder">
+      <span class="fact-card temperature">
+        <p class="fact">
+          Antarctica is the coldest continent on Earth. The average temperature in the interior is -57°C, during winter it can reach -90°C. The coast is warmer and temperatures can reach a maximum of 8°C during the summer.
+        </p>
+      </span>
+      <span class="fact-card sunburn">
+        <p class="fact">
+          It is possible to get sunburn on Antarctica, the snow reflects nearly all the ultraviolet rays. You may not feel the heat, but you still need to keep your skin safe from the rays.
+        </p>
+      </span>
+      <span class="fact-card ice">
+        <p class="fact">
+          This ice sheet is, on average, 1.6 km thick and covers about 98% of the entire continent. This ice sheet is nearly 90% of the entire world’s ice, so it’s no wonder the Antarctic climate is so cold!
+        </p>
+      </span>
+      <span class="fact-card rainfall">
+        <p class="fact">
+          Technically, Antarctica is a desert because it is so dry there. The average annual precipitation on the coast is just 166mm. With such cold conditions the snow hardly ever melts; instead, it will mostly become compressed over time to form part of the ice sheet.
+        </p>
+      </span>
+    </div>
+  </section>
+    
+--- /code ---
+
+**Click the Run button** to see your changes.
 
 --- /task ---
 
-Fantastic work! You have now built a responsive website that lets people discover a place they may never get a chance to visit - Antarctica. 
-
-Next, you will reflect on your learning by completing a quiz.
+Next you will make your content smart. No matter if the page is big or small, or if someone is using a different device, it will always look amazing.
