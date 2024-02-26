@@ -2,7 +2,7 @@
 
 Making the grids responsive will make sure that anyone can learn about Antarctica, no matter what device they are viewing on.
 
-<iframe src="https://staging-editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-complete" width="600" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-complete" width="600" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 ### Make your grids responsive
 
