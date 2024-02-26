@@ -9,20 +9,22 @@
   <body>
     <header>
       <nav>
-        <div class="nav-items">
-          <a href="index.html" class="active">Home</a>
+        <div class="nav-items"> 
+          <a class="active" href="index.html">Home</a>
           <a href="wildlife.html">Wildlife</a>
           <a href="climate.html">Climate</a>
         </div>
+        <div class="hamburger">
+          <span id="openHam">&#9776;</span>
+          <span id="closeHam">&#x2716;</span>
+        </div>
       </nav>
-      <div class="hero-image"></div>
+      <div class="hero-image home"></div>
     </header>
-
     <main>
       <section>
         <h1>Welcome to Antarctica!</h1>
-      </section>
-      <section>
+        <h1>Hover on the cards below to read some facts about Antarctica</h1>
         <div class="fact-holder">
           <span class="fact-card sun">
             <p class="fact">
@@ -41,11 +43,12 @@
           </span>
           <span class="fact-card ownership">
             <p class="fact">
-              Antarctica is governed by the Antarctic Treaty. First signed by 12 nations in 1959, the Treaty now has 53 supporting nations, 29 of which are considered “Consultative Parties” and are actively involved in decision-making.
+              Antarctica is governed by the Antarctic Treaty. The Treaty now has 53 supporting nations, 29 of which are considered “Consultative Parties” and are actively involved in decision-making.
             </p>
           </span>
         </div>
       </section>
     </main>
+    <script src="responsive-navbar.js"></script>
   </body>
 </html>

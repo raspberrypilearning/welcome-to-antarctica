@@ -159,8 +159,6 @@ nav {
 
 .penguins {
   background-image: url("wildlife-emperor-penguin.jpg");
-  grid-row-start: 1;
-  grid-row-end: 3;
 }
 
 .krill {
@@ -173,8 +171,6 @@ nav {
 
 .orcas {
   background-image: url("wildlife-orca.jpg");
-  grid-column-start: 1;
-  grid-column-end: 3;
 }
 
 .minke-whale {
