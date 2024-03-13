@@ -21,14 +21,14 @@ Set the `opacity` property of `.fact` to `0`.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 114
-line_highlights: 124
+line_number_start: 116
+line_highlights: 126
 ---
 
 .fact {
   font-size: 100%;
-  color:#ECE8EF;
-  background-color: #000500A5;
+  color: var(--fact-text-colour);
+  background-color: var(--fact-background);
   height: 100%;
   margin: 0;
   display: flex;
@@ -53,8 +53,8 @@ Add a new selector `.fact:hover`
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 128
-line_highlights: 129-131
+line_number_start: 129
+line_highlights: 130-132
 ---
 
 /* Fact hover */
@@ -64,7 +64,11 @@ line_highlights: 129-131
 
 --- /code ---
 
-**Click the Run button** to see your changes.
+--- /task ---
+
+--- task ---
+
+**Click Run**
 
 --- /task ---
 
@@ -79,14 +83,14 @@ Add a `transition` property to `.fact`.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 114
-line_highlights: 125
+line_number_start: 116
+line_highlights: 127
 ---
 
 .fact {
   font-size: 100%;
-  color:#ECE8EF;
-  background-color: #000500A5;
+  color: var(--fact-text-colour);
+  background-color: var(--fact-background);
   height: 100%;
   margin: 0;
   display: flex;
@@ -99,7 +103,11 @@ line_highlights: 125
 
 --- /code ---
 
-**Click the Run button** to see your changes.
+--- /task ---
+
+--- task ---
+
+**Click Run**
 
 Hover your mouse over the images to see your animation!
 

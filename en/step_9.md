@@ -19,8 +19,8 @@ Add the `fact-holder` selector to the `@media` query.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 215
-line_highlights: 240-245
+line_number_start: 212
+line_highlights: 237-241
 ---
 @media screen and (max-width:768px) {
     
@@ -40,7 +40,7 @@ line_highlights: 240-245
     position: absolute;
     right: 0;
     top: 58px;
-    background-color: #33658A;
+    background-color: var(--nav-colour);
     width: 100%;
     height: calc(100vh - 58px);
     padding-top: 60px;
@@ -48,7 +48,6 @@ line_highlights: 240-245
   }  
 
   .fact-holder {
-    display: grid;
     height: 100vh;
     grid-template-rows: 25% 25% 25% 25%;
     grid-template-columns: 100%;
@@ -58,7 +57,11 @@ line_highlights: 240-245
 
 --- /code ---
 
-**Click the Run button** to see your changes.
+--- /task ---
+
+--- task ---
+
+**Click Run**
 
 --- /task ---
 
@@ -77,8 +80,8 @@ Add the `fact-holder-wildlife` selector to the `@media` query.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 215
-line_highlights: 247-251
+line_number_start: 212
+line_highlights: 243-247
 ---
 @media screen and (max-width:768px) {
     
@@ -98,7 +101,7 @@ line_highlights: 247-251
     position: absolute;
     right: 0;
     top: 58px;
-    background-color: #33658A;
+    background-color: var(--nav-colour);
     width: 100%;
     height: calc(100vh - 58px);
     padding-top: 60px;
@@ -137,8 +140,8 @@ Add the `penguins` and `orcas` selectors to the `@media` query.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 215
-line_highlights: 253-256, 258-261
+line_number_start: 212
+line_highlights: 249-252, 254-257
 ---
 @media screen and (max-width:768px) {
     
@@ -158,7 +161,7 @@ line_highlights: 253-256, 258-261
     position: absolute;
     right: 0;
     top: 58px;
-    background-color: #33658A;
+    background-color: var(--nav-colour);
     width: 100%;
     height: calc(100vh - 58px);
     padding-top: 60px;
@@ -192,7 +195,11 @@ line_highlights: 253-256, 258-261
 
 --- /code ---
 
-**Click the Run button** to see your changes.
+--- /task ---
+
+--- task ---
+
+**Click Run**
 
 Resize the preview window to below 768px to see how each page responds.
 

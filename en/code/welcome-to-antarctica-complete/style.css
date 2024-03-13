@@ -1,9 +1,6 @@
-/* Import a font */
-@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
-
 body {
-  background-color: #ece8ef;
-  color: #000500;
+  background-color: var(--body-background);
+  color: var(--body-text-colour);
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -11,7 +8,7 @@ body {
   min-height: 100vh; /* Make the content fill the page so the footer is at the bottom */
   display: flex;
   flex-direction: column;
-  font-family: "Orbitron", sans-serif;
+  font-family: var(--body-font);
 }
 
 main {
@@ -44,7 +41,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #33658a;
+  background-color: var(--nav-colour);
 }
 
 /* Nav items */
@@ -55,19 +52,19 @@ nav {
 
 /* Nav bar links */
 .nav-items > a {
-  color: #55dde0;
+  color: var(--nav-items-colour);
   text-decoration: none;
   transition: 0.4s ease-in-out;
 }
 
 /* Nav links hover */
 .nav-items > a:hover {
-  color: white;
+  color: var(--nav-items-active);
 }
 
 /* Nav links active */
 .nav-items .active {
-  color: white;
+  color: var(--nav-items-active);
   pointer-events: none;
 }
 
@@ -76,7 +73,7 @@ nav {
   display: none;
   font-size: 20px;
   font-weight: 800;
-  color: white;
+  color: var(--hamburger-colour);
   margin-left: auto;
 }
 
@@ -124,8 +121,8 @@ nav {
 
 .fact {
   font-size: 100%;
-  color: #ece8ef;
-  background-color: #000500a5;
+  color: var(--fact-text-colour);
+  background-color: var(--fact-background);
   height: 100%;
   margin: 0;
   display: flex;
@@ -213,6 +210,7 @@ nav {
 
 /* Media query */
 @media screen and (max-width: 768px) {
+  
   .hamburger {
     display: flex;
     cursor: pointer;
@@ -229,7 +227,7 @@ nav {
     position: absolute;
     right: 0;
     top: 58px;
-    background-color: #33658a;
+    background-color: var(--nav-colour);
     width: 100%;
     height: calc(100vh - 58px);
     padding-top: 60px;

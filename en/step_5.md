@@ -39,8 +39,8 @@ Add a `fact-holder` class attribute to the `<div>` that includes the four paragr
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 25
-line_highlights: 26
+line_number_start: 26
+line_highlights: 27
 ---
   <section>
     <div class="fact-holder">
@@ -52,12 +52,25 @@ line_highlights: 26
 
 --- /code ---
 
-**Click the Run button** to see your changes.
-
 --- /task ---
 
-**Debug step:** Make sure there is an `=` between `class` and `fact-holder`.  
-**Debug step:** Make sure there are `"` marks around `fact-holder`.
+--- task ---
+
+**Click Run**
+
+--- collapse ---
+
+---
+title: My webpage still looks the same?
+---
+
+Make sure there is an `=` between `class` and `fact-holder`.  
+
+Make sure there are `"` marks around `fact-holder`.
+
+--- /collapse ---
+
+--- /task ---
 
 At the moment, the paragraphs are taking up different amounts of space.
 
@@ -76,8 +89,8 @@ Alter the heights of the two grid rows and the widths of the two grid columns to
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 95
-line_highlights: 99-100
+line_number_start: 92
+line_highlights: 96-97
 ---
 /* Fact holder - homepage */
 .fact-holder {
@@ -89,11 +102,23 @@ line_highlights: 99-100
 
 --- /code ---
 
-**Click the Run button** to see your changes.
-
 --- /task ---
 
-**Debug step:** Make sure there a space between each `50%`.  
+--- task ---
+
+**Click Run**
+
+--- collapse ---
+
+---
+title: My grid has not changed?
+---
+
+Make sure there a space between each `50%`.  
+
+--- /collapse ---
+
+--- /task ---
 
 ### Style the facts
 
@@ -114,8 +139,8 @@ Also add the class attribute for each `<span>` element that defines its backgrou
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 26
-line_highlights: 27, 32, 37, 42
+line_number_start: 27
+line_highlights: 28, 33, 38, 43
 ---
     <div class="fact-holder">
       <span class="fact-card sun">
@@ -143,7 +168,21 @@ line_highlights: 27, 32, 37, 42
 
 --- /task ---
 
-**Debug:** Check all your opening brackets `<` have closing brackets `>`.
+--- task ---
+
+**Click Run**
+
+--- collapse ---
+
+---
+title: My grid looks weird?
+---
+
+Check all your opening brackets `<` have closing brackets `>`.
+
+--- /collapse ---
+
+--- /task ---
 
 --- task ---
 
@@ -156,8 +195,8 @@ Add the `fact-card` selector to the `style.css` file. This will make sure the ba
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 109
-line_highlights: 110-115
+line_number_start: 108
+line_highlights: 109-114
 ---
 /* Fact card */ 
 .fact-card {
@@ -171,13 +210,25 @@ line_highlights: 110-115
 
 The `style.css` file already has the selectors for `sun`, `discovery`, `explorers` and `ownership`.
 
-**Click the Run button** to see your changes.
-
 --- /task ---
 
-**Debug step:** In `index.html` - check both class attributes are between the same `"` marks.
+--- task ---
 
-**Debug step:** In `index.html` - make sure there is a space between each class.
+**Click Run**
+
+--- collapse ---
+
+---
+title: I can't see my images?
+---
+
+In `index.html` - check both class attributes are between the same `"` marks.
+
+In `index.html` - make sure there is a space between each class.
+
+--- /collapse ---
+
+--- /task ---
 
 ### Make it more accessible
 
@@ -196,8 +247,8 @@ Add the `fact` class attribute to each paragraph.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 26
-line_highlights: 28, 33, 38, 43
+line_number_start: 27
+line_highlights: 29, 34, 39, 44
 ---
     <div class="fact-holder">
       <span class="fact-card sun">
@@ -223,7 +274,11 @@ line_highlights: 28, 33, 38, 43
 
 --- /code ---
 
-**Click the Run button** to see your changes.
+--- /task ---
+
+--- task ---
+
+**Click Run**
 
 --- /task ---
 

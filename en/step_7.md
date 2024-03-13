@@ -25,7 +25,11 @@ line_highlights:
     
 --- /code ---
 
-**Click the Run button** to see your changes.
+--- /task ---
+
+--- task ---
+
+**Click Run**
 
 --- /task ---
 
@@ -44,10 +48,13 @@ Add the `fact` class attribute to each paragraph.
 language: html
 filename: wildlife.html
 line_numbers: true
-line_number_start: 25
-line_highlights: 26, 27, 28, 32, 33, 37, 38, 42, 43
+line_number_start: 23
+line_highlights: 27-29, 33-34, 38-39, 43-44
 ---
 <section>
+  <h1>
+    Hover on the cards below to learn about the animals in Antarctica
+  </h1>
   <div class="fact-holder">
     <span class="fact-card penguins">
       <p class="fact">
@@ -74,7 +81,11 @@ line_highlights: 26, 27, 28, 32, 33, 37, 38, 42, 43
     
 --- /code ---
 
-**Click the Run button** to see your changes.
+--- /task ---
+
+--- task ---
+
+**Click Run**
 
 --- /task ---
 
@@ -115,8 +126,8 @@ Add the `fact-holder-wildlife` selector to the `style.css` file.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 103
-line_highlights: 104-109
+line_number_start: 100
+line_highlights: 101-106
 ---
 
 /* Fact holder - wildlife */
@@ -142,8 +153,8 @@ Change the class attribute on the `<div>` to your new `fact-holder-wildlife` cla
 language: html
 filename: wildlife.html
 line_numbers: true
-line_number_start: 26
-line_highlights: 26
+line_number_start: 27
+line_highlights: 27
 ---
   <div class="fact-holder-wildlife">
     <span class="fact-card penguins">
@@ -152,7 +163,11 @@ line_highlights: 26
 
 --- /code ---
 
-**Click the Run button** to see your changes.
+--- /task ---
+
+--- task ---
+
+**Click Run**
 
 Now your wildlife grid has 3 rows that take up a third of the space each, and two columns that are 1/3 and 2/3 of the width.
 
@@ -175,8 +190,8 @@ Add `grid-row-end ` to `.penguins` and set it to `3`.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 163
-line_highlights: 165-166
+line_number_start: 157
+line_highlights: 159-160
 ---
 
 .penguins {
@@ -191,7 +206,11 @@ The `grid-row-start` property is the **first** row the element will display in.
 
 `grid-row-end` is the row where the element ends - the image will **not** display on this row.
 
-**Click the Run button** to see your changes.
+--- /task ---
+
+--- task ---
+
+**Click Run**
 
 --- /task ---
 
@@ -206,8 +225,8 @@ Add `grid-column-end ` to `.orcas` and set it to `3`.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 177
-line_highlights: 179-180
+line_number_start: 171
+line_highlights: 173-174
 ---
 
 .orcas {
@@ -218,7 +237,11 @@ line_highlights: 179-180
 
 --- /code ---
 
-**Click the Run button** to see your changes.
+--- /task ---
+
+--- task ---
+
+**Click Run**
 
 --- /task ---
 
@@ -243,7 +266,11 @@ line_highlights: 23
     
 --- /code ---
 
-**Click the Run button** to see your changes.
+--- /task ---
+
+--- task ---
+
+**Click Run**
 
 --- /task ---
 
@@ -262,10 +289,11 @@ Add the `fact` class attribute to each paragraph.
 language: html
 filename: climate.html
 line_numbers: true
-line_number_start: 25
-line_highlights: 26, 27, 28, 32, 33, 37, 38, 42, 43
+line_number_start: 23
+line_highlights: 25-27, 31-32, 36-37, 41-42
 ---
   <section>
+    <h1>Hover on the cards below to learn about the climate in Antarctica</h1>
     <div class="fact-holder">
       <span class="fact-card temperature">
         <p class="fact">
@@ -292,7 +320,11 @@ line_highlights: 26, 27, 28, 32, 33, 37, 38, 42, 43
     
 --- /code ---
 
-**Click the Run button** to see your changes.
+--- /task ---
+
+--- task ---
+
+**Click Run**
 
 --- /task ---
 
