@@ -27,10 +27,10 @@ Add two `<span>` tags. One is for the 'hamburger' icon (☰) used to open the me
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 11
-line_highlights: 17-20
+line_number_start: 12
+line_highlights: 18-21
 ---
-    <nav class="navigation-header">
+    <nav>
       <div class="nav-items">
         <a class="active" href="index.html">Home</a>
         <a href="wildlife.html">Wildlife</a>
@@ -56,7 +56,11 @@ You can find a full list of ASCII codes on [this website](https://www.ascii-code
 
 --- /collapse ---
 
-**Click the Run button** to see your changes.
+--- /task ---
+
+--- task ---
+
+**Click Run**
 
 --- /task ---
 
@@ -77,8 +81,8 @@ Add the `hamburger` selector to the `style.css` file.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 74
-line_highlights: 75-81
+line_number_start: 71
+line_highlights: 72-78
 ---
 
 /* Hamburger menu */
@@ -86,13 +90,17 @@ line_highlights: 75-81
   display: none;
   font-size: 20px;
   font-weight: 800;
-  color: white;
+  color: var(--hamburger-colour);
   margin-left: auto;
 }
 
 --- /code ---
 
-**Click the Run button** to see your changes.
+--- /task ---
+
+--- task ---
+
+**Click Run**
 
 --- /task ---
 
@@ -125,8 +133,8 @@ At the bottom of `style.css` add your media query.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 214
-line_highlights: 215-217
+line_number_start: 211
+line_highlights: 212-214
 ---
 
 /* Media query */
@@ -165,11 +173,11 @@ Add selectors to style the `.hamburger` `<div>`.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 215
-line_highlights: 217-220, 222-224
+line_number_start: 211
+line_highlights: 214-217, 219-221
 ---
-@media screen and (max-width:768px) {
-    
+@media screen and (max-width:768px) {    
+  
   .hamburger {
     display: flex;
     cursor: pointer;
@@ -183,9 +191,13 @@ line_highlights: 217-220, 222-224
 
 --- /code ---
 
-**Click the Run button** to see your changes.
+--- /task ---
 
-Resize the editor preview to see your navbar change!
+--- task ---
+
+**Click Run**
+
+Resize the editor to see your changes!
 
 --- /task ---
 
@@ -206,8 +218,8 @@ Add a new `.nav-items` selector and styling to the media query.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 215
-line_highlights: 226-238
+line_number_start: 212
+line_highlights: 223-235
 ---
 @media screen and (max-width:768px) {
     
@@ -227,7 +239,7 @@ line_highlights: 226-238
     position: absolute;
     right: 0;
     top: 58px;
-    background-color: #33658A;
+    background-color: var(--nav-colour);
     width: 100%;
     height: calc(100vh - 58px);
     padding-top: 60px;
@@ -238,7 +250,11 @@ line_highlights: 226-238
 
 --- /code ---
 
-**Click the Run button** to see your changes.
+--- /task ---
+
+--- task ---
+
+**Click Run**
 
 --- /task ---
 
@@ -253,8 +269,8 @@ Add the **javascript** file to your page.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 54
-line_highlights: 54
+line_number_start: 53
+line_highlights: 53
 ---
     <script type="text/javascript" src="responsive-navbar.js"></script>
   </body>
@@ -262,7 +278,11 @@ line_highlights: 54
 
 --- /code ---
 
-**Click the Run button** to see your changes.
+--- /task ---
+
+--- task ---
+
+**Click Run**
 
 Click on the burger menu to see your navigation items appear, click the cross to close the menu.
 
@@ -281,10 +301,10 @@ Copy and paste the `hamburger` `<div>` element inside the `<nav>` tags.
 language: html
 filename: wildlife.html
 line_numbers: true
-line_number_start: 11
-line_highlights: 17-20
+line_number_start: 13
+line_highlights: 19-22
 ---
-    <nav class="navigation-header">
+    <nav>
       <div class="nav-items">
         <a href="index.html">Home</a>
         <a class="active" href="wildlife.html">Wildlife</a>
@@ -309,8 +329,8 @@ Also add the **javascript** file to your page.
 language: html
 filename: wildlife.html
 line_numbers: true
-line_number_start: 54
-line_highlights: 54
+line_number_start: 55
+line_highlights: 55
 ---
     <script type="text/javascript" src="responsive-navbar.js"></script>
   </body>
@@ -318,7 +338,11 @@ line_highlights: 54
 
 --- /code ---
 
-**Click the Run button** to see your changes.
+--- /task ---
+
+--- task ---
+
+**Click Run**
 
 Click on the burger menu to see your navigation items appear, click the cross to close the menu.
 
@@ -338,7 +362,7 @@ Also copy and paste (CTRL + C or CMD + C) the **javascript** file to your page.
 
 --- task ---
 
-**Click the Run button** to see your changes.
+**Click Run**
 
 Click on each menu item to navigate from page to page.
 

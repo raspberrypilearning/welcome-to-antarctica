@@ -39,8 +39,8 @@ Add the <nav> tags.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 10
-line_highlights: 11, 13
+line_number_start: 11
+line_highlights: 12, 14
 ---
 
     <header>
@@ -64,8 +64,8 @@ Inside the `<nav>` tags add a new `<div>`.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 10
-line_highlights: 12-14
+line_number_start: 11
+line_highlights: 13-15
 ---
 
     <header>
@@ -93,8 +93,8 @@ Add `<a>` tags to create links to each page.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 10
-line_highlights: 13-15
+line_number_start: 11
+line_highlights: 14-16
 ---
 
     <header>
@@ -117,7 +117,9 @@ Your project is saved automatically. Return to the starter link in the same web 
 
 --- task ---
 
-**Test:** Click the **Run** button to see the changes you have made.
+**Click Run**
+
+You should see:
 
 + The navigation links will appear at the top.
 

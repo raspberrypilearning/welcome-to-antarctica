@@ -12,8 +12,8 @@ Add a `nav-items` class attribute to the `<div>` containing the navbar links.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 10
-line_highlights: 12
+line_number_start: 11
+line_highlights: 13
 ---
 
     <header>
@@ -58,14 +58,28 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #33658A;
+  background-color: var(--nav-colour);
 }
 
 --- /code ---
 
-**Debug step:** Make sure that `color` is spelled without a 'u'.
+--- /task ---
 
-**Debug step:** Make sure there is a `;` at the end of the line.
+--- task ---
+
+**Click Run**
+
+--- collapse ---
+
+---
+title: I don't see any new colour?
+---
+
+Make sure that `color` is spelled without a 'u'.
+
+Make sure there is a `;` at the end of the line.
+
+--- /collapse ---
 
 --- /task ---
 
@@ -90,8 +104,8 @@ Create a selector for the `nav-items` class to space out the links.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 49
-line_highlights: 50-53
+line_number_start: 47
+line_highlights: 48-51
 ---
 /* Nav items */
 .nav-items {
@@ -101,7 +115,11 @@ line_highlights: 50-53
 
 --- /code ---
 
-**Click the Run button** to see your changes.
+--- /task ---
+
+--- task ---
+
+**Click Run**
 
 --- /task ---
 
@@ -118,12 +136,12 @@ Create another selector to style each `<a>` tag in the `nav-items` div.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 55
-line_highlights: 56-60
+line_number_start: 53
+line_highlights: 54-58
 ---
 /* Nav bar links */
 .nav-items > a {
-  color: #55DDE0;
+  color: var(--nav-items-colour);
   text-decoration: none;
   transition: .4s ease-in-out;
 }
@@ -144,7 +162,11 @@ This allows you to style certain links without affecting all the links on your p
 
 --- /collapse ---
 
-**Click the Run button** to see your changes.
+--- /task ---
+
+--- task ---
+
+**Click Run**
 
 --- /task ---
 
@@ -157,12 +179,12 @@ Add a selector to style each link when you hover over it.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 62
-line_highlights: 63-65
+line_number_start: 60
+line_highlights: 61-63
 ---
 /* Nav links hover */
 .nav-items > a:hover {
-  color: white;
+  color: var(--nav-items-active);
 }
 
 --- /code ---
@@ -181,7 +203,11 @@ The style in this selector will **only** be used when a user's mouse is on top o
 
 --- /collapse ---
 
-**Click the Run button** to see your changes.
+--- /task ---
+
+--- task ---
+
+**Click Run**
 
 --- /task ---
 
@@ -200,12 +226,12 @@ Add a new `active` CSS class for the link to the page that is currently open.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 67
-line_highlights: 68-71
+line_number_start: 65
+line_highlights: 66-69
 ---
 /* Nav links active */
 .nav-items .active {
-  color: white;
+  color: var(--nav-items-active);
   pointer-events: none;
 }
 
@@ -240,7 +266,11 @@ line_highlights: 13
 
 --- /code ---
 
-**Click the Run button** to see your changes.
+--- /task ---
+
+--- task ---
+
+**Click Run**
 
 --- /task ---
 
@@ -250,12 +280,14 @@ line_highlights: 13
 
 Import a Google font to style the fonts on your pages.
 
-Place it at the top of your style.css file.
+Open `defaults.css`
+
+Place this `@import` statement at the top of your file.
 
 --- code ---
 ---
 language: css
-filename: style.css
+filename: default.css
 line_numbers: true
 line_number_start: 1
 line_highlights: 2
@@ -270,7 +302,30 @@ line_highlights: 2
 
 --- task ---
 
-Add the `font-family` property inside the body selector and set it to the new `Orbitron` font you have imported.
+Create a new variable inside the `:root` selector, called `--body-font` and set the new Orbitron font.
+
+--- code ---
+---
+language: css
+filename: default.css
+line_numbers: true
+line_number_start: 4
+line_highlights: 8
+---
+
+:root {
+
+  --body-background: #ece8ef;
+  --body-text-colour: #000500;
+  --body-font: "Orbitron", sans-serif;
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+Add the `font-family` property inside the body selector and set it to the new `--body-font` variable you just created.
 
 --- code ---
 ---
@@ -281,8 +336,8 @@ line_number_start: 4
 line_highlights: 14
 ---
 body {
-  background-color: #ECE8EF;
-  color: #000500;
+  background-color: var(--body-background);
+  color: var(--body-text-colour);
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -290,11 +345,15 @@ body {
   min-height: 100vh; /* Make the content fill the page so the footer is at the bottom */
   display: flex;
   flex-direction: column;
-  font-family: 'Orbitron', sans-serif;
+  font-family: var(--body-font);
 }
 --- /code ---
 
-**Click the Run button** to see your changes.
+--- /task ---
+
+--- task ---
+
+**Click Run**
 
 --- /task ---
 

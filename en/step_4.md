@@ -18,8 +18,8 @@ Give the new `<div>` a class attribute of `hero-image`.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 10
-line_highlights: 18
+line_number_start: 11
+line_highlights: 19
 ---
 
     <header>
@@ -50,8 +50,8 @@ The image should fill the `<div>` element (by setting the `background-size` prop
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 77
-line_highlights: 78-83
+line_number_start: 73
+line_highlights: 74-79
 ---
 
 /* Hero image - homepage */
@@ -82,7 +82,11 @@ Is CSS you can use `vh` to set the size of elements relative to the **height** o
 
 --- /collapse ---
 
-**Click the Run button** to see your changes.
+--- /task ---
+
+--- task ---
+
+**Click Run**
 
 --- /task ---
 
@@ -99,9 +103,9 @@ Highlight and copy (Ctrl + C or Cmd + C) the contents of the `<header>` section 
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 11
+line_number_start: 12
 ---
-      <nav class="navigation-header">
+      <nav>
         <div class="nav-items">
           <a href="index.html" class="active">Home</a>
           <a href="wildlife.html">Wildlife</a>
@@ -125,8 +129,8 @@ Paste the contents into the `<header>` and change which link has the active clas
 language: html
 filename: wildlife.html
 line_numbers: true
-line_number_start: 10
-line_highlights: 13-14
+line_number_start: 11
+line_highlights: 12-19
 ---
     <header>
       <nav class="navigation-header">
@@ -141,11 +145,23 @@ line_highlights: 13-14
 
 --- /code ---
 
-**Click the Run button** to see your changes.
-
 --- /task ---
 
-**Debug step:** Check the `index.html` link has active removed and `wildlife.html` has active added.
+--- task ---
+
+**Click Run**
+
+--- collapse ---
+
+---
+title: The Home link is still white?
+---
+
+Check the `index.html` link has active removed and `wildlife.html` has active added.
+
+--- /collapse ---
+
+--- /task ---
 
 --- task ---
 
@@ -162,8 +178,8 @@ Paste the `<header>` contents into `climate.html` and change which link has the 
 language: html
 filename: climate.html
 line_numbers: true
-line_number_start: 10
-line_highlights: 11-18
+line_number_start: 11
+line_highlights: 12-19
 ---
     <header>
       <nav class="navigation-header">
@@ -178,11 +194,23 @@ line_highlights: 11-18
 
 --- /code ---
 
-**Click the Run button** to see your changes.
-
 --- /task ---
 
-**Debug step:** Check the `index.html` link has active removed and `climate.html` has active added.
+--- task ---
+
+**Click Run**
+
+--- collapse ---
+
+---
+title: My Home link is still white?
+---
+
+Check the `index.html` link has active removed and `climate.html` has active added.
+
+--- /collapse ---
+
+--- /task ---
 
 ### Style the Wildlife page header
 
@@ -199,8 +227,8 @@ You can set a new `background-image` property which will overwrite the one set i
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 85
-line_highlights: 86-88
+line_number_start: 81
+line_highlights: 82-84
 ---
 /* Hero image - wildlife */
 .wildlife {
@@ -220,20 +248,31 @@ Now apply the new `wildlife` class as an **addition** to the `hero-image` class 
 language: html
 filename: wildlife.html
 line_numbers: true
-line_number_start: 17
-line_highlights: 18
+line_number_start: 18
+line_highlights: 19
 ---
       </nav>
       <div class="hero-image wildlife"></div>
 
 --- /code ---
 
-**Click the Run button** to see your changes.
-
 --- /task ---
 
-**Debug step:** Make sure there is a space between the `hero-image` and `wildlife` classes
+--- task ---
 
+**Click Run**
+
+--- collapse ---
+
+---
+title: My hero image has disappeared?
+---
+
+Make sure there is a space between the `hero-image` and `wildlife` classes
+
+--- /collapse ---
+
+--- /task ---
 
 ### Style the Climate page header
 
@@ -246,8 +285,8 @@ Inside `style.css` add another new class selector for climate.
 language: css
 filename: style.css
 line_numbers: true
-line_number_start: 106
-line_highlights: 107-109
+line_number_start: 86
+line_highlights: 87-89
 ---
 /* Hero image - climate */
 .climate {
@@ -276,10 +315,12 @@ line_highlights: 18
 
 --- /code ---
 
-**Click the Run button** to see your changes.
-
 --- /task ---
 
-**Debug step:** Make sure there is a space between the `hero-image` and `climate` classes.
+--- task ---
+
+**Click Run**
+
+--- /task ---
 
 Next, you will make your webpages awesome by arranging things with grids and adding fun movements with animations!
