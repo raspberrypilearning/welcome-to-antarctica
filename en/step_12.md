@@ -15,12 +15,11 @@ If you are following the [More Web](https://projects.raspberrypi.org/en/pathways
 <div style="flex-basis: 175px; flex-grow: 1">  
 Explore the Superhero Website. 
 
-+ Type in the captcha characters to access the site.
-+ Once you have access, click the arrows on the home page slider to navigate through the images .
++ Click the arrows on the hero image slider to move through the images.
 + Toggle the light mode button to see the theme colours on the site change.
-+ Navigate to the Comic book page, complete the input fields to create your own superhero character.
++ Navigate to the Create Character page and complete the input fields to create your own superhero character!
 
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/comic-character-complete" width="600" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/comic-character-complete" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
 
