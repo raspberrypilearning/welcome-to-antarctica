@@ -18,12 +18,10 @@ Explore the Superhero Website.
 + Type in the captcha characters to access the site.
 + Once you have access, click the arrows on the home page slider to navigate through the images .
 + Toggle the light mode button to see the theme colours on the site change.
-+ Navigate to the Comic book page, complete the input fields to create your own superhero chcracter.
++ Navigate to the Comic book page, complete the input fields to create your own superhero character.
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/comic-character-complete" width="600" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 </div>
-
---- /task ---
 
 --- /no-print ---
