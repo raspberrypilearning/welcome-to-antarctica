@@ -33,7 +33,7 @@ line_highlights: 13
 ### Style the whole navbar
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Styling HTML elements with <span style="color: #0faeb0">**CSS**</span> requires you to specify what styling should apply to which elements. To do this you use **selectors**. You can select tags like `nav` or you can be more specific by selecting classes by adding a `.` before the class name - like `.nav-items`.
+Styling HTML elements with <span style="color: #0faeb0">**CSS**</span> requires you to specify what styling should apply to which elements. To do this, you use **selectors**. You can select tags like `nav` or you can be more specific and select classes by adding a `.` before the class name — like `.nav-items`.
 </p>
 
 --- task ---
@@ -151,7 +151,7 @@ line_highlights: 54-58
 --- collapse ---
 
 ---
-title: Selecting elements within a class
+title: Select elements within a class
 ---
 
 Sometimes you will want to style particular elements within a **container** that has a class. To do this you use the `>` operator.
@@ -192,10 +192,10 @@ line_highlights: 61-63
 --- collapse ---
 
 ---
-title: Adding interaction styling to an element
+title: Add interaction styling to an element
 ---
 
-When writing CSS you might want to change the styling on an element when the user interacts with it. 
+When writing CSS, you might want to change the styling on an element when the user interacts with it. 
 
 In the example above, you are changing the styling of the `a` elements, but only when a user **hovers** over them with their mouse. The syntax for this is `a:hover`. 
 
@@ -211,9 +211,9 @@ The style in this selector will **only** be used when a user's mouse is on top o
 
 --- /task ---
 
-### Creating an active link
+### Create an active link
 
-The index.html page will be loaded first.
+The `index.html` page will be loaded first.
 
 When that page is open, the link should stay white and not be clickable.
 
