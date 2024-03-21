@@ -3,7 +3,7 @@
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-If you have time, you can add some more facts, adjust the grid layouts and change the hero images to make the page your own! 
+If you have time, you can add some more facts, adjust the grid layouts, and change the hero images to make the page your own! 
 </div>
 <div>
 ![](images/image.png){:width="300px"}
@@ -29,7 +29,7 @@ line_number_start:
 line_highlights: 
 ---
 
-<p>Of the 56 countries signed on the Antarctic Treaty, 55 of them operate some sort of research station on the continent. The number of researchers active on Antartica is roughly 4,800 in the summer and 1,200 in the winter.</p>
+<p>Of the 56 countries that have signed the Antarctic Treaty, 55 of them operate some sort of research station on the continent. The number of researchers active on Antartica is roughly 4,800 in the summer and 1,200 in the winter.</p>
 
 --- /code ---
 
@@ -58,12 +58,12 @@ line_highlights:
 title: Add some new animals to wildlife.html
 ---
 
-There are three more pictures of Antarctic wildlife - choose one to add to your `wildlife.html` page. 
+There are three more pictures of Antarctic wildlife — choose one to add to your `wildlife.html` page. 
 
 You can use the classes:
-+ `albatross` - an image of the Antarctic Albatross.
-+ `minke-whale` - for the Antarctic Minke Whale.
-+ `gentoo-penguin` - for another penguin the Gentoo species.
++ `albatross` - an image of the Antarctic Albatross
++ `minke-whale` - for the Antarctic Minke Whale
++ `gentoo-penguin` - for another penguin, this is the Gentoo species
 
 --- code ---
 ---
