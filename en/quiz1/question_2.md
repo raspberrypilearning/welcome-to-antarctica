@@ -6,7 +6,7 @@ legend: Question 2 of 3
 
 You used CSS properties in your project to specify the position of your content using a grid layout.
 
-Look at the css styling for the orcas selector. 
+Look at the CSS styling for the orcas selector. 
 
 Which columns will the orca image span?
 
@@ -45,7 +45,7 @@ line_highlights:
  
   --- /feedback ---
 
-- ( ) 1, 2 and 3
+- ( ) 1, 2, and 3
 
   --- feedback ---
 
