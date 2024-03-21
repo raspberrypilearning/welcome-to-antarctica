@@ -13,18 +13,18 @@ You can organise the text content using a grid layout.
 --- collapse ---
 
 ---
-title: Using the display property to change layouts
+title: Use the display property to change layouts
 ---
 
-One of the most important decisions when styling a webpage is how to layout the elements on the page. 
+One of the most important decisions when styling a webpage is how to arrange the elements on the page. 
 
-To change the way elements are arranged you can use the CSS `display` property. 
+To change the way elements are arranged, you can use the CSS `display` property. 
 
 There are a few options available for layouts:
-+ `inline` - the default, height and width are determined by the contents.
-+ `block` - the element will start on a new line and take up the whole width.
-+ `flex` - makes changing layout and alignment easier.
-+ `grid` - creates a table layout with rows and columns so elements can be precisely placed.
++ `inline` - the default, where height and width are determined by the contents
++ `block` - the element will start on a new line and take up the whole width
++ `flex` - makes changing layout and alignment easier
++ `grid` - creates a table layout with rows and columns so elements can be precisely placed
 
 --- /collapse ---
 
@@ -46,7 +46,7 @@ line_highlights: 27
     <div class="fact-holder">
       <span>
         <p>
-          Antarctica is the coldest continent, but it is also the driest! On average there just 200 mm (8 in) of precipitation a year, the majority of it along the coast.
+          Antarctica is the coldest continent, but it is also the driest! On average, there is just 200mm (8 inches) of precipitation a year, the majority of it along the coast.
         </p>
       </span>
 
@@ -74,7 +74,7 @@ Make sure there are `"` marks around `fact-holder`.
 
 At the moment, the paragraphs are taking up different amounts of space.
 
-![The index.html page after the grid has been added. A arrow stretches all the way across and is labelled 100%. Underneath an arrow spans the width of the first paragraph and is labelled 75%, next to it another arrow spans the width of the second paragraph and is labelled 25%.](images/grid-sizes.png)
+![The index.html page after the grid has been added. An arrow stretches all the way across and is labelled 100%. Underneath, an arrow spans the width of the first paragraph and is labelled 75%, next to it another arrow spans the width of the second paragraph and is labelled 25%.](images/grid-sizes.png)
 
 You can change the widths of the grid columns to make them even.
 
@@ -114,7 +114,7 @@ line_highlights: 96-97
 title: My grid has not changed?
 ---
 
-Make sure there a space between each `50%`.  
+Make sure there is a space between each `50%`.  
 
 --- /collapse ---
 
@@ -186,7 +186,7 @@ Check all your opening brackets `<` have closing brackets `>`.
 
 --- task ---
 
-Open `style.css`
+Open `style.css`.
 
 Add the `fact-card` selector to the `style.css` file. This will make sure the background images are centered and cover the whole `<span>` element.
 
@@ -208,7 +208,7 @@ line_highlights: 109-114
 
 --- /code ---
 
-The `style.css` file already has the selectors for `sun`, `discovery`, `explorers` and `ownership`.
+The `style.css` file already has the selectors for `sun`, `discovery`, `explorers`, and `ownership`.
 
 --- /task ---
 
@@ -222,9 +222,9 @@ The `style.css` file already has the selectors for `sun`, `discovery`, `explorer
 title: I can't see my images?
 ---
 
-In `index.html` - check both class attributes are between the same `"` marks.
+In `index.html`, check both class attributes are between the same `"` marks.
 
-In `index.html` - make sure there is a space between each class.
+In `index.html`, make sure there is a space between each class.
 
 --- /collapse ---
 
@@ -232,9 +232,9 @@ In `index.html` - make sure there is a space between each class.
 
 ### Make it more accessible
 
-With the images in place the text is hard to read. This means your website is not as **accessible** as it could be.
+With the images in place, the text is hard to read. This means your website is not as **accessible** as it could be.
 
-Next you are going to change the colour of the text and add a transparent background.
+Next, you are going to change the colour of the text and add a transparent background.
 
 --- task ---
 
@@ -282,4 +282,4 @@ line_highlights: 29, 34, 39, 44
 
 --- /task ---
 
-Next you are going to add animations to your paragraphs to make the pages interactive!
+Next, you are going to add animations to your paragraphs to make the pages interactive!
