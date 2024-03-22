@@ -40,7 +40,7 @@ line_numbers: false
 
 --- choices ---
 
-- ( ) `<nav>`
+- ( ) `<link>`
 
   --- feedback ---
   

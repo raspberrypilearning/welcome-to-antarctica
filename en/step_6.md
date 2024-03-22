@@ -1,4 +1,4 @@
-## Using grids and animations
+## Using animations
 
 Animations and interactivity will make your webpage more fun for visitors!
 

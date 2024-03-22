@@ -1,4 +1,4 @@
-## Using grids and animations
+## Using grids
 
 Make your webpage layouts awesome by arranging things with grids!
 

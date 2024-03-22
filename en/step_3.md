@@ -75,7 +75,7 @@ nav {
 title: I don't see any new colour?
 ---
 
-Make sure that `color` is spelled without a 'u'.
+Make sure that `background-color` is spelled without a 'u' in 'colour'.  `--nav-colour` should still have a 'u', though!
 
 Make sure there is a `;` at the end of the line.
 

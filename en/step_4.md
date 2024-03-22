@@ -57,7 +57,7 @@ line_highlights: 74-79
 /* Hero image - homepage */
 .hero-image {
   min-height: 50vh; /* 50% of the visible area of the page */
-  background-image: url('antarctic-northern-lights.jpg'); 
+  background-image: url('antarctic-lights.jpg'); 
   background-size: cover;
   background-position: center;
 }
