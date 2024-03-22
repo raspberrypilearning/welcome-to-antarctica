@@ -52,7 +52,7 @@ line_numbers: false
 
   --- feedback ---
 
-Not quite. The `<span>` tag is used for grouping inline elements and applying styles, not for creating hyperlinks.
+Not quite. The `<span>` tag is used for grouping in-line elements and applying styles, not for creating hyperlinks.
 
   --- /feedback ---
 
