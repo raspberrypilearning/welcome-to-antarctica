@@ -129,7 +129,7 @@ As well as styling the whole navbar, you can style individual links.
 
 --- task ---
 
-Create another selector to style each `<a>` tag in the `nav-items` div.
+Create another selector to style each `<a>` tag in the `nav-items` `<div>`.
 
 --- code ---
 ---
@@ -195,7 +195,7 @@ line_highlights: 61-63
 title: Add interaction styling to an element
 ---
 
-When writing CSS, you might want to change the styling on an element when the user interacts with it. 
+When writing CSS, you might want to change the styling of an element when the user interacts with it. 
 
 In the example above, you are changing the styling of the `a` elements, but only when a user **hovers** over them with their mouse. The syntax for this is `a:hover`. 
 
