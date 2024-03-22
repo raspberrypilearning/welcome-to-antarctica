@@ -46,7 +46,7 @@ Make the facts visible again when the user hovers over it.
 
 --- task ---
 
-Add a new selector `.fact:hover`
+Add a new selector `.fact:hover`.
 
 --- code ---
 ---
