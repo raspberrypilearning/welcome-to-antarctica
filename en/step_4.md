@@ -214,7 +214,7 @@ Check the `index.html` link has active removed and `climate.html` has active add
 
 ### Style the Wildlife page header
 
-The other pages should have different hero images that represent their content!
+Each page should have its own hero image that represents its content!
 
 --- task ---
 
