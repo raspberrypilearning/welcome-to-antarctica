@@ -13,7 +13,7 @@ If you are following the [More web](https://projects.raspberrypi.org/en/pathways
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Explore the Superhero Website. 
+Explore the Superhero website. 
 
 + Click the arrows on the hero image slider to move through the images
 + Toggle the light mode button to see the theme colours on the site change
