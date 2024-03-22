@@ -72,7 +72,7 @@ Make sure there are `"` marks around `fact-holder`.
 
 --- /task ---
 
-At the moment, the paragraphs are taking up different amounts of space.
+At the moment, the paragraphs take up different amounts of space.
 
 ![The index.html page after the grid has been added. An arrow stretches all the way across and is labelled 100%. Underneath, an arrow spans the width of the first paragraph and is labelled 75%, next to it another arrow spans the width of the second paragraph and is labelled 25%.](images/grid-sizes.png)
 
@@ -128,7 +128,7 @@ However, the fact cards still need styling.
 
 --- task ---
 
-Open `index.html`
+Open `index.html`.
 
 Add a `fact-card` class attribute to each `<span>` element.
 
