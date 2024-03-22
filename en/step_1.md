@@ -10,7 +10,7 @@ As well as the homepage, the website will have pages about Antarctica's wildlife
 
 You will:
 + Create an awesome modern website
-+ Build a navigation bar
++ Build a navigation bar (navbar)
 + Set accessible colours and fonts
 + Add some 'hero' images
 + Use a grid layout
