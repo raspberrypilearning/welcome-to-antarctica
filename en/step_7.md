@@ -1,10 +1,10 @@
 ## Different types of grids
 
-Use a new grid arrangement on the wildlife page to organise the fact cards in a different way to keep things interesting!
+Use a new grid arrangement for the Wildlife page to organise the fact cards in a different way to keep things interesting!
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step7" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
-### Change the heading of the wildlife page
+### Change the heading of the Wildlife page
 
 --- task ---
 
@@ -33,7 +33,7 @@ line_highlights:
 
 --- /task ---
 
-### Add a grid to the wildlife page
+### Add a grid to the Wildlife page
 
 --- task ---
 
@@ -169,15 +169,15 @@ line_highlights: 27
 
 **Click Run**
 
-Now, your wildlife grid has 3 rows that take up a third of the space each, and two columns that are 1/3 and 2/3 of the width.
+Now, your wildlife grid has 3 rows that take up a third of the space each, and 2 columns that are 1/3 and 2/3 of the width.
 
 ![The wildlife grid, with each row labelled with one third. At the bottom, the first column is labelled one third, and the second column is labelled two thirds.](images/wildlife_grid_size.png)
 
 --- /task ---
 
-The grid layout will automatically position your items. You can also specify how you want items to be displayed.
+The grid layout will automatically position your items. However, you can also specify how you want items to be displayed.
 
-You will make it so the penguin fact stretches down over two rows, and the orca fact stretches across both columns in the last row.
+You can make it so the penguin fact stretches down over two rows, and the orca fact stretches across both columns in the last row, for example.
 
 --- task ---
 
@@ -245,7 +245,7 @@ line_highlights: 173-174
 
 --- /task ---
 
-### Change the heading of the climate page
+### Change the heading of the Climate page
 
 --- task ---
 
@@ -274,7 +274,7 @@ line_highlights: 23
 
 --- /task ---
 
-### Add a grid to the climate page
+### Add a grid to the Climate page
 
 --- task ---
 
