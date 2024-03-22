@@ -33,7 +33,7 @@ line_highlights:
 
 --- /code ---
 
-You can use the class `research` to add a new background image to this fact!
+You can use the class `research` to add a new background image to this fact.
 
 --- code ---
 ---
@@ -61,8 +61,8 @@ title: Add some new animals to wildlife.html
 There are three more pictures of Antarctic wildlife — choose one to add to your `wildlife.html` page. 
 
 You can use the classes:
-+ `albatross` - an image of the Antarctic Albatross
-+ `minke-whale` - for the Antarctic Minke Whale
++ `albatross` - an image of the Antarctic albatross
++ `minke-whale` - for the Antarctic minke whale
 + `gentoo-penguin` - for another penguin, this is the Gentoo species
 
 --- code ---
