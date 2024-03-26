@@ -1,14 +1,14 @@
 ## Different types of grids
 
-Use a new grid arrangement on the wildlife page to organise the fact cards in a different way to keep things interesting!
+Use a new grid arrangement for the Wildlife page to organise the fact cards in a different way to keep things interesting!
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step7" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
-### Change the heading of the wildlife page
+### Change the heading of the Wildlife page
 
 --- task ---
 
-Open `wildlife.html`
+Open `wildlife.html`.
 
 Change the `h1` text.
 
@@ -33,7 +33,7 @@ line_highlights:
 
 --- /task ---
 
-### Add a grid to the wildlife page
+### Add a grid to the Wildlife page
 
 --- task ---
 
@@ -58,7 +58,7 @@ line_highlights: 27-29, 33-34, 38-39, 43-44
   <div class="fact-holder">
     <span class="fact-card penguins">
       <p class="fact">
-        Emperor penguins, live in colonies on sea ice. Sea ice is frozen sea water which fringes the Antarctic continent. In the winter sea ice expands. In the summer, it shrinks as the sea ice melts. By the time the chicks are ready to fledge, the sea ice edge is close to the colony, so the young penguins don’t have to travel far to get their food.
+        Emperor penguins, live in colonies on sea ice. Sea ice is frozen sea water which fringes the Antarctic continent. In the winter, sea ice expands. In the summer, it shrinks as the sea ice melts. By the time the chicks are ready to fledge, the sea ice edge is close to the colony, so the young penguins don’t have to travel far to get their food.
       </p>
     </span>
     <span class="fact-card krill">
@@ -68,7 +68,7 @@ line_highlights: 27-29, 33-34, 38-39, 43-44
     </span>
     <span class="fact-card seals">
       <p class="fact">
-        Seals have thick beautiful fur coats and blubber, making them supremely adapted to the cold. There are six species in Antarctica: Antarctic Fur Seals, Leopard Seals, Ross Seals, Southern Elephant seals, Crabeater Seals and Weddell Seals.
+        Seals have thick beautiful fur coats and blubber, making them supremely adapted to the cold. There are six species in Antarctica: Antarctic Fur Seals, Leopard Seals, Ross Seals, Southern Elephant Seals, Crabeater Seals, and Weddell Seals.
       </p>
     </span>
     <span class="fact-card orcas">
@@ -89,17 +89,17 @@ line_highlights: 27-29, 33-34, 38-39, 43-44
 
 --- /task ---
 
-There are different ways to size your grid layout, you can use `fr` to create **fractions** of the sizing.
+There are different ways to size your grid layout. For example, you can use `fr` to create **fractions** of the sizing.
 
 --- collapse ---
 
 ---
-title: Using fractions for sizing grids
+title: Use fractions to size grids
 ---
 
-Rather than using percentages and having to check they add up to 100% you can instead use fractions of the space. 
+Rather than using percentages and having to check they add up to 100%, you can instead use fractions of the space. 
 
-To do this you use the unit `fr` - so if you wanted four columns that are each a quarter of the width of the grid you would use this CSS;
+To do this, you use the unit `fr` — so if you wanted four columns that are each a quarter of the width of the grid, you would use this CSS:
 
 ~~~css
 grid-columns: 1fr 1fr 1fr 1fr 
@@ -117,7 +117,7 @@ grid-rows: 3fr 1fr
 
 --- task ---
 
-Open `style.css`
+Open `style.css`.
 
 Add the `fact-holder-wildlife` selector to the `style.css` file.
 
@@ -169,15 +169,15 @@ line_highlights: 27
 
 **Click Run**
 
-Now your wildlife grid has 3 rows that take up a third of the space each, and two columns that are 1/3 and 2/3 of the width.
+Now, your wildlife grid has 3 rows that take up a third of the space each, and 2 columns that are 1/3 and 2/3 of the width.
 
-![The wildlife grid, each row is labelled with one third. At the bottom the first column is labelled one third, and the second column is labelled two thirds. Showing the size of the grid.](images/wildlife_grid_size.png)
+![The wildlife grid, with each row labelled with one third. At the bottom, the first column is labelled one third, and the second column is labelled two thirds.](images/wildlife_grid_size.png)
 
 --- /task ---
 
-Grid layout will automatically position your items. You can also specify how you want items to be displayed.
+The grid layout will automatically position your items. However, you can also specify how you want items to be displayed.
 
-You will make it so the penguin fact stretches down over two rows, and the orca fact stretches across both columns in the last row.
+You can make it so the penguin fact stretches down over two rows, and the orca fact stretches across both columns in the last row, for example.
 
 --- task ---
 
@@ -204,7 +204,7 @@ line_highlights: 159-160
 
 The `grid-row-start` property is the **first** row the element will display in. 
 
-`grid-row-end` is the row where the element ends - the image will **not** display on this row.
+And `grid-row-end` is the row where the element ends — the image will **not** display on this row.
 
 --- /task ---
 
@@ -245,7 +245,7 @@ line_highlights: 173-174
 
 --- /task ---
 
-### Change the heading of the climate page
+### Change the heading of the Climate page
 
 --- task ---
 
@@ -256,7 +256,7 @@ Change the `h1` text.
 --- code ---
 ---
 language: html
-filename: wildlife.html
+filename: climate.html
 line_numbers: true
 line_number_start: 22
 line_highlights: 23
@@ -274,7 +274,7 @@ line_highlights: 23
 
 --- /task ---
 
-### Add a grid to the climate page
+### Add a grid to the Climate page
 
 --- task ---
 
@@ -328,4 +328,4 @@ line_highlights: 25-27, 31-32, 36-37, 41-42
 
 --- /task ---
 
-Next you will make your content smart. No matter if the page is big or small, or if someone is using a different device, it will always look amazing.
+Next, you will make your content smart. No matter if the page is big or small, or if someone is using a different device, it will always look amazing.

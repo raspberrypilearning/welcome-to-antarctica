@@ -5,20 +5,20 @@ Make your content smart! No matter if the page is big or small, or if someone is
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step8" width="600" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Webpages can be viewed on many different devices and should be <span style="color: #0faeb0">**responsive**</span> to each device. This means that if a user views your page on a mobile phone, it should respond to a smaller screen and if they view it on a desktop PC, it should respond to a larger screen. 
+Webpages can be viewed on many different devices and should be <span style="color: #0faeb0">**responsive**</span> to each device. This means that if a user views your page on a mobile phone, it should respond to the smaller screen size and if they view it on a desktop PC, it should respond to the larger screen size. 
 </p>
 
 ### Make the navbar responsive
 
-On a smaller screen the links in the navbar might get too close together. 
+On a smaller screen, the links in the navbar might get too close together. 
 
-You are going to make the links disappear and be replaced with a **hamburger menu** (☰). 
+You are going to make the links disappear and replaced them with a **hamburger menu** (☰). 
 
 --- task ---
 
 Open `index.html`.
 
-Inside the `<nav>` tags add a new `<div>` with the `class="hamburger"` attribute. 
+Inside the `<nav>` tags, add a new `<div>` with the `class="hamburger"` attribute. 
 
 Add two `<span>` tags. One is for the 'hamburger' icon (☰) used to open the menu. The other is for a cross icon (✖) used to close the menu.
 
@@ -47,10 +47,10 @@ line_highlights: 18-21
 --- collapse ---
 
 ---
-title: Using ASCII codes for characters
+title: Use ASCII codes for characters
 ---
 
-To make the hamburger menue and cross you have used an **ASCII** code, this is a way of adding special characters that don't feature on your keyboard. 
+To make the hamburger menu and cross, you have used an **ASCII** code. This is a way of adding special characters that don't feature on your keyboard. 
 
 You can find a full list of ASCII codes on [this website](https://www.ascii-code.com/).
 
@@ -68,7 +68,7 @@ You are using an `id` attribute on each `<span>` element. A unique `id` can be g
 
 The new icons should only be visible when the screen is small enough.
 
-When the page first loads you don't want the `<div>` to display.
+When the page first loads, you don't want the `<div>` to display.
 
 --- task ---
 
@@ -108,7 +108,7 @@ line_highlights: 72-78
 
 You are going to use a **media query** to change the styling of elements based on the width of the screen. 
 
-We have set 768px as the screen width below which the media query will trigger.
+We have set 768px as the screen width, below which the media query will trigger.
 
 --- collapse ---
 
@@ -118,7 +118,7 @@ title: Using media queries
 
 A CSS media query can be used to check lots of things about the way a webpage is currently being displayed. 
 
-You can check attributes of the device showing the page, like the width or the height. For mobile devices you can check whether they are in landscape or portrait mode. 
+You can check attributes of the device showing the page, like the width or the height. For mobile devices, you can check whether they are in landscape or portrait mode. 
 
 You can also use media queries to change the styling of a page when it is printed.
 
@@ -126,7 +126,7 @@ You can also use media queries to change the styling of a page when it is printe
 
 --- task ---
 
-At the bottom of `style.css` add your media query.
+At the bottom of `style.css`, add your media query.
 
 --- code ---
 ---
@@ -152,7 +152,7 @@ line_highlights: 212-214
 title: Why use a max width of 768px?
 ---
 
-768px is the typical width of a tablet screen and mobile phone screens are even narrower. Using this width you can make sure your content looks great on all mobile devices. 
+The typical width of a tablet screen is 768px and mobile phone screens are even narrower. Using this width, you can make sure your content looks great on all mobile devices. 
 
 When the page width is more than 768px, the navbar displays the three page links at the top of the page.
 
@@ -160,7 +160,7 @@ When the page width is 768px or less, the navbar can be hidden and a 'hamburger'
 
 --- /collapse ---
 
-Whent the hamburger menu icon is displayed, the cross will remain hidden.
+When the hamburger menu icon is displayed, the cross will remain hidden.
 
 When the hamburger icon is clicked, the page links will be displayed and the close icon will be shown.
 
@@ -203,9 +203,9 @@ Resize the editor to see your changes!
 
 You need to open and close the navigation menu.
 
-The navigation items don't look very good at the moment, add some new styling to make them look like a menu.
+The navigation items don't look very good at the moment, so add some new styling to make them look like a menu.
 
-Before the menu is opened you will set the nav items to `display: none` so they are not shown.
+You will set the nav items to `display: none` so they are not shown before the menu is opened.
 
 --- task ---
 
@@ -262,7 +262,7 @@ line_highlights: 223-235
 
 Open `index.html`.
 
-Add the **javascript** file to your page. 
+Add the **JavaScript** file to your page. 
 
 --- code ---
 ---
@@ -284,7 +284,7 @@ line_highlights: 53
 
 **Click Run**
 
-Click on the burger menu to see your navigation items appear, click the cross to close the menu.
+Click on the hamburger menu to see your navigation items appear. Then click the cross to close the menu.
 
 --- /task ---
 
@@ -322,7 +322,7 @@ line_highlights: 19-22
 
 --- task ---
 
-Also add the **javascript** file to your page. 
+Also add the **JavaScript** file to your page. 
 
 --- code ---
 ---
@@ -344,7 +344,7 @@ line_highlights: 55
 
 **Click Run**
 
-Click on the burger menu to see your navigation items appear, click the cross to close the menu.
+Click on the hamburger menu to see your navigation items appear. Then click the cross to close the menu.
 
 --- /task ---
 
@@ -356,7 +356,7 @@ Open `climate.html`.
 
 Copy and paste the `hamburger` `<div>` element inside the `<nav>` tags. 
 
-Also copy and paste (CTRL + C or CMD + C) the **javascript** file to your page. 
+Also copy and paste (CTRL + C or CMD + C) the **JavaScript** file to your page. 
 
 --- /task ---
 

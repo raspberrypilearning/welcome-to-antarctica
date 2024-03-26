@@ -1,6 +1,6 @@
 ## Reflection
 
-Well done. You have created a website using HTML, CSS and Javascript.
+Well done. You have created a website using HTML, CSS, and JavaScript.
 
 Answer the three questions below to reflect on what you've learnt.
 
@@ -40,7 +40,7 @@ line_numbers: false
 
 --- choices ---
 
-- ( ) `<nav>`
+- ( ) `<link>`
 
   --- feedback ---
   
@@ -52,7 +52,7 @@ line_numbers: false
 
   --- feedback ---
 
-Not quite. The `<span>` tag is used for grouping inline elements and applying styles, not for creating hyperlinks.
+Not quite. The `<span>` tag is used for grouping in-line elements and applying styles, not for creating hyperlinks.
 
   --- /feedback ---
 

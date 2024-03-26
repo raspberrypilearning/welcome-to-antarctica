@@ -205,6 +205,6 @@ Resize the preview window to below 768px to see how each page responds.
 
 --- /task ---
 
-Fantastic work! You have now built a responsive website that lets people discover a place they may never get a chance to visit - Antarctica. 
+Fantastic work! You have now built a responsive website that lets people discover a place they may never get a chance to visit — Antarctica. 
 
 Next, you will reflect on your learning by completing a quiz.
