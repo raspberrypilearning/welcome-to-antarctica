@@ -1,5 +1,9 @@
 ## Introduction
 
+### New to the Raspberry Pi Editor?
+
+Check out the [getting started guide](https://projects.raspberrypi.org/en/projects/getting-started-guide-editor-html){:target="_blank"}.
+
 In this project, you will use HTML, CSS, and JavaScript to create a website that lets people discover a place they may never get a chance to visit — Antarctica. 
 
 As well as the homepage, the website will have pages about Antarctica's wildlife and climate. 
