@@ -42,6 +42,16 @@ What happens when you...
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-complete" width="100%" height="900" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
+--- collapse ---
+
+---
+title: Images in this project
+---
+
+Images included in this project were created using generative AI. Model: Firefly Image 2
+
+--- /collapse ---
+
 --- /task ---
 
 --- /no-print ---
