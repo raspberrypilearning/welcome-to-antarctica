@@ -4,7 +4,7 @@ If you are following the [More web](https://projects.raspberrypi.org/en/pathways
 
 --- print-only ---
 
-![The finished Comic character project](images/comic-character-project.png) **TODO** 
+![The finished Comic character project](images/comic-character.png)
 
 --- /print-only ---
 

@@ -1,5 +1,15 @@
 ## Introduction
 
+--- collapse ---
+
+---
+title: New to the Raspberry Pi Editor?
+---
+
+Check out the [getting started guide](https://projects.raspberrypi.org/en/projects/getting-started-guide-editor-html){:target="_blank"}!
+
+--- /collapse ---
+
 In this project, you will use HTML, CSS, and JavaScript to create a website that lets people discover a place they may never get a chance to visit — Antarctica. 
 
 As well as the homepage, the website will have pages about Antarctica's wildlife and climate. 
@@ -31,6 +41,16 @@ What happens when you...
 + Use the links to access the different pages?
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-complete" width="100%" height="900" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+
+--- collapse ---
+
+---
+title: Images in this project
+---
+
+Images included in this project were created using generative AI. Model: Firefly Image 2
+
+--- /collapse ---
 
 --- /task ---
 
