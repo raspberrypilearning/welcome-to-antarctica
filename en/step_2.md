@@ -127,7 +127,7 @@ You should:
 
 + Notice that the navbar does not appear on the Wildlife or Climate pages
 
-**Tip:** In the Editor, you can use the browser back button (←) to return to the homepage.
+**Tip:** In the Code Editor, you can use the browser back button (←) to return to the homepage.
 
 --- /task ---
 
