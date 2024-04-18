@@ -197,7 +197,7 @@ line_highlights: 214-217, 219-221
 
 **Click Run**
 
-Resize the editor to see your changes!
+Resize the Code Editor to see your changes!
 
 --- /task ---
 
