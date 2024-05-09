@@ -12,7 +12,7 @@ Webpages can be viewed on many different devices and should be <span style="colo
 
 On a smaller screen, the links in the navbar might get too close together. 
 
-You are going to make the links disappear and replaced them with a **hamburger menu** (☰). 
+You are going to make the links disappear and replace them with a **hamburger menu** (☰). 
 
 --- task ---
 
