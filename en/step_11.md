@@ -18,7 +18,7 @@ If you have time, you can add some more facts, adjust the grid layouts, and chan
 title: Add a new fact to the homepage
 ---
 
-Here is a fact about the research stations on Antartica that you can add to the home page. 
+Here is a fact about the research stations on Antarctica that you can add to the home page. 
 
 --- code ---
 ---
