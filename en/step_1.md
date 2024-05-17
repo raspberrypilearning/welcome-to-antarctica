@@ -36,7 +36,7 @@ You will:
 Explore the Welcome to Antarctica website.
 
 What happens when you...
-+ Click the hamburger icon (☰)?
++ Click the burger icon (☰)?
 + Hover over the images?
 + Use the links to access the different pages?
 

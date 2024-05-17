@@ -2,7 +2,7 @@ let openHam = document.querySelector('#openHam');
 let closeHam = document.querySelector('#closeHam');
 let navigationItems = document.querySelector('.nav-items');
 
-const hamburgerEvent = (navigation, close, open) => {
+const burgerEvent = (navigation, close, open) => {
     if (navigation == "none"){
         navigationItems.style.removeProperty("display");
     } else {
@@ -12,5 +12,5 @@ const hamburgerEvent = (navigation, close, open) => {
     openHam.style.display = open;
 }
 
-openHam.addEventListener('click', () => hamburgerEvent("flex", "block", "none"));
-closeHam.addEventListener('click', () => hamburgerEvent("none", "none", "block"));
+openHam.addEventListener('click', () => burgerEvent("flex", "block", "none"));
+closeHam.addEventListener('click', () => burgerEvent("none", "none", "block"));

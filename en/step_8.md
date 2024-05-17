@@ -12,15 +12,15 @@ Webpages can be viewed on many different devices and should be <span style="colo
 
 On a smaller screen, the links in the navbar might get too close together. 
 
-You are going to make the links disappear and replace them with a **hamburger menu** (☰). 
+You are going to make the links disappear and replace them with a **burger menu** (☰). 
 
 --- task ---
 
 Open `index.html`.
 
-Inside the `<nav>` tags, add a new `<div>` with the `class="hamburger"` attribute. 
+Inside the `<nav>` tags, add a new `<div>` with the `class="burger"` attribute. 
 
-Add two `<span>` tags. One is for the 'hamburger' icon (☰) used to open the menu. The other is for a cross icon (✖) used to close the menu.
+Add two `<span>` tags. One is for the 'burger' icon (☰) used to open the menu. The other is for a cross icon (✖) used to close the menu.
 
 --- code ---
 ---
@@ -36,7 +36,7 @@ line_highlights: 18-21
         <a href="wildlife.html">Wildlife</a>
         <a href="climate.html">Climate</a>
       </div>
-      <div class="hamburger">
+      <div class="burger">
         <span id="openHam">&#9776;</span>
         <span id="closeHam">&#x2716;</span>
       </div>
@@ -50,7 +50,7 @@ line_highlights: 18-21
 title: Use ASCII codes for characters
 ---
 
-To make the hamburger menu and cross, you have used an **ASCII** code. This is a way of adding special characters that don't feature on your keyboard. 
+To make the burger menu and cross, you have used an **ASCII** code. This is a way of adding special characters that don't feature on your keyboard. 
 
 You can find a full list of ASCII codes on [this website](https://www.ascii-code.com/).
 
@@ -74,7 +74,7 @@ When the page first loads, you don't want the `<div>` to display.
 
 Open `style.css`.
 
-Add the `hamburger` selector to the `style.css` file.
+Add the `burger` selector to the `style.css` file.
 
 --- code ---
 ---
@@ -85,12 +85,12 @@ line_number_start: 71
 line_highlights: 72-78
 ---
 
-/* Hamburger menu */
-.hamburger {
+/* Burger menu */
+.burger {
   display: none;
   font-size: 20px;
   font-weight: 800;
-  color: var(--hamburger-colour);
+  color: var(--burger-colour);
   margin-left: auto;
 }
 
@@ -156,17 +156,17 @@ The typical width of a tablet screen is 768px and mobile phone screens are even 
 
 When the page width is more than 768px, the navbar displays the three page links at the top of the page.
 
-When the page width is 768px or less, the navbar can be hidden and a 'hamburger' menu shown to save space.
+When the page width is 768px or less, the navbar can be hidden and a 'burger' menu shown to save space.
 
 --- /collapse ---
 
-When the hamburger menu icon is displayed, the cross will remain hidden.
+When the burger menu icon is displayed, the cross will remain hidden.
 
-When the hamburger icon is clicked, the page links will be displayed and the close icon will be shown.
+When the burger icon is clicked, the page links will be displayed and the close icon will be shown.
 
 --- task ---
 
-Add selectors to style the `.hamburger` `<div>`. 
+Add selectors to style the `.burger` `<div>`. 
 
 --- code ---
 ---
@@ -178,12 +178,12 @@ line_highlights: 214-217, 219-221
 ---
 @media screen and (max-width:768px) {    
   
-  .hamburger {
+  .burger {
     display: flex;
     cursor: pointer;
   }
   
-  .hamburger #closeHam {
+  .burger #closeHam {
     display: none;
   }   
 
@@ -223,12 +223,12 @@ line_highlights: 223-235
 ---
 @media screen and (max-width:768px) {
     
-  .hamburger {
+  .burger {
     display: flex;
     cursor: pointer;
   }
   
-  .hamburger #closeHam {
+  .burger #closeHam {
     display: none;
   }   
   
@@ -284,7 +284,7 @@ line_highlights: 53
 
 **Click Run**
 
-Click on the hamburger menu to see your navigation items appear. Then click the cross to close the menu.
+Click on the burger menu to see your navigation items appear. Then click the cross to close the menu.
 
 --- /task ---
 
@@ -294,7 +294,7 @@ Click on the hamburger menu to see your navigation items appear. Then click the 
 
 Open `wildlife.html`.
 
-Copy and paste the `hamburger` `<div>` element inside the `<nav>` tags. 
+Copy and paste the `burger` `<div>` element inside the `<nav>` tags. 
 
 --- code ---
 ---
@@ -310,7 +310,7 @@ line_highlights: 19-22
         <a class="active" href="wildlife.html">Wildlife</a>
         <a href="climate.html">Climate</a>
       </div>
-      <div class="hamburger">
+      <div class="burger">
         <span id="openHam">&#9776;</span>
         <span id="closeHam">&#x2716;</span>
       </div>
@@ -344,17 +344,17 @@ line_highlights: 55
 
 **Click Run**
 
-Click on the hamburger menu to see your navigation items appear. Then click the cross to close the menu.
+Click on the burger menu to see your navigation items appear. Then click the cross to close the menu.
 
 --- /task ---
 
-You now need to add the hamburger `<div>` and JavaScript file to climate.html as well.
+You now need to add the burger `<div>` and JavaScript file to climate.html as well.
 
 --- task ---
 
 Open `climate.html`.
 
-Copy and paste the `hamburger` `<div>` element inside the `<nav>` tags. 
+Copy and paste the `burger` `<div>` element inside the `<nav>` tags. 
 
 Also copy and paste (CTRL + C or CMD + C) the **JavaScript** file to your page. 
 
