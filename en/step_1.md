@@ -57,5 +57,7 @@ Images included in this project were created using generative AI. Model: Firefly
 --- /no-print ---
 
 --- print-only ---
-![Completed project](images/showcase_static.png) 
+
+![Completed project](images/showcase_static.png)
+
 --- /print-only ---
