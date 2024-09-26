@@ -39,7 +39,7 @@ line_numbers: false
 
   \--- /feedback ---
 
-  - ( ) To create a grid layout.
+- ( ) To create a grid layout.
 
   \--- feedback ---
 
