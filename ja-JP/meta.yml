@@ -1,0 +1,41 @@
+---
+title: Welcome to Antarctica
+hero_image: images/banner.png
+description: Use CSS to make a great website
+version: 4
+listed: true
+copyedit: false
+last_tested: '2021-03-26'
+steps:
+  - 
+    title: Introduction
+  - 
+    title: Create a navbar
+  - 
+    title: Style the navbar
+    completion: engaged
+  - 
+    title: Add hero images
+  - 
+    title: Using grids and animations
+  - 
+    title: Add hover animations
+  - 
+    title: Different types of grids
+  - 
+    title: Responsive navbar
+  - 
+    title: Responsive grids
+    completion: internal
+  - 
+    title: Reflection
+    completion: external
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - 
+    title: Upgrade your project
+  - 
+    title: What next?
