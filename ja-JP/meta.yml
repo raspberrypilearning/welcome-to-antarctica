@@ -12,18 +12,18 @@ steps:
   - 
     title: Create a navbar
   - 
-    title: Style the navbar
+    title: Style a navbar
     completion: engaged
   - 
     title: Add hero images
   - 
-    title: Using grids and animations
+    title: Using grids
   - 
-    title: Add hover animations
+    title: Using animations
   - 
     title: Different types of grids
   - 
-    title: Responsive navbar
+    title: Responsive navigation bar
   - 
     title: Responsive grids
     completion: internal
