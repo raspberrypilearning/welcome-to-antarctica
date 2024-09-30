@@ -1,18 +1,18 @@
-## Add hero images
+## Voeg hero-afbeeldingen toe
 
-Put some cool images at the top of your webpage to show everyone what it's about!
+Plaats een aantal leuke afbeeldingen bovenaan je webpagina zodat iedereen kan zien waar het over gaat!
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step4" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
-### Add a hero image to the header
+### Een hero afbeelding toevoegen aan de koptekst
 
-A large full width image at the top of a page is called a **hero image**.
+Een grote afbeelding over de volledige breedte bovenaan een pagina wordt een **hero-image** genoemd.
 
 \--- task ---
 
-Add a new `<div>` element to the `<header>`.
+Voeg een nieuw `<div>` element toe aan `<header>`.
 
-Give the new `<div>` a class attribute of `hero-image`.
+Geef de nieuwe `<div>` een class attribuut van `hero-image`.
 
 ## --- code ---
 
@@ -28,11 +28,11 @@ line_highlights: 19
   <nav>
     <div class="nav-items">
       <a href="index.html" class="active">Home</a>
-      <a href="wildlife.html">Wildlife</a>
-      <a href="climate.html">Climate</a>
+      <a href="wildlife.html">Wilde dieren</a>
+      <a href="climate.html">Klimaat</a>
     </div>
   </nav>
-  <div class="hero-image"></div>
+<div class="hero-image"></div>
 </header>
 ```
 
@@ -42,11 +42,11 @@ line_highlights: 19
 
 \--- task ---
 
-In `style.css`, add a new selector for the `hero-image` class.
+Voeg in `style.css` een nieuwe selector toe voor de `hero-image` class.
 
-Instead of adding an `<img>` element to the HTML, you can use the CSS `background-image` property to add your image.
+In plaats van een `<img>` element toe te voegen aan de HTML, kun je de CSS `background-image` eigenschap gebruiken om je afbeelding toe te voegen.
 
-The image should fill the `<div>` element (by setting the `background-size` property to `cover`) and be centered.
+De afbeelding moet het element `<div>` vullen (door de eigenschap `background-size` in te stellen op `cover`) en gecentreerd zijn.
 
 ## --- code ---
 
@@ -59,7 +59,7 @@ line_highlights: 74-79
 
 /\* Hero image - homepage _/
 .hero-image {
-min-height: 50vh; /_ 50% of the visible area of the page \*/
+min-height: 50vh; /_ 50% van het zichtbare gebied van de pagina\*/
 background-image: url('antarctic-lights.jpg');
 background-size: cover;
 background-position: center;
@@ -71,17 +71,17 @@ background-position: center;
 
 ---
 
-## title: Using vh and vw in CSS
+## title: vh en vw gebruiken in CSS
 
-When setting the size of an element using CSS, you might want the height or width to change depending on the size of the screen it is being viewed on.
+Bij het instellen van de grootte van een element met behulp van CSS, wil je misschien dat de hoogte of breedte wijzigt afhankelijk van de grootte van het scherm waarop het wordt bekeken.
 
-![A box with a dotted line, representing the whole webpage. A representation of a browser window shows only the middle section of the webpage, this is labelled viewport.](images/viewport.png)
+![Een vak met een stippellijn, dat de hele webpagina voorstelt. Een weergave van een browservenster toont alleen het middelste gedeelte van de webpagina, dit wordt viewport genoemd.](images/viewport.png)
 
-The visible area of a webpage is called the **viewport** and this will differ between devices: a phone screen is a very different size to a laptop screen, for example.
+Het zichtbare gedeelte van een webpagina wordt de **viewport** genoemd. Dit verschilt per apparaat: het scherm van een telefoon is bijvoorbeeld heel anders van formaat dan dat van een laptop.
 
-In CSS you can use `vh` to set the size of elements relative to the **height** of the viewport. The number you put before it is the **percentage** of the viewport height the element should take up. So `50vh` is **half** the viewport's height.
+In CSS kun je `vh` gebruiken om de grootte van elementen in te stellen ten opzichte van de **hoogte** van de viewport. Het getal dat je ervoor plaatst, is het **percentage** van de viewporthoogte dat het element moet innemen. `50vh` is dus **de helft** van de hoogte van de viewport.
 
-`vw` works the same way for the **width** of the viewport.
+`vw` werkt op dezelfde manier voor de **breedte** van de viewport.
 
 \--- /collapse ---
 
@@ -89,17 +89,17 @@ In CSS you can use `vh` to set the size of elements relative to the **height** o
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- /task ---
 
-### Copy the header
+### Kopieer de header
 
-`index.html` is looking great! Time to add the header to the other pages.
+`index.html` ziet er geweldig uit! Tijd om de header aan de andere pagina's toe te voegen.
 
 \--- task ---
 
-Highlight and copy (Ctrl + C or Cmd + C) the contents of the `<header>` section in `index.html`.
+Markeer en kopieer (Ctrl + C of Cmd + C) de inhoud van de sectie `<header>` in `index.html`.
 
 ## --- code ---
 
@@ -113,8 +113,8 @@ line_number_start: 12
   <nav>
     <div class="nav-items">
       <a href="index.html" class="active">Home</a>
-      <a href="wildlife.html">Wildlife</a>
-      <a href="climate.html">Climate</a>
+      <a href="wildlife.html">Wilde dieren</a>
+      <a href="climate.html">Klimaat</a>
     </div>
   </nav>
   <div class="hero-image"></div>
@@ -126,9 +126,9 @@ line_number_start: 12
 
 \--- task ---
 
-Open the `wildlife.html` file.
+Open het `wildlife.html` bestand.
 
-Paste the contents into the `<header>` and change which link has the active class.
+Plak de inhoud in `<header>` en verander welke link de actieve klasse heeft.
 
 ## --- code ---
 
@@ -144,11 +144,11 @@ line_highlights: 12-19
   <nav class="navigation-header">
     <div class="nav-items">
       <a href="index.html">Home</a>
-      <a href="wildlife.html" class="active">Wildlife</a>
-      <a href="climate.html">Climate</a>
+      <a href="wildlife.html" class="active">Wilde dieren</a>
+      <a href="climate.html">Klimaat</a>
     </div>
   </nav>
-  <div class="hero-image"></div>
+<div class="hero-image"></div>
 </header>
 ```
 
@@ -158,15 +158,15 @@ line_highlights: 12-19
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- collapse ---
 
 ---
 
-## title: The Home link is still white?
+## title: De Home-link is nog steeds wit?
 
-Check the `index.html` link has active removed and `wildlife.html` has active added.
+Controleer of bij de `index.html`-link actief verwijderd is en bij `wildlife.html` actief toegevoegd is.
 
 \--- /collapse ---
 
@@ -174,13 +174,13 @@ Check the `index.html` link has active removed and `wildlife.html` has active ad
 
 \--- task ---
 
-Highlight and copy (Ctrl + C or Cmd + C) the contents of the `<header>` section in `index.html` again.
+Markeer en kopieer (Ctrl + C of Cmd + C) de inhoud van de sectie `<header>` in `index.html`.
 
 \--- /task ---
 
 \--- task ---
 
-Paste the `<header>` contents into `climate.html` and change which link has the active class.
+Plak de inhoud van `<header>` in `climate.html` en verander welke link de actieve klasse heeft.
 
 ## --- code ---
 
@@ -196,11 +196,11 @@ line_highlights: 12-19
   <nav class="navigation-header">
     <div class="nav-items">
       <a href="index.html">Home</a>
-      <a href="wildlife.html">Wildlife</a>
-      <a href="climate.html" class="active">Climate</a>
+      <a href="wildlife.html">Wilde dieren</a>
+      <a href="climate.html" class="active">Klimaat</a>
     </div>
   </nav>
-  <div class="hero-image"></div>
+<div class="hero-image"></div>
 </header>
 ```
 
@@ -210,29 +210,29 @@ line_highlights: 12-19
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- collapse ---
 
 ---
 
-## title: My Home link is still white?
+## title: Mijn Home-link is nog steeds wit?
 
-Check the `index.html` link has active removed and `climate.html` has active added.
+Controleer of bij de `index.html`-link actief verwijderd is en bij `climate.html` actief toegevoegd is.
 
 \--- /collapse ---
 
 \--- /task ---
 
-### Style the Wildlife page header
+### Maak de Wildlife pagina koptekst op
 
-Each page should have its own hero image that represents its content!
+Elke pagina moet een eigen hero-afbeelding hebben die de inhoud ervan weergeeft!
 
 \--- task ---
 
-Inside `style.css` add a new class selector for wildlife.
+Voeg in `style.css` een nieuwe klasseselector voor wilde dieren toe.
 
-You can set a new `background-image` property, which will overwrite the one set in the `hero-image` class.
+Je kunt een nieuwe eigenschap `background-image` instellen, die de eigenschap in de klasse `hero-image` overschrijft.
 
 ## --- code ---
 
@@ -243,7 +243,7 @@ line_number_start: 81
 line_highlights: 82-84
 -----------------------------------------------------------
 
-/\* Hero image - wildlife \*/
+/\* Hero-image - wilde dieren \*/
 .wildlife {
 background-image: url('antarctic-penguins.jpg');
 }
@@ -254,7 +254,7 @@ background-image: url('antarctic-penguins.jpg');
 
 \--- task ---
 
-Now apply the new `wildlife` class as an **addition** to the `hero-image` class in `wildlife.html`.
+Pas nu de nieuwe klasse `wildlife` toe als **aanvulling** op de klasse `hero-image` in `wildlife.html`.
 
 ## --- code ---
 
@@ -276,25 +276,25 @@ line_highlights: 19
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- collapse ---
 
 ---
 
-## title: My hero image has disappeared?
+## title: Mijn hero-afbewelding is verdwenen?
 
-Make sure there is a space between the `hero-image` and `wildlife` classes.
+Zorg ervoor dat er een spatie staat tussen de klassen `hero-image` en `wildlife`.
 
 \--- /collapse ---
 
 \--- /task ---
 
-### Style the Climate page header
+### Maak de Klimaat pagina koptekst op
 
 \--- task ---
 
-Inside `style.css`, add another new class selector for climate.
+Voeg in `style.css` een nieuwe klasseselector voor klimaat toe.
 
 ## --- code ---
 
@@ -305,7 +305,7 @@ line_number_start: 86
 line_highlights: 87-89
 -----------------------------------------------------------
 
-/\* Hero image - climate \*/
+/\* Hero image - klimaat \*/
 .climate {
 background-image: url('antarctic-daytime.jpg');
 }
@@ -316,7 +316,7 @@ background-image: url('antarctic-daytime.jpg');
 
 \--- task ---
 
-Now apply the new `climate` class as an **addition** to the `hero-image` class in `climate.html`.
+Pas nu de nieuwe klasse `climate` toe als **aanvulling** op de klasse `hero-image` in `climate.html`.
 
 ## --- code ---
 
@@ -338,8 +338,8 @@ line_highlights: 18
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- /task ---
 
-Next, you will make your webpages awesome by arranging things with grids and adding fun movements with animations!
+Vervolgens maak je je webpagina's nog mooier door dingen met rasters te ordenen en leuke bewegingen met animaties toe te voegen!
