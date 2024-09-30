@@ -1,18 +1,18 @@
 ## Reflectie
 
-Well done. You have created a website using HTML, CSS, and JavaScript.
+Goed gedaan. Je hebt een website gemaakt met behulp van HTML, CSS en JavaScript.
 
-Answer the three questions below to reflect on what you've learnt.
+Beantwoord de drie onderstaande vragen om terug te kijken op wat je hebt geleerd.
 
-You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Je wordt naar het juiste antwoord geleid. Je kunt deze activiteit zo vaak doen als je wilt.
 
 \--- question ---
 
 ---
 
-## legend: Question 1 of 3
+## legend: Vraag 1 van 3
 
-When creating navigation links in HTML, which tag is used to define a hyperlink?
+Welke tag wordt gebruikt om een hyperlink te definiëren bij het maken van navigatielinks in HTML?
 
 ## --- code ---
 
@@ -22,12 +22,12 @@ line_numbers: false
 --------------------------------------------------------
 
 ```
-<header>
+0>
   <nav class="navigation-header">
     <div class="nav-items">
       <a class="active" href="index.html">Home</a>
-      <a href="wildlife.html">Wildlife</a>
-      <a href="climate.html">Climate</a>
+      <a href="wildlife.html">Wilde dieren</a>
+      <a href="climate.html">Klimaat</a>
     </div>
     <div class="burger">
       <span id="openHam">&#9776;</span>
@@ -46,7 +46,7 @@ line_numbers: false
 
   \--- feedback ---
 
-  Not quite. The `<link>` tag is used to define external resources, such as stylesheets, but not for creating hyperlinks.
+  Niet helemaal. De tag `<link>` wordt gebruikt om externe bronnen, zoals stylesheets, te definiëren, maar niet om hyperlinks te maken.
 
   \--- /feedback ---
 
@@ -54,7 +54,7 @@ line_numbers: false
 
   \--- feedback ---
 
-Not quite. The `<span>` tag is used for grouping in-line elements and applying styles, not for creating hyperlinks.
+Niet helemaal. De tag `<span>` wordt gebruikt om inline-elementen te groeperen en stijlen toe te passen, niet om hyperlinks te maken.
 
 \--- /feedback ---
 
@@ -62,7 +62,7 @@ Not quite. The `<span>` tag is used for grouping in-line elements and applying s
 
   \--- feedback ---
 
-Correct! The `<a>` tag is used to create hyperlinks in HTML. It stands for "anchor" and is followed by the href attribute, specifying the link destination.
+Juist! De tag `<a>` wordt gebruikt om hyperlinks in HTML te maken. Het staat voor "anchor" en wordt gevolgd door het href attribuut, waarin de locatie van de link wordt aangegeven.
 
 \--- /feedback ---
 
