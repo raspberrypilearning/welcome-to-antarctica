@@ -1,20 +1,20 @@
-## Using animations
+## Animaties gebruiken
 
-Animations and interactivity will make your webpage more fun for visitors!
+Animaties en interactiviteit maken je webpagina leuker voor bezoekers!
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step6" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
-### Add animations on hover
+### Animaties toevoegen bij bewegen
 
-Rather than just showing the fact text, add some interaction to your page!
+In plaats van alleen de feitelijke tekst te laten zien, voeg wat interactie toe aan je pagina!
 
-Make the facts invisible.
+Maak de feiten onzichtbaar.
 
 \--- task ---
 
 Open `style.css`.
 
-Set the `opacity` property of `.fact` to `0`.
+Stel de `opacity` eigenschap van `.fact` in op `0`.
 
 ## --- code ---
 
@@ -42,11 +42,11 @@ opacity: 0;
 
 \--- /task ---
 
-Make the facts visible again when the user hovers over it.
+Maak de feiten weer zichtbaar wanneer de gebruiker eroverheen beweegt.
 
 \--- task ---
 
-Add a new selector `.fact:hover`.
+Voeg een nieuwe selector `.fact:hover` toe.
 
 ## --- code ---
 
@@ -68,15 +68,15 @@ opacity: 1;
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- /task ---
 
-Instead of switching right away, smooth out the change with a transition.
+In plaats van meteen over te schakelen, kun je de verandering soepeler laten verlopen met een overgang.
 
 \--- task ---
 
-Add a `transition` property to `.fact`.
+Voeg een `transition` eigenschap toe aan `.fact`.
 
 ## --- code ---
 
@@ -107,10 +107,10 @@ transition: .4s ease-in-out;
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
-Hover your mouse over the images to see your animation!
+Beweeg je muis over de afbeeldingen om je animatie te zien!
 
 \--- /task ---
 
-Next, you will use a new grid arrangement to organise content in a different way to keep things interesting!
+Vervolgens ga je een nieuwe rasterindeling gebruiken om de inhoud op een andere manier te organiseren, zodat het interessant blijft!
