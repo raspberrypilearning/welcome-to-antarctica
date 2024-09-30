@@ -1,12 +1,12 @@
 ## Een navigatiebalk vormgeven
 
-In this step, you will style the navbar you created and add it to the other pages.
+In deze stap ga je de navigatiebalk die je hebt gemaakt opmaken en toevoegen aan de andere pagina's.
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step3" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 \--- task ---
 
-Add a `nav-items` class attribute to the `<div>` containing the navbar links.
+Voeg een `nav-items`- class attribuut toe aan de `<div>` die de navigatiebalkkoppelingen bevat.
 
 ## --- code ---
 
@@ -22,8 +22,8 @@ line_highlights: 13
   <nav>
     <div class="nav-items">
       <a href="index.html">Home</a>
-      <a href="wildlife.html">Wildlife</a>
-      <a href="climate.html">Climate</a>
+      <a href="wildlife.html">Wilde dieren</a>
+      <a href="climate.html">Klimaat</a>
     </div>
   </nav>
 </header>
@@ -33,17 +33,17 @@ line_highlights: 13
 
 \--- /task ---
 
-### Style the whole navbar
+### De hele navigatiebalk vormgeven
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Styling HTML elements with <span style="color: #0faeb0">**CSS**</span> requires you to specify what styling should apply to which elements. To do this, you use **selectors**. You can select tags like `nav` or you can be more specific and select classes by adding a `.` before the class name — like `.nav-items`.
+Voor het opmaken van HTML-elementen met <span style="color: #0faeb0">**CSS**</span> moet je aangeven welke opmaak van toepassing is op welke elementen. Om dit te doen, gebruik je **selectors**. Je kunt tags zoals "nav" selecteren of je kunt meer specifiek classes selecteren door een '.' toe te voegen voor de class naam — zoals `.nav-items`.
 </p>
 
 \--- task ---
 
-Open the `style.css` file and find the `nav` element selector.
+Open het bestand `style.css` en zoek de `nav`-elementselector.
 
-Add a background colour property.
+Voeg een achtergrondkleureigenschap (background-color) toe.
 
 ## --- code ---
 
@@ -54,7 +54,7 @@ line_number_start: 36
 line_highlights: 44
 --------------------------------------------------------
 
-/\* Nav bar \*/
+/\* Navigatiebalk \*/
 nav {
 padding: 0 15px;
 height: 60px;
@@ -71,17 +71,17 @@ background-color: var(--nav-colour);
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- collapse ---
 
 ---
 
-## title: I don't see any new colour?
+## title: Ik zie geen enkele nieuwe kleur?
 
-Make sure that `background-color` is spelled without a 'u' in 'colour'.  `--nav-colour` should still have a 'u', though!
+Zorg ervoor dat `background-color` gespeld is zonder de 'u' in 'colour'.  `--nav-colour` schrijf je wel met een 'u'!
 
-Make sure there is a `;` at the end of the line.
+Zorg ervoor dat er een `;` aan het einde van de regel staat.
 
 \--- /collapse ---
 
@@ -91,17 +91,17 @@ Make sure there is a `;` at the end of the line.
 
 ---
 
-## title: Style a class or an element?
+## title: Een class of element opmaken?
 
-If you want to apply styling to specific HTML elements, you can create a class in a CSS file. You can then add the `class` attribute to an element in your HTML code to let the browser know what styling should be applied.
+Als je opmaak wilt toepassen op specifieke HTML elementen, kun je een **class** maken in een CSS-bestand. Je kunt vervolgens het `class`-attribuut toevoegen aan een element in je HTML-code om de browser te laten weten welke styling moet worden toegepast.
 
-You can also style elements (like `<header>` or `<nav>`) directly.
+Je kunt ook elementen (zoals `<header>` of `<nav>`) rechtstreeks opmaken.
 
 \--- /collapse ---
 
 \--- task ---
 
-Create a selector for the `nav-items` class to space out the links.
+Maak een selector voor de klasse `nav-items` om de ruimte tussen de links te verdelen.
 
 ## --- code ---
 
@@ -124,17 +124,17 @@ gap: 100px;
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- /task ---
 
-### Style the links
+### De links opmaken
 
-As well as styling the whole navbar, you can style individual links.
+Je kunt niet alleen de hele navigatiebalk stylen, maar ook afzonderlijke links.
 
 \--- task ---
 
-Create another selector to style each `<a>` tag in the `nav-items` `<div>`.
+Maak een andere selector aan om elke `<a>`-tag in de `nav-items` `<div>`-tag te stylen.
 
 ## --- code ---
 
@@ -158,13 +158,13 @@ transition: .4s ease-in-out;
 
 ---
 
-## title: Select elements within a class
+## title: Selecteer elementen in een class
 
-Sometimes you will want to style particular elements within a **container** that has a class. To do this you use the `>` operator.
+Soms wil je specifieke elementen in een **container** met een class opmaken. Om dit te doen, gebruik je de `>` operator.
 
-The example you just used styles all `<a>` elements within a container that has the `nav-items` class.
+Het voorbeeld dat je zojuist hebt gebruikt maakt alle `<a>` elementen op binnen een container die de `nav-items` klasse heeft.
 
-This allows you to style certain links without affecting all the links on your page. It saves you having to give a class to each individual link.
+Dit stelt je in staat bepaalde links op te maken zonder alle links op je pagina te beïnvloeden. Je hoeft dan niet aan elke afzonderlijke link een klasse toe te kennen.
 
 \--- /collapse ---
 
@@ -172,13 +172,13 @@ This allows you to style certain links without affecting all the links on your p
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- /task ---
 
 \--- task ---
 
-Add a selector to style each link when you hover over it.
+Voeg een selector toe om elke link op te maken wanneer je erover beweegt met je muis.
 
 ## --- code ---
 
@@ -200,13 +200,13 @@ color: var(--nav-items-active);
 
 ---
 
-## title: Add interaction styling to an element
+## title: Voeg interactie-opmaak toe aan een element
 
-When writing CSS, you might want to change the styling of an element when the user interacts with it.
+Wanneer je CSS schrijft, wil je misschien de opmaak van een element wijzigen wanneer de gebruiker ermee communiceert.
 
-In the example above, you are changing the styling of the `a` elements, but only when a user **hovers** over them with their mouse. The syntax for this is `a:hover`.
+In het bovenstaande voorbeeld wijzig je de stijl van de `a`-elementen, maar alleen wanneer een gebruiker er met de muis overheen **beweegt**. De syntaxis hiervoor is `a:hover`.
 
-The style in this selector will **only** be used when a user's mouse is on top of the element.
+De opmaak in deze selector wordt **alleen** gebruikt wanneer de muis van de gebruiker zich boven het element bevindt.
 
 \--- /collapse ---
 
@@ -214,19 +214,19 @@ The style in this selector will **only** be used when a user's mouse is on top o
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- /task ---
 
-### Create an active link
+### Een actieve link maken
 
-The `index.html` page will be loaded first.
+De `index.html` pagina zal als eerste worden geladen.
 
-When that page is open, the link should stay white and not be clickable.
+Wanneer de pagina geopend is, moet de link wit blijven en niet aanklikbaar zijn.
 
 \--- task ---
 
-Add a new `active` CSS class for the link to the page that is currently open.
+Voeg een nieuwe `active` CSS class toe voor de link naar de pagina die momenteel geopend is.
 
 ## --- code ---
 
@@ -249,7 +249,7 @@ pointer-events: none;
 
 Open `index.html`.
 
-Add the `active` class attribute to the index.html `<a>` tag.
+Voeg het `active` class attribuut toe aan de index.html `<a>`-tag.
 
 \--- task ---
 
@@ -267,8 +267,8 @@ line_highlights: 13
   <nav>
     <div class="nav-items">
       <a href="index.html" class="active">Home</a>
-      <a href="wildlife.html">Wildlife</a>
-      <a href="climate.html">Climate</a>
+      <a href="wildlife.html">Wilde dieren</a>
+      <a href="climate.html">Klimaat</a>
     </div>
   </nav>
 </header>
@@ -280,19 +280,19 @@ line_highlights: 13
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- /task ---
 
-### Change the fonts
+### De lettertypen wijzigen
 
 \--- task ---
 
-Import a Google font to style the fonts on your pages.
+Importeer een Google lettertype om de lettertypes op je pagina's op te maken.
 
 Open `defaults.css`
 
-Place this `@import` statement at the top of your file.
+Plaats deze `@import`-instructie bovenaan jouw bestand.
 
 ## --- code ---
 
@@ -303,7 +303,7 @@ line_number_start: 1
 line_highlights: 2
 -------------------------------------------------------
 
-/\* Import a font \*/
+/\* Importeer een lettertype \*/
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 \--- /code ---
@@ -312,7 +312,7 @@ line_highlights: 2
 
 \--- task ---
 
-Create a new variable inside the `:root` selector, called `--body-font` and set the new Orbitron font.
+Maak een nieuwe variabele aan binnen de `:root`-selector, met de naam `--body-font` en stel het nieuwe Orbitron-lettertype in.
 
 ## --- code ---
 
@@ -335,7 +335,7 @@ line_highlights: 8
 
 \--- task ---
 
-Add the `font-family` property inside the body selector and set it to the new `--body-font` variable you just created.
+Voeg de eigenschap `font-family` toe in de body-selector en stel deze in op de nieuwe variabele `--body-font` die je zojuist hebt gemaakt.
 
 ## --- code ---
 
@@ -353,7 +353,7 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 width: 100%;
-min-height: 100vh; /\* Make the content fill the page so the footer is at the bottom \*/
+min-height: 100vh; /\* Zorgt er voor de de inhoud de pagina vult zodat de voettekst aan de onderkant staat \*/
 display: flex;
 flex-direction: column;
 font-family: var(--body-font);
@@ -364,8 +364,8 @@ font-family: var(--body-font);
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- /task ---
 
-Next, you're going to put some cool images at the top of your webpage to show everyone what it's about!
+Vervolgens ga je een aantal leuke afbeeldingen bovenaan je webpagina plaatsen, zodat iedereen kan zien waar het over gaat!
