@@ -1,4 +1,4 @@
-## Using grids
+## Rasters gebruiken
 
 Make your webpage layouts awesome by arranging things with grids!
 
