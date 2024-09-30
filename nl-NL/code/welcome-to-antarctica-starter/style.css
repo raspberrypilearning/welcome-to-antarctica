@@ -5,7 +5,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     width: 100%;
-    min-height: 100vh; /* Make the content fill the page so the footer is at the bottom */
+    min-height: 100vh; /* Laat de inhoud de pagina vullen zodat de voettekst onderaan staat */
     display: flex;
     flex-direction: column;
 }
@@ -13,9 +13,9 @@ body {
 main {
     height: 100%;
     justify-content: center;
-    margin: 0 auto; /* Center if the browser is really wide */
-    min-width: 25rem; /* Don't let the content get too narrow */
-    max-width: 70rem; /*  Don't let the content get too wide */
+    margin: 0 auto; /* Centreren als de browser erg breed is */
+    min-breedte: 25rem; /* Laat de inhoud niet te smal worden */
+    max-width: 70rem; /* Laat de inhoud niet te breed worden */
     padding: 0;
 }
 
@@ -32,7 +32,7 @@ h1 {
     width: 100%;
 }
 
-/* Nav bar */
+/* Navigatiebalk */
 nav {
     padding: 0 15px;
     height: 60px;
@@ -45,28 +45,28 @@ nav {
 /* Nav items */
 
 
-/* Nav bar links */
+/* Navigatiebalk links */
 
 
-/* Nav links hover */
+/* Nav-links zweven */
 
 
-/* Nav links active */
+/* Nav-links actief */
 
 
 /* Burger menu */
 
 
-/* Hero image - homepage */
+/* Hero-afbeelding - startpagina */
 
 
-/* Hero image - wildlife */
+/* Hero-afbeelding - wilde dieren */
 
 
-/* Hero image - climate */
+/* Hero-afbeelding - klimaat */
 
 
-/* Fact holder - homepage */
+/* Feitenhouder - homepage */
 .fact-holder {
   display: grid;
   height: 50vh;
@@ -74,10 +74,10 @@ nav {
   grid-template-columns: 75% 25%;
 }
 
-/* Fact holder - wildlife */
+/* Feitenhouder - wilde dieren */
 
 
-/* Fact card */
+/* Feitenkaart */
 
 
 .fact {
@@ -92,10 +92,10 @@ nav {
   padding: 0 5px 0 5px;
 }
 
-/* Fact hover */
+/* Feiten zweven */
 
 
-/* Fact images */
+/* Feit afbeeldingen */
 
 .sun {
   background-image: url("antarctic-sun.jpg");
