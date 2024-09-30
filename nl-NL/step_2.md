@@ -1,40 +1,40 @@
-## Create a navbar
+## Maak een navigatiebalk
 
-In this step, you will create a navigation bar, often known as a navbar, to link the pages on the website. This will allow users to navigate from one page to another.
+In deze stap maak je een navigatiebalk (in het Engels ook wel navbar genoemd), om de pagina's op de website met elkaar te verbinden. Hiermee kunnen gebruikers van de ene naar de andere pagina navigeren.
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step2" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 \--- task ---
 
-Open the [Welcome to Antarctica starter project](https://editor.raspberrypi.org/en/projects/welcome-to-antarctica-starter){:target="_blank"}.
+Open het [Welkom op Antarctica startproject](https://editor.raspberrypi.org/en/projects/welcome-to-antarctica-starter){:target="_blank"}.
 
 \--- /task ---
 
-Your starter project contains:
+Je startproject bevat:
 
-- Three HTML pages with some text content
-- A CSS file that contains styling for some of the content
-- The images you will use in the project
-- A JavaScript file to make the navbar respond when the page size changes
+- Drie HTML-pagina's met wat tekstinhoud
+- Een CSS-bestand dat styling bevat voor een deel van de inhoud
+- De afbeeldingen die je in het project gaat gebruiken
+- Een JavaScript bestand om de navigatiebalk te laten reageren wanneer de paginagrootte wordt gewijzigd
 
 \--- task ---
 
-Have a look at the starter project.
+Bekijk het startproject.
 
-Open `index.html`. Are there any HTML elements you recognise?
+Open `index.html`. Zijn er HTML-elementen die je herkent?
 
 \--- /task ---
 
-### Add the HTML to show the navbar
+### Voeg de HTML toe om de navigatiebalk weer te geven
 
-Webpage content is placed in the `<body>` tags.
+De inhoud van een webpagina wordt tussen de `<body>`-tags geplaatst.
 
-The navbar is placed in `<nav>` tags in the webpage header.
+De navigatiebalk wordt tussen de `<nav>`-tags in de header van de webpagina geplaatst.
 
 \--- task ---
 
-Find the `<header>` and `</header>` tags.
-Add the `<nav>` tags.
+Zoek de tags `<header>` en `</header>`.
+Voeg de `<nav>`-tags toe.
 
 ## --- code ---
 
