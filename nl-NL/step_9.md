@@ -1,18 +1,18 @@
 ## Responsieve rasters
 
-Making the grids responsive will make sure that anyone can learn about Antarctica, no matter what device they are viewing on.
+Door de roosters responsief te maken, kan iedereen meer leren over Antarctica, ongeacht het apparaat waarop de informatie wordt bekeken.
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-complete" width="600" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
-### Make your grids responsive
+### Maak je rasters responsief
 
-When the screen is small, the grids you made earlier are hard to read.
+Als het scherm klein is, zijn de rasters die je eerder hebt gemaakt moeilijk te lezen.
 
-Make the layout taller by changing it to use four rows and one column.
+Maak de lay-out hoger door vier rijen en één kolom te gebruiken.
 
 \--- task ---
 
-Add the `fact-holder` selector to the `@media` query.
+Voeg de `fact-holder` selector toe aan de `@media` query.
 
 ## --- code ---
 
@@ -62,19 +62,19 @@ grid-template-columns: 100%;
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- /task ---
 
-On the `wildlife.html` page, there is a different fact holder grid layout.
+Op de pagina `wildlife.html` is er een andere rasterindeling voor feiten.
 
-That layout also needs to change when the screen width reduces.
+Die lay-out moet ook veranderen als de schermbreedte kleiner wordt.
 
-You are going to make it taller and change it to five rows in one column.
+Je gaat hem hoger maken en er vijf rijen in één kolom van maken.
 
 \--- task ---
 
-Add the `fact-holder-wildlife` selector to the `@media` query.
+Voeg de `fact-holder-wildlife` selector toe aan de `@media` query.
 
 ## --- code ---
 
@@ -129,13 +129,13 @@ height: 140vh;
 
 \--- /task ---
 
-You can make the penguin image span two rows by changing its `grid-row-start` and `grid-row-end` properties.
+Je kunt de pinguïnafbeelding over twee rijen laten lopen door de eigenschappen `grid-row-start` en `grid-row-end` te wijzigen.
 
-You also need to change the orca image to span the single column used in the `fact-holder-wildlife` layout (at the moment, it is styled to span two columns).
+Je moet ook de orka-afbeelding aanpassen, zodat deze de ene kolom beslaat die wordt gebruikt in de lay-out 'fact-holder-wildlife' (op dit moment is de lay-out zo gemaakt dat deze twee kolommen beslaat).
 
 \--- task ---
 
-Add the `penguins` and `orcas` selectors to the `@media` query.
+Voeg de `penguins` en `orcas` selectors toe aan de `@media` query.
 
 ## --- code ---
 
@@ -202,12 +202,12 @@ grid-column-end: 2;
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
-Resize the preview window to below 768px to see how each page responds.
+Wijzig de grootte van het preview venster naar minder dan 768px om te zien hoe elke pagina reageert.
 
 \--- /task ---
 
-Fantastic work! You have now built a responsive website that lets people discover a place they may never get a chance to visit — Antarctica.
+Goed gedaan! Je hebt nu een responsieve website gebouwd waarmee mensen een plek kunnen ontdekken die ze anders misschien nooit zouden bezoeken: Antarctica.
 
-Next, you will reflect on your learning by completing a quiz.
+Hierna, ga je nadenken over wat je hebt geleerd door een quiz te beantwoorden.
