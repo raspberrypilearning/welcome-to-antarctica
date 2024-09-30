@@ -1,4 +1,4 @@
-## Different types of grids
+## Verschillende soorten rasters
 
 Use a new grid arrangement for the Wildlife page to organise the fact cards in a different way to keep things interesting!
 
