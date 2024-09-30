@@ -3,7 +3,7 @@
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-If you have time, you can add some more facts, adjust the grid layouts, and change the hero images to make the page your own!
+Als je tijd hebt, kun je nog wat meer feiten toevoegen, de rasterindeling aanpassen en de hero-afbeeldingen wijzigen om de pagina helemaal te personaliseren!
 
 </div>
 <div>
@@ -11,15 +11,15 @@ If you have time, you can add some more facts, adjust the grid layouts, and chan
 </div>
 </div>
 
-### Add more facts
+### Voeg meer feiten toe
 
 \--- collapse ---
 
 ---
 
-## title: Add a new fact to the homepage
+## title: Voeg een nieuw feit toe aan de homepage
 
-Here is a fact about the research stations on Antarctica that you can add to the home page.
+Hier is een feitje over de onderzoeksstations op Antarctica dat je aan de startpagina kunt toevoegen.
 
 ## --- code ---
 
@@ -30,11 +30,11 @@ line_number_start:
 line_highlights:
 -----------------------------------------------------
 
-<p>Of the 56 countries that have signed the Antarctic Treaty, 55 of them operate some sort of research station on the continent. The number of researchers active on Antartica is roughly 4,800 in the summer and 1,200 in the winter.</p>
+<p>Van de 56 landen die het Antarctisch Verdrag hebben ondertekend, exploiteren er 55 een soort onderzoeksstation op het continent. Het aantal onderzoekers dat actief is op Antartica bedraagt ongeveer 4.800 in de zomer en 1.200 in de winter.</p>
 
 \--- /code ---
 
-You can use the class `research` to add a new background image to this fact.
+Je kunt de klasse `research` gebruiken om een nieuwe achtergrondafbeelding aan dit feit toe te voegen.
 
 ## --- code ---
 
@@ -57,15 +57,15 @@ line_highlights:
 
 ---
 
-## title: Add some new animals to wildlife.html
+## title: Voeg nieuwe dieren toe aan wildlife.html
 
-There are three more pictures of Antarctic wildlife — choose one to add to your `wildlife.html` page.
+Er zijn nog drie foto's van Antarctische wilde dieren - kies er één om toe te voegen aan jouw `wildlife.html` pagina.
 
-You can use the classes:
+Je kunt de volgende klassen gebruiken:
 
-- `albatross` - an image of the Antarctic albatross
-- `minke-whale` - for the Antarctic minke whale
-- `gentoo-penguin` - for another penguin, this is the Gentoo species
+- `albatross` - een afbeelding van Antarctische albatros
+- `minke-whale` - voor de Antarctische dwergvinvis
+- `gentoo-pinguïn` - voor een andere pinguïn, dit is de Gentoo pinguïn
 
 ## --- code ---
 
@@ -82,21 +82,21 @@ line_highlights:
 
 \--- /code ---
 
-Research the animal online and add an interesting fact about them to your page!
+Doe online onderzoek naar het dier en voeg een interessant feitje over het dier toe aan je pagina!
 
 \--- /collapse ---
 
-### Adjust your grids
+### Pas je rasters aan
 
-You can also change the grids on your pages to adjust the way your facts are displayed.
+Je kunt ook de rasters op je pagina's aanpassen om de weergave van jouw gegevens aan te passen.
 
 \--- collapse ---
 
 ---
 
-## title: Add extra columns and rows
+## title: Voeg extra kolommen en rijen toe
 
-You can edit the the `fact-holder` and `fact-holder-wildlife` classes to add more rows or columns.
+Je kunt de `fact-holder` en `fact-holder-wildlife` klassen bewerken om meer rijen of kolommen toe te voegen.
 
 ## --- code ---
 
@@ -107,48 +107,48 @@ line_number_start:
 line_highlights:
 -----------------------------------------------------
 
-/\* Fact holder - homepage _/
+/\* Fact holder - homepage \*/
 .fact-holder {
 display: grid;
-height: 70vh; /_ 70% of the visible area of the page \*/
+height: 70vh; /\*70% van het zichtbare gedeelte van de pagina \*/
 grid-template-rows: 33% 33% 33%;
 grid-template-columns: 50% 50%;
 }
 
 \--- /code ---
 
-You could also add `grid-row-start` and `grid-row-end` properties, or `grid-column-start` and `grid-colum-end` to the background image classes to place your items across rows and columns to customise your layouts.
+Je kunt ook `grid-row-start` en `grid-row-end` eigenschappen toevoegen, of `grid-column-start` en `grid-colum-end` aan de achtergrond afbeeldingen om je items over rijen en kolommen te plaatsen en de lay-outs verder aan te passen.
 
 \--- /collapse ---
 
-### Change your hero images
+### Verander je hero-afbeeldingen
 
 \--- collapse ---
 
 ---
 
-## title: Add different hero images
+## title: Voeg verschillende hero-afbeeldingen toe
 
-In the starter projects there are multiple images you can use for your hero images.
+In de startersprojecten staan meerdere afbeeldingen die je kunt gebruiken als je hero-afbeeldingen.
 
-Images you have not used yet are...
+Nog niet gebruikte afbeeldingen...
 
 `antarctic-landscape.jpg`
 `antarctic-seasons.jpg`
 `antarctic-walk.jpg`
 
-You can change the image URL in the CSS classes for your hero images to make the site your own.
+Je kunt de URL van de afbeelding in de CSS-klassen voor je hero-afbeeldingen wijzigen om de site te personaliseren.
 
 \--- /collapse ---
 
-### See the upgraded project
+### Het verbeterde project bekijken
 
 \--- collapse ---
 
 ---
 
-## title: Upgraded project
+## title: Verbeterd project
 
-You can view the [upgraded project here](https://editor.raspberrypi.org/en/projects/welcome-to-antartica-upgraded){:target="_blank"}.
+Je kunt het [geüpgrade project hier](https://editor.raspberrypi.org/en/projects/welcome-to-antartica-upgraded){:target="_blank"} bekijken.
 
 \--- /collapse ---
