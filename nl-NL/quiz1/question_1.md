@@ -1,4 +1,4 @@
-## Reflection
+## Reflectie
 
 Well done. You have created a website using HTML, CSS, and JavaScript.
 
