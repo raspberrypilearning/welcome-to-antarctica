@@ -1,46 +1,46 @@
-## Introduction
+## Inleiding
 
 \--- collapse ---
 
 ---
 
-## title: New to the Raspberry Pi Code Editor?
+## title: Gebruik je de Raspberry Pi Code Editor voor de eerste keer?
 
-Check out the [getting started guide](https://projects.raspberrypi.org/en/projects/getting-started-guide-editor-html){:target="_blank"}!
+Bekijk de [aan de slag-handleiding](https://projects.raspberrypi.org/en/projects/getting-started-guide-editor-html){:target="_blank"}!
 
 \--- /collapse ---
 
-In this project, you will use HTML, CSS, and JavaScript to create a website that lets people discover a place they may never get a chance to visit — Antarctica.
+In dit project ga je HTML, CSS en JavaScript gebruiken om een website te maken waarmee mensen een plek kunnen ontdekken die ze anders misschien nooit zouden bezoeken: Antarctica.
 
-As well as the homepage, the website will have pages about Antarctica's wildlife and climate.
+Naast de homepage bevat de website ook pagina's over de wilde dieren en het klimaat van Antarctica.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**JavaScript**</span> is a programming language that runs in your browser. As of 2024, it is the most popular programming language in the world!
+<span style="color: #0faeb0">**JavaScript**</span> is een programmeertaal die in je browser wordt gebruikt. Sinds 2024 is het de populairste programmeertaal ter wereld!
 </p>
 
-You will:
+Je gaat:
 
-- Create an awesome modern website
-- Build a navigation bar (navbar)
-- Set accessible colours and fonts
-- Add some 'hero' images
-- Use a grid layout
-- Place items in a grid
-- Make elements responsive
+- Een geweldige, moderne website maken
+- Een navigatiebalk (navbar) maken
+- Toegankelijke kleuren en lettertypen instellen
+- Wat 'hero' afbeeldingen toevoegen
+- Een grid (raster) layout gebruiken
+- Items in een raster plaatsen
+- Elementen responsief maken
 
 \--- no-print ---
 
 \--- task ---
 
-### Try it
+### Probeer het uit
 
-Explore the Welcome to Antarctica website.
+Ontdek de Welkom op Antarctica-website.
 
-What happens when you...
+Wat gebeurt er wanneer je...
 
-- Click the burger icon (☰)?
-- Hover over the images?
-- Use the links to access the different pages?
+- Op het hamburgericoontje (☰) klikt?
+- Met de muis over de afbeeldingen beweegt?
+- De links gebruikt om de verschillende pagina's te bekijken?
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-complete" width="100%" height="900" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
@@ -48,9 +48,9 @@ What happens when you...
 
 ---
 
-## title: Images in this project
+## title: Afbeeldingen in dit project
 
-Images included in this project were created using generative AI. Model: Firefly Image 2
+Afbeeldingen die zijn opgenomen in dit project zijn gemaakt met behulp van generatieve AI. Model: Firefly Image 2
 
 \--- /collapse ---
 
@@ -60,6 +60,6 @@ Images included in this project were created using generative AI. Model: Firefly
 
 \--- print-only ---
 
-![Completed project](images/showcase_static.png)
+![Voltooid project](images/showcase_static.png)
 
 \--- /print-only ---
