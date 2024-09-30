@@ -1,16 +1,16 @@
 ## Verschillende soorten rasters
 
-Use a new grid arrangement for the Wildlife page to organise the fact cards in a different way to keep things interesting!
+Gebruik een nieuw raster voor de Wilde dieren-pagina om de feitenkaarten op een andere manier te ordenen en het interessant te houden!
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step7" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
-### Change the heading of the Wildlife page
+### Wijzig de titel van de Wilde dieren-pagina
 
 \--- task ---
 
 Open `wildlife.html`.
 
-Change the `h1` text.
+Wijzig de `h1`-tekst.
 
 ## --- code ---
 
@@ -23,7 +23,7 @@ line_highlights:
 
 ```
 <section>
-  <h1>Hover on the cards below to learn about the animals in Antarctica</h1>
+ <h1>Beweeg je muis over de kaarten hieronder om meer te weten te komen over de dieren op Antarctica
 ```
 
 \--- /code ---
@@ -32,19 +32,19 @@ line_highlights:
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- /task ---
 
-### Add a grid to the Wildlife page
+### Voeg een raster toe aan de Wilde dieren-pagina
 
 \--- task ---
 
-Add the `fact-holder` class attribute to the `<div>`.
+Voeg het `fact-holder` class attribuut toe aan de `<div>`.
 
-Add a `fact-card` and a background image class to each `<span>` element.
+Voeg een 'fact-card' en een achtergrondafbeelding klasse toe aan elk `<span>` element.
 
-Add the `fact` class attribute to each paragraph.
+Voeg het `fact` class attribuut toe aan elke alinea.
 
 ## --- code ---
 
@@ -57,27 +57,26 @@ line_highlights: 27-29, 33-34, 38-39, 43-44
 
 <section>
   <h1>
-    Hover on the cards below to learn about the animals in Antarctica
-  </h1>
+  Beweeg je muis over de kaarten hieronder om meer te weten te komen over de dieren op Antarctica  </h1>
   <div class="fact-holder">
     <span class="fact-card penguins">
-      <p class="fact">
-        Emperor penguins, live in colonies on sea ice. Sea ice is frozen sea water which fringes the Antarctic continent. In the winter, sea ice expands. In the summer, it shrinks as the sea ice melts. By the time the chicks are ready to fledge, the sea ice edge is close to the colony, so the young penguins don’t have to travel far to get their food.
+            <p class="fact">
+              Keizerspinguïns leven in kolonies op zee-ijs. Zee-ijs is bevroren zeewater en vormt een rand rond het Antarctische continent. In de winter breidt het zee-ijs zich uit. In de zomer wordt het gebied kleiner, omdat het zee-ijs smelt. Tegen de tijd dat de kuikens klaar zijn om uit te vliegen, bevindt de rand van het zee-ijs zich al dicht bij de kolonie. De jonge pinguïns hoeven dan niet ver te reizen om aan voedsel te komen.
       </p>
-    </span>
-    <span class="fact-card krill">
-      <p class="fact">
-        Krill is eaten by many other organisms such as penguins, birds, or even ginormous elephant seals! Because there are so many different organisms feeding from the krill, there needs to be lots and lots of krill available, especially as they are only 2 inches long!
+          </span>
+          <span class="fact-card krill">
+            <p class="fact">
+              Krill wordt door veel organismen gegeten, zoals pinguïns, vogels en zelfs de gigantische zeeolifant! Omdat er zoveel verschillende organismen zijn die zich voeden met krill, moet er heel veel krill beschikbaar zijn, vooral omdat krill slechts 5 cm lang is!
       </p>
-    </span>
-    <span class="fact-card seals">
-      <p class="fact">
-        Seals have thick beautiful fur coats and blubber, making them supremely adapted to the cold. There are six species in Antarctica: Antarctic Fur Seals, Leopard Seals, Ross Seals, Southern Elephant Seals, Crabeater Seals, and Weddell Seals.
+          </span>
+          <span class="fact-card seals">
+            <p class="fact">
+              Zeehonden hebben een prachtige dikke vacht en een dikke vetlaag, waardoor ze optimaal zijn aangepast aan de kou. Er leven zes soorten in Antarctica: Antarctische pelsrobben, zeeluipaarden, Ross-zeehonden, zuidelijke zeeolifanten, krabbeneters en Weddell-zeehonden.
       </p>
-    </span>
-    <span class="fact-card orcas">
-      <p class="fact">
-        At the top of the food chain, there are Orcas, often known as Killer Whales. These are the biggest carnivores on Earth, reaching almost 10m in length! They can be found swimming all around the Earth’s oceans, but in particular in the Southern Ocean around Antarctica.
+          </span>
+          <span class="fact-card orcas">
+            <p class="fact">
+              Bovenaan de voedselketen staan de orka's, die in het Engels ook wel killer whales worden genoemd. Dit zijn de grootste carnivoren op aarde, ze kunnen bijna 10 meter lang worden! Ze zwemmen overal op aarde rond, maar vooral in de Zuidelijke Oceaan rond Antarctica.
       </p>
     </span>  
 </div>
@@ -89,29 +88,29 @@ line_highlights: 27-29, 33-34, 38-39, 43-44
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- /task ---
 
-There are different ways to size your grid layout. For example, you can use `fr` to create **fractions** of the sizing.
+Er zijn verschillende manieren om de grootte van je rasterlay-out te bepalen. Je kunt bijvoorbeeld `fr` gebruiken om **fracties** van de grootte te maken.
 
 \--- collapse ---
 
 ---
 
-## title: Use fractions to size grids
+## title: Fracties gebruiken om de grootte van rasters te bepalen
 
-Rather than using percentages and having to check they add up to 100%, you can instead use fractions of the space.
+In plaats van percentages te gebruiken en te moeten controleren of de som 100% is, kun je ook fracties van de ruimte gebruiken.
 
-To do this, you use the unit `fr` — so if you wanted four columns that are each a quarter of the width of the grid, you would use this CSS:
+Om dit te doen gebruik je de eenheid `fr` - dus als je vier kolommen wil die elk kwart van de breedte van het raster zijn, je zou deze CSS gebruiken:
 
 ```css
 grid-columns: 1fr 1fr 1fr 1fr 
 ```
 
-There are **4** in total and each column is 1/4 in width.
+Er zijn er in totaal **4** en elke kolom is 1/4 breed.
 
-They don't have to be even either. You could also do 2 rows, one that is 3/4 and the other is 1/4:
+Ze hoeven ook niet gelijk te zijn. Je kunt ook 2 rijen maken, één van 3/4 en de andere van 1/4:
 
 ```css
 grid-rows: 3fr 1fr
@@ -123,7 +122,7 @@ grid-rows: 3fr 1fr
 
 Open `style.css`.
 
-Add the `fact-holder-wildlife` selector to the `style.css` file.
+Voeg de `fact-holder-wildlife` selector toe aan het `style.css` bestand.
 
 ## --- code ---
 
@@ -150,7 +149,7 @@ grid-template-columns: 2fr 3fr;
 
 Open `wildlife.html`.
 
-Change the class attribute on the `<div>` to your new `fact-holder-wildlife` class.
+Verander het klasse attribuut in de `<div>` naar je nieuwe `fact-holder-wildlife` klasse.
 
 ## --- code ---
 
@@ -164,7 +163,7 @@ line_highlights: 27
   <div class="fact-holder-wildlife">
     <span class="fact-card penguins">
         <p class="fact">
-        Emperor penguins ...
+        Keizerspinguïns ...
 
 \--- /code ---
 
@@ -172,23 +171,23 @@ line_highlights: 27
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
-Now, your wildlife grid has 3 rows that take up a third of the space each, and 2 columns that are 1/3 and 2/3 of the width.
+Nu heeft je wilde dieren raster 3 rijen die elk een derde van de ruimte in beslag nemen, en 2 kolommen die 1/3 en 2/3 van de breedte zijn.
 
-![The wildlife grid, with each row labelled with one third. At the bottom, the first column is labelled one third, and the second column is labelled two thirds.](images/wildlife_grid_size.png)
+![Het wild dieren raster, waarbij elke rij is gelabeld met een derde. Onderaan is de eerste kolom gelabeld als een derde, en de tweede kolom is gelabeld als twee derden.](images/wildlife_grid_size.png)
 
 \--- /task ---
 
-The grid layout will automatically position your items. However, you can also specify how you want items to be displayed.
+De rasterindeling bepaalt automatisch de positie van je items. Je kunt echter ook zelf aangeven hoe je items wilt laten weergeven.
 
-You can make it so the penguin fact stretches down over two rows, and the orca fact stretches across both columns in the last row, for example.
+Je kunt er dus voor zorgen dat het pinguïn-feit zich over twee rijen uitstrekt. en het orca-feit strekt zich bijvoorbeeld uit over beide kolommen op de laatste rij.
 
 \--- task ---
 
-Add `grid-row-start` to `.penguins` and set it to `1`.
+Voeg `grid-row-start` toe aan `.penguins` en stel het in op `1`.
 
-Add `grid-row-end ` to `.penguins` and set it to `3`.
+Voeg `grid-row-end` toe aan `.penguins` en stel het in op `3`.
 
 ## --- code ---
 
@@ -207,23 +206,23 @@ grid-row-end: 3;
 
 \--- /code ---
 
-The `grid-row-start` property is the **first** row the element will display in.
+De `grid-row-start` eigenschap is de **eerste** rij waarin het element wordt weergegeven.
 
-And `grid-row-end` is the row where the element ends — the image will **not** display on this row.
-
-\--- /task ---
-
-\--- task ---
-
-**Click Run**
+En `grid-row-end` is de rij waar het element eindigt — de afbeelding zal **niet** op deze rij worden weergegeven.
 
 \--- /task ---
 
 \--- task ---
 
-Add `grid-column-start` to `.orcas` and set it to `1`.
+**Klik op Run**
 
-Add `grid-column-end ` to `.orcas` and set it to `3`.
+\--- /task ---
+
+\--- task ---
+
+Voeg `grid-column-start` toe aan `.orcas` en stel het in op `1`.
+
+Voeg `grid-column-end` toe aan `.orcas` en stel het in op `3`.
 
 ## --- code ---
 
@@ -246,17 +245,17 @@ grid-column-end: 3;
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- /task ---
 
-### Change the heading of the Climate page
+### Wijzig de kop van de Klimaatpagina
 
 \--- task ---
 
 Open `climate.html`.
 
-Change the `h1` text.
+Wijzig de `h1`-tekst.
 
 ## --- code ---
 
@@ -269,7 +268,7 @@ line_highlights: 23
 
 ```
 <section>
-  <h1>Hover on the cards below to learn about the climate in Antarctica</h1>
+  <h1>Beweeg de muis over de kaarten hieronder om meer te weten te komen over het klimaat op Antarctica</h1>
 ```
 
 \--- /code ---
@@ -278,19 +277,19 @@ line_highlights: 23
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- /task ---
 
-### Add a grid to the Climate page
+### Voeg een raster toe aan de Klimaatpagina
 
 \--- task ---
 
-Add the `fact-holder` class attribute to the `<div>`.
+Voeg het `fact-holder` class attribuut toe aan de `<div>`.
 
-Add a `fact-card` and a background image class to each `<span>` element.
+Voeg een 'fact-card' en een achtergrondafbeelding klasse toe aan elk `<span>` element.
 
-Add the `fact` class attribute to each paragraph.
+Voeg het `fact` class attribuut toe aan elke alinea.
 
 ## --- code ---
 
@@ -302,26 +301,26 @@ line_highlights: 25-27, 31-32, 36-37, 41-42
 --------------------------------------------------------------------------------
 
   <section>
-    <h1>Hover on the cards below to learn about the climate in Antarctica</h1>
+    <h1>Beweeg je muis over de kaarten hieronder om meer te weten te komen over het klimaat op Antarctica</h1>
     <div class="fact-holder">
       <span class="fact-card temperature">
-        <p class="fact">
-          Antarctica is the coldest continent on Earth. The average temperature in the interior is -57°C, during winter it can reach -90°C. The coast is warmer and temperatures can reach a maximum of 8°C during the summer.
+          <p class="fact">
+            Antarctica is het koudste continent op aarde. De gemiddelde temperatuur in het binnenland bedraagt -57 °C, in de winter kan deze zakken tot -90 °C. Aan de kust is het warmer en in de zomer kunnen de temperaturen oplopen tot maximaal 8 °C.
         </p>
       </span>
       <span class="fact-card sunburn">
         <p class="fact">
-          It is possible to get sunburn on Antarctica, the snow reflects nearly all the ultraviolet rays. You may not feel the heat, but you still need to keep your skin safe from the rays.
+          Op Antarctica kun je verbranden, de sneeuw weerkaatst bijna alle ultraviolette straling. Je voelt de hitte misschien niet, maar je moet je huid toch beschermen tegen de zonnestralen.
         </p>
-      </span>
-      <span class="fact-card ice">
-        <p class="fact">
-          This ice sheet is, on average, 1.6 km thick and covers about 98% of the entire continent. This ice sheet is nearly 90% of the entire world’s ice, so it’s no wonder the Antarctic climate is so cold!
+        </span>
+        <span class="fact-card ice">
+          <p class="fact">
+            Deze ijskap is gemiddeld 1,6 km dik en beslaat ongeveer 98% van het continent. Deze ijskap bevat bijna 90% van het ijs van de hele wereld, dus het is geen wonder dat het Antarctische klimaat zo koud is!
         </p>
-      </span>
-      <span class="fact-card rainfall">
-        <p class="fact">
-          Technically, Antarctica is a desert because it is so dry there. The average annual precipitation on the coast is just 166mm. With such cold conditions the snow hardly ever melts; instead, it will mostly become compressed over time to form part of the ice sheet.
+        </span>
+        <span class="fact-card rainfall">
+          <p class="fact">
+            Technisch gezien is Antarctica een woestijn omdat het daar zo droog is. De gemiddelde jaarlijkse neerslag aan de kust bedraagt slechts 166 millimeter. Bij zulke koude omstandigheden smelt de sneeuw vrijwel nooit. In plaats daarvan wordt het in de loop van de tijd samengeperst en vormt het een deel van de ijskap.
         </p>
       </span>    
 </div>
@@ -333,8 +332,8 @@ line_highlights: 25-27, 31-32, 36-37, 41-42
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- /task ---
 
-Next, you will make your content smart. No matter if the page is big or small, or if someone is using a different device, it will always look amazing.
+Nu ga je je inhoud slim maken. Het maakt niet uit of de pagina groot of klein is, of dat iemand een ander apparaat gebruikt: de pagina ziet er altijd fantastisch uit.
