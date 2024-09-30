@@ -2,13 +2,13 @@
 
 ---
 
-## legend: Question 2 of 3
+## legend: Vraag 2 van 3
 
-You used CSS properties in your project to specify the position of your content using a grid layout.
+Je hebt CSS-eigenschappen in je project gebruikt om de positie van je inhoud op te geven met behulp van een grid (raster) lay-out.
 
-Look at the CSS styling for the orcas selector.
+Kijk naar de CSS-stijl voor de orcas-selector.
 
-Which columns will the orca image span?
+Welke kolommen beslaat de orka-afbeelding?
 
 ## --- code ---
 
@@ -29,27 +29,27 @@ grid-column-end: 3;
 
 \--- choices ---
 
-- (x) 1 and 2
+- (x) 1 en 2
 
   \--- feedback ---
 
-  Correct! `grid-column-start` sets which column to start the display of the image (the image will start in the first column) and the value of `grid-column-end` sets which column to end the display of the image (the image will not be displayed in the third column).
+  Juist! `grid-column-start` stelt in in welke kolom de weergave van de afbeelding moet beginnen (de afbeelding begint in de eerste kolom) en de waarde van `grid-column-end` stelt in in welke kolom de weergave van de afbeelding moet eindigen (de afbeelding wordt niet weergegeven in de derde kolom).
 
   \--- /feedback ---
 
-- ( ) 2 and 3
+- ( ) 2 en 3
 
   \--- feedback ---
 
-  Take another look. `grid-column-start` sets which column to start the display of the image and the value of `grid-column-end` sets the column from which the image will **not** be displayed.
+  Kijk nog een keer. `grid-column-start` stelt in, in welke kolom de weergave van de afbeelding moet starten en de waarde van `grid-column-end` stelt in vanaf welke kolom de afbeelding **niet** moet worden weergegeven.
 
   \--- /feedback ---
 
-- ( ) 1, 2, and 3
+- ( ) 1, 2 en 3
 
   \--- feedback ---
 
-  Almost! The orcas image will start in the first column, but the value of `grid-column-end` sets which column to end the display of the image.
+  Bijna! De afbeelding van de orka begint in de eerste kolom, maar de waarde van `grid-column-end` bepaalt op welke kolom de weergave van de afbeelding moet eindigen.
 
   \--- /feedback ---
 
