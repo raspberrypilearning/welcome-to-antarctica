@@ -59,9 +59,9 @@ line_highlights: 12, 14
 
 \--- task ---
 
-You are going to use a `<div>` to contain the links to the other pages.
+Je gaat `<div>` gebruiken om de links naar de andere pagina's in op te nemen.
 
-Inside the `<nav>` tags, add a new `<div>`.
+Voeg binnen de `<nav>`-tags een nieuwe `<div>` toe.
 
 ## --- code ---
 
@@ -87,12 +87,12 @@ line_highlights: 13-15
 \--- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-In <span style="color: #0faeb0">**HTML**</span>, the `<a>` tag is used to create links. These links can be used to send users to another page on the same site or to an external site. You put the text to be linked inside `<a>` and `</a>`, and the `href` attribute provides the filename of the page that the link leads to. For external pages, the `href` attribute provides the web address (usually beginning with "https://") of the page you want to link to.
+In <span style="color: #0faeb0">**HTML**</span> wordt de `<a>` tag gebruikt om links te maken. Deze links kunnen worden gebruikt om gebruikers naar een andere pagina op dezelfde site of naar een externe site te sturen. Je plaatst de tekst waarnaar je wil linken binnen de `<a>` en `</a>` tags, en het `href` attribuut bevat de bestandsnaam van de pagina waar de link naar leidt. Voor externe pagina's geeft het `href`-attribuut het webadres (meestal beginnend met "https://") van de pagina waarnaar je wilt linken.
 </p>
 
 \--- task ---
 
-Add `<a>` tags to create links to each page.
+Voeg `<a>`tags toe om links naar elke pagina te maken.
 
 ## --- code ---
 
@@ -108,8 +108,8 @@ line_highlights: 14-16
   <nav>
     <div>
       <a href="index.html">Home</a>
-      <a href="wildlife.html">Wildlife</a>
-      <a href="climate.html">Climate</a>
+      <a href="wildlife.html">Wilde dieren</a>
+      <a href="climate.html">Klimaat</a>
     </div>
   </nav>
 </header>
@@ -119,24 +119,24 @@ line_highlights: 14-16
 
 \--- /task ---
 
-### Save your project
+### Sla je project op
 
-Your project is saved automatically. Return to the starter link in the same web browser to see your changes.
+Je project wordt automatisch opgeslagen. Ga terug naar de startlink in dezelfde webbrowser om je wijzigingen te zien.
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
-You should:
+Je zou:
 
-- See the navigation links at the top
+- De navigatielinks bovenaan moeten zien
 
-- Click a link to navigate to the Wildlife or Climate pages
+- Op een link moeten klikken om naar de pagina's Wilde dieren of Klimaat te gaan
 
-- Notice that the navbar does not appear on the Wildlife or Climate pages
+- Let op: de navigatiebalk verschijnt niet op de pagina's Wilde dieren of Klimaat
 
-**Tip:** In the Code Editor, you can use the browser back button (←) to return to the homepage.
+**Tip:** In de Code Editor, kun je de back button (←) van de browser gebruiken om terug te gaan naar de homepage.
 
-\--- /task ---
+\---/task---
 
-Next, you are going to add the navbar to the other pages and then style your pages to make them look even better!
+Zo meteen ga je de navigatiebalk aan de andere pagina's toevoegen en vervolgens je pagina's opmaken om ze er nog beter uit te laten zien!
