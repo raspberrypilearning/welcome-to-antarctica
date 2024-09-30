@@ -1,4 +1,4 @@
-## Responsive grids
+## Responsieve rasters
 
 Making the grids responsive will make sure that anyone can learn about Antarctica, no matter what device they are viewing on.
 
