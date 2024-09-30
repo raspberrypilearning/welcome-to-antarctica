@@ -1,4 +1,4 @@
-## Style a navbar
+## Een navigatiebalk vormgeven
 
 In this step, you will style the navbar you created and add it to the other pages.
 
