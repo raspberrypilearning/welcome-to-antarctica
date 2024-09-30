@@ -2,11 +2,11 @@
 
 ---
 
-## legend: Question 3 of 3
+## legend: Vraag 3 van 3
 
-In this project, you used a media query to make your website responsive.
+In dit project heb je een media query gebruikt om je website responsief te maken.
 
-What is the purpose of using a media query?
+Wat is het doel van het gebruik van een media query?
 
 ## --- code ---
 
@@ -23,27 +23,27 @@ line_numbers: false
 
 \--- choices ---
 
-- ( ) To create a burger menu in CSS.
+- ( ) Om een burgermenu in CSS te maken.
 
   \--- feedback ---
 
-  Try again. A media query is not used for creating a burger menu. A burger menu is used for navigation on a smaller screen.
+  Probeer het nog eens. Een media query wordt niet gebruikt voor het maken van een burger menu. Een burgermenu wordt gebruikt voor navigatie op een kleiner scherm.
 
   \--- /feedback ---
 
-- (x) To apply styles when the screen size changes.
+- (x) Om stijlen toe te passen wanneer de schermgrootte verandert.
 
   \--- feedback ---
 
-  Correct! A media query applies specific styles based on the attributes of the user's device, such as screen width or height.
+  Juist! Met een media query worden specifieke stijlen toegepast op basis van de kenmerken van het apparaat van de gebruiker, zoals de breedte of hoogte van het scherm.
 
   \--- /feedback ---
 
-- ( ) To create a grid layout.
+- ( ) Om een grid (raster) lay-out te maken.
 
   \--- feedback ---
 
-  Not quite. A media query is not used to create a grid layout. A grid layout is used to organise content on your webpage.
+  Niet helemaal. Een media-query wordt niet gebruikt om een rasterweergave te maken. Een rasterlay-out wordt gebruikt om de inhoud op je webpagina te organiseren.
 
   \--- /feedback ---
 
