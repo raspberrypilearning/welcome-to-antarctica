@@ -1,31 +1,31 @@
 ## Rasters gebruiken
 
-Make your webpage layouts awesome by arranging things with grids!
+Maak je webpagina lay-outs geweldig door dingen te rangschikken met behulp van rasters!
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step5" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
-### Add a grid
+### Voeg een raster toe
 
-The navbar looks great, but the paragraphs of text need some work.
+De navigatiebalk ziet er goed uit, maar de tekstalinea's moeten nog wat verbeterd worden.
 
-You can organise the text content using a grid layout.
+Je kunt de tekstinhoud organiseren met behulp van een rasterweergave.
 
 \--- collapse ---
 
 ---
 
-## title: Use the display property to change layouts
+## title: Gebruik de display eigenschap om de lay-outs te wijzigen
 
-One of the most important decisions when styling a webpage is how to arrange the elements on the page.
+Een van de belangrijkste beslissingen bij het opmaken van een webpagina is hoe de elementen op de pagina worden gerangschikt.
 
-To change the way elements are arranged, you can use the CSS `display` property.
+Om de manier waarop elementen worden gerangschikt te wijzigen, kun je de CSS-eigenschap `display` gebruiken.
 
-There are a few options available for layouts:
+Er zijn een paar opties beschikbaar voor lay-outs:
 
-- `inline` - the default, where height and width are determined by the contents
-- `block` - the element will start on a new line and take up the whole width
-- `flex` - makes changing layout and alignment easier
-- `grid` - creates a table layout with rows and columns so elements can be precisely placed
+- `inline` - de standaard, waarbij hoogte en breedte worden bepaald door de inhoud
+- `block` - het element begint op een nieuwe regel en neemt de volledige breedte in beslag
+- `flex` - maakt het wijzigen van de lay-out en uitlijning eenvoudiger
+- `grid` - creëert een tabelindeling met rijen en kolommen, zodat elementen nauwkeurig kunnen worden geplaatst
 
 \--- /collapse ---
 
@@ -33,7 +33,7 @@ There are a few options available for layouts:
 
 Open `index.html`.
 
-Add a `fact-holder` class attribute to the `<div>` that includes the four paragraphs of text.
+Voeg een `fact-holder` class attribuut toe aan de `<div>` die de vier alinea's tekst bevat.
 
 ## --- code ---
 
@@ -47,8 +47,8 @@ line_highlights: 27
   <section>
     <div class="fact-holder">
       <span>
-        <p>
-          Antarctica is the coldest continent, but it is also the driest! On average, there is just 200mm (8 inches) of precipitation a year, the majority of it along the coast.
+            <p>
+              Antarctica is het koudste continent, maar ook het droogste! Gemiddeld valt er slechts 200 mm (8 inch) neerslag per jaar, waarvan het grootste deel langs de kust.
         </p>
       </span>
 
@@ -58,33 +58,33 @@ line_highlights: 27
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- collapse ---
 
 ---
 
-## title: My webpage still looks the same?
+## title: Mijn webpagina ziet er nog steeds hetzelfde uit?
 
-Make sure there is an `=` between `class` and `fact-holder`.
+Zorg ervoor dat er een `=` staat tussen `class` en `fact-holder`.
 
-Make sure there are `"` marks around `fact-holder`.
+Zorg ervoor dat er `"`-tekens rond `fact-holder` staan.
 
 \--- /collapse ---
 
 \--- /task ---
 
-At the moment, the paragraphs take up different amounts of space.
+Op dit moment nemen de paragrafen verschillende hoeveelheden ruimte in beslag.
 
-![The index.html page after the grid has been added. An arrow stretches all the way across and is labelled 100%. Underneath, an arrow spans the width of the first paragraph and is labelled 75%, next to it another arrow spans the width of the second paragraph and is labelled 25%.](images/grid-sizes.png)
+![De index.html pagina nadat het raster is toegevoegd. Er is een pijl die over de hele breedte loopt en die 100% aangeeft. Daaronder overspant een pijl de breedte van de eerste alinea en is gelabeld met 75%, ernaast overspant een andere pijl de breedte van de tweede alinea en is gelabeld met 25%.](images/grid-sizes.png)
 
-You can change the widths of the grid columns to make them even.
+Je kunt de breedtes van de rasterkolommen wijzigen om ze gelijk te maken.
 
 \--- task ---
 
 Open `style.css`.
 
-Alter the heights of the two grid rows and the widths of the two grid columns to 50%.
+Wijzig de hoogte van de twee rasterrijen en de breedtes van de twee rasterkolommen naar 50%.
 
 ## --- code ---
 
@@ -109,33 +109,33 @@ grid-template-columns: 50% 50%;
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- collapse ---
 
 ---
 
-## title: My grid has not changed?
+## title: Mijn raster is niet veranderd?
 
-Make sure there is a space between each `50%`.
+Zorg ervoor dat er een spatie tussen elke `50%` staat.
 
 \--- /collapse ---
 
 \--- /task ---
 
-### Style the facts
+### De feiten opmaken
 
-The layout of the fact cards is organised.
+De indeling van de feitenkaarten is nu overzichtelijker.
 
-However, the fact cards still need styling.
+De kaartjes met feiten moeten echter nog wel opgemaakt worden.
 
 \--- task ---
 
 Open `index.html`.
 
-Add a `fact-card` class attribute to each `<span>` element.
+Voeg een `fact-card` class attribuut toe aan elk `<span>` element.
 
-Also add the class attribute for each `<span>` element that defines its background image.
+Voeg ook het class-kenmerk toe voor elk `<span>`-element dat de achtergrondafbeelding definieert.
 
 ## --- code ---
 
@@ -150,22 +150,22 @@ line_highlights: 28, 33, 38, 43
 <div class="fact-holder">
   <span class="fact-card sun">
     <p>
-      Antarctica is the coldest continent, but it is also the driest! On average there just 200 mm (8 in) of precipitation a year, the majority of it along the coast.
+      Antarctica is het koudste continent, maar ook het droogste! Gemiddeld valt er slechts 200 mm (8 inch) neerslag per jaar, het grootste deel daarvan langs de kust.
     </p>
   </span>
   <span class="fact-card discovery">
     <p>
-      The continent is thought to have been discovered relatively late in human history, in 1820 by the Russian expedition of Fabian Gottlieb von Bellingshausen and Mikhail Lazarev.
+      Men denkt dat het continent relatief laat in de menselijke geschiedenis is ontdekt, in 1820 door de Russische expeditie van Fabian Gottlieb von Bellingshausen en Mikhail Lazarev.
     </p>
   </span>
   <span class="fact-card explorers">
     <p>
-      Who first set foot on the continent? The first documented and confirmed landing was a crew led by Norwegian Leonard Kristensen at Cape Adare.
+      Wie zette als eerste voet op het continent? De eerste gedocumenteerde en bevestigde landing was een bemanning onder leiding van de Noor Leonard Kristensen bij Kaap Adare.
     </p>
   </span>
   <span class="fact-card ownership">
     <p>
-      Antarctica is governed by the Antarctic Treaty. The Treaty now has 53 supporting nations, 29 of which are considered “Consultative Parties” and are actively involved in decision-making.
+      Antarctica wordt geregeerd door het Antarctisch Verdrag. Het verdrag heeft nu 53 ondersteunende landen, waarvan er 29 worden beschouwd als “raadgevende partijen” die actief betrokken zijn bij de besluitvorming.
     </p>
   </span>
 ```
@@ -176,15 +176,15 @@ line_highlights: 28, 33, 38, 43
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- collapse ---
 
 ---
 
-## title: My grid looks weird?
+## title: Mijn raster ziet er raar uit?
 
-Check all your opening brackets `<` have closing brackets `>`.
+Controleer of alle openingshaakjes `<` sluithaakjes `>` hebben.
 
 \--- /collapse ---
 
@@ -194,7 +194,7 @@ Check all your opening brackets `<` have closing brackets `>`.
 
 Open `style.css`.
 
-Add the `fact-card` selector to the `style.css` file. This will make sure the background images are centered and cover the whole `<span>` element.
+Voeg de `fact-card` selector toe aan het `style.css` bestand. Dit zorgt ervoor dat de achtergrondafbeeldingen gecentreerd zijn en het hele `<span>` element omvatten.
 
 ## --- code ---
 
@@ -215,39 +215,39 @@ background-position: center;
 
 \--- /code ---
 
-The `style.css` file already has the selectors for `sun`, `discovery`, `explorers`, and `ownership`.
+Het bestand `style.css` bevat al de selectoren voor `sun`, `discovery`, `explorers` en `ownership`.
 
 \--- /task ---
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- collapse ---
 
 ---
 
-## title: I can't see my images?
+## title: Ik kan mijn afbeeldingen niet zien?
 
-In `index.html`, check both class attributes are between the same `"` marks.
+Controleer in `index.html`, of beide klassenattributen tussen dezelfde `"` markeringen staan.
 
-In `index.html`, make sure there is a space between each class.
+Zorg ervoor dat er in `index.html` een spatie tussen elke class is.
 
 \--- /collapse ---
 
 \--- /task ---
 
-### Make it more accessible
+### Maak het toegankelijker
 
-With the images in place, the text is hard to read. This means your website is not as **accessible** as it could be.
+Door de afbeeldingen is de tekst moeilijk te lezen. Dit betekent dat jouw website niet zo **toegankelijk** is.
 
-Next, you are going to change the colour of the text and add a transparent background.
+Vervolgens ga je de kleur van de tekst veranderen en een transparante achtergrond toevoegen.
 
 \--- task ---
 
 Open `index.html`.
 
-Add the `fact` class attribute to each paragraph.
+Voeg het `fact` class attribuut toe aan elke alinea.
 
 ## --- code ---
 
@@ -262,22 +262,22 @@ line_highlights: 29, 34, 39, 44
 <div class="fact-holder">
   <span class="fact-card sun">
     <p class="fact">
-      Antarctica is the coldest continent, but it is also the driest! On average there just 200 mm (8 in) of precipitation a year, the majority of it along the coast.
+      Antarctica is het koudste continent, maar ook het droogste! Gemiddeld valt er slechts 200 mm (8 inch) neerslag per jaar, het grootste deel daarvan langs de kust.
     </p>
   </span>
   <span class="fact-card discovery">
     <p class="fact">
-      The continent is thought to have been discovered relatively late in human history, in 1820 by the Russian expedition of Fabian Gottlieb von Bellingshausen and Mikhail Lazarev.
+      Men denkt dat het continent relatief laat in de menselijke geschiedenis is ontdekt, in 1820 door de Russische expeditie van Fabian Gottlieb von Bellingshausen en Mikhail Lazarev.
     </p>
   </span>
   <span class="fact-card explorers">
     <p class="fact">
-      Who first set foot on the continent? The first documented and confirmed landing was a crew led by Norwegian Leonard Kristensen at Cape Adare.
+      Wie zette als eerste voet op het continent? De eerste gedocumenteerde en bevestigde landing was een bemanning onder leiding van de Noor Leonard Kristensen bij Kaap Adare.
     </p>
   </span>
   <span class="fact-card ownership">
     <p class="fact">
-      Antarctica is governed by the Antarctic Treaty. The Treaty now has 53 supporting nations, 29 of which are considered “Consultative Parties” and are actively involved in decision-making.
+      Antarctica wordt geregeerd door het Antarctisch Verdrag. Het verdrag heeft nu 56 ondersteunende landen, waarvan er 29 worden beschouwd als “raadgevende partijen” en actief betrokken zijn bij de besluitvorming.
     </p>
   </span>
 ```
@@ -288,8 +288,8 @@ line_highlights: 29, 34, 39, 44
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- /task ---
 
-Next, you are going to add animations to your paragraphs to make the pages interactive!
+Zodadelijk ga je animaties aan je alinea's toevoegen om de pagina's interactief te maken!
