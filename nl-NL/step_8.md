@@ -1,26 +1,26 @@
-## Responsive navigation bar
+## Responsieve navigatiebalk
 
-Make your content smart! No matter if the page is big or small, or if someone is using a different device, it will always look amazing.
+Maak je inhoud slim! Het maakt niet uit of de pagina groot of klein is, of dat iemand een ander apparaat gebruikt: de pagina ziet er altijd fantastisch uit.
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step8" width="600" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Webpages can be viewed on many different devices and should be <span style="color: #0faeb0">**responsive**</span> to each device. This means that if a user views your page on a mobile phone, it should respond to the smaller screen size and if they view it on a desktop PC, it should respond to the larger screen size. 
+Webpagina's kunnen op veel verschillende apparaten worden bekeken en moeten <span style="color: #0faeb0">**responsief**</span> zijn voor elk apparaat. Dit betekent dat als een gebruiker jouw webpagina op een mobiele telefoon bekijkt, het moet reageren op een kleiner scherm en als ze het op een desktop PC bekijken, moet het op een groter scherm reageren. 
 </p>
 
-### Make the navbar responsive
+### Maak de navigatiebalk responsief
 
-On a smaller screen, the links in the navbar might get too close together.
+Op een kleiner scherm kunnen de links in de navigatiebalk te dicht op elkaar staan.
 
-You are going to make the links disappear and replace them with a **burger menu** (☰).
+Je gaat de links laten verdwijnen en vervangen door een **hamburgermenu** (☰).
 
 \--- task ---
 
 Open `index.html`.
 
-Inside the `<nav>` tags, add a new `<div>` with the `class="burger"` attribute.
+Voeg binnen de `<nav>`-tags een nieuwe `<div>` toe met het kenmerk `class="burger"`.
 
-Add two `<span>` tags. One is for the 'burger' icon (☰) used to open the menu. The other is for a cross icon (✖) used to close the menu.
+Voeg twee `<span>`-tags toe. Eén daarvan is het 'hamburger'-icoontje (☰) waarmee je het menu opent. De andere is een kruispictogram (✖) waarmee je het menu kunt sluiten.
 
 ## --- code ---
 
@@ -35,8 +35,8 @@ line_highlights: 18-21
 <nav>
   <div class="nav-items">
     <a class="active" href="index.html">Home</a>
-    <a href="wildlife.html">Wildlife</a>
-    <a href="climate.html">Climate</a>
+    <a href="wildlife.html">Wilde dieren</a>
+    <a href="climate.html">Klimaat</a>
   </div>
   <div class="burger">
     <span id="openHam">&#9776;</span>
@@ -51,11 +51,11 @@ line_highlights: 18-21
 
 ---
 
-## title: Use ASCII codes for characters
+## title: Gebruik ASCII-codes voor tekens
 
-To make the burger menu and cross, you have used an **ASCII** code. This is a way of adding special characters that don't feature on your keyboard.
+Om het hamburgermenu en kruispictogram te maken, heb je een **ASCII** code gebruikt. Dit is een manier om speciale tekens toe te voegen die niet voorkomen op je toetsenbord.
 
-You can find a full list of ASCII codes on [this website](https://www.ascii-code.com/).
+Je vindt een volledige lijst met ASCII codes op [deze website](https://www.ascii-code.com/).
 
 \--- /collapse ---
 
@@ -63,21 +63,21 @@ You can find a full list of ASCII codes on [this website](https://www.ascii-code
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- /task ---
 
-You are using an `id` attribute on each `<span>` element. A unique `id` can be given to any element.
+Je gebruikt een `id` attribuut op elk `<span>` element. Aan elk element kan een unieke `id` worden gegeven.
 
-The new icons should only be visible when the screen is small enough.
+De nieuwe pictogrammen mogen alleen zichtbaar zijn als het scherm klein genoeg is.
 
-When the page first loads, you don't want the `<div>` to display.
+Wanneer de pagina voor het eerst wordt geladen, wil je niet dat de `<div>` wordt weergegeven.
 
 \--- task ---
 
 Open `style.css`.
 
-Add the `burger` selector to the `style.css` file.
+Voeg de `burger` selector toe aan het `style.css` bestand.
 
 ## --- code ---
 
@@ -103,33 +103,33 @@ margin-left: auto;
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- /task ---
 
-### Create a media query
+### Een media query maken
 
-You are going to use a **media query** to change the styling of elements based on the width of the screen.
+Je gaat een **media-query** gebruiken om de stijl van elementen gebaseerd op de breedte van het scherm te wijzigen.
 
-We have set 768px as the screen width, below which the media query will trigger.
+We hebben 768px ingesteld als schermbreedte, als de breedte kleiner is wordt de media-query geactiveerd.
 
 \--- collapse ---
 
 ---
 
-## title: Using media queries
+## title: Media query's gebruiken
 
-A CSS media query can be used to check lots of things about the way a webpage is currently being displayed.
+Met een CSS-mediaquery kun je allerlei zaken controleren over de manier waarop een webpagina op dat moment wordt weergegeven.
 
-You can check attributes of the device showing the page, like the width or the height. For mobile devices, you can check whether they are in landscape or portrait mode.
+Je kunt attributen controleren van het apparaat dat de pagina toont, zoals de breedte of de hoogte. Voor mobiele apparaten kun je controleren of ze zich in liggende of portretmodus bevinden.
 
-You can also use media queries to change the styling of a page when it is printed.
+Je kunt ook media queries ook gebruiken om de opmaak van een pagina te wijzigen wanneer deze wordt afgedrukt.
 
 \--- /collapse ---
 
 \--- task ---
 
-At the bottom of `style.css`, add your media query.
+Voeg onderaan `style.css` je media query toe.
 
 ## --- code ---
 
@@ -153,23 +153,23 @@ line_highlights: 212-214
 
 ---
 
-## title: Why use a max width of 768px?
+## title: Waarom een maximale breedte van 768px gebruiken?
 
-The typical width of a tablet screen is 768px and mobile phone screens are even narrower. Using this width, you can make sure your content looks great on all mobile devices.
+De gebruikelijke breedte van een tabletscherm is 768px en mobiele telefoonschermen zijn nog kleiner. Met behulp van deze breedte kun je ervoor zorgen dat jouw inhoud er op alle mobiele apparaten geweldig uitziet.
 
-When the page width is more than 768px, the navbar displays the three page links at the top of the page.
+Wanneer de paginabreedte groter dan 768px is, geeft de navigatiebalk de drie paginalinks weer aan de bovenkant van de pagina.
 
-When the page width is 768px or less, the navbar can be hidden and a 'burger' menu shown to save space.
+Wanneer de paginabreedte 768px of minder is, kan de navigatiebalk verborgen worden en een 'burger' menu getoond worden om ruimte te besparen.
 
 \--- /collapse ---
 
-When the burger menu icon is displayed, the cross will remain hidden.
+Wanneer het burgermenu-icoon wordt weergegeven, blijft het kruis verborgen.
 
-When the burger icon is clicked, the page links will be displayed and the close icon will be shown.
+Wanneer je op burgericoontje klikt, worden de paginalinks weergegeven en wordt het sluit pictogram getoond.
 
 \--- task ---
 
-Add selectors to style the `.burger` `<div>`.
+Voeg selectoren toe om de opmaak van `.burger` `<div>` aan te passen.
 
 ## --- code ---
 
@@ -199,23 +199,23 @@ display: none;
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
-Resize the Code Editor to see your changes!
+Wijzig het formaat van de Code Editor om je wijzigingen te zien!
 
 \--- /task ---
 
-You need to open and close the navigation menu.
+Je moet het navigatiemenu openen en sluiten.
 
-The navigation items don't look very good at the moment, so add some new styling to make them look like a menu.
+De navigatie-items zien er op dit moment niet goed uit, dus voeg nieuwe opmaak toe om ze eruit te laten zien als een menu.
 
-You will set the nav items to `display: none` so they are not shown before the menu is opened.
+Je stelt de navigatie-items in op `display: none`, zodat ze niet worden weergegeven voordat het menu wordt geopend.
 
 \--- task ---
 
 Open `style.css`.
 
-Add a new `.nav-items` selector and styling to the media query.
+Voeg een nieuwe `.nav-items` selector en opmaak toe aan de media query.
 
 ## --- code ---
 
@@ -259,7 +259,7 @@ gap: 10vh;
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
 \--- /task ---
 
@@ -267,7 +267,7 @@ gap: 10vh;
 
 Open `index.html`.
 
-Add the **JavaScript** file to your page.
+Voeg het **JavaScript** bestand toe aan je pagina.
 
 ## --- code ---
 
@@ -291,19 +291,19 @@ line_highlights: 53
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
-Click on the burger menu to see your navigation items appear. Then click the cross to close the menu.
+Klik op het burgermenu om je navigatie-items te zien verschijnen. Klik vervolgens op het kruisje om het menu te sluiten.
 
 \--- /task ---
 
-### Update the other pages
+### De andere pagina's bijwerken
 
 \--- task ---
 
 Open `wildlife.html`.
 
-Copy and paste the `burger` `<div>` element inside the `<nav>` tags.
+Kopieer en plak het `burger` `<div>` element binnen de `<nav>` tags.
 
 ## --- code ---
 
@@ -318,8 +318,8 @@ line_highlights: 19-22
 <nav>
   <div class="nav-items">
     <a href="index.html">Home</a>
-    <a class="active" href="wildlife.html">Wildlife</a>
-    <a href="climate.html">Climate</a>
+    <a class="active" href="wildlife.html">Wilde dieren</a>
+    <a href="climate.html">Klimaat</a>
   </div>
   <div class="burger">
     <span id="openHam">&#9776;</span>
@@ -334,7 +334,7 @@ line_highlights: 19-22
 
 \--- task ---
 
-Also add the **JavaScript** file to your page.
+Voeg ook het **JavaScript** bestand toe aan je pagina.
 
 ## --- code ---
 
@@ -358,32 +358,32 @@ line_highlights: 55
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
-Click on the burger menu to see your navigation items appear. Then click the cross to close the menu.
+Klik op het burgermenu om je navigatie-items te zien verschijnen. Klik vervolgens op het kruisje om het menu te sluiten.
 
 \--- /task ---
 
-You now need to add the burger `<div>` and JavaScript file to climate.html as well.
+Je moet de burger `<div>` en het JavaScript-bestand ook aan climate.html toevoegen.
 
 \--- task ---
 
 Open `climate.html`.
 
-Copy and paste the `burger` `<div>` element inside the `<nav>` tags.
+Kopieer en plak het `burger` `<div>` element binnen de `<nav>` tags.
 
-Also copy and paste (CTRL + C or CMD + C) the **JavaScript** file to your page.
+Kopieer en plak (CTRL + C of CMD + C) ook het **JavaScript**-bestand naar je pagina.
 
 \--- /task ---
 
 \--- task ---
 
-**Click Run**
+**Klik op Run**
 
-Click on each menu item to navigate from page to page.
+Klik op elk menu-item om te navigeren van pagina naar pagina.
 
-Resize the preview window to below 768px to see how it responds.
+Wijzig de grootte van het preview venster naar minder dan 768px om te zien hoe het reageert.
 
 \--- /task ---
 
-You have now built a responsive navigation bar. But you the grids could look better when the website is viewed on a mobile device.
+Je hebt nu een responsieve navigatiebalk gebouwd. Maar de rasters zouden er beter uit kunnen zien als de website op een mobiel apparaat wordt bekeken.
