@@ -5,7 +5,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     width: 100%;
-    min-height: 100vh; /* Make the content fill the page so the footer is at the bottom */
+    min-height: 100vh; /* Faire remplir le contenu de la page pour que le pied de page soit en bas */
     display: flex;
     flex-direction: column;
 }
@@ -13,9 +13,9 @@ body {
 main {
     height: 100%;
     justify-content: center;
-    margin: 0 auto; /* Center if the browser is really wide */
-    min-width: 25rem; /* Don't let the content get too narrow */
-    max-width: 70rem; /*  Don't let the content get too wide */
+    margin: 0 auto; /* Centre si le navigateur est vraiment large */
+    min-width: 25rem; /* Ne laisse pas le contenu devenir trop étroit */
+    max-width: 70rem; /* Ne laisse pas le contenu devenir trop large */
     padding: 0;
 }
 
@@ -32,7 +32,7 @@ h1 {
     width: 100%;
 }
 
-/* Nav bar */
+/* Barre de navigation */
 nav {
     padding: 0 15px;
     height: 60px;
@@ -42,31 +42,31 @@ nav {
     align-items: center;
 }
 
-/* Nav items */
+/* Éléments de navigation */
 
 
-/* Nav bar links */
+/* Liens de la barre de navigation */
 
 
-/* Nav links hover */
+/* Survol des liens de navigation */
 
 
-/* Nav links active */
+/* Liens de navigation actifs */
 
 
-/* Burger menu */
+/* Menu Hamburger */
 
 
-/* Hero image - homepage */
+/* Image Hero - page d'accueil */
 
 
-/* Hero image - wildlife */
+/* Image Hero - faune */
 
 
-/* Hero image - climate */
+/* Image Hero - climat */
 
 
-/* Fact holder - homepage */
+/* Détenteur de faits - page d'accueil */
 .fact-holder {
   display: grid;
   height: 50vh;
@@ -74,10 +74,10 @@ nav {
   grid-template-columns: 75% 25%;
 }
 
-/* Fact holder - wildlife */
+/* Détenteur de faits - faune */
 
 
-/* Fact card */
+/* Carte de faits */
 
 
 .fact {
@@ -92,10 +92,10 @@ nav {
   padding: 0 5px 0 5px;
 }
 
-/* Fact hover */
+/* Survol du fait */
 
 
-/* Fact images */
+/* Images de faits */
 
 .sun {
   background-image: url("antarctic-sun.jpg");
@@ -161,4 +161,4 @@ nav {
   background-image: url("climate-rain.jpg");
 }
 
-/* Media query */
+/* Requête média */
