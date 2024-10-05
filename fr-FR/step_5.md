@@ -48,7 +48,7 @@ line_highlights: 27
     <div class="fact-holder">
       <span>
         <p>
-          Antarctica is the coldest continent, but it is also the driest! On average, there is just 200mm (8 inches) of precipitation a year, the majority of it along the coast.
+          Antarctica is the coldest continent, but it is also the driest! En moyenne, il n'y a que 200 mm (8 pouces) de précipitations par an, dont la majeure partie se trouve sur la côte.
         </p>
       </span>
 
