@@ -62,7 +62,7 @@ line_highlights: 27-29, 33-34, 38-39, 43-44
   <div class="fact-holder">
     <span class="fact-card penguins">
       <p class="fact">
-        Emperor penguins, live in colonies on sea ice. Sea ice is frozen sea water which fringes the Antarctic continent. In the winter, sea ice expands. In the summer, it shrinks as the sea ice melts. By the time the chicks are ready to fledge, the sea ice edge is close to the colony, so the young penguins don’t have to travel far to get their food.
+        Emperor penguins, live in colonies on sea ice. Sea ice is frozen sea water which fringes the Antarctic continent. In the winter, sea ice expands. In the summer, it shrinks as the sea ice melts. Lorsque les poussins sont prêts à s'envoler, la limite de la banquise est déjà proche de la colonie. Les jeunes manchots n'ont donc pas besoin de parcourir de longues distances pour trouver de la nourriture.
       </p>
     </span>
     <span class="fact-card krill">
@@ -302,16 +302,16 @@ line_highlights: 25-27, 31-32, 36-37, 41-42
 --------------------------------------------------------------------------------
 
   <section>
-    <h1>Hover on the cards below to learn about the climate in Antarctica</h1>
+    <h1>Survole les cartes ci-dessous pour en savoir plus sur le climat de l'Antarctique</h1>
     <div class="fact-holder">
       <span class="fact-card temperature">
         <p class="fact">
-          Antarctica is the coldest continent on Earth. The average temperature in the interior is -57°C, during winter it can reach -90°C. The coast is warmer and temperatures can reach a maximum of 8°C during the summer.
+          Antarctica is the coldest continent on Earth. The average temperature in the interior is -57°C, during winter it can reach -90°C. La côte est plus chaude et les températures peuvent atteindre un maximum de 8°C en été.
         </p>
       </span>
       <span class="fact-card sunburn">
         <p class="fact">
-          It is possible to get sunburn on Antarctica, the snow reflects nearly all the ultraviolet rays. You may not feel the heat, but you still need to keep your skin safe from the rays.
+          It is possible to get sunburn on Antarctica, the snow reflects nearly all the ultraviolet rays. Tu ne sens peut-être pas la chaleur, mais tu dois quand même protéger ta peau des rayons du soleil.
         </p>
       </span>
       <span class="fact-card ice">
@@ -321,7 +321,7 @@ line_highlights: 25-27, 31-32, 36-37, 41-42
       </span>
       <span class="fact-card rainfall">
         <p class="fact">
-          Technically, Antarctica is a desert because it is so dry there. The average annual precipitation on the coast is just 166mm. With such cold conditions the snow hardly ever melts; instead, it will mostly become compressed over time to form part of the ice sheet.
+          Technically, Antarctica is a desert because it is so dry there. Les précipitations annuelles moyennes sur la côte ne sont que de 166 mm. With such cold conditions the snow hardly ever melts; instead, it will mostly become compressed over time to form part of the ice sheet.
         </p>
       </span>    
 </div>
