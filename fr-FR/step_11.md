@@ -3,7 +3,7 @@
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-If you have time, you can add some more facts, adjust the grid layouts, and change the hero images to make the page your own!
+Si tu as le temps, tu peux ajouter quelques faits supplémentaires, régler la disposition de la grille et changer les images Hero pour personnaliser complètement la page !
 
 </div>
 <div>
@@ -11,15 +11,15 @@ If you have time, you can add some more facts, adjust the grid layouts, and chan
 </div>
 </div>
 
-### Add more facts
+### Ajouter plus de faits
 
 \--- collapse ---
 
 ---
 
-## title: Add a new fact to the homepage
+## title: Ajouter un nouveau fait à la page d'accueil
 
-Here is a fact about the research stations on Antarctica that you can add to the home page.
+Voici une information sur les stations de recherche en Antarctique que tu peux ajouter à la page d'accueil.
 
 ## --- code ---
 
@@ -30,11 +30,11 @@ line_number_start:
 line_highlights:
 -----------------------------------------------------
 
-<p>Of the 56 countries that have signed the Antarctic Treaty, 55 of them operate some sort of research station on the continent. Le nombre de chercheurs actifs sur l'Antarctique est d'environ 4 800 en été et 1 200 en hiver.</p>
+<p>Sur les 56 pays signataires du traité de l'Antarctique, 55 exploitent une station de recherche sur le continent. Le nombre de chercheurs actifs sur l'Antarctique est d'environ 4 800 en été et 1 200 en hiver.</p>
 
 \--- /code ---
 
-You can use the class `research` to add a new background image to this fact.
+Tu peux utiliser la classe `research` pour ajouter une nouvelle image d'arrière-plan à ce fait.
 
 ## --- code ---
 
