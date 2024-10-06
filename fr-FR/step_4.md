@@ -1,18 +1,18 @@
 ## Ajouter des images Hero
 
-Put some cool images at the top of your webpage to show everyone what it's about!
+Mets des images sympas en haut de ta page web pour montrer à tout le monde de quoi il s'agit !
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step4" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
-### Add a hero image to the header
+### Ajouter une image Hero à l'en-tête
 
-A large full width image at the top of a page is called a **hero image**.
+Une grande image pleine largeur en haut d'une page s'appelle une **image Hero**.
 
 \--- task ---
 
-Add a new `<div>` element to the `<header>`.
+Ajoute un nouvel élément `<div>` au `<header>`.
 
-Give the new `<div>` a class attribute of `hero-image`.
+Donne au nouveau `<div>` un attribut de classe de `hero-image`.
 
 ## --- code ---
 
@@ -27,9 +27,9 @@ line_highlights: 19
 <header>
   <nav>
     <div class="nav-items">
-      <a href="index.html" class="active">Home</a>
-      <a href="wildlife.html">Wildlife</a>
-      <a href="climate.html">Climate</a>
+      <a href="index.html" class="active">Accueil</a>
+      <a href="wildlife.html">Faune</a>
+      <a href="climate.html">Climat</a>
     </div>
   </nav>
   <div class="hero-image"></div>
