@@ -1,4 +1,4 @@
-## Different types of grids
+## Différents types de grilles
 
 Use a new grid arrangement for the Wildlife page to organise the fact cards in a different way to keep things interesting!
 
@@ -32,7 +32,7 @@ line_highlights:
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- /task ---
 
@@ -89,7 +89,7 @@ line_highlights: 27-29, 33-34, 38-39, 43-44
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- /task ---
 
@@ -172,7 +172,7 @@ line_highlights: 27
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 Now, your wildlife grid has 3 rows that take up a third of the space each, and 2 columns that are 1/3 and 2/3 of the width.
 
@@ -215,7 +215,7 @@ And `grid-row-end` is the row where the element ends — the image will **not** 
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- /task ---
 
@@ -246,7 +246,7 @@ grid-column-end: 3;
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- /task ---
 
@@ -278,7 +278,7 @@ line_highlights: 23
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- /task ---
 
@@ -333,7 +333,7 @@ line_highlights: 25-27, 31-32, 36-37, 41-42
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- /task ---
 
