@@ -2,13 +2,13 @@
 
 ---
 
-## legend: Question 2 of 3
+## legend: Question 2 sur 3
 
-You used CSS properties in your project to specify the position of your content using a grid layout.
+Tu as utilisé des propriétés CSS dans ton projet pour spécifier la position de ton contenu à l'aide d'une disposition en grille.
 
-Look at the CSS styling for the orcas selector.
+Regarde le style CSS du sélecteur orcas.
 
-Which columns will the orca image span?
+Quelles sont les colonnes occupées par l'image de l'orque ?
 
 ## --- code ---
 
@@ -29,27 +29,27 @@ grid-column-end: 3;
 
 \--- choices ---
 
-- (x) 1 and 2
+- (x) 1 et 2
 
   \--- feedback ---
 
-  Correct! `grid-column-start` sets which column to start the display of the image (the image will start in the first column) and the value of `grid-column-end` sets which column to end the display of the image (the image will not be displayed in the third column).
+  Correct ! La valeur de `grid-column-start` définit dans quelle colonne l'affichage de l'image doit commencer (l'image commence dans la première colonne) et la valeur de `grid-column-end` définit dans quelle colonne l'affichage de l'image doit se terminer (l'image n'est pas affichée dans la troisième colonne).
 
   \--- /feedback ---
 
-- ( ) 2 and 3
+- ( ) 2 et 3
 
   \--- feedback ---
 
-  Take another look. `grid-column-start` sets which column to start the display of the image and the value of `grid-column-end` sets the column from which the image will **not** be displayed.
+  Regarde encore une fois. La valeur de `grid-column-start` définit la colonne à partir de laquelle l'image doit être affichée et la valeur de `grid-column-end` définit la colonne à partir de laquelle l'image ne sera **pas** affichée.
 
   \--- /feedback ---
 
-- ( ) 1, 2, and 3
+- ( ) 1, 2, et 3
 
   \--- feedback ---
 
-  Almost! The orcas image will start in the first column, but the value of `grid-column-end` sets which column to end the display of the image.
+  Presque ! L'image de l'orque commence dans la première colonne, mais la valeur de `grid-column-end` détermine sur quelle colonne l'affichage de l'image doit se terminer.
 
   \--- /feedback ---
 
