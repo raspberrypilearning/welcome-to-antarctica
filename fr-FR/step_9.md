@@ -1,4 +1,4 @@
-## Responsive grids
+## Grilles réactives
 
 Making the grids responsive will make sure that anyone can learn about Antarctica, no matter what device they are viewing on.
 
@@ -62,7 +62,7 @@ grid-template-columns: 100%;
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- /task ---
 
@@ -202,7 +202,7 @@ grid-column-end: 2;
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 Resize the preview window to below 768px to see how each page responds.
 
