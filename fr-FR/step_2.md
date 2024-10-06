@@ -1,40 +1,40 @@
-## Create a navbar
+## Créer une barre de navigation
 
-In this step, you will create a navigation bar, often known as a navbar, to link the pages on the website. This will allow users to navigate from one page to another.
+Dans cette étape, tu crées une barre de navigation (aussi appelée navbar en anglais), pour relier les pages du site web. Elle permettra aux utilisateurs de naviguer d'une page à l'autre.
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step2" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 \--- task ---
 
-Open the [Welcome to Antarctica starter project](https://editor.raspberrypi.org/en/projects/welcome-to-antarctica-starter){:target="_blank"}.
+Ouvre le [projet de démarrage Bienvenue en Antarctique](https://editor.raspberrypi.org/fr-FR/projects/welcome-to-antarctica-starter){:target="_blank"}.
 
 \--- /task ---
 
-Your starter project contains:
+Ton projet de démarrage contient :
 
-- Three HTML pages with some text content
-- A CSS file that contains styling for some of the content
-- The images you will use in the project
-- A JavaScript file to make the navbar respond when the page size changes
+- Trois pages HTML avec du texte
+- Un fichier CSS qui contient le style d'une partie du contenu
+- Les images que tu utiliseras dans le projet
+- Un fichier JavaScript pour que la barre de navigation réagisse lorsque la taille de la page change
 
 \--- task ---
 
-Have a look at the starter project.
+Jette un œil au projet de démarrage.
 
-Open `index.html`. Are there any HTML elements you recognise?
+Ouvre `index.html`. Y a-t-il des éléments HTML que tu reconnais ?
 
 \--- /task ---
 
-### Add the HTML to show the navbar
+### Ajouter le code HTML pour afficher la barre de navigation
 
-Webpage content is placed in the `<body>` tags.
+Le contenu de la page web est placé dans les balises `<body>`.
 
-The navbar is placed in `<nav>` tags in the webpage header.
+La barre de navigation est placée dans les balises `<nav>` de l'en-tête de la page web.
 
 \--- task ---
 
-Find the `<header>` and `</header>` tags.
-Add the `<nav>` tags.
+Trouve les balises `<header>` et `</header>`.
+Ajoute les balises `<nav>`.
 
 ## --- code ---
 
@@ -59,9 +59,9 @@ line_highlights: 12, 14
 
 \--- task ---
 
-You are going to use a `<div>` to contain the links to the other pages.
+Tu vas utiliser un `<div>` pour contenir les liens vers les autres pages.
 
-Inside the `<nav>` tags, add a new `<div>`.
+À l'intérieur des balises `<nav>`, ajoute un nouveau `<div>`.
 
 ## --- code ---
 
@@ -87,12 +87,12 @@ line_highlights: 13-15
 \--- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-In <span style="color: #0faeb0">**HTML**</span>, the `<a>` tag is used to create links. These links can be used to send users to another page on the same site or to an external site. You put the text to be linked inside `<a>` and `</a>`, and the `href` attribute provides the filename of the page that the link leads to. For external pages, the `href` attribute provides the web address (usually beginning with "https://") of the page you want to link to.
+En <span style="color: #0faeb0">**HTML**</span>, la balise `<a>` est utilisée pour créer des liens. Ces liens peuvent être utilisés pour envoyer les utilisateurs vers une autre page du même site ou vers un site externe. Tu mets le texte à lier à l'intérieur de `<a>` et `</a>`, et l'attribut `href` fournit le nom de fichier de la page vers laquelle le lien mène. Pour les pages externes, l'attribut `href` fournit l'adresse web (commençant généralement par « https:// ») de la page vers laquelle tu veux établir un lien.
 </p>
 
 \--- task ---
 
-Add `<a>` tags to create links to each page.
+Ajoute des balises `<a>` pour créer des liens vers chaque page.
 
 ## --- code ---
 
@@ -107,9 +107,9 @@ line_highlights: 14-16
 <header>
   <nav>
     <div>
-      <a href="index.html">Home</a>
-      <a href="wildlife.html">Wildlife</a>
-      <a href="climate.html">Climate</a>
+      <a href="index.html">Accueil</a>
+      <a href="wildlife.html">Faune</a>
+      <a href="climate.html">Climat</a>
     </div>
   </nav>
 </header>
@@ -119,24 +119,24 @@ line_highlights: 14-16
 
 \--- /task ---
 
-### Save your project
+### Enregistre ton projet
 
-Your project is saved automatically. Return to the starter link in the same web browser to see your changes.
+Ton projet est enregistré automatiquement. Retourne au lien de démarrage dans le même navigateur web pour voir tes modifications.
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
-You should:
+Tu devrais :
 
-- See the navigation links at the top
+- Voir les liens de navigation en haut
 
-- Click a link to navigate to the Wildlife or Climate pages
+- Cliquer sur un lien pour accéder aux pages Faune ou Climat
 
-- Notice that the navbar does not appear on the Wildlife or Climate pages
+- Remarquer que la barre de navigation n'apparaît pas sur les pages consacrées à la faune ou au climat
 
-**Tip:** In the Code Editor, you can use the browser back button (←) to return to the homepage.
+**Astuce :** dans le Code Editor, tu peux utiliser le bouton retour du navigateur (←) pour revenir à la page d'accueil.
 
 \--- /task ---
 
-Next, you are going to add the navbar to the other pages and then style your pages to make them look even better!
+Ensuite, tu vas ajouter la barre de navigation aux autres pages et styliser tes pages pour qu'elles soient encore plus belles !
