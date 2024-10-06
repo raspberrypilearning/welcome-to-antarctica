@@ -1,4 +1,4 @@
-## What next?
+## Et ensuite ?
 
 If you are following the [More web](https://projects.raspberrypi.org/en/pathways/more-web) path, you can move on to the [Comic character](https://projects.raspberrypi.org/en/projects/comic-character) project. In this project, you will create a website where your users can design their own superhero character.
 
@@ -10,7 +10,7 @@ If you are following the [More web](https://projects.raspberrypi.org/en/pathways
 
 \--- no-print ---
 
-### Try it
+### Essaie-le
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
