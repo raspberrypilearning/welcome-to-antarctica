@@ -16,7 +16,7 @@ You are going to make the links disappear and replace them with a **burger menu*
 
 \--- task ---
 
-Open `index.html`.
+Ouvre `index.html`.
 
 Inside the `<nav>` tags, add a new `<div>` with the `class="burger"` attribute.
 
@@ -63,7 +63,7 @@ You can find a full list of ASCII codes on [this website](https://www.ascii-code
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- /task ---
 
@@ -103,7 +103,7 @@ margin-left: auto;
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- /task ---
 
@@ -199,7 +199,7 @@ display: none;
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 Resize the Code Editor to see your changes!
 
@@ -259,13 +259,13 @@ gap: 10vh;
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- /task ---
 
 \--- task ---
 
-Open `index.html`.
+Ouvre `index.html`.
 
 Add the **JavaScript** file to your page.
 
@@ -291,7 +291,7 @@ line_highlights: 53
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 Click on the burger menu to see your navigation items appear. Then click the cross to close the menu.
 
@@ -358,7 +358,7 @@ line_highlights: 55
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 Click on the burger menu to see your navigation items appear. Then click the cross to close the menu.
 
@@ -378,7 +378,7 @@ Also copy and paste (CTRL + C or CMD + C) the **JavaScript** file to your page.
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 Click on each menu item to navigate from page to page.
 
