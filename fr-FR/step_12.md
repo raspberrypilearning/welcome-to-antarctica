@@ -1,10 +1,10 @@
 ## Et ensuite ?
 
-If you are following the [More web](https://projects.raspberrypi.org/en/pathways/more-web) path, you can move on to the [Comic character](https://projects.raspberrypi.org/en/projects/comic-character) project. In this project, you will create a website where your users can design their own superhero character.
+Si tu suis le parcours [Plus de web](https://projects.raspberrypi.org/fr-FR/pathways/more-web), tu peux passer au projet [Personnage de BD](https://projects.raspberrypi.org/fr-FR/projects/comic-character). Dans ce projet, tu créeras un site web où tes utilisateurs pourront concevoir leur propre personnage de super-héros.
 
 \--- print-only ---
 
-![The finished Comic character project](images/comic-character.png)
+![Le projet Personnage de BD terminé](images/comic-character.png)
 
 \--- /print-only ---
 
@@ -14,11 +14,11 @@ If you are following the [More web](https://projects.raspberrypi.org/en/pathways
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Explore the Superhero website. 
+Découvre le site web des super-héros. 
 
-- Click the arrows on the hero image slider to move through the images
-- Toggle the light mode button to see the theme colours on the site change
-- Navigate to the Create Character page and complete the input fields to create your own superhero character!
+- Clique sur les flèches de la barre de défilement de l'image du héros pour te déplacer dans les images
+- Active le bouton du mode Clair pour voir les couleurs du thème sur le site changer
+- Va sur la page Créer un personnage et remplis les champs de saisie pour créer ton propre personnage de super-héros !
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/comic-character-complete" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
