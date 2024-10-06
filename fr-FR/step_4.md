@@ -1,4 +1,4 @@
-## Add hero images
+## Ajouter des images Hero
 
 Put some cool images at the top of your webpage to show everyone what it's about!
 
@@ -89,7 +89,7 @@ In CSS you can use `vh` to set the size of elements relative to the **height** o
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- /task ---
 
@@ -158,7 +158,7 @@ line_highlights: 12-19
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- collapse ---
 
@@ -210,7 +210,7 @@ line_highlights: 12-19
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- collapse ---
 
@@ -276,7 +276,7 @@ line_highlights: 19
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- collapse ---
 
@@ -338,7 +338,7 @@ line_highlights: 18
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- /task ---
 
