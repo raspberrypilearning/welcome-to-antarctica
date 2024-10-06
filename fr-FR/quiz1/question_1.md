@@ -1,18 +1,18 @@
-## Reflection
+## Réflexion
 
-Well done. You have created a website using HTML, CSS, and JavaScript.
+Bien joué. Tu as créé un site web en utilisant HTML, CSS et JavaScript.
 
-Answer the three questions below to reflect on what you've learnt.
+Réponds aux trois questions ci-dessous pour réfléchir à ce que tu as appris.
 
-You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Tu seras guidé vers la bonne réponse. Tu peux faire cette activité autant de fois que tu le souhaites.
 
 \--- question ---
 
 ---
 
-## legend: Question 1 of 3
+## legend: Question 1 sur 3
 
-When creating navigation links in HTML, which tag is used to define a hyperlink?
+Quelle balise est utilisée pour définir un lien hypertexte lors de la création de liens de navigation en HTML ?
 
 ## --- code ---
 
@@ -25,9 +25,9 @@ line_numbers: false
 <header>
   <nav class="navigation-header">
     <div class="nav-items">
-      <a class="active" href="index.html">Home</a>
-      <a href="wildlife.html">Wildlife</a>
-      <a href="climate.html">Climate</a>
+      <a class="active" href="index.html">Accueil</a>
+      <a href="wildlife.html">Faune</a>
+      <a href="climate.html">Climat</a>
     </div>
     <div class="burger">
       <span id="openHam">&#9776;</span>
@@ -46,7 +46,7 @@ line_numbers: false
 
   \--- feedback ---
 
-  Not quite. The `<link>` tag is used to define external resources, such as stylesheets, but not for creating hyperlinks.
+  Pas tout à fait. La balise `<link>` est utilisée pour définir des ressources externes, telles que les feuilles de style, mais pas pour créer des hyperliens.
 
   \--- /feedback ---
 
@@ -54,7 +54,7 @@ line_numbers: false
 
   \--- feedback ---
 
-Not quite. The `<span>` tag is used for grouping in-line elements and applying styles, not for creating hyperlinks.
+Pas tout à fait. La balise `<span>` est utilisée pour regrouper les éléments en ligne et appliquer les styles, pas pour créer des hyperliens.
 
 \--- /feedback ---
 
@@ -62,7 +62,7 @@ Not quite. The `<span>` tag is used for grouping in-line elements and applying s
 
   \--- feedback ---
 
-Correct! The `<a>` tag is used to create hyperlinks in HTML. It stands for "anchor" and is followed by the href attribute, specifying the link destination.
+Correct ! La balise `<a>` est utilisée pour créer des hyperliens en HTML. Elle signifie « ancre » et est suivie de l'attribut href, en spécifiant la destination du lien.
 
 \--- /feedback ---
 
