@@ -1,4 +1,4 @@
-## Upgrade your project
+## Améliorer ton projet
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -30,7 +30,7 @@ line_number_start:
 line_highlights:
 -----------------------------------------------------
 
-<p>Of the 56 countries that have signed the Antarctic Treaty, 55 of them operate some sort of research station on the continent. The number of researchers active on Antartica is roughly 4,800 in the summer and 1,200 in the winter.</p>
+<p>Of the 56 countries that have signed the Antarctic Treaty, 55 of them operate some sort of research station on the continent. Le nombre de chercheurs actifs sur l'Antarctique est d'environ 4 800 en été et 1 200 en hiver.</p>
 
 \--- /code ---
 
