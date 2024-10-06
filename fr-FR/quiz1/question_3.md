@@ -2,11 +2,11 @@
 
 ---
 
-## legend: Question 3 of 3
+## legend: Question 3 sur 3
 
-In this project, you used a media query to make your website responsive.
+Dans ce projet, tu as utilisé une requête média pour rendre ton site web réactif.
 
-What is the purpose of using a media query?
+Quel est le but de l'utilisation d'une requête média ?
 
 ## --- code ---
 
@@ -23,27 +23,27 @@ line_numbers: false
 
 \--- choices ---
 
-- ( ) To create a burger menu in CSS.
+- ( ) Pour créer un menu hamburger en CSS.
 
   \--- feedback ---
 
-  Try again. A media query is not used for creating a burger menu. A burger menu is used for navigation on a smaller screen.
+  Réessaie. Une requête média n'est pas utilisée pour créer un menu hamburger. Un menu hamburger est utilisé pour la navigation sur un écran plus petit.
 
   \--- /feedback ---
 
-- (x) To apply styles when the screen size changes.
+- (x) Pour appliquer les styles lorsque la taille de l'écran change.
 
   \--- feedback ---
 
-  Correct! A media query applies specific styles based on the attributes of the user's device, such as screen width or height.
+  Correct ! Une requête média applique des styles spécifiques basés sur les attributs de l'appareil de l'utilisateur, tels que la largeur ou la hauteur de l'écran.
 
   \--- /feedback ---
 
-- ( ) To create a grid layout.
+- ( ) Pour créer une disposition en grille.
 
   \--- feedback ---
 
-  Not quite. A media query is not used to create a grid layout. A grid layout is used to organise content on your webpage.
+  Pas tout à fait. Une requête média n'est pas utilisée pour créer une grille. Une grille est utilisée pour organiser le contenu de ta page web.
 
   \--- /feedback ---
 
