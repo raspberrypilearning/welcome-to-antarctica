@@ -68,7 +68,7 @@ opacity: 1;
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- /task ---
 
@@ -107,7 +107,7 @@ transition: .4s ease-in-out;
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 Hover your mouse over the images to see your animation!
 
