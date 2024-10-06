@@ -1,7 +1,7 @@
 ---
-title: Welcome to Antarctica
+title: Bienvenue en Antarctique 
 hero_image: images/banner.png
-description: Use CSS to make a great website
+description: Utilise CSS pour créer un site web génial
 version: 4
 listed: true
 copyedit: false
@@ -10,25 +10,25 @@ steps:
   - 
     title: Introduction
   - 
-    title: Create a navbar
+    title: Créer une barre de navigation
   - 
-    title: Style a navbar
+    title: Styliser une barre de navigation
     completion: engaged
   - 
-    title: Add hero images
+    title: Ajouter des images Hero
   - 
-    title: Using grids
+    title: Utiliser des grilles
   - 
-    title: Using animations
+    title: Utiliser des animations
   - 
-    title: Different types of grids
+    title: Différents types de grilles
   - 
-    title: Responsive navigation bar
+    title: Barre de navigation réactive
   - 
-    title: Responsive grids
+    title: Grilles réactives
     completion: internal
   - 
-    title: Reflection
+    title: Réflexion
     completion: external
     knowledge_quiz:
       path: quiz1
@@ -36,6 +36,6 @@ steps:
       questions: 3
       passing_score: 3
   - 
-    title: Upgrade your project
+    title: Améliorer ton projet
   - 
-    title: What next?
+    title: Et ensuite ?
