@@ -1,12 +1,12 @@
-## Style a navbar
+## Styliser une barre de navigation
 
-In this step, you will style the navbar you created and add it to the other pages.
+Dans cette étape, tu vas styliser la barre de navigation que tu as créée et l'ajouter aux autres pages.
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step3" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 \--- task ---
 
-Add a `nav-items` class attribute to the `<div>` containing the navbar links.
+Ajoute un attribut de classe `nav-items` au `<div>` contenant les liens de la barre de navigation.
 
 ## --- code ---
 
@@ -21,9 +21,9 @@ line_highlights: 13
 <header>
   <nav>
     <div class="nav-items">
-      <a href="index.html">Home</a>
-      <a href="wildlife.html">Wildlife</a>
-      <a href="climate.html">Climate</a>
+      <a href="index.html">Accueil</a>
+      <a href="wildlife.html">Faune</a>
+      <a href="climate.html">Climat</a>
     </div>
   </nav>
 </header>
@@ -33,17 +33,17 @@ line_highlights: 13
 
 \--- /task ---
 
-### Style the whole navbar
+### Styliser toute la barre de navigation
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Styling HTML elements with <span style="color: #0faeb0">**CSS**</span> requires you to specify what styling should apply to which elements. To do this, you use **selectors**. You can select tags like `nav` or you can be more specific and select classes by adding a `.` before the class name — like `.nav-items`.
+Pour styliser les éléments HTML avec <span style="color: #0faeb0">**CSS**</span>, tu dois spécifier quel style doit s'appliquer à quels éléments. Pour cela, tu utilises des **sélecteurs**. Tu peux sélectionner des balises comme « nav » ou tu peux sélectionner des classes plus spécifiquement en ajoutant un '.' avant le nom de la classe comme `.nav-items`.
 </p>
 
 \--- task ---
 
-Open the `style.css` file and find the `nav` element selector.
+Ouvre le fichier `style.css` et trouve le sélecteur de l'élément `nav`.
 
-Add a background colour property.
+Ajoute une propriété de couleur d'arrière-plan.
 
 ## --- code ---
 
@@ -54,7 +54,7 @@ line_number_start: 36
 line_highlights: 44
 --------------------------------------------------------
 
-/\* Nav bar \*/
+/\* Barre de navigation \*/
 nav {
 padding: 0 15px;
 height: 60px;
@@ -77,11 +77,11 @@ background-color: var(--nav-colour);
 
 ---
 
-## title: I don't see any new colour?
+## title: Je ne vois pas de nouvelle couleur ?
 
-Make sure that `background-color` is spelled without a 'u' in 'colour'.  `--nav-colour` should still have a 'u', though!
+Assure-toi que `background-color` s'écrit sans le 'u' de 'colour'.  `--nav-colour` devrait quand même avoir un 'u' !
 
-Make sure there is a `;` at the end of the line.
+Assure-toi qu'il y a un `;` à la fin de la ligne.
 
 \--- /collapse ---
 
@@ -91,17 +91,17 @@ Make sure there is a `;` at the end of the line.
 
 ---
 
-## title: Style a class or an element?
+## title: Styliser une classe ou un élément ?
 
-If you want to apply styling to specific HTML elements, you can create a class in a CSS file. You can then add the `class` attribute to an element in your HTML code to let the browser know what styling should be applied.
+Si tu veux appliquer un style à des éléments HTML spécifiques, tu peux créer une classe dans un fichier CSS. Tu peux ensuite ajouter l'attribut `class` à un élément dans ton code HTML pour indiquer au navigateur quel style doit être appliqué.
 
-You can also style elements (like `<header>` or `<nav>`) directly.
+Tu peux aussi donner un style à des éléments (comme `<header>` ou `<nav>`) directement.
 
 \--- /collapse ---
 
 \--- task ---
 
-Create a selector for the `nav-items` class to space out the links.
+Crée un sélecteur pour la classe `nav-items` afin d'espacer les liens.
 
 ## --- code ---
 
@@ -112,7 +112,7 @@ line_number_start: 47
 line_highlights: 48-51
 -----------------------------------------------------------
 
-/\* Nav items \*/
+/\* Élément de navigation \*/
 .nav-items {
 display: flex;
 gap: 100px;
@@ -128,13 +128,13 @@ gap: 100px;
 
 \--- /task ---
 
-### Style the links
+### Styliser les liens
 
-As well as styling the whole navbar, you can style individual links.
+En plus de styliser l'ensemble de la barre de navigation, tu peux styliser des liens individuels.
 
 \--- task ---
 
-Create another selector to style each `<a>` tag in the `nav-items` `<div>`.
+Crée un autre sélecteur pour styliser chaque balise `<a>` dans le \`\`nav-items` `<div>\`.
 
 ## --- code ---
 
@@ -145,7 +145,7 @@ line_number_start: 53
 line_highlights: 54-58
 -----------------------------------------------------------
 
-/\* Nav bar links \*/
+/\* Liens de la barre de navigation \*/
 .nav-items > a {
 color: var(--nav-items-colour);
 text-decoration: none;
@@ -158,13 +158,13 @@ transition: .4s ease-in-out;
 
 ---
 
-## title: Select elements within a class
+## title: Sélectionner les éléments dans une classe
 
-Sometimes you will want to style particular elements within a **container** that has a class. To do this you use the `>` operator.
+Parfois, tu voudras styliser des éléments particuliers à l'intérieur d'un **conteneur** qui a une classe. Pour cela, tu utilises l'opérateur `>`.
 
-The example you just used styles all `<a>` elements within a container that has the `nav-items` class.
+L'exemple que tu viens d'utiliser stylise tous les éléments `<a>` à l'intérieur d'un conteneur qui a la classe `nav-items`.
 
-This allows you to style certain links without affecting all the links on your page. It saves you having to give a class to each individual link.
+Cela te permet de styliser certains liens sans affecter tous les liens de ta page. Cela t'évite de devoir donner une classe à chaque lien individuel.
 
 \--- /collapse ---
 
@@ -178,7 +178,7 @@ This allows you to style certain links without affecting all the links on your p
 
 \--- task ---
 
-Add a selector to style each link when you hover over it.
+Ajoute un sélecteur pour styliser chaque lien lorsque tu le survoles.
 
 ## --- code ---
 
@@ -189,7 +189,7 @@ line_number_start: 60
 line_highlights: 61-63
 -----------------------------------------------------------
 
-/\* Nav links hover \*/
+/\* Survol des liens de navigation \*/
 .nav-items > a:hover {
 color: var(--nav-items-active);
 }
@@ -200,13 +200,13 @@ color: var(--nav-items-active);
 
 ---
 
-## title: Add interaction styling to an element
+## title: Ajouter un style d'interaction à un élément
 
-When writing CSS, you might want to change the styling of an element when the user interacts with it.
+Lorsque tu écris du CSS, tu souhaiterais peut-être modifier le style d'un élément lorsque l'utilisateur interagit avec lui.
 
-In the example above, you are changing the styling of the `a` elements, but only when a user **hovers** over them with their mouse. The syntax for this is `a:hover`.
+Dans l'exemple ci-dessus, tu modifies le style des éléments `a`, mais seulement lorsqu'un utilisateur les **survole** avec sa souris. La syntaxe est `a:hover`.
 
-The style in this selector will **only** be used when a user's mouse is on top of the element.
+Le style de ce sélecteur sera **uniquement** utilisé lorsque la souris de l'utilisateur se trouve au-dessus de l'élément.
 
 \--- /collapse ---
 
@@ -218,15 +218,15 @@ The style in this selector will **only** be used when a user's mouse is on top o
 
 \--- /task ---
 
-### Create an active link
+### Créer un lien actif
 
-The `index.html` page will be loaded first.
+La page `index.html` sera chargée en premier.
 
-When that page is open, the link should stay white and not be clickable.
+Lorsque cette page est ouverte, le lien doit rester blanc et ne pas être cliquable.
 
 \--- task ---
 
-Add a new `active` CSS class for the link to the page that is currently open.
+Ajoute une nouvelle classe CSS `active` pour le lien vers la page actuellement ouverte.
 
 ## --- code ---
 
@@ -237,7 +237,7 @@ line_number_start: 65
 line_highlights: 66-69
 -----------------------------------------------------------
 
-/\* Nav links active \*/
+/\* Liens actifs de navigation \*/
 .nav-items .active {
 color: var(--nav-items-active);
 pointer-events: none;
@@ -249,7 +249,7 @@ pointer-events: none;
 
 Ouvre `index.html`.
 
-Add the `active` class attribute to the index.html `<a>` tag.
+Ajoute l'attribut de classe `active` à la balise `<a>` du fichier index.html.
 
 \--- task ---
 
@@ -284,15 +284,15 @@ line_highlights: 13
 
 \--- /task ---
 
-### Change the fonts
+### Changer les polices
 
 \--- task ---
 
-Import a Google font to style the fonts on your pages.
+Importe une police Google pour styliser les polices de tes pages.
 
-Open `defaults.css`
+Ouvre `defaults.css`
 
-Place this `@import` statement at the top of your file.
+Place cette déclaration `@import` au début de ton fichier.
 
 ## --- code ---
 
@@ -303,7 +303,7 @@ line_number_start: 1
 line_highlights: 2
 -------------------------------------------------------
 
-/\* Import a font \*/
+/\* Importer une police \*/
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 \--- /code ---
@@ -312,7 +312,7 @@ line_highlights: 2
 
 \--- task ---
 
-Create a new variable inside the `:root` selector, called `--body-font` and set the new Orbitron font.
+Crée une nouvelle variable à l'intérieur du sélecteur `:root`, appelée `--body-font` et définit la nouvelle police Orbitron.
 
 ## --- code ---
 
@@ -335,7 +335,7 @@ line_highlights: 8
 
 \--- task ---
 
-Add the `font-family` property inside the body selector and set it to the new `--body-font` variable you just created.
+Ajoute la propriété `font-family` à l'intérieur du sélecteur body et attribue-lui la nouvelle variable `--body-font` que tu viens de créer.
 
 ## --- code ---
 
@@ -353,7 +353,7 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 width: 100%;
-min-height: 100vh; /\* Make the content fill the page so the footer is at the bottom \*/
+min-height: 100vh; /\* Fais en sorte que le contenu remplisse la page pour que le pied de page soit en bas. \*/
 display: flex;
 flex-direction: column;
 font-family: var(--body-font);
@@ -368,4 +368,4 @@ font-family: var(--body-font);
 
 \--- /task ---
 
-Next, you're going to put some cool images at the top of your webpage to show everyone what it's about!
+Ensuite, tu vas mettre des images sympas en haut de ta page web pour montrer à tout le monde de quoi il s'agit !
