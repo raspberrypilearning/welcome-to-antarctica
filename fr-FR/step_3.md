@@ -71,7 +71,7 @@ background-color: var(--nav-colour);
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- collapse ---
 
@@ -124,7 +124,7 @@ gap: 100px;
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- /task ---
 
@@ -172,7 +172,7 @@ This allows you to style certain links without affecting all the links on your p
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- /task ---
 
@@ -214,7 +214,7 @@ The style in this selector will **only** be used when a user's mouse is on top o
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- /task ---
 
@@ -247,7 +247,7 @@ pointer-events: none;
 
 \--- /task ---
 
-Open `index.html`.
+Ouvre `index.html`.
 
 Add the `active` class attribute to the index.html `<a>` tag.
 
@@ -280,7 +280,7 @@ line_highlights: 13
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- /task ---
 
@@ -364,7 +364,7 @@ font-family: var(--body-font);
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- /task ---
 
