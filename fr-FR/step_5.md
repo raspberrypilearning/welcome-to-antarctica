@@ -31,7 +31,7 @@ There are a few options available for layouts:
 
 \--- task ---
 
-Open `index.html`.
+Ouvre `index.html`.
 
 Add a `fact-holder` class attribute to the `<div>` that includes the four paragraphs of text.
 
@@ -58,7 +58,7 @@ line_highlights: 27
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- collapse ---
 
@@ -109,7 +109,7 @@ grid-template-columns: 50% 50%;
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- collapse ---
 
@@ -131,7 +131,7 @@ However, the fact cards still need styling.
 
 \--- task ---
 
-Open `index.html`.
+Ouvre `index.html`.
 
 Add a `fact-card` class attribute to each `<span>` element.
 
@@ -176,7 +176,7 @@ line_highlights: 28, 33, 38, 43
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- collapse ---
 
@@ -221,7 +221,7 @@ The `style.css` file already has the selectors for `sun`, `discovery`, `explorer
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- collapse ---
 
@@ -245,7 +245,7 @@ Next, you are going to change the colour of the text and add a transparent backg
 
 \--- task ---
 
-Open `index.html`.
+Ouvre `index.html`.
 
 Add the `fact` class attribute to each paragraph.
 
@@ -288,7 +288,7 @@ line_highlights: 29, 34, 39, 44
 
 \--- task ---
 
-**Click Run**
+**Clique sur Run**
 
 \--- /task ---
 
