@@ -57,15 +57,15 @@ line_highlights:
 
 ---
 
-## title: Add some new animals to wildlife.html
+## title: Ajouter de nouveaux animaux à wildlife.html
 
-There are three more pictures of Antarctic wildlife — choose one to add to your `wildlife.html` page.
+Il y a trois autres images de la faune antarctique. Choisis-en une pour l'ajouter à ta page `wildlife.html`.
 
-You can use the classes:
+Tu peux utiliser les classes :
 
-- `albatross` - an image of the Antarctic albatross
-- `minke-whale` - for the Antarctic minke whale
-- `gentoo-penguin` - for another penguin, this is the Gentoo species
+- `albatros` : une image de l'albatros de l'Antarctique
+- `minke-whale` : pour le petit rorqual de l'Antarctique
+- `gentoo-penguin` : pour un autre pingouin, ici l'espèce Gentoo
 
 ## --- code ---
 
@@ -82,21 +82,21 @@ line_highlights:
 
 \--- /code ---
 
-Research the animal online and add an interesting fact about them to your page!
+Fais des recherches sur l'animal en ligne et ajoute un fait intéressant à son sujet sur ta page !
 
 \--- /collapse ---
 
-### Adjust your grids
+### Régler tes grilles
 
-You can also change the grids on your pages to adjust the way your facts are displayed.
+Tu peux aussi modifier les grilles de tes pages pour ajuster la façon dont tes faits sont affichés.
 
 \--- collapse ---
 
 ---
 
-## title: Add extra columns and rows
+## title: Ajouter des colonnes et des lignes supplémentaires
 
-You can edit the the `fact-holder` and `fact-holder-wildlife` classes to add more rows or columns.
+Tu peux modifier les classes `fact-holder` et `fact-holder-wildlife` pour ajouter des lignes ou des colonnes.
 
 ## --- code ---
 
@@ -107,48 +107,48 @@ line_number_start:
 line_highlights:
 -----------------------------------------------------
 
-/\* Fact holder - homepage _/
+/\* Détenteur de faits - page d'accueil _/
 .fact-holder {
 display: grid;
-height: 70vh; /_ 70% of the visible area of the page \*/
+height: 70vh; /_ 70 % de la zone visible de la page \*/
 grid-template-rows: 33% 33% 33%;
 grid-template-columns: 50% 50%;
 }
 
 \--- /code ---
 
-You could also add `grid-row-start` and `grid-row-end` properties, or `grid-column-start` and `grid-colum-end` to the background image classes to place your items across rows and columns to customise your layouts.
+Tu peux aussi ajouter les propriétés `grid-row-start` et `grid-row-end`, ou `grid-column-start` et `grid-colum-end` aux classes d'images d'arrière-plan pour placer tes éléments sur des lignes et des colonnes afin de personnaliser tes mises en page.
 
 \--- /collapse ---
 
-### Change your hero images
+### Changer tes images Hero
 
 \--- collapse ---
 
 ---
 
-## title: Add different hero images
+## title: Ajouter des images Hero différentes
 
-In the starter projects there are multiple images you can use for your hero images.
+Dans les projets de démarrage, il y a plusieurs images que tu peux utiliser pour tes images Hero.
 
-Images you have not used yet are...
+Les images que tu n'as pas encore utilisées sont...
 
 `antarctic-landscape.jpg`
 `antarctic-seasons.jpg`
 `antarctic-walk.jpg`
 
-You can change the image URL in the CSS classes for your hero images to make the site your own.
+Tu peux changer l'URL de l'image dans les classes CSS de tes images Hero pour que le site soit le tien.
 
 \--- /collapse ---
 
-### See the upgraded project
+### Voir le projet amélioré
 
 \--- collapse ---
 
 ---
 
-## title: Upgraded project
+## title: Projet amélioré
 
-You can view the [upgraded project here](https://editor.raspberrypi.org/en/projects/welcome-to-antartica-upgraded){:target="_blank"}.
+Tu peux voir le [projet amélioré ici](https://editor.raspberrypi.org/fr-FR/projects/welcome-to-antartica-upgraded){:target="_blank"}.
 
 \--- /collapse ---
