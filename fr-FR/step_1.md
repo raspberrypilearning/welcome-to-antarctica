@@ -4,43 +4,43 @@
 
 ---
 
-## title: New to the Raspberry Pi Code Editor?
+## title: Tu utilises le Raspberry Pi Code Editor pour la première fois ?
 
-Check out the [getting started guide](https://projects.raspberrypi.org/en/projects/getting-started-guide-editor-html){:target="_blank"}!
+Consulte le [guide de démarrage](https://projects.raspberrypi.org/fr-Fr/projects/getting-started-guide-editor-html){:target="_blank"} !
 
 \--- /collapse ---
 
-In this project, you will use HTML, CSS, and JavaScript to create a website that lets people discover a place they may never get a chance to visit — Antarctica.
+Dans ce projet, tu utiliseras HTML, CSS, et JavaScript pour créer un site web qui permet aux gens de découvrir un endroit qu’ils n’auront peut-être jamais l’occasion de visiter : l’Antarctique.
 
-As well as the homepage, the website will have pages about Antarctica's wildlife and climate.
+En plus de la page d'accueil, le site web comportera des pages sur la faune et le climat de l'Antarctique.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**JavaScript**</span> is a programming language that runs in your browser. As of 2024, it is the most popular programming language in the world!
+<span style="color: #0faeb0">**JavaScript**</span> est un langage de programmation qui s'exécute dans ton navigateur. En 2024, c'est le langage de programmation le plus populaire au monde !
 </p>
 
-You will:
+Tu vas :
 
-- Create an awesome modern website
-- Build a navigation bar (navbar)
-- Set accessible colours and fonts
-- Add some 'hero' images
-- Use a grid layout
-- Place items in a grid
-- Make elements responsive
+- Créer un site web moderne et attrayant
+- Concevoir une barre de navigation (navbar)
+- Définir des couleurs et polices accessibles
+- Ajouter des images « hero »
+- Utiliser une disposition en grille
+- Placer des éléments dans une grille
+- Rendre les éléments réactifs
 
 \--- no-print ---
 
 \--- task ---
 
-### Try it
+### Essaie-le
 
-Explore the Welcome to Antarctica website.
+Découvre le site web Bienvenue en l'Antarctique.
 
-What happens when you...
+Que se passe-t-il lorsque tu...
 
-- Click the burger icon (☰)?
-- Hover over the images?
-- Use the links to access the different pages?
+- Cliques sur l'icône hamburger (☰) ?
+- Survoles les images ?
+- Utilises les liens pour accéder aux différentes pages ?
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-complete" width="100%" height="900" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
@@ -48,9 +48,9 @@ What happens when you...
 
 ---
 
-## title: Images in this project
+## title: Images dans ce projet
 
-Images included in this project were created using generative AI. Model: Firefly Image 2
+Les images incluses dans ce projet ont été créées à l'aide de l'IA générative. Model: Firefly Image 2
 
 \--- /collapse ---
 
@@ -60,6 +60,6 @@ Images included in this project were created using generative AI. Model: Firefly
 
 \--- print-only ---
 
-![Completed project](images/showcase_static.png)
+![Projet terminé](images/showcase_static.png)
 
 \--- /print-only ---
