@@ -98,7 +98,7 @@ nav {
 /* Détenteur de faits - page d'accueil */
 .fact-holder {
   display: grid;
-  height: 70vh; /* 70% of the visible area of the page */
+  height: 70vh; /* 70 % de la zone visible de la page */
   grid-template-rows: 33% 33% 33%;
   grid-template-columns: 50% 50%;
 }
