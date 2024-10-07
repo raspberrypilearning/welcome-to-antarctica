@@ -266,9 +266,9 @@ line_highlights: 13
 <header>
   <nav>
     <div class="nav-items">
-      <a href="index.html" class="active">Home</a>
-      <a href="wildlife.html">Wildlife</a>
-      <a href="climate.html">Climate</a>
+      <a href="index.html" class="active">Accueil</a>
+      <a href="wildlife.html">Faune</a>
+      <a href="climate.html">Climat</a>
     </div>
   </nav>
 </header>
