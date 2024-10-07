@@ -1,20 +1,20 @@
-## Using animations
+## Utiliser des animations
 
-Animations and interactivity will make your webpage more fun for visitors!
+Les animations et l'interactivité rendront ta page web plus amusante pour les visiteurs !
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step6" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
-### Add animations on hover
+### Ajouter des animations au survol
 
-Rather than just showing the fact text, add some interaction to your page!
+Plutôt que de simplement montrer le texte de fait, ajoute une certaine interaction à ta page !
 
-Make the facts invisible.
+Rends les faits invisibles.
 
 \--- task ---
 
-Open `style.css`.
+Ouvre `style.css`.
 
-Set the `opacity` property of `.fact` to `0`.
+Définis la propriété `opacity` de `.fact` à `0`.
 
 ## --- code ---
 
@@ -42,11 +42,11 @@ opacity: 0;
 
 \--- /task ---
 
-Make the facts visible again when the user hovers over it.
+Rends les faits à nouveau visibles lorsque l'utilisateur les survole.
 
 \--- task ---
 
-Add a new selector `.fact:hover`.
+Ajoute un nouveau sélecteur `.fact:hover`.
 
 ## --- code ---
 
@@ -57,7 +57,7 @@ line_number_start: 129
 line_highlights: 130-132
 -------------------------------------------------------------
 
-/\* Fact hover \*/
+/\* Survol du fait \*/
 .fact:hover {
 opacity: 1;
 }
@@ -72,11 +72,11 @@ opacity: 1;
 
 \--- /task ---
 
-Instead of switching right away, smooth out the change with a transition.
+Au lieu de changer tout de suite, adoucis le changement avec une transition.
 
 \--- task ---
 
-Add a `transition` property to `.fact`.
+Ajoute une propriété `transition` à `.fact`.
 
 ## --- code ---
 
@@ -109,8 +109,8 @@ transition: .4s ease-in-out;
 
 **Clique sur Run**
 
-Hover your mouse over the images to see your animation!
+Passe ta souris sur les images pour voir ton animation !
 
 \--- /task ---
 
-Next, you will use a new grid arrangement to organise content in a different way to keep things interesting!
+Ensuite, tu vas utiliser une nouvelle grille pour organiser le contenu d'une manière différente afin qu'il reste intéressant !
