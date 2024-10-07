@@ -42,11 +42,11 @@ line_highlights: 19
 
 \--- task ---
 
-In `style.css`, add a new selector for the `hero-image` class.
+Dans `style.css`, ajoute un nouveau sélecteur pour la classe `hero-image`.
 
-Instead of adding an `<img>` element to the HTML, you can use the CSS `background-image` property to add your image.
+Au lieu d'ajouter un élément `<img>` au code HTML, tu peux utiliser la propriété CSS `background-image` pour ajouter ton image.
 
-The image should fill the `<div>` element (by setting the `background-size` property to `cover`) and be centered.
+L'image doit remplir l'élément `<div>` (en définissant la propriété `background-size` à `cover`) et être centrée.
 
 ## --- code ---
 
@@ -57,9 +57,9 @@ line_number_start: 73
 line_highlights: 74-79
 -----------------------------------------------------------
 
-/\* Hero image - homepage _/
+/\* Image Hero - page d'accueil _/
 .hero-image {
-min-height: 50vh; /_ 50% of the visible area of the page \*/
+min-height: 50vh; /_ 50 % de la zone visible de la page \*/
 background-image: url('antarctic-lights.jpg');
 background-size: cover;
 background-position: center;
@@ -71,17 +71,17 @@ background-position: center;
 
 ---
 
-## title: Using vh and vw in CSS
+## title: Utiliser vh et vw en CSS
 
-When setting the size of an element using CSS, you might want the height or width to change depending on the size of the screen it is being viewed on.
+Lorsque tu définis la taille d'un élément à l'aide de CSS, tu peux souhaiter que la hauteur ou la largeur change en fonction de la taille de l'écran sur lequel il est visualisé.
 
-![A box with a dotted line, representing the whole webpage. A representation of a browser window shows only the middle section of the webpage, this is labelled viewport.](images/viewport.png)
+![Une boîte avec une ligne pointillée, représentant la totalité de la page web. Une représentation de la fenêtre d'un navigateur ne montre que la partie centrale de la page web, elle est appelée viewport.](images/viewport.png)
 
-The visible area of a webpage is called the **viewport** and this will differ between devices: a phone screen is a very different size to a laptop screen, for example.
+La zone visible d'une page web est appelée **viewport** et elle diffère selon les appareils : l'écran d'un téléphone n'a pas du tout la même taille que celui d'un ordinateur portable, par exemple.
 
-In CSS you can use `vh` to set the size of elements relative to the **height** of the viewport. The number you put before it is the **percentage** of the viewport height the element should take up. So `50vh` is **half** the viewport's height.
+En CSS, tu peux utiliser `vh` pour définir la taille des éléments par rapport à la **hauteur** de la fenêtre. Le nombre que tu places devant est le **pourcentage** de la hauteur de la fenêtre que l'élément doit occuper. Donc `50vh` est la **moitié** de la hauteur de la fenêtre.
 
-`vw` works the same way for the **width** of the viewport.
+`vw` fonctionne de la même manière pour la **largeur** de la fenêtre.
 
 \--- /collapse ---
 
@@ -93,13 +93,13 @@ In CSS you can use `vh` to set the size of elements relative to the **height** o
 
 \--- /task ---
 
-### Copy the header
+### Copier l'en-tête
 
-`index.html` is looking great! Time to add the header to the other pages.
+Le fichier `index.html` est superbe ! Il est temps d'ajouter l'en-tête aux autres pages.
 
 \--- task ---
 
-Highlight and copy (Ctrl + C or Cmd + C) the contents of the `<header>` section in `index.html`.
+Sélectionne et copie (Ctrl + C ou Cmd + C) le contenu de la section `<header>` dans `index.html`.
 
 ## --- code ---
 
@@ -112,9 +112,9 @@ line_number_start: 12
 ```
   <nav>
     <div class="nav-items">
-      <a href="index.html" class="active">Home</a>
-      <a href="wildlife.html">Wildlife</a>
-      <a href="climate.html">Climate</a>
+      <a href="index.html" class="active">Accueil</a>
+      <a href="wildlife.html">Faune</a>
+      <a href="climate.html">Climat</a>
     </div>
   </nav>
   <div class="hero-image"></div>
@@ -126,9 +126,9 @@ line_number_start: 12
 
 \--- task ---
 
-Open the `wildlife.html` file.
+Ouvre le fichier `wildlife.html`.
 
-Paste the contents into the `<header>` and change which link has the active class.
+Colle le contenu dans le `<header>` et change le lien qui a la classe active.
 
 ## --- code ---
 
@@ -143,9 +143,9 @@ line_highlights: 12-19
 <header>
   <nav class="navigation-header">
     <div class="nav-items">
-      <a href="index.html">Home</a>
-      <a href="wildlife.html" class="active">Wildlife</a>
-      <a href="climate.html">Climate</a>
+      <a href="index.html">Accueil</a>
+      <a href="wildlife.html" class="active">Faune</a>
+      <a href="climate.html">Climat</a>
     </div>
   </nav>
   <div class="hero-image"></div>
@@ -164,9 +164,9 @@ line_highlights: 12-19
 
 ---
 
-## title: The Home link is still white?
+## title: Le lien Accueil est toujours blanc ?
 
-Check the `index.html` link has active removed and `wildlife.html` has active added.
+Vérifie que le lien `index.html` a été supprimé et que le lien `wildlife.html` a été ajouté.
 
 \--- /collapse ---
 
@@ -174,13 +174,13 @@ Check the `index.html` link has active removed and `wildlife.html` has active ad
 
 \--- task ---
 
-Highlight and copy (Ctrl + C or Cmd + C) the contents of the `<header>` section in `index.html` again.
+Sélectionne et copie (Ctrl + C ou Cmd + C) le contenu de la section `<header>` dans `index.html` à nouveau.
 
 \--- /task ---
 
 \--- task ---
 
-Paste the `<header>` contents into `climate.html` and change which link has the active class.
+Colle le contenu `<header>` dans `climate.html` et change le lien qui a la classe active.
 
 ## --- code ---
 
@@ -195,9 +195,9 @@ line_highlights: 12-19
 <header>
   <nav class="navigation-header">
     <div class="nav-items">
-      <a href="index.html">Home</a>
-      <a href="wildlife.html">Wildlife</a>
-      <a href="climate.html" class="active">Climate</a>
+      <a href="index.html">Accueil</a>
+      <a href="wildlife.html">Faune</a>
+      <a href="climate.html" class="active">Climat</a>
     </div>
   </nav>
   <div class="hero-image"></div>
@@ -216,23 +216,23 @@ line_highlights: 12-19
 
 ---
 
-## title: My Home link is still white?
+## title: Mon lien Accueil est toujours blanc ?
 
-Check the `index.html` link has active removed and `climate.html` has active added.
+Vérifie que le lien `index.html` a été supprimé et que le lien `climate.html` a été ajouté.
 
 \--- /collapse ---
 
 \--- /task ---
 
-### Style the Wildlife page header
+### Styliser l'en-tête de la page Faune
 
-Each page should have its own hero image that represents its content!
+Chaque page doit avoir sa propre image Hero qui représente son contenu !
 
 \--- task ---
 
-Inside `style.css` add a new class selector for wildlife.
+Dans `style.css`, ajoute un nouveau sélecteur de classe pour la faune.
 
-You can set a new `background-image` property, which will overwrite the one set in the `hero-image` class.
+Tu peux définir une nouvelle propriété `background-image`, qui remplacera celle définie dans la classe `hero-image`.
 
 ## --- code ---
 
@@ -243,7 +243,7 @@ line_number_start: 81
 line_highlights: 82-84
 -----------------------------------------------------------
 
-/\* Hero image - wildlife \*/
+/\* Image Hero - faune \*/
 .wildlife {
 background-image: url('antarctic-penguins.jpg');
 }
@@ -254,7 +254,7 @@ background-image: url('antarctic-penguins.jpg');
 
 \--- task ---
 
-Now apply the new `wildlife` class as an **addition** to the `hero-image` class in `wildlife.html`.
+Applique maintenant la nouvelle classe `wildlife` comme **ajout** à la classe `hero-image` dans `wildlife.html`.
 
 ## --- code ---
 
@@ -282,19 +282,19 @@ line_highlights: 19
 
 ---
 
-## title: My hero image has disappeared?
+## title: Mon image Hero a disparu ?
 
-Make sure there is a space between the `hero-image` and `wildlife` classes.
+Assure-toi qu'il y a un espace entre les classes `hero-image` et `wildlife`.
 
 \--- /collapse ---
 
 \--- /task ---
 
-### Style the Climate page header
+### Styliser l'en-tête de la page Climat
 
 \--- task ---
 
-Inside `style.css`, add another new class selector for climate.
+Dans `style.css`, ajoute un nouveau sélecteur de classe pour le climat.
 
 ## --- code ---
 
@@ -305,7 +305,7 @@ line_number_start: 86
 line_highlights: 87-89
 -----------------------------------------------------------
 
-/\* Hero image - climate \*/
+/\* Image Hero - climat \*/
 .climate {
 background-image: url('antarctic-daytime.jpg');
 }
@@ -316,7 +316,7 @@ background-image: url('antarctic-daytime.jpg');
 
 \--- task ---
 
-Now apply the new `climate` class as an **addition** to the `hero-image` class in `climate.html`.
+Applique maintenant la nouvelle classe `climate` comme **ajout** à la classe `hero-image` dans `climate.html`.
 
 ## --- code ---
 
@@ -342,4 +342,4 @@ line_highlights: 18
 
 \--- /task ---
 
-Next, you will make your webpages awesome by arranging things with grids and adding fun movements with animations!
+Ensuite, tu rendras tes pages web géniales en organisant les choses avec des grilles et en ajoutant des mouvements amusants avec des animations !
