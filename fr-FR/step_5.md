@@ -1,31 +1,31 @@
-## Using grids
+## Utiliser des grilles
 
-Make your webpage layouts awesome by arranging things with grids!
+Fais une mise en page géniale de tes pages web en organisant les choses avec des grilles !
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step5" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
-### Add a grid
+### Ajouter une grille
 
-The navbar looks great, but the paragraphs of text need some work.
+La barre de navigation est superbe, mais les paragraphes de texte ont besoin d'être retravaillés.
 
-You can organise the text content using a grid layout.
+Tu peux organiser le contenu du texte à l'aide d'une grille.
 
 \--- collapse ---
 
 ---
 
-## title: Use the display property to change layouts
+## title: Utiliser la propriété d'affichage pour modifier les mises en page
 
-One of the most important decisions when styling a webpage is how to arrange the elements on the page.
+L'une des décisions les plus importantes lors du stylisme d'une page web est la façon de disposer les éléments sur la page.
 
-To change the way elements are arranged, you can use the CSS `display` property.
+Pour modifier la façon dont les éléments sont disposés, tu peux utiliser la propriété CSS `display`.
 
-There are a few options available for layouts:
+Il y a quelques options disponibles pour les mises en page :
 
-- `inline` - the default, where height and width are determined by the contents
-- `block` - the element will start on a new line and take up the whole width
-- `flex` - makes changing layout and alignment easier
-- `grid` - creates a table layout with rows and columns so elements can be precisely placed
+- `inline` : la valeur par défaut, où la hauteur et la largeur sont déterminées par le contenu
+- `block` : l'élément commence sur une nouvelle ligne et prend toute la largeur
+- `flex` : facilite la modification de la mise en page et de l'alignement
+- `grid` : crée un tableau avec des lignes et des colonnes pour que les éléments puissent être placés avec précision
 
 \--- /collapse ---
 
@@ -33,7 +33,7 @@ There are a few options available for layouts:
 
 Ouvre `index.html`.
 
-Add a `fact-holder` class attribute to the `<div>` that includes the four paragraphs of text.
+Ajoute un attribut de classe `fact-holder` au `<div>` qui comprend les quatre paragraphes de texte.
 
 ## --- code ---
 
@@ -47,8 +47,8 @@ line_highlights: 27
   <section>
     <div class="fact-holder">
       <span>
-        <p>
-          Antarctica is the coldest continent, but it is also the driest! En moyenne, il n'y a que 200 mm (8 pouces) de précipitations par an, dont la majeure partie se trouve sur la côte.
+            <p>
+              L'Antarctique est le continent le plus froid, mais aussi le plus sec ! En moyenne, il n'y a que 200 mm (8 pouces) de précipitations par an, dont la majeure partie se trouve sur la côte.
         </p>
       </span>
 
@@ -64,27 +64,27 @@ line_highlights: 27
 
 ---
 
-## title: My webpage still looks the same?
+## title: Ma page web a toujours la même apparence ?
 
-Make sure there is an `=` between `class` and `fact-holder`.
+Assure-toi qu'il y a un `=` entre `class` et `fact-holder`.
 
-Make sure there are `"` marks around `fact-holder`.
+Et qu'il y a des marques `"` autour de `fact-holder`.
 
 \--- /collapse ---
 
 \--- /task ---
 
-At the moment, the paragraphs take up different amounts of space.
+Pour l'instant, les paragraphes occupent des espaces différents.
 
-![The index.html page after the grid has been added. An arrow stretches all the way across and is labelled 100%. Underneath, an arrow spans the width of the first paragraph and is labelled 75%, next to it another arrow spans the width of the second paragraph and is labelled 25%.](images/grid-sizes.png)
+![La page index.html après l'ajout de la grille. La flèche qui traverse toute la largeur indique 100 %. En dessous, une flèche s'étend sur la largeur du premier paragraphe et indique 75 % ; à côté, une autre flèche s'étend sur la largeur du deuxième paragraphe et indique 25 %](images/grid-sizes.png)
 
-You can change the widths of the grid columns to make them even.
+Tu peux modifier la largeur des colonnes de la grille pour les uniformiser.
 
 \--- task ---
 
-Open `style.css`.
+Ouvre `style.css`.
 
-Alter the heights of the two grid rows and the widths of the two grid columns to 50%.
+Modifie les hauteurs des deux lignes de la grille et les largeurs des deux colonnes de la grille à 50 %.
 
 ## --- code ---
 
@@ -95,7 +95,7 @@ line_number_start: 92
 line_highlights: 96-97
 -----------------------------------------------------------
 
-/\* Fact holder - homepage \*/
+/\* Détenteur de faits - page d'accueil \*/
 .fact-holder {
 display: grid;
 height: 50vh;
@@ -115,27 +115,27 @@ grid-template-columns: 50% 50%;
 
 ---
 
-## title: My grid has not changed?
+## title: Ma grille n'a pas été modifiée ?
 
-Make sure there is a space between each `50%`.
+Assure-toi qu'il y a un espace entre chaque `50%`.
 
 \--- /collapse ---
 
 \--- /task ---
 
-### Style the facts
+### Styliser les faits
 
-The layout of the fact cards is organised.
+La mise en page des fiches est organisée.
 
-However, the fact cards still need styling.
+Cependant, les cartes de faits ont encore besoin d'être stylisées.
 
 \--- task ---
 
 Ouvre `index.html`.
 
-Add a `fact-card` class attribute to each `<span>` element.
+Ajoute un attribut de classe `fact-card` à chaque élément `<span>`.
 
-Also add the class attribute for each `<span>` element that defines its background image.
+Ajoute également l'attribut de classe pour chaque élément `<span>` qui définit son image d'arrière-plan.
 
 ## --- code ---
 
@@ -150,22 +150,22 @@ line_highlights: 28, 33, 38, 43
 <div class="fact-holder">
   <span class="fact-card sun">
     <p>
-      Antarctica is the coldest continent, but it is also the driest! On average there just 200 mm (8 in) of precipitation a year, the majority of it along the coast.
+      L'Antarctique est le continent le plus froid, mais aussi le plus sec ! En moyenne, il n'y a que 200 mm (8 pouces) de précipitations par an, la plupart le long des côtes.
     </p>
   </span>
   <span class="fact-card discovery">
     <p>
-      The continent is thought to have been discovered relatively late in human history, in 1820 by the Russian expedition of Fabian Gottlieb von Bellingshausen and Mikhail Lazarev.
+      Le continent aurait été découvert relativement tard dans l'histoire de l'humanité, en 1820 par l'expédition russe de Fabian Gottlieb von Bellingshausen et Mikhail Lazarev.
     </p>
   </span>
   <span class="fact-card explorers">
     <p>
-      Who first set foot on the continent? The first documented and confirmed landing was a crew led by Norwegian Leonard Kristensen at Cape Adare.
+      Qui a posé le pied sur le continent pour la première fois ? Le premier débarquement documenté et confirmé a été effectué par un équipage dirigé par le Norvégien Leonard Kristensen au cap Adare.
     </p>
   </span>
   <span class="fact-card ownership">
     <p>
-      Antarctica is governed by the Antarctic Treaty. The Treaty now has 53 supporting nations, 29 of which are considered “Consultative Parties” and are actively involved in decision-making.
+      L'Antarctique est régi par le traité sur l'Antarctique. Le traité compte aujourd'hui 53 nations qui le soutiennent, dont 29 sont considérées comme des « parties consultatives » et participent activement à la prise de décision.
     </p>
   </span>
 ```
@@ -182,9 +182,9 @@ line_highlights: 28, 33, 38, 43
 
 ---
 
-## title: My grid looks weird?
+## title: Ma grille a l'air bizarre ?
 
-Check all your opening brackets `<` have closing brackets `>`.
+Vérifie que toutes tes accolades `<` ont des accolades fermées `>`.
 
 \--- /collapse ---
 
@@ -192,9 +192,9 @@ Check all your opening brackets `<` have closing brackets `>`.
 
 \--- task ---
 
-Open `style.css`.
+Ouvre `style.css`.
 
-Add the `fact-card` selector to the `style.css` file. This will make sure the background images are centered and cover the whole `<span>` element.
+Ajoute le sélecteur `fact-card` au fichier `style.css`. Cela permet de s'assurer que les images d'arrière-plan sont centrées et couvrent l'ensemble de l'élément `<span>`.
 
 ## --- code ---
 
@@ -205,7 +205,7 @@ line_number_start: 108
 line_highlights: 109-114
 -------------------------------------------------------------
 
-/\* Fact card \*/
+/\* Fiche d'information \*/
 .fact-card {
 width: 100%;
 display: flex;
@@ -215,7 +215,7 @@ background-position: center;
 
 \--- /code ---
 
-The `style.css` file already has the selectors for `sun`, `discovery`, `explorers`, and `ownership`.
+Le fichier `style.css` contient déjà les sélecteurs pour `sun`, `discovery`, `explorers` et `ownership`.
 
 \--- /task ---
 
@@ -227,27 +227,27 @@ The `style.css` file already has the selectors for `sun`, `discovery`, `explorer
 
 ---
 
-## title: I can't see my images?
+## title: Je ne vois pas mes images ?
 
-In `index.html`, check both class attributes are between the same `"` marks.
+Dans `index.html`, vérifie que les deux attributs de classe sont entre les mêmes marques `"`.
 
-In `index.html`, make sure there is a space between each class.
+Dans `index.html`, assure-toi qu'il y a un espace entre chaque classe.
 
 \--- /collapse ---
 
 \--- /task ---
 
-### Make it more accessible
+### Rendre plus accessible
 
-With the images in place, the text is hard to read. This means your website is not as **accessible** as it could be.
+Les images rendent le texte difficile à lire. Cela signifie que ton site web n'est pas aussi **accessible** qu'il pourrait l'être.
 
-Next, you are going to change the colour of the text and add a transparent background.
+Ensuite, tu vas changer la couleur du texte et ajouter un arrière-plan transparent.
 
 \--- task ---
 
 Ouvre `index.html`.
 
-Add the `fact` class attribute to each paragraph.
+Ajoute l'attribut de classe `fact` à chaque paragraphe.
 
 ## --- code ---
 
@@ -262,22 +262,22 @@ line_highlights: 29, 34, 39, 44
 <div class="fact-holder">
   <span class="fact-card sun">
     <p class="fact">
-      Antarctica is the coldest continent, but it is also the driest! On average there just 200 mm (8 in) of precipitation a year, the majority of it along the coast.
+      L'Antarctique est le continent le plus froid, mais aussi le plus sec ! En moyenne, il n'y a que 200 mm (8 pouces) de précipitations par an, la plupart le long des côtes.
     </p>
   </span>
   <span class="fact-card discovery">
     <p class="fact">
-      The continent is thought to have been discovered relatively late in human history, in 1820 by the Russian expedition of Fabian Gottlieb von Bellingshausen and Mikhail Lazarev.
+      Le continent aurait été découvert relativement tard dans l'histoire de l'humanité, en 1820 par l'expédition russe de Fabian Gottlieb von Bellingshausen et Mikhail Lazarev.
     </p>
   </span>
   <span class="fact-card explorers">
     <p class="fact">
-      Who first set foot on the continent? The first documented and confirmed landing was a crew led by Norwegian Leonard Kristensen at Cape Adare.
+      Qui a posé le pied sur le continent pour la première fois ? Le premier débarquement documenté et confirmé a été effectué par un équipage dirigé par le Norvégien Leonard Kristensen au cap Adare.
     </p>
   </span>
   <span class="fact-card ownership">
     <p class="fact">
-      Antarctica is governed by the Antarctic Treaty. The Treaty now has 53 supporting nations, 29 of which are considered “Consultative Parties” and are actively involved in decision-making.
+      L'Antarctique est régi par le traité sur l'Antarctique. Le traité compte aujourd'hui 53 nations qui le soutiennent, dont 29 sont considérées comme des « parties consultatives » et participent activement à la prise de décision.
     </p>
   </span>
 ```
@@ -292,4 +292,4 @@ line_highlights: 29, 34, 39, 44
 
 \--- /task ---
 
-Next, you are going to add animations to your paragraphs to make the pages interactive!
+Ensuite, tu vas ajouter des animations à tes paragraphes pour rendre les pages interactives !
