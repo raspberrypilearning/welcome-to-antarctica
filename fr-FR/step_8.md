@@ -1,6 +1,6 @@
 ## Responsive navigation bar
 
-Make your content smart! No matter if the page is big or small, or if someone is using a different device, it will always look amazing.
+Make your content smart! Peu importe que la page soit grande ou petite, ou que quelqu'un utilise un appareil différent, la page a toujours fière allure.
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step8" width="600" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
@@ -75,7 +75,7 @@ When the page first loads, you don't want the `<div>` to display.
 
 \--- task ---
 
-Open `style.css`.
+Ouvre `style.css`.
 
 Add the `burger` selector to the `style.css` file.
 
@@ -213,7 +213,7 @@ You will set the nav items to `display: none` so they are not shown before the m
 
 \--- task ---
 
-Open `style.css`.
+Ouvre `style.css`.
 
 Add a new `.nav-items` selector and styling to the media query.
 
@@ -301,7 +301,7 @@ Click on the burger menu to see your navigation items appear. Then click the cro
 
 \--- task ---
 
-Open `wildlife.html`.
+Ouvre `wildlife.html`.
 
 Copy and paste the `burger` `<div>` element inside the `<nav>` tags.
 
@@ -368,7 +368,7 @@ You now need to add the burger `<div>` and JavaScript file to climate.html as we
 
 \--- task ---
 
-Open `climate.html`.
+Ouvre `climate.html`.
 
 Copy and paste the `burger` `<div>` element inside the `<nav>` tags.
 
