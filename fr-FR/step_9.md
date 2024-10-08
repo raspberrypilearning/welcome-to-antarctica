@@ -1,18 +1,18 @@
 ## Grilles réactives
 
-Making the grids responsive will make sure that anyone can learn about Antarctica, no matter what device they are viewing on.
+En rendant les grilles réactives, tout le monde peut en apprendre davantage sur l'Antarctique, quel que soit l'appareil sur lequel les informations sont consultées.
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-complete" width="600" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
-### Make your grids responsive
+### Rendre tes grilles réactives
 
-When the screen is small, the grids you made earlier are hard to read.
+Si l'écran est petit, les grilles que tu as créées précédemment sont difficiles à lire.
 
-Make the layout taller by changing it to use four rows and one column.
+Rends la disposition plus haute en utilisant quatre lignes et une colonne.
 
 \--- task ---
 
-Add the `fact-holder` selector to the `@media` query.
+Ajoute le sélecteur `fact-holder` à la requête `@media`.
 
 ## --- code ---
 
@@ -66,15 +66,15 @@ grid-template-columns: 100%;
 
 \--- /task ---
 
-On the `wildlife.html` page, there is a different fact holder grid layout.
+Sur la page `wildlife.html`, il y a une disposition différente de la grille d'affichage des faits.
 
-That layout also needs to change when the screen width reduces.
+Cette disposition doit également être modifiée lorsque la largeur de l'écran diminue.
 
-You are going to make it taller and change it to five rows in one column.
+Tu vas la rendre plus haute et faire en sorte qu'il y ait cinq lignes dans une colonne.
 
 \--- task ---
 
-Add the `fact-holder-wildlife` selector to the `@media` query.
+Ajoute le sélecteur `fact-holder-wildlife` à la requête `@media`.
 
 ## --- code ---
 
@@ -129,13 +129,13 @@ height: 140vh;
 
 \--- /task ---
 
-You can make the penguin image span two rows by changing its `grid-row-start` and `grid-row-end` properties.
+Tu peux faire en sorte que l'image du pingouin s'étende sur deux lignes en modifiant ses propriétés `grid-row-start` et `grid-row-end`.
 
-You also need to change the orca image to span the single column used in the `fact-holder-wildlife` layout (at the moment, it is styled to span two columns).
+Tu dois également modifier l'image de l'orque pour qu'elle s'étende sur la colonne unique utilisée dans la mise en page `fact-holder-wildlife` (pour l'instant, elle est stylisée pour s'étendre sur deux colonnes).
 
 \--- task ---
 
-Add the `penguins` and `orcas` selectors to the `@media` query.
+Ajoute les sélecteurs `penguins` et `orcas` à la requête `@media`.
 
 ## --- code ---
 
@@ -204,10 +204,10 @@ grid-column-end: 2;
 
 **Clique sur Run**
 
-Resize the preview window to below 768px to see how each page responds.
+Redimensionne la fenêtre de prévisualisation en dessous de 768 px pour voir comment chaque page réagit.
 
 \--- /task ---
 
-Fantastic work! You have now built a responsive website that lets people discover a place they may never get a chance to visit — Antarctica.
+Bravo ! Tu as maintenant conçu un site web réactif qui permet aux gens de découvrir un endroit qu'ils n'auront peut-être jamais l'occasion de visiter : l'Antarctique.
 
-Next, you will reflect on your learning by completing a quiz.
+Ensuite, tu réfléchiras à ce que tu as appris en répondant à un quiz.
