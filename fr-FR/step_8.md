@@ -1,26 +1,26 @@
-## Responsive navigation bar
+## Barre de navigation réactive
 
-Make your content smart! Peu importe que la page soit grande ou petite, ou que quelqu'un utilise un appareil différent, la page a toujours fière allure.
+Rends ton contenu intelligent ! Peu importe que la page soit grande ou petite, ou que quelqu'un utilise un appareil différent, la page a toujours fière allure.
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step8" width="600" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Webpages can be viewed on many different devices and should be <span style="color: #0faeb0">**responsive**</span> to each device. This means that if a user views your page on a mobile phone, it should respond to the smaller screen size and if they view it on a desktop PC, it should respond to the larger screen size. 
+Les pages web peuvent être consultées sur de nombreux appareils différents et doivent être <span style="color: #0faeb0">**réactives**</span> pour chaque appareil. Cela signifie que si un utilisateur consulte ta page sur un téléphone portable, elle doit répondre à la taille d'écran la plus petite et s'il la consulte sur un ordinateur de bureau, elle doit répondre à la taille d'écran la plus grande. 
 </p>
 
-### Make the navbar responsive
+### Rendre la barre de navigation réactive
 
-On a smaller screen, the links in the navbar might get too close together.
+Sur un écran plus petit, les liens de la barre de navigation pourraient être trop rapprochés.
 
-You are going to make the links disappear and replace them with a **burger menu** (☰).
+Tu vas faire disparaître les liens et les remplacer par un **menu hamburger** (☰).
 
 \--- task ---
 
 Ouvre `index.html`.
 
-Inside the `<nav>` tags, add a new `<div>` with the `class="burger"` attribute.
+À l'intérieur des balises `<nav>`, ajoute un nouveau `<div>` avec l'attribut `class="burger"`.
 
-Add two `<span>` tags. One is for the 'burger' icon (☰) used to open the menu. The other is for a cross icon (✖) used to close the menu.
+Ajoute deux balises `<span>`. L'une est pour l'icône « hamburger » (☰) utilisée pour ouvrir le menu. L'autre est pour une icône en forme de croix (✖️) utilisée pour fermer le menu.
 
 ## --- code ---
 
@@ -34,9 +34,9 @@ line_highlights: 18-21
 ```
 <nav>
   <div class="nav-items">
-    <a class="active" href="index.html">Home</a>
-    <a href="wildlife.html">Wildlife</a>
-    <a href="climate.html">Climate</a>
+    <a class="active" href="index.html">Accueil</a>
+    <a href="wildlife.html">Faune</a>
+    <a href="climate.html">Climat</a>
   </div>
   <div class="burger">
     <span id="openHam">&#9776;</span>
@@ -51,11 +51,11 @@ line_highlights: 18-21
 
 ---
 
-## title: Use ASCII codes for characters
+## title: Utiliser les codes ASCII pour les caractères
 
-To make the burger menu and cross, you have used an **ASCII** code. This is a way of adding special characters that don't feature on your keyboard.
+Pour réaliser le menu hamburger et la croix, tu as utilisé un code **ASCII**. Il s'agit d'un moyen d'ajouter des caractères spéciaux qui ne figurent pas sur ton clavier.
 
-You can find a full list of ASCII codes on [this website](https://www.ascii-code.com/).
+Tu peux trouver une liste complète des codes ASCII sur [ce site web] (https://www.ascii-code.com/).
 
 \--- /collapse ---
 
@@ -67,17 +67,17 @@ You can find a full list of ASCII codes on [this website](https://www.ascii-code
 
 \--- /task ---
 
-You are using an `id` attribute on each `<span>` element. A unique `id` can be given to any element.
+Tu utilises un attribut `id` sur chaque élément `<span>`. Un `id` unique peut être attribué à chaque élément.
 
-The new icons should only be visible when the screen is small enough.
+Les nouvelles icônes ne devraient être visibles que lorsque l'écran est suffisamment petit.
 
-When the page first loads, you don't want the `<div>` to display.
+Lorsque la page se charge pour la première fois, tu ne veux pas que le `<div>` s'affiche.
 
 \--- task ---
 
 Ouvre `style.css`.
 
-Add the `burger` selector to the `style.css` file.
+Ajoute le sélecteur `hamburger` au fichier `style.css`.
 
 ## --- code ---
 
@@ -88,7 +88,7 @@ line_number_start: 71
 line_highlights: 72-78
 -----------------------------------------------------------
 
-/\* Burger menu \*/
+/\* Menu hamburger \*/
 .burger {
 display: none;
 font-size: 20px;
@@ -107,29 +107,29 @@ margin-left: auto;
 
 \--- /task ---
 
-### Create a media query
+### Créer une requête média
 
-You are going to use a **media query** to change the styling of elements based on the width of the screen.
+Tu vas utiliser une **requête média** pour modifier le style des éléments en fonction de la largeur de l'écran.
 
-We have set 768px as the screen width, below which the media query will trigger.
+Nous avons fixé à 768 px la largeur de l'écran, en dessous de laquelle la requête média se déclenchera.
 
 \--- collapse ---
 
 ---
 
-## title: Using media queries
+## title: Utiliser des requêtes média
 
-A CSS media query can be used to check lots of things about the way a webpage is currently being displayed.
+Une requête média CSS peut être utilisée pour vérifier beaucoup de choses sur la façon dont une page web est actuellement affichée.
 
-You can check attributes of the device showing the page, like the width or the height. For mobile devices, you can check whether they are in landscape or portrait mode.
+Tu peux vérifier les attributs de l'appareil qui affiche la page, comme la largeur ou la hauteur. Pour les appareils mobiles, tu peux vérifier s'ils sont en mode paysage ou portrait.
 
-You can also use media queries to change the styling of a page when it is printed.
+Tu peux aussi utiliser les requêtes média pour modifier le style d'une page lorsqu'elle est imprimée.
 
 \--- /collapse ---
 
 \--- task ---
 
-At the bottom of `style.css`, add your media query.
+En bas de `style.css`, ajoute ta requête média.
 
 ## --- code ---
 
@@ -140,7 +140,7 @@ line_number_start: 211
 line_highlights: 212-214
 -------------------------------------------------------------
 
-/\* Media query \*/
+/\* Requête média \*/
 @media screen and (max-width:768px) {
 
 }
@@ -153,23 +153,23 @@ line_highlights: 212-214
 
 ---
 
-## title: Why use a max width of 768px?
+## title: Pourquoi utiliser une largeur max de 768 px ?
 
-The typical width of a tablet screen is 768px and mobile phone screens are even narrower. Using this width, you can make sure your content looks great on all mobile devices.
+La largeur habituelle d'un écran de tablette est de 768 px et les écrans de téléphone portable sont encore plus petits. En utilisant cette largeur, tu peux t'assurer que ton contenu est superbe sur tous les appareils mobiles.
 
-When the page width is more than 768px, the navbar displays the three page links at the top of the page.
+Lorsque la largeur de la page est supérieure à 768 px, la barre de navigation affiche les trois liens de la page en haut de la page.
 
-When the page width is 768px or less, the navbar can be hidden and a 'burger' menu shown to save space.
+Lorsque la largeur de la page est inférieure ou égale à 768 px, la barre de navigation peut être cachée et un menu « hamburger » affiché pour gagner de la place.
 
 \--- /collapse ---
 
-When the burger menu icon is displayed, the cross will remain hidden.
+Lorsque l'icône du menu hamburger est affichée, la croix reste cachée.
 
-When the burger icon is clicked, the page links will be displayed and the close icon will be shown.
+Lorsque l'on clique sur l'icône hamburger, les liens de la page s'affichent et l'icône fermer apparaît.
 
 \--- task ---
 
-Add selectors to style the `.burger` `<div>`.
+Ajoute des sélecteurs pour styliser le `<div>` `.burger`.
 
 ## --- code ---
 
@@ -201,21 +201,21 @@ display: none;
 
 **Clique sur Run**
 
-Resize the Code Editor to see your changes!
+Redimensionne le Code Editor pour voir tes changements !
 
 \--- /task ---
 
-You need to open and close the navigation menu.
+Tu dois ouvrir et fermer le menu de navigation.
 
-The navigation items don't look very good at the moment, so add some new styling to make them look like a menu.
+Les éléments de navigation n'ont pas l'air top pour l'instant, alors ajoute une nouvelle mise en forme pour qu'ils ressemblent à un menu.
 
-You will set the nav items to `display: none` so they are not shown before the menu is opened.
+Tu définiras les éléments de navigation sur `display : none` pour qu'ils ne soient pas affichés avant l'ouverture du menu.
 
 \--- task ---
 
 Ouvre `style.css`.
 
-Add a new `.nav-items` selector and styling to the media query.
+Ajoute un nouveau sélecteur `.nav-items` et un style à la requête média.
 
 ## --- code ---
 
@@ -267,7 +267,7 @@ gap: 10vh;
 
 Ouvre `index.html`.
 
-Add the **JavaScript** file to your page.
+Ajoute le fichier **JavaScript** à ta page.
 
 ## --- code ---
 
@@ -293,17 +293,17 @@ line_highlights: 53
 
 **Clique sur Run**
 
-Click on the burger menu to see your navigation items appear. Then click the cross to close the menu.
+Clique sur le menu hamburger pour voir apparaître tes éléments de navigation. Puis clique sur la croix pour fermer le menu.
 
 \--- /task ---
 
-### Update the other pages
+### Mettre à jour les autres pages
 
 \--- task ---
 
 Ouvre `wildlife.html`.
 
-Copy and paste the `burger` `<div>` element inside the `<nav>` tags.
+Copie et colle l'élément `<div>` `burger` à l'intérieur des balises `<nav>`.
 
 ## --- code ---
 
@@ -317,9 +317,9 @@ line_highlights: 19-22
 ```
 <nav>
   <div class="nav-items">
-    <a href="index.html">Home</a>
-    <a class="active" href="wildlife.html">Wildlife</a>
-    <a href="climate.html">Climate</a>
+    <a href="index.html">Accueil</a>
+    <a class="active" href="wildlife.html">Faune</a>
+    <a href="climate.html">Climat</a>
   </div>
   <div class="burger">
     <span id="openHam">&#9776;</span>
@@ -334,7 +334,7 @@ line_highlights: 19-22
 
 \--- task ---
 
-Also add the **JavaScript** file to your page.
+Ajoute également le fichier **JavaScript** à ta page.
 
 ## --- code ---
 
@@ -360,19 +360,19 @@ line_highlights: 55
 
 **Clique sur Run**
 
-Click on the burger menu to see your navigation items appear. Then click the cross to close the menu.
+Clique sur le menu hamburger pour voir apparaître tes éléments de navigation. Puis clique sur la croix pour fermer le menu.
 
 \--- /task ---
 
-You now need to add the burger `<div>` and JavaScript file to climate.html as well.
+Tu dois maintenant ajouter le `<div>` burger et le fichier JavaScript au fichier climate.html.
 
 \--- task ---
 
 Ouvre `climate.html`.
 
-Copy and paste the `burger` `<div>` element inside the `<nav>` tags.
+Copie et colle l'élément `<div>` `burger` à l'intérieur des balises `<nav>`.
 
-Also copy and paste (CTRL + C or CMD + C) the **JavaScript** file to your page.
+Copie et colle aussi (CTRL + C ou CMD + C) le fichier **JavaScript** sur ta page.
 
 \--- /task ---
 
@@ -380,10 +380,10 @@ Also copy and paste (CTRL + C or CMD + C) the **JavaScript** file to your page.
 
 **Clique sur Run**
 
-Click on each menu item to navigate from page to page.
+Clique sur chaque élément du menu pour naviguer d'une page à l'autre.
 
-Resize the preview window to below 768px to see how it responds.
+Redimensionne la fenêtre de prévisualisation en dessous de 768 px pour voir comment elle réagit.
 
 \--- /task ---
 
-You have now built a responsive navigation bar. But you the grids could look better when the website is viewed on a mobile device.
+Tu as maintenant conçu une barre de navigation réactive. Mais les grilles pourraient avoir un meilleur aspect lorsque le site web est consulté sur un appareil mobile.
