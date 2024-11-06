@@ -147,6 +147,6 @@ You can change the image URL in the CSS classes for your hero images to make the
 title: Upgraded project
 ---
 
-You can view the [upgraded project here](https://editor.raspberrypi.org/en/projects/welcome-to-antartica-upgraded){:target="_blank"}.
+You can view the [upgraded project here](https://editor.raspberrypi.org/en/projects/welcome-to-antarctica-upgraded){:target="_blank"}.
 
 --- /collapse ---
