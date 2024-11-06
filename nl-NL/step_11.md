@@ -149,6 +149,6 @@ Je kunt de URL van de afbeelding in de CSS-klassen voor je hero-afbeeldingen wij
 
 ## title: Verbeterd project
 
-You can view the [upgraded project here](https://editor.raspberrypi.org/en/projects/welcome-to-antarctica-upgraded){:target="_blank"}.
+Je kunt het [geüpgrade project hier](https://editor.raspberrypi.org/en/projects/welcome-to-antarctica-upgraded){:target="_blank"} bekijken.
 
 \--- /collapse ---
