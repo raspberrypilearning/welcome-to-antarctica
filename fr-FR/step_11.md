@@ -149,6 +149,6 @@ Tu peux changer l'URL de l'image dans les classes CSS de tes images Hero pour qu
 
 ## title: Projet amélioré
 
-Tu peux voir le [projet amélioré ici](https://editor.raspberrypi.org/fr-FR/projects/welcome-to-antartica-upgraded){:target="_blank"}.
+You can view the [upgraded project here](https://editor.raspberrypi.org/en/projects/welcome-to-antarctica-upgraded){:target="_blank"}.
 
 \--- /collapse ---
