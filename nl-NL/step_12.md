@@ -18,7 +18,7 @@ Ontdek de superheldenwebsite.
 
 - Klik op de pijlen op de schuifbalk van de hero image om door de afbeeldingen te bewegen
 - Schakel de lichtmodusknop in en uit om de thema-kleuren op de site te zien veranderen
-- Ga naar de pagina Karakter creëren en vul de invoervelden in om je eigen superheldenpersonage te creëren!
+- Ga naar de pagina Personage maken en vul de invoervelden in om je eigen superheldenpersonage te creëren!
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/comic-character-complete" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
