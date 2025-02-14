@@ -1,10 +1,10 @@
 ## Et ensuite ?
 
-Si tu suis le parcours [Plus de web](https://projects.raspberrypi.org/fr-FR/pathways/more-web), tu peux passer au projet [Personnage de BD](https://projects.raspberrypi.org/fr-FR/projects/comic-character). Dans ce projet, tu créeras un site web où tes utilisateurs pourront concevoir leur propre personnage de super-héros.
+Si tu suis le parcours [Plus de web](https://projects.raspberrypi.org/fr-FR/pathways/more-web), tu peux passer au projet [Personnage de Comics](https://projects.raspberrypi.org/fr-FR/projects/comic-character). Dans ce projet, tu créeras un site web où tes utilisateurs pourront concevoir leur propre personnage de super-héros.
 
 \--- print-only ---
 
-![Le projet Personnage de BD terminé](images/comic-character.png)
+![Le projet Personnage de Comics terminé](images/comic-character.png)
 
 \--- /print-only ---
 
