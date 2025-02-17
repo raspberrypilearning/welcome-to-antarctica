@@ -1,6 +1,6 @@
 ## Wat kun je verder nog doen?
 
-Als je het [Meer web](https://projects.raspberrypi.org/nl/pathways/meere-web) pad volgt, kun je doorgaan naar het [Stripfiguur](https://projects.raspberrypi.org/en/projects/comic-character) project. In dit project ga je een website maken waar je gebruikers hun eigen superheldenpersonage kunnen ontwerpen.
+Als je het [Meer web](https://projects.raspberrypi.org/en/pathways/more-web) pad volgt, kun je doorgaan naar het [Stripfiguur](https://projects.raspberrypi.org/en/projects/comic-character) project. In dit project ga je een website maken waar je gebruikers hun eigen superheldenpersonage kunnen ontwerpen.
 
 \--- print-only ---
 
