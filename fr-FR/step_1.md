@@ -6,7 +6,7 @@
 
 ## title: Tu utilises le Raspberry Pi Code Editor pour la première fois ?
 
-Consulte le [guide de démarrage](https://projects.raspberrypi.org/fr-Fr/projects/getting-started-guide-editor-html){:target="_blank"} !
+Consulte le [guide de démarrage](https://projects.raspberrypi.org/en/projects/getting-started-guide-editor-html){:target="_blank"} !
 
 \--- /collapse ---
 
