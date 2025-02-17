@@ -52,7 +52,7 @@ title: Utiliser les codes ASCII pour les caractères
 
 Pour réaliser le menu hamburger et la croix, tu as utilisé un code **ASCII**. Il s'agit d'un moyen d'ajouter des caractères spéciaux qui ne figurent pas sur ton clavier.
 
-Tu peux trouver une liste complète des codes ASCII sur [ce site web] (https://www.ascii-code.com/).
+Tu peux trouver une liste complète des codes ASCII sur [ce site web](https://www.ascii-code.com/).
 
 --- /collapse ---
 
