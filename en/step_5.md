@@ -74,7 +74,7 @@ Make sure there are `"` marks around `fact-holder`.
 
 At the moment, the paragraphs take up different amounts of space.
 
-![The index.html page after the grid has been added. An arrow stretches all the way across and is labelled 100%. Underneath, an arrow spans the width of the first paragraph and is labelled 75%, next to it another arrow spans the width of the second paragraph and is labelled 25%.](images/grid-sizes.png)
+![The index.html page after the grid has been added. An arrow stretches all the way across and is labelled 100%. Underneath, an arrow spans the width of the first paragraph and is labelled 75%, next to it another arrow spans the width of the second paragraph and is labelled 25%.](images/grid_sizes.png)
 
 You can change the widths of the grid columns to make them even.
 
