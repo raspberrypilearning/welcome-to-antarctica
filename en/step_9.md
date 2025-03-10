@@ -24,12 +24,12 @@ line_highlights: 237-241
 ---
 @media screen and (max-width:768px) {
     
-  .hamburger {
+  .burger {
     display: flex;
     cursor: pointer;
   }
   
-  .hamburger #closeHam {
+  .burger #closeHam {
     display: none;
   }   
   
@@ -85,12 +85,12 @@ line_highlights: 243-247
 ---
 @media screen and (max-width:768px) {
     
-  .hamburger {
+  .burger {
     display: flex;
     cursor: pointer;
   }
   
-  .hamburger #closeHam {
+  .burger #closeHam {
     display: none;
   }   
   
@@ -145,12 +145,12 @@ line_highlights: 249-252, 254-257
 ---
 @media screen and (max-width:768px) {
     
-  .hamburger {
+  .burger {
     display: flex;
     cursor: pointer;
   }
   
-  .hamburger #closeHam {
+  .burger #closeHam {
     display: none;
   }   
   

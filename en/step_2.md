@@ -111,7 +111,7 @@ line_highlights: 14-16
 
 --- /task ---
 
-## Save your project
+### Save your project
 
 Your project is saved automatically. Return to the starter link in the same web browser to see your changes.
 

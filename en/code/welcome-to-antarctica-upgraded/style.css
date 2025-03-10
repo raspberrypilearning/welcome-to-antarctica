@@ -68,12 +68,12 @@ nav {
   pointer-events: none;
 }
 
-/* Hamburger menu */
-.hamburger {
+/* Burger menu */
+.burger {
   display: none;
   font-size: 20px;
   font-weight: 800;
-  color: var(--hamburger-colour);
+  color: var(--burger-colour);
   margin-left: auto;
 }
 
@@ -212,12 +212,12 @@ nav {
 
 /* Media query */
 @media screen and (max-width: 768px) {
-  .hamburger {
+  .burger {
     display: flex;
     cursor: pointer;
   }
 
-  .hamburger #closeHam {
+  .burger #closeHam {
     display: none;
   }
 

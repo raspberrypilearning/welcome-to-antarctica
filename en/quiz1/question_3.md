@@ -24,11 +24,11 @@ line_numbers: false
 
 --- choices ---
 
-- ( ) To create a hamburger menu in CSS.
+- ( ) To create a burger menu in CSS.
 
   --- feedback ---
 
-  Try again. A media query is not used for creating a hamburger menu. A hamburger menu is used for navigation on a smaller screen.
+  Try again. A media query is not used for creating a burger menu. A burger menu is used for navigation on a smaller screen.
  
   --- /feedback ---
 
@@ -40,7 +40,7 @@ line_numbers: false
 
   --- /feedback ---
 
-  - ( ) To create a grid layout.
+- ( ) To create a grid layout.
 
   --- feedback ---
   

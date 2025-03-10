@@ -36,7 +36,7 @@ You will:
 Explore the Welcome to Antarctica website.
 
 What happens when you...
-+ Click the hamburger icon (☰)?
++ Click the burger icon (☰)?
 + Hover over the images?
 + Use the links to access the different pages?
 
@@ -57,5 +57,7 @@ Images included in this project were created using generative AI. Model: Firefly
 --- /no-print ---
 
 --- print-only ---
-![Completed project](images/showcase_static.png) 
+
+![Completed project](images/showcase_static.png)
+
 --- /print-only ---

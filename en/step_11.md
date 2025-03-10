@@ -18,7 +18,7 @@ If you have time, you can add some more facts, adjust the grid layouts, and chan
 title: Add a new fact to the homepage
 ---
 
-Here is a fact about the research stations on Antartica that you can add to the home page. 
+Here is a fact about the research stations on Antarctica that you can add to the home page. 
 
 --- code ---
 ---
@@ -147,6 +147,6 @@ You can change the image URL in the CSS classes for your hero images to make the
 title: Upgraded project
 ---
 
-You can view the [upgraded project here](https://editor.raspberrypi.org/en/projects/welcome-to-antartica-upgraded){:target="_blank"}.
+You can view the [upgraded project here](https://editor.raspberrypi.org/en/projects/welcome-to-antarctica-upgraded){:target="_blank"}.
 
 --- /collapse ---
