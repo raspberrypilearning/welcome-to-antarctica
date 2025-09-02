@@ -76,7 +76,7 @@ Zorg ervoor dat er `"`-tekens rond `fact-holder` staan.
 
 Op dit moment nemen de paragrafen verschillende hoeveelheden ruimte in beslag.
 
-![De index.html pagina nadat het raster is toegevoegd. Er is een pijl die over de hele breedte loopt en die 100% aangeeft. Daaronder overspant een pijl de breedte van de eerste alinea en is gelabeld met 75%, ernaast overspant een andere pijl de breedte van de tweede alinea en is gelabeld met 25%.](images/grid-sizes.png)
+![De index.html pagina nadat het raster is toegevoegd. Er is een pijl die over de hele breedte loopt en die 100% aangeeft. Underneath, an arrow spans the width of the first paragraph and is labelled 75%, next to it another arrow spans the width of the second paragraph and is labelled 25%.](images/grid_sizes.png)
 
 Je kunt de breedtes van de rasterkolommen wijzigen om ze gelijk te maken.
 
