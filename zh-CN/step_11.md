@@ -107,10 +107,10 @@ line_number_start:
 line_highlights:
 -----------------------------------------------------
 
-/\* Fact holder - homepage _/
+/\* 事实持有者 - 主页 _/
 .fact-holder {
 display: grid;
-height: 70vh; /_ 70% of the visible area of the page \*/
+height: 70vh; /_ 页面可视区域的 70% \*/
 grid-template-rows: 33% 33% 33%;
 grid-template-columns: 50% 50%;
 }
