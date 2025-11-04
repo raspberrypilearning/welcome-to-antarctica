@@ -1,26 +1,26 @@
-## Responsive navigation bar
+## 响应式导航栏
 
-Make your content smart! No matter if the page is big or small, or if someone is using a different device, it will always look amazing.
+让你的内容变得智能！ 无论页面是大是小，或者有人使用不同的设备，它总是看起来很棒。
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step8" width="600" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Webpages can be viewed on many different devices and should be <span style="color: #0faeb0">**responsive**</span> to each device. This means that if a user views your page on a mobile phone, it should respond to the smaller screen size and if they view it on a desktop PC, it should respond to the larger screen size. 
+网页可以在许多不同的设备上查看，并且应该对每个设备 <span style="color: #0faeb0">**响应**</span> 。 这意味着，如果用户在手机上查看你的页面，它应该响应较小的屏幕尺寸，如果用户在桌面电脑上查看你的页面，它应该响应较大的屏幕尺寸。 
 </p>
 
-### Make the navbar responsive
+### 使导航栏具有响应式
 
-On a smaller screen, the links in the navbar might get too close together.
+在较小的屏幕上，导航栏中的链接可能会太靠近。
 
-You are going to make the links disappear and replace them with a **burger menu** (☰).
+你将使链接消失并用**汉堡菜单（折叠导航栏）**（☰）替换它们。
 
 \--- task ---
 
-Open `index.html`.
+打开 `index.html`。
 
-Inside the `<nav>` tags, add a new `<div>` with the `class="burger"` attribute.
+在 `<nav>` 标签内，添加一个带有 `class="burger"` 属性的新 `<div>`。
 
-Add two `<span>` tags. One is for the 'burger' icon (☰) used to open the menu. The other is for a cross icon (✖) used to close the menu.
+添加两个 `<span>` 标签。 一个是用于打开菜单的“汉堡”图标（☰）。 另一个是用于关闭菜单的十字图标（✖）。
 
 ## --- code ---
 
@@ -34,9 +34,9 @@ line_highlights: 18-21
 ```
 <nav>
   <div class="nav-items">
-    <a class="active" href="index.html">Home</a>
-    <a href="wildlife.html">Wildlife</a>
-    <a href="climate.html">Climate</a>
+    <a class="active" href="index.html">家</a>
+    <a href="wildlife.html">野生动物</a>
+    <a href="climate.html">气候</a>
   </div>
   <div class="burger">
     <span id="openHam">&#9776;</span>
@@ -51,11 +51,11 @@ line_highlights: 18-21
 
 ---
 
-## title: Use ASCII codes for characters
+## title: 使用 ASCII 码表示字符
 
-To make the burger menu and cross, you have used an **ASCII** code. This is a way of adding special characters that don't feature on your keyboard.
+为了制作汉堡菜单和十字架，你使用了**ASCII**代码。 这是一种添加键盘上没有的特殊字符的方法。
 
-You can find a full list of ASCII codes on [this website](https://www.ascii-code.com/).
+你可以在[这个网站](https://www.ascii-code.com/)上找到完整的 ASCII 代码列表。
 
 \--- /collapse ---
 
@@ -63,21 +63,21 @@ You can find a full list of ASCII codes on [this website](https://www.ascii-code
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
 \--- /task ---
 
-You are using an `id` attribute on each `<span>` element. A unique `id` can be given to any element.
+你在每个 `<span>` 元素上使用 `id` 属性。 可以为任何元素赋予唯一的 `id`。
 
-The new icons should only be visible when the screen is small enough.
+只有当屏幕足够小时，新图标才可见。
 
-When the page first loads, you don't want the `<div>` to display.
+当页面首次加载时，你不希望显示 `<div>`。
 
 \--- task ---
 
-Open `style.css`.
+打开 `style.css`。
 
-Add the `burger` selector to the `style.css` file.
+将 `burger` 选择器添加到 `style.css` 文件。
 
 ## --- code ---
 
@@ -88,7 +88,7 @@ line_number_start: 71
 line_highlights: 72-78
 -----------------------------------------------------------
 
-/\* Burger menu \*/
+/\* 汉堡菜单 \*/
 .burger {
 display: none;
 font-size: 20px;
@@ -103,33 +103,33 @@ margin-left: auto;
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
 \--- /task ---
 
-### Create a media query
+### 创建媒体查询
 
-You are going to use a **media query** to change the styling of elements based on the width of the screen.
+你将使用**媒体查询**根据屏幕宽度更改元素的样式。
 
-We have set 768px as the screen width, below which the media query will trigger.
+我们将屏幕宽度设置为 768px，低于该宽度时将触发媒体查询。
 
 \--- collapse ---
 
 ---
 
-## title: Using media queries
+## title: 使用媒体查询
 
-A CSS media query can be used to check lots of things about the way a webpage is currently being displayed.
+CSS 媒体查询可用于检查有关网页当前显示方式的许多内容。
 
-You can check attributes of the device showing the page, like the width or the height. For mobile devices, you can check whether they are in landscape or portrait mode.
+你可以检查显示页面的设备的属性，例如宽度或高度。 对于移动设备，你可以检查它们处于横向模式还是纵向模式。
 
-You can also use media queries to change the styling of a page when it is printed.
+你还可以使用媒体查询来更改打印页面时的样式。
 
 \--- /collapse ---
 
 \--- task ---
 
-At the bottom of `style.css`, add your media query.
+在 `style.css` 的底部，添加你的媒体查询。
 
 ## --- code ---
 
@@ -140,7 +140,7 @@ line_number_start: 211
 line_highlights: 212-214
 -------------------------------------------------------------
 
-/\* Media query \*/
+/\* 媒体查询 \*/
 @media screen and (max-width:768px) {
 
 }
@@ -153,23 +153,23 @@ line_highlights: 212-214
 
 ---
 
-## title: Why use a max width of 768px?
+## title: 为什么使用最大宽度 768px？
 
-The typical width of a tablet screen is 768px and mobile phone screens are even narrower. Using this width, you can make sure your content looks great on all mobile devices.
+平板电脑屏幕的典型宽度为 768px，手机屏幕甚至更窄。 使用此宽度，你可以确保你的内容在所有移动设备上看起来都很棒。
 
-When the page width is more than 768px, the navbar displays the three page links at the top of the page.
+当页面宽度超过768px时，导航栏会在页面顶部显示三个页面链接。
 
-When the page width is 768px or less, the navbar can be hidden and a 'burger' menu shown to save space.
+当页面宽度为 768px 或更小时，可以隐藏导航栏并显示“汉堡”菜单以节省空间。
 
 \--- /collapse ---
 
-When the burger menu icon is displayed, the cross will remain hidden.
+当汉堡菜单图标显示时，十字将保持隐藏状态。
 
-When the burger icon is clicked, the page links will be displayed and the close icon will be shown.
+点击汉堡图标时，将显示页面链接并显示关闭图标。
 
 \--- task ---
 
-Add selectors to style the `.burger` `<div>`.
+添加选择器来设置 `.burger` `<div>` 的样式。
 
 ## --- code ---
 
@@ -199,23 +199,23 @@ display: none;
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
-Resize the Code Editor to see your changes!
+调整代码编辑器的大小以查看您的更改！
 
 \--- /task ---
 
-You need to open and close the navigation menu.
+你需要打开和关闭导航菜单。
 
-The navigation items don't look very good at the moment, so add some new styling to make them look like a menu.
+导航项目前看起来不太好，因此添加一些新样式使它们看起来像菜单。
 
-You will set the nav items to `display: none` so they are not shown before the menu is opened.
+你将导航项设置为 `display: none`，以便在菜单打开之前不会显示它们。
 
 \--- task ---
 
-Open `style.css`.
+打开 `style.css`。
 
-Add a new `.nav-items` selector and styling to the media query.
+向媒体查询添加新的 `.nav-items` 选择器和样式。
 
 ## --- code ---
 
@@ -259,15 +259,15 @@ gap: 10vh;
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
 \--- /task ---
 
 \--- task ---
 
-Open `index.html`.
+打开 `index.html`。
 
-Add the **JavaScript** file to your page.
+将 **JavaScript** 文件添加到你的页面。
 
 ## --- code ---
 
@@ -291,19 +291,19 @@ line_highlights: 53
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
-Click on the burger menu to see your navigation items appear. Then click the cross to close the menu.
+单击汉堡菜单即可看到导航项。 然后单击叉号关闭菜单。
 
 \--- /task ---
 
-### Update the other pages
+### 更新其他页面
 
 \--- task ---
 
-Open `wildlife.html`.
+打开 `wildlife.html`。
 
-Copy and paste the `burger` `<div>` element inside the `<nav>` tags.
+将 `burger` `<div>` 元素复制并粘贴到 `<nav>` 标签内。
 
 ## --- code ---
 
@@ -317,9 +317,9 @@ line_highlights: 19-22
 ```
 <nav>
   <div class="nav-items">
-    <a href="index.html">Home</a>
-    <a class="active" href="wildlife.html">Wildlife</a>
-    <a href="climate.html">Climate</a>
+    <a href="index.html">首页</a>
+    <a class="active" href="wildlife.html">野生动物</a>
+    <a href="climate.html">气候</a>
   </div>
   <div class="burger">
     <span id="openHam">&#9776;</span>
@@ -334,7 +334,7 @@ line_highlights: 19-22
 
 \--- task ---
 
-Also add the **JavaScript** file to your page.
+还将 **JavaScript** 文件添加到你的页面。
 
 ## --- code ---
 
@@ -358,32 +358,32 @@ line_highlights: 55
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
-Click on the burger menu to see your navigation items appear. Then click the cross to close the menu.
+单击汉堡菜单即可看到导航项。 然后单击叉号关闭菜单。
 
 \--- /task ---
 
-You now need to add the burger `<div>` and JavaScript file to climate.html as well.
+现在你还需要将汉堡 `<div>` 和 JavaScript 文件添加到 climate.html。
 
 \--- task ---
 
-Open `climate.html`.
+打开 `climate.html`。
 
-Copy and paste the `burger` `<div>` element inside the `<nav>` tags.
+将 `burger` `<div>` 元素复制并粘贴到 `<nav>` 标签内。
 
-Also copy and paste (CTRL + C or CMD + C) the **JavaScript** file to your page.
+还将 **JavaScript** 文件复制并粘贴（CTRL + C 或 CMD + C）到你的页面。
 
 \--- /task ---
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
-Click on each menu item to navigate from page to page.
+单击每个菜单项即可在各个页面之间导航。
 
-Resize the preview window to below 768px to see how it responds.
+将预览窗口的大小调整到 768px 以下，以查看其响应情况。
 
 \--- /task ---
 
-You have now built a responsive navigation bar. But you the grids could look better when the website is viewed on a mobile device.
+你现在已经构建了一个响应式导航栏。 但是当在移动设备上查看网站时，网格看起来会更好。
