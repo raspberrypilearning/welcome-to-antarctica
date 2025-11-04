@@ -1,18 +1,18 @@
-## Responsive grids
+## 响应式网格
 
-Making the grids responsive will make sure that anyone can learn about Antarctica, no matter what device they are viewing on.
+使网格具有响应能力将确保任何人都可以了解南极洲，无论他们使用什么设备查看。
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-complete" width="600" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
-### Make your grids responsive
+### 让你的网格具有响应式
 
-When the screen is small, the grids you made earlier are hard to read.
+当屏幕较小时，你之前制作的网格很难阅读。
 
-Make the layout taller by changing it to use four rows and one column.
+将布局改为使用四行一列，使布局更高。
 
 \--- task ---
 
-Add the `fact-holder` selector to the `@media` query.
+将 `fact-holder` 选择器添加到 `@media` 查询中。
 
 ## --- code ---
 
@@ -62,19 +62,19 @@ grid-template-columns: 100%;
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
 \--- /task ---
 
-On the `wildlife.html` page, there is a different fact holder grid layout.
+在 `wildlife.html` 页面上，有不同的事实持有者网格布局。
 
-That layout also needs to change when the screen width reduces.
+当屏幕宽度减小时，布局也需要改变。
 
-You are going to make it taller and change it to five rows in one column.
+你要让它更高，并将其改为一列五行。
 
 \--- task ---
 
-Add the `fact-holder-wildlife` selector to the `@media` query.
+将 `fact-holder-wildlife` 选择器添加到 `@media` 查询中。
 
 ## --- code ---
 
@@ -129,13 +129,13 @@ height: 140vh;
 
 \--- /task ---
 
-You can make the penguin image span two rows by changing its `grid-row-start` and `grid-row-end` properties.
+你可以通过更改 `grid-row-start` 和 `grid-row-end` 属性使企鹅图像跨越两行。
 
-You also need to change the orca image to span the single column used in the `fact-holder-wildlife` layout (at the moment, it is styled to span two columns).
+你还需要将虎鲸图像更改为跨越 `fact-holder-wildlife` 布局中使用的单列（目前，它的样式为跨越两列）。
 
 \--- task ---
 
-Add the `penguins` and `orcas` selectors to the `@media` query.
+将 `penguins` 和 `orcas` 选择器添加到 `@media` 查询中。
 
 ## --- code ---
 
@@ -202,12 +202,12 @@ grid-column-end: 2;
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
-Resize the preview window to below 768px to see how each page responds.
+将预览窗口的大小调整到 768px 以下，以查看每个页面的响应情况。
 
 \--- /task ---
 
-Fantastic work! You have now built a responsive website that lets people discover a place they may never get a chance to visit — Antarctica.
+太棒了！ 现在，你已经建立了一个响应式网站，让人们发现一个他们可能永远没有机会参观的地方——南极洲。
 
-Next, you will reflect on your learning by completing a quiz.
+接下来，你将通过完成测验来回顾你的学习。
