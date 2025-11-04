@@ -1,18 +1,18 @@
-## Add hero images
+## 添加首页横幅图像
 
-Put some cool images at the top of your webpage to show everyone what it's about!
+在你的网页顶部放置一些精美的图片，向所有人展示其内容！
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step4" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
-### Add a hero image to the header
+### 在标题中添加首页横幅图像
 
-A large full width image at the top of a page is called a **hero image**.
+页面顶部的大型全宽图像称为**首页横幅图像**。
 
 \--- task ---
 
-Add a new `<div>` element to the `<header>`.
+向 `<header>` 添加新的 `<div>` 元素。
 
-Give the new `<div>` a class attribute of `hero-image`.
+为新的 `<div>` 赋予 `hero-image` 类属性。
 
 ## --- code ---
 
@@ -27,9 +27,9 @@ line_highlights: 19
 <header>
   <nav>
     <div class="nav-items">
-      <a href="index.html" class="active">Home</a>
-      <a href="wildlife.html">Wildlife</a>
-      <a href="climate.html">Climate</a>
+      <a href="index.html" class="active">主页</a>
+      <a href="wildlife.html">野生动物</a>
+      <a href="climate.html">气候</a>
     </div>
   </nav>
   <div class="hero-image"></div>
@@ -42,11 +42,11 @@ line_highlights: 19
 
 \--- task ---
 
-In `style.css`, add a new selector for the `hero-image` class.
+在 `style.css` 中，为 `hero-image` 类添加一个新的选择器。
 
-Instead of adding an `<img>` element to the HTML, you can use the CSS `background-image` property to add your image.
+你无需向 HTML 添加 `<img>` 元素，而是可以使用 CSS `background-image` 属性来添加图像。
 
-The image should fill the `<div>` element (by setting the `background-size` property to `cover`) and be centered.
+图像应填充 `<div>` 元素（通过将 `background-size` 属性设置为 `cover`）并居中。
 
 ## --- code ---
 
@@ -57,9 +57,9 @@ line_number_start: 73
 line_highlights: 74-79
 -----------------------------------------------------------
 
-/\* Hero image - homepage _/
+/\* 首页横幅图像 - 主页 _/
 .hero-image {
-min-height: 50vh; /_ 50% of the visible area of the page \*/
+min-height: 50vh; /_ 页面可见区域的 50% \*/
 background-image: url('antarctic-lights.jpg');
 background-size: cover;
 background-position: center;
@@ -71,17 +71,17 @@ background-position: center;
 
 ---
 
-## title: Using vh and vw in CSS
+## title: 在 CSS 中使用 vh 和 vw
 
-When setting the size of an element using CSS, you might want the height or width to change depending on the size of the screen it is being viewed on.
+当使用 CSS 设置元素的大小时，你可能希望高度或宽度根据所查看的屏幕的大小而变化。
 
-![A box with a dotted line, representing the whole webpage. A representation of a browser window shows only the middle section of the webpage, this is labelled viewport.](images/viewport.png)
+![带有虚线的框，代表整个网页。 浏览器窗口表示仅显示网页的中间部分，这被称为视口。](images/viewport.png)
 
-The visible area of a webpage is called the **viewport** and this will differ between devices: a phone screen is a very different size to a laptop screen, for example.
+网页的可见区域称为**视口**，并且不同设备之间的可见区域会有所不同：例如，手机屏幕与笔记本电脑屏幕的尺寸有很大不同。
 
-In CSS you can use `vh` to set the size of elements relative to the **height** of the viewport. The number you put before it is the **percentage** of the viewport height the element should take up. So `50vh` is **half** the viewport's height.
+在 CSS 中，你可以使用 `vh` 来设置元素相对于视口**高度**的大小。 你在其前面输入的数字是元素应占用的视口高度的**百分比**。 因此 `50vh` 是视口高度的**一半**。
 
-`vw` works the same way for the **width** of the viewport.
+`vw` 对于视口的**宽度** 以相同的方式工作。
 
 \--- /collapse ---
 
@@ -89,17 +89,17 @@ In CSS you can use `vh` to set the size of elements relative to the **height** o
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
 \--- /task ---
 
-### Copy the header
+### 复制标题
 
-`index.html` is looking great! Time to add the header to the other pages.
+`index.html` 看起来很棒！ 是时候将页眉添加到其他页面了。
 
 \--- task ---
 
-Highlight and copy (Ctrl + C or Cmd + C) the contents of the `<header>` section in `index.html`.
+突出显示并复制（Ctrl + C 或 Cmd + C）`index.html` 中 `<header>` 部分的内容。
 
 ## --- code ---
 
@@ -112,9 +112,9 @@ line_number_start: 12
 ```
   <nav>
     <div class="nav-items">
-      <a href="index.html" class="active">Home</a>
-      <a href="wildlife.html">Wildlife</a>
-      <a href="climate.html">Climate</a>
+      <a href="index.html" class="active">主页</a>
+      <a href="wildlife.html">野生动物</a>
+      <a href="climate.html">气候</a>
     </div>
   </nav>
   <div class="hero-image"></div>
@@ -126,9 +126,9 @@ line_number_start: 12
 
 \--- task ---
 
-Open the `wildlife.html` file.
+打开 `wildlife.html` 文件。
 
-Paste the contents into the `<header>` and change which link has the active class.
+将内容粘贴到 `<header>` 中并更改具有活动类的链接。
 
 ## --- code ---
 
@@ -143,9 +143,9 @@ line_highlights: 12-19
 <header>
   <nav class="navigation-header">
     <div class="nav-items">
-      <a href="index.html">Home</a>
-      <a href="wildlife.html" class="active">Wildlife</a>
-      <a href="climate.html">Climate</a>
+      <a href="index.html">主页</a>
+      <a href="wildlife.html" class="active">野生动物</a>
+      <a href="climate.html">气候</a>
     </div>
   </nav>
   <div class="hero-image"></div>
@@ -158,15 +158,15 @@ line_highlights: 12-19
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
 \--- collapse ---
 
 ---
 
-## title: The Home link is still white?
+## title: 首页链接还是白色的？
 
-Check the `index.html` link has active removed and `wildlife.html` has active added.
+检查 `index.html` 链接是否已删除活动，以及 `wildlife.html` 是否已添加活动。
 
 \--- /collapse ---
 
@@ -174,13 +174,13 @@ Check the `index.html` link has active removed and `wildlife.html` has active ad
 
 \--- task ---
 
-Highlight and copy (Ctrl + C or Cmd + C) the contents of the `<header>` section in `index.html` again.
+再次突出显示并复制（Ctrl + C 或 Cmd + C）`index.html` 中 `<header>` 部分的内容。
 
 \--- /task ---
 
 \--- task ---
 
-Paste the `<header>` contents into `climate.html` and change which link has the active class.
+将 `<header>` 内容粘贴到 `climate.html` 中并更改具有活动类的链接。
 
 ## --- code ---
 
@@ -195,9 +195,9 @@ line_highlights: 12-19
 <header>
   <nav class="navigation-header">
     <div class="nav-items">
-      <a href="index.html">Home</a>
-      <a href="wildlife.html">Wildlife</a>
-      <a href="climate.html" class="active">Climate</a>
+      <a href="index.html">主页</a>
+      <a href="wildlife.html">野生动物</a>
+      <a href="climate.html" class="active">气候</a>
     </div>
   </nav>
   <div class="hero-image"></div>
@@ -210,29 +210,29 @@ line_highlights: 12-19
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
 \--- collapse ---
 
 ---
 
-## title: My Home link is still white?
+## title: 我的首页链接还是白色的？
 
-Check the `index.html` link has active removed and `climate.html` has active added.
+检查 `index.html` 链接是否已删除，以及 `climate.html` 是否已添加。
 
 \--- /collapse ---
 
 \--- /task ---
 
-### Style the Wildlife page header
+### 设置 Wildlife 页面的页眉样式
 
-Each page should have its own hero image that represents its content!
+每个页面都应该有自己的首页横幅图像来代表其内容！
 
 \--- task ---
 
-Inside `style.css` add a new class selector for wildlife.
+在 `style.css` 中为野生动物添加一个新的类选择器。
 
-You can set a new `background-image` property, which will overwrite the one set in the `hero-image` class.
+你可以设置一个新的 `background-image` 属性，它将覆盖 `hero-image` 类中设置的属性。
 
 ## --- code ---
 
@@ -243,7 +243,7 @@ line_number_start: 81
 line_highlights: 82-84
 -----------------------------------------------------------
 
-/\* Hero image - wildlife \*/
+/\* 首页横幅图像 - 野生动物 \*/
 .wildlife {
 background-image: url('antarctic-penguins.jpg');
 }
@@ -254,7 +254,7 @@ background-image: url('antarctic-penguins.jpg');
 
 \--- task ---
 
-Now apply the new `wildlife` class as an **addition** to the `hero-image` class in `wildlife.html`.
+现在将新的 `wildlife` 类作为 **附加** 应用于 `wildlife.html` 中的 `hero-image` 类。
 
 ## --- code ---
 
@@ -276,25 +276,25 @@ line_highlights: 19
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
 \--- collapse ---
 
 ---
 
-## title: My hero image has disappeared?
+## title: 我的英雄形象消失了？
 
-Make sure there is a space between the `hero-image` and `wildlife` classes.
+确保 `hero-image` 和 `wildlife` 类之间有空格。
 
 \--- /collapse ---
 
 \--- /task ---
 
-### Style the Climate page header
+### 设置气候页面标题的样式
 
 \--- task ---
 
-Inside `style.css`, add another new class selector for climate.
+在 `style.css` 中，为气候添加另一个新的类选择器。
 
 ## --- code ---
 
@@ -305,7 +305,7 @@ line_number_start: 86
 line_highlights: 87-89
 -----------------------------------------------------------
 
-/\* Hero image - climate \*/
+/\* 首页横幅图像 - 气候 \*/
 .climate {
 background-image: url('antarctic-daytime.jpg');
 }
@@ -316,7 +316,7 @@ background-image: url('antarctic-daytime.jpg');
 
 \--- task ---
 
-Now apply the new `climate` class as an **addition** to the `hero-image` class in `climate.html`.
+现在将新的 `climate` 类作为 **附加** 应用于 `climate.html` 中的 `hero-image` 类。
 
 ## --- code ---
 
@@ -338,8 +338,8 @@ line_highlights: 18
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
 \--- /task ---
 
-Next, you will make your webpages awesome by arranging things with grids and adding fun movements with animations!
+接下来，你将通过使用网格排列事物并使用动画添加有趣的动作来使你的网页变得精彩！
