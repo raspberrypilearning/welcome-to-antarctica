@@ -2,11 +2,11 @@
 
 ---
 
-## legend: Question 3 of 3
+## legend: 问题 3/3
 
-In this project, you used a media query to make your website responsive.
+在这个项目中，你使用媒体查询来使您的网站具有响应能力。
 
-What is the purpose of using a media query?
+使用媒体查询的目的是什么？
 
 ## --- code ---
 
@@ -23,27 +23,27 @@ line_numbers: false
 
 \--- choices ---
 
-- ( ) To create a burger menu in CSS.
+- ( ) 用 CSS 创建汉堡菜单。
 
   \--- feedback ---
 
-  Try again. A media query is not used for creating a burger menu. A burger menu is used for navigation on a smaller screen.
+  再试一次。 媒体查询不用于创建汉堡菜单。 汉堡菜单用于在较小的屏幕上导航。
 
   \--- /feedback ---
 
-- (x) To apply styles when the screen size changes.
+- (x) 当屏幕尺寸改变时应用样式。
 
   \--- feedback ---
 
-  Correct! A media query applies specific styles based on the attributes of the user's device, such as screen width or height.
+  正确！ 媒体查询根据用户设备的属性（例如屏幕宽度或高度）应用特定样式。
 
   \--- /feedback ---
 
-- ( ) To create a grid layout.
+- ( ) 创建网格布局。
 
   \--- feedback ---
 
-  Not quite. A media query is not used to create a grid layout. A grid layout is used to organise content on your webpage.
+  不完全对。 不使用媒体查询来创建网格布局。 网格布局用于组织网页上的内容。
 
   \--- /feedback ---
 
