@@ -1,40 +1,40 @@
-## Create a navbar
+## 创建导航栏
 
-In this step, you will create a navigation bar, often known as a navbar, to link the pages on the website. This will allow users to navigate from one page to another.
+在此步骤中，你将创建一个导航栏（通常称为navbar）来链接网站上的页面。 这将允许用户从一个页面导航到另一个页面。
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step2" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 \--- task ---
 
-Open the [Welcome to Antarctica starter project](https://editor.raspberrypi.org/en/projects/welcome-to-antarctica-starter){:target="_blank"}.
+打开[欢迎来到南极洲入门项目](https://editor.raspberrypi.org/en/projects/welcome-to-antarctica-starter){:target="_blank"}。
 
 \--- /task ---
 
-Your starter project contains:
+你的入门项目包含：
 
-- Three HTML pages with some text content
-- A CSS file that contains styling for some of the content
-- The images you will use in the project
-- A JavaScript file to make the navbar respond when the page size changes
+- 三个包含一些文本内容的 HTML 页面
+- 包含部分内容样式的 CSS 文件
+- 你将在项目中使用的图像
+- 一个 JavaScript 文件，用于在页面大小改变时使导航栏做出响应
 
 \--- task ---
 
-Have a look at the starter project.
+看一下入门项目。
 
-Open `index.html`. Are there any HTML elements you recognise?
+打开 `index.html`。 有没有什么 HTML 元素是你认识的？
 
 \--- /task ---
 
-### Add the HTML to show the navbar
+### 添加 HTML 以显示导航栏
 
-Webpage content is placed in the `<body>` tags.
+网页内容放置在 `<body>` 标签中。
 
-The navbar is placed in `<nav>` tags in the webpage header.
+导航栏位于网页标题中的 `<nav>` 标签中。
 
 \--- task ---
 
-Find the `<header>` and `</header>` tags.
-Add the `<nav>` tags.
+找到 `<header>` 和 `</header>` 标签。
+添加 `<nav>` 标签。
 
 ## --- code ---
 
@@ -59,9 +59,9 @@ line_highlights: 12, 14
 
 \--- task ---
 
-You are going to use a `<div>` to contain the links to the other pages.
+你将使用 `<div>` 来包含指向其他页面的链接。
 
-Inside the `<nav>` tags, add a new `<div>`.
+在 `<nav>` 标签内，添加一个新的 `<div>`。
 
 ## --- code ---
 
@@ -87,12 +87,12 @@ line_highlights: 13-15
 \--- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-In <span style="color: #0faeb0">**HTML**</span>, the `<a>` tag is used to create links. These links can be used to send users to another page on the same site or to an external site. You put the text to be linked inside `<a>` and `</a>`, and the `href` attribute provides the filename of the page that the link leads to. For external pages, the `href` attribute provides the web address (usually beginning with "https://") of the page you want to link to.
+在 <span style="color: #0faeb0">**HTML**</span>中，`<a>` 标签用于创建链接。 这些链接可用于将用户发送到同一站点上的另一个页面或外部站点。 将要链接的文本放在 `<a>` 和 `</a>` 中，`href` 属性提供链接指向的页面的文件名。 对于外部页面，`href` 属性提供您想要链接到的页面的网址（通常以“https://”开头）。
 </p>
 
 \--- task ---
 
-Add `<a>` tags to create links to each page.
+添加 `<a>` 标签来创建每个页面的链接。
 
 ## --- code ---
 
@@ -107,9 +107,9 @@ line_highlights: 14-16
 <header>
   <nav>
     <div>
-      <a href="index.html">Home</a>
-      <a href="wildlife.html">Wildlife</a>
-      <a href="climate.html">Climate</a>
+      <a href="index.html">主页</a>
+      <a href="wildlife.html">野生动物</a>
+      <a href="climate.html">气候</a>
     </div>
   </nav>
 </header>
@@ -119,24 +119,24 @@ line_highlights: 14-16
 
 \--- /task ---
 
-### Save your project
+### 保存你的项目
 
-Your project is saved automatically. Return to the starter link in the same web browser to see your changes.
+你的项目已自动保存。 返回同一 Web 浏览器中的启动链接以查看你的更改。
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
-You should:
+你应该：
 
-- See the navigation links at the top
+- 查看顶部的导航链接
 
-- Click a link to navigate to the Wildlife or Climate pages
+- 单击链接导航至野生动物或气候页面
 
-- Notice that the navbar does not appear on the Wildlife or Climate pages
+- 请注意，导航栏不会出现在野生动物或气候页面上
 
-**Tip:** In the Code Editor, you can use the browser back button (←) to return to the homepage.
+\*\*提示：\*\*在代码编辑器中，你可以使用浏览器后退按钮（←）返回主页。
 
 \--- /task ---
 
-Next, you are going to add the navbar to the other pages and then style your pages to make them look even better!
+接下来，你将把导航栏添加到其他页面，然后设置页面样式，使它们看起来更好！
