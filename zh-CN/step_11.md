@@ -1,9 +1,9 @@
-## Upgrade your project
+## 升级你的项目
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 
-If you have time, you can add some more facts, adjust the grid layouts, and change the hero images to make the page your own!
+如果你有时间，你可以添加更多事实，调整网格布局，并更改首页横幅图像以使页面成为你自己的专属页面！
 
 </div>
 <div>
@@ -11,15 +11,15 @@ If you have time, you can add some more facts, adjust the grid layouts, and chan
 </div>
 </div>
 
-### Add more facts
+### 添加更多事实
 
 \--- collapse ---
 
 ---
 
-## title: Add a new fact to the homepage
+## title: 向主页添加新事实
 
-Here is a fact about the research stations on Antarctica that you can add to the home page.
+以下是有关南极洲研究站的事实，你可以将其添加到主页。
 
 ## --- code ---
 
@@ -30,11 +30,11 @@ line_number_start:
 line_highlights:
 -----------------------------------------------------
 
-<p>Of the 56 countries that have signed the Antarctic Treaty, 55 of them operate some sort of research station on the continent. The number of researchers active on Antartica is roughly 4,800 in the summer and 1,200 in the winter.</p>
+<p>在签署《南极条约》的 56 个国家中，有 55 个国家在南极大陆设立了某种形式的研究站。 活跃在南极洲的研究人员数量夏季约为 4,800 人，冬季约为 1,200 人。</p>
 
 \--- /code ---
 
-You can use the class `research` to add a new background image to this fact.
+你可以使用类 `research` 为这个事实添加新的背景图像。
 
 ## --- code ---
 
@@ -57,15 +57,15 @@ line_highlights:
 
 ---
 
-## title: Add some new animals to wildlife.html
+## title: 向 wildlife.html 添加一些新动物
 
-There are three more pictures of Antarctic wildlife — choose one to add to your `wildlife.html` page.
+还有三张南极野生动物的图片 — — 选择一张添加到你的 `wildlife.html` 页面。
 
-You can use the classes:
+你可以使用以下类：
 
-- `albatross` - an image of the Antarctic albatross
-- `minke-whale` - for the Antarctic minke whale
-- `gentoo-penguin` - for another penguin, this is the Gentoo species
+- `albatross` —— 南极信天翁的图片
+- `minke-whale` - 南极小须鲸
+- `gentoo-penguin` - 另一种企鹅，它属于巴布亚物种
 
 ## --- code ---
 
@@ -82,21 +82,21 @@ line_highlights:
 
 \--- /code ---
 
-Research the animal online and add an interesting fact about them to your page!
+在线研究该动物并在你的页面上添加有关它们的有趣事实！
 
 \--- /collapse ---
 
-### Adjust your grids
+### 调整你的网格
 
-You can also change the grids on your pages to adjust the way your facts are displayed.
+你还可以更改页面上的网格来调整事实的显示方式。
 
 \--- collapse ---
 
 ---
 
-## title: Add extra columns and rows
+## title: 添加额外的列和行
 
-You can edit the the `fact-holder` and `fact-holder-wildlife` classes to add more rows or columns.
+你可以编辑 `fact-holder` 和 `fact-holder-wildlife` 类来添加更多行或列。
 
 ## --- code ---
 
@@ -117,38 +117,38 @@ grid-template-columns: 50% 50%;
 
 \--- /code ---
 
-You could also add `grid-row-start` and `grid-row-end` properties, or `grid-column-start` and `grid-colum-end` to the background image classes to place your items across rows and columns to customise your layouts.
+你还可以向背景图像类添加 `grid-row-start` 和 `grid-row-end` 属性，或 `grid-column-start` 和 `grid-colum-end`，以将你的项目放置在行和列中，从而自定义你的布局。
 
 \--- /collapse ---
 
-### Change your hero images
+### 更改你的首页横幅图像
 
 \--- collapse ---
 
 ---
 
-## title: Add different hero images
+## title: 添加不同的首页横幅图像
 
-In the starter projects there are multiple images you can use for your hero images.
+在入门项目中，你可以使用多个图像作为首页横幅图像。
 
-Images you have not used yet are...
+你尚未使用的图像是...
 
 `antarctic-landscape.jpg`
 `antarctic-seasons.jpg`
 `antarctic-walk.jpg`
 
-You can change the image URL in the CSS classes for your hero images to make the site your own.
+你可以更改首页横幅图像的 CSS 类中的图像 URL，以使网站成为你自己的专属网站。
 
 \--- /collapse ---
 
-### See the upgraded project
+### 查看升级后的项目
 
 \--- collapse ---
 
 ---
 
-## title: Upgraded project
+## title: 升级项目
 
-You can view the [upgraded project here](https://editor.raspberrypi.org/en/projects/welcome-to-antarctica-upgraded){:target="_blank"}.
+你可以在此处查看[升级后的项目](https://editor.raspberrypi.org/en/projects/welcome-to-antarctica-upgraded){:target="_blank"}。
 
 \--- /collapse ---
