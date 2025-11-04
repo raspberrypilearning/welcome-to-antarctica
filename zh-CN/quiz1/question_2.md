@@ -2,13 +2,13 @@
 
 ---
 
-## legend: Question 2 of 3
+## legend: 问题 2/3
 
-You used CSS properties in your project to specify the position of your content using a grid layout.
+你在项目中使用了 CSS 属性，通过网格布局指定内容的位置。
 
-Look at the CSS styling for the orcas selector.
+查看 orcas 选择器的 CSS 样式。
 
-Which columns will the orca image span?
+Orca 图像将跨越哪些列？
 
 ## --- code ---
 
@@ -29,27 +29,27 @@ grid-column-end: 3;
 
 \--- choices ---
 
-- (x) 1 and 2
+- (x) 1 和 2
 
   \--- feedback ---
 
-  Correct! `grid-column-start` sets which column to start the display of the image (the image will start in the first column) and the value of `grid-column-end` sets which column to end the display of the image (the image will not be displayed in the third column).
+  正确！ `grid-column-start` 设置从哪一列开始显示图像（图像将从第一列开始显示），`grid-column-end` 的值设置从哪一列结束显示图像（图像不会显示在第三列）。
 
   \--- /feedback ---
 
-- ( ) 2 and 3
+- ( ) 2 和 3
 
   \--- feedback ---
 
-  Take another look. `grid-column-start` sets which column to start the display of the image and the value of `grid-column-end` sets the column from which the image will **not** be displayed.
+  再看一看。 `grid-column-start` 设置从哪一列开始显示图像，而 `grid-column-end` 的值设置从哪一列开始不显示图像。
 
   \--- /feedback ---
 
-- ( ) 1, 2, and 3
+- ( ) 1，2 和 3
 
   \--- feedback ---
 
-  Almost! The orcas image will start in the first column, but the value of `grid-column-end` sets which column to end the display of the image.
+  差一点！ 虎鲸图像将从第一列开始，但 `grid-column-end` 的值设置哪一列结束图像的显示。
 
   \--- /feedback ---
 
