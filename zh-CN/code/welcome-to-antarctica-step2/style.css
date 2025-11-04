@@ -5,7 +5,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     width: 100%;
-    min-height: 100vh; /* Make the content fill the page so the footer is at the bottom */
+    min-height: 100vh; /* 使内容填满页面，使页脚位于页面底部 */
     display: flex;
     flex-direction: column;
 }
@@ -13,9 +13,9 @@ body {
 main {
     height: 100%;
     justify-content: center;
-    margin: 0 auto; /* Center if the browser is really wide */
-    min-width: 25rem; /* Don't let the content get too narrow */
-    max-width: 70rem; /*  Don't let the content get too wide */
+    margin: 0 auto; /* 当浏览器足够宽时居中显示 */
+    min-width: 25rem; /* 不要让内容变得太窄 */
+    max-width: 70rem; /* 不要让内容变得太宽 */
     padding: 0;
 }
 
@@ -32,7 +32,7 @@ h1 {
     width: 100%;
 }
 
-/* Nav bar */
+/* 导航栏 */
 nav {
     padding: 0 15px;
     height: 60px;
@@ -42,42 +42,42 @@ nav {
     align-items: center;
 }
 
-/* Nav items */
+/* 导航项目 */
 
 
-/* Nav bar links */
+/* 导航栏链接 */
 
 
-/* Nav links hover */
+/* 导航链接悬停 */
 
 
-/* Nav links active */
+/* 导航链接处于活动状态 */
 
 
-/* Burger menu */
+/* 汉堡（折叠）菜单 */
 
 
-/* Hero image - homepage */
+/* 首页横幅 - 主页 */
 
 
-/* Hero image - wildlife */
+/* 首页横幅 - 野生动物 */
 
 
-/* Hero image - climate */
+/* 首页横幅 - 气候 */
 
 
-/* Fact holder - homepage */
+/* 事实持有者 - 主页 */
 .fact-holder {
   display: grid;
-  height: 50vh; /* 50% of the visible area of the page */
+  height: 50vh; /* 页面可视区域的 50% */
   grid-template-rows: 75% 25%;
   grid-template-columns: 75% 25%;
 }
 
-/* Fact holder - wildlife */
+/* 事实持有者 - 野生动物 */
 
 
-/* Fact card */
+/* 事实卡 */
 
 
 .fact {
@@ -92,10 +92,10 @@ nav {
   padding: 0 5px 0 5px;
 }
 
-/* Fact hover */
+/* 事实悬停 */
 
 
-/* Fact images */
+/* 事实图像 */
 
 .sun {
   background-image: url("antarctic-sun.jpg");
@@ -161,4 +161,4 @@ nav {
   background-image: url("climate-rain.jpg");
 }
 
-/* Media query */
+/* 媒体查询 */
