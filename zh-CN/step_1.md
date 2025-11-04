@@ -1,46 +1,46 @@
-## Introduction
+## 简介
 
 \--- collapse ---
 
 ---
 
-## title: New to the Raspberry Pi Code Editor?
+## title: 树莓派代码编辑器的新手？
 
-Check out the [getting started guide](https://projects.raspberrypi.org/en/projects/getting-started-guide-editor-html){:target="_blank"}!
+查看[入门指南](https://projects.raspberrypi.org/en/projects/getting-started-guide-editor-html){:target="_blank"}！
 
 \--- /collapse ---
 
-In this project, you will use HTML, CSS, and JavaScript to create a website that lets people discover a place they may never get a chance to visit — Antarctica.
+在这个项目中，你将使用 HTML、CSS 和 JavaScript 创建一个网站，让人们发现他们可能永远没有机会访问的地方——南极洲。
 
-As well as the homepage, the website will have pages about Antarctica's wildlife and climate.
+除了主页之外，该网站还将包含有关南极洲野生动物和气候的页面。
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**JavaScript**</span> is a programming language that runs in your browser. As of 2024, it is the most popular programming language in the world!
+<span style="color: #0faeb0">**JavaScript**</span> 是一种在浏览器中运行的编程语言。 截至 2024 年，它是世界上最流行的编程语言！
 </p>
 
-You will:
+你将要：
 
-- Create an awesome modern website
-- Build a navigation bar (navbar)
-- Set accessible colours and fonts
-- Add some 'hero' images
-- Use a grid layout
-- Place items in a grid
-- Make elements responsive
+- 创建一个令人惊叹的现代网站
+- 构建导航栏（navbar）
+- 设置无障碍的颜色和字体
+- 添加一些首页横幅图像
+- 使用网格布局
+- 将项目放置在网格中
+- 使元素具有响应性
 
 \--- no-print ---
 
 \--- task ---
 
-### Try it
+### 尝试一下
 
-Explore the Welcome to Antarctica website.
+浏览“欢迎来到南极洲”网站。
 
-What happens when you...
+当你……时会发生什么？
 
-- Click the burger icon (☰)?
-- Hover over the images?
-- Use the links to access the different pages?
+- 点击汉堡（折叠导航栏）图标 (☰)？
+- 将鼠标悬停在图像上？
+- 使用链接访问不同的页面？
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-complete" width="100%" height="900" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
@@ -48,9 +48,9 @@ What happens when you...
 
 ---
 
-## title: Images in this project
+## title: 此项目中的图像
 
-Images included in this project were created using generative AI. Model: Firefly Image 2
+该项目中包含的图像是使用生成式人工智能创建的。 Model: Firefly Image 2
 
 \--- /collapse ---
 
@@ -60,6 +60,6 @@ Images included in this project were created using generative AI. Model: Firefly
 
 \--- print-only ---
 
-![Completed project](images/showcase_static.png)
+![已完成的项目](images/showcase_static.png)
 
 \--- /print-only ---
