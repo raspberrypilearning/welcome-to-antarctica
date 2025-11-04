@@ -1,12 +1,12 @@
-## Style a navbar
+## 设置导航栏样式
 
-In this step, you will style the navbar you created and add it to the other pages.
+在此步骤中，你将设置所创建的导航栏的样式并将其添加到其他页面。
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step3" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
 \--- task ---
 
-Add a `nav-items` class attribute to the `<div>` containing the navbar links.
+向包含导航栏链接的 `<div>` 添加 `nav-items` 类属性。
 
 ## --- code ---
 
@@ -21,9 +21,9 @@ line_highlights: 13
 <header>
   <nav>
     <div class="nav-items">
-      <a href="index.html">Home</a>
-      <a href="wildlife.html">Wildlife</a>
-      <a href="climate.html">Climate</a>
+      <a href="index.html">主页</a>
+      <a href="wildlife.html">野生动物</a>
+      <a href="climate.html">气候</a>
     </div>
   </nav>
 </header>
@@ -33,17 +33,17 @@ line_highlights: 13
 
 \--- /task ---
 
-### Style the whole navbar
+### 为整个导航栏设置样式
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Styling HTML elements with <span style="color: #0faeb0">**CSS**</span> requires you to specify what styling should apply to which elements. To do this, you use **selectors**. You can select tags like `nav` or you can be more specific and select classes by adding a `.` before the class name — like `.nav-items`.
+使用 <span style="color: #0faeb0">**CSS**</span> 设置 HTML 元素的样式需要你指定对哪些元素应用什么样式。 为此，你可以使用**选择器**。 你可以选择像 `nav` 这样的标签，或者你可以更具体地通过在类名前添加 `.` 来选择类 - 例如 `.nav-items`。
 </p>
 
 \--- task ---
 
-Open the `style.css` file and find the `nav` element selector.
+打开 `style.css` 文件并找到 `nav` 元素选择器。
 
-Add a background colour property.
+添加背景颜色属性。
 
 ## --- code ---
 
@@ -54,7 +54,7 @@ line_number_start: 36
 line_highlights: 44
 --------------------------------------------------------
 
-/\* Nav bar \*/
+/\* 导航栏 \*/
 nav {
 padding: 0 15px;
 height: 60px;
@@ -71,17 +71,17 @@ background-color: var(--nav-colour);
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
 \--- collapse ---
 
 ---
 
-## title: I don't see any new colour?
+## title: 我没有看到任何新颜色？
 
-Make sure that `background-color` is spelled without a 'u' in 'colour'.  `--nav-colour` should still have a 'u', though!
+确保 `background-color` 拼写时“colour”中没有“u”。  不过，`--nav-colour` 仍然应该有一个 “u”！
 
-Make sure there is a `;` at the end of the line.
+确保行尾有一个 `;`。
 
 \--- /collapse ---
 
@@ -91,17 +91,17 @@ Make sure there is a `;` at the end of the line.
 
 ---
 
-## title: Style a class or an element?
+## title: 设计一个类或元素？
 
-If you want to apply styling to specific HTML elements, you can create a class in a CSS file. You can then add the `class` attribute to an element in your HTML code to let the browser know what styling should be applied.
+如果你想将样式应用于特定的 HTML 元素，您可以在 CSS 文件中创建一个类。 然后，你可以将 `class` 属性添加到 HTML 代码中的元素，以让浏览器知道应该应用什么样式。
 
-You can also style elements (like `<header>` or `<nav>`) directly.
+你还可以直接设置元素的样式（例如 `<header>` 或 `<nav>`）。
 
 \--- /collapse ---
 
 \--- task ---
 
-Create a selector for the `nav-items` class to space out the links.
+为 `nav-items` 类创建一个选择器来分隔链接。
 
 ## --- code ---
 
@@ -112,7 +112,7 @@ line_number_start: 47
 line_highlights: 48-51
 -----------------------------------------------------------
 
-/\* Nav items \*/
+/\* 导航项 \*/
 .nav-items {
 display: flex;
 gap: 100px;
@@ -124,17 +124,17 @@ gap: 100px;
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
 \--- /task ---
 
-### Style the links
+### 链接样式
 
-As well as styling the whole navbar, you can style individual links.
+除了设置整个导航栏的样式外，你还可以设置单个链接的样式。
 
 \--- task ---
 
-Create another selector to style each `<a>` tag in the `nav-items` `<div>`.
+创建另一个选择器来设置 `nav-items` `<div>` 中每个 `<a>` 标签的样式。
 
 ## --- code ---
 
@@ -145,7 +145,7 @@ line_number_start: 53
 line_highlights: 54-58
 -----------------------------------------------------------
 
-/\* Nav bar links \*/
+/\* 导航栏链接 \*/
 .nav-items > a {
 color: var(--nav-items-colour);
 text-decoration: none;
@@ -158,13 +158,13 @@ transition: .4s ease-in-out;
 
 ---
 
-## title: Select elements within a class
+## title:  选择类中的元素
 
-Sometimes you will want to style particular elements within a **container** that has a class. To do this you use the `>` operator.
+有时你会想要为具有某个类的**容器**内的特定元素设置样式。 要做到这一点，你可以使用 `>` 运算符。
 
-The example you just used styles all `<a>` elements within a container that has the `nav-items` class.
+你刚刚使用的示例对具有 `nav-items` 类的容器内的所有 `<a>` 元素进行样式设置。
 
-This allows you to style certain links without affecting all the links on your page. It saves you having to give a class to each individual link.
+这使你可以设置某些链接的样式，而不会影响页面上的所有链接。 它使你不必为每个单独的链接指定一个类别。
 
 \--- /collapse ---
 
@@ -172,13 +172,13 @@ This allows you to style certain links without affecting all the links on your p
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
 \--- /task ---
 
 \--- task ---
 
-Add a selector to style each link when you hover over it.
+添加一个选择器，当你将鼠标悬停在每个链接上时设置其样式。
 
 ## --- code ---
 
@@ -189,7 +189,7 @@ line_number_start: 60
 line_highlights: 61-63
 -----------------------------------------------------------
 
-/\* Nav links hover \*/
+/\* 导航链接悬停 \*/
 .nav-items > a:hover {
 color: var(--nav-items-active);
 }
@@ -200,13 +200,13 @@ color: var(--nav-items-active);
 
 ---
 
-## title: Add interaction styling to an element
+## title: 向元素添加交互样式
 
-When writing CSS, you might want to change the styling of an element when the user interacts with it.
+编写 CSS 时，你可能希望在用户与元素交互时更改元素的样式。
 
-In the example above, you are changing the styling of the `a` elements, but only when a user **hovers** over them with their mouse. The syntax for this is `a:hover`.
+在上面的例子中，你正在更改 `a` 元素的样式，但只有当用户用鼠标**悬停**在它们上面时才会发生。 其语法是 `a:hover`。
 
-The style in this selector will **only** be used when a user's mouse is on top of the element.
+此选择器中的样式**仅**在用户的鼠标位于元素顶部时使用。
 
 \--- /collapse ---
 
@@ -214,19 +214,19 @@ The style in this selector will **only** be used when a user's mouse is on top o
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
 \--- /task ---
 
-### Create an active link
+### 创建活动状态链接
 
-The `index.html` page will be loaded first.
+index.html 页面将首先被加载。
 
-When that page is open, the link should stay white and not be clickable.
+当该页面打开时，链接应保持白色并且不可点击。
 
 \--- task ---
 
-Add a new `active` CSS class for the link to the page that is currently open.
+为当前打开的页面的链接添加一个新的 `active` CSS类。
 
 ## --- code ---
 
@@ -237,7 +237,7 @@ line_number_start: 65
 line_highlights: 66-69
 -----------------------------------------------------------
 
-/\* Nav links active \*/
+/\* 导航链接处于活动状态 \*/
 .nav-items .active {
 color: var(--nav-items-active);
 pointer-events: none;
@@ -247,9 +247,9 @@ pointer-events: none;
 
 \--- /task ---
 
-Open `index.html`.
+打开 `index.html`。
 
-Add the `active` class attribute to the index.html `<a>` tag.
+将 `active` 类属性添加到 index.html `<a>` 标签。
 
 \--- task ---
 
@@ -266,9 +266,9 @@ line_highlights: 13
 <header>
   <nav>
     <div class="nav-items">
-      <a href="index.html" class="active">Home</a>
-      <a href="wildlife.html">Wildlife</a>
-      <a href="climate.html">Climate</a>
+      <a href="index.html" class="active">主页</a>
+      <a href="wildlife.html">野生动物</a>
+      <a href="climate.html">气候</a>
     </div>
   </nav>
 </header>
@@ -280,19 +280,19 @@ line_highlights: 13
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
 \--- /task ---
 
-### Change the fonts
+### 更改字体
 
 \--- task ---
 
-Import a Google font to style the fonts on your pages.
+导入 Google 字体来设置页面上的字体样式。
 
-Open `defaults.css`
+打开 `defaults.css`
 
-Place this `@import` statement at the top of your file.
+将此 `@import` 语句放在文件顶部。
 
 ## --- code ---
 
@@ -303,7 +303,7 @@ line_number_start: 1
 line_highlights: 2
 -------------------------------------------------------
 
-/\* Import a font \*/
+/\* 导入字体 \*/
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 \--- /code ---
@@ -312,7 +312,7 @@ line_highlights: 2
 
 \--- task ---
 
-Create a new variable inside the `:root` selector, called `--body-font` and set the new Orbitron font.
+在 `:root` 选择器内创建一个名为 `--body-font` 的新变量并设置新的 Orbitron 字体。
 
 ## --- code ---
 
@@ -335,7 +335,7 @@ line_highlights: 8
 
 \--- task ---
 
-Add the `font-family` property inside the body selector and set it to the new `--body-font` variable you just created.
+在 body 选择器中添加 `font-family` 属性并将其设置为刚刚创建的新 `--body-font` 变量。
 
 ## --- code ---
 
@@ -353,7 +353,7 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 width: 100%;
-min-height: 100vh; /\* Make the content fill the page so the footer is at the bottom \*/
+min-height: 100vh; /\* 使内容填满页面，使页脚位于底部 \*/
 display: flex;
 flex-direction: column;
 font-family: var(--body-font);
@@ -364,8 +364,8 @@ font-family: var(--body-font);
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
 \--- /task ---
 
-Next, you're going to put some cool images at the top of your webpage to show everyone what it's about!
+接下来，你将在网页顶部放置一些精美的图片，向所有人展示其内容！
