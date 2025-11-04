@@ -1,20 +1,20 @@
-## Using animations
+## 使用动画
 
-Animations and interactivity will make your webpage more fun for visitors!
+动画和交互性将使你的网页对访问者来说更有趣！
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/welcome-to-antarctica-step6" width="100%" height="800" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 
-### Add animations on hover
+### 添加悬停动画
 
-Rather than just showing the fact text, add some interaction to your page!
+除了显示事实文本之外，还要在页面上添加一些互动！
 
-Make the facts invisible.
+使事实变得不可见。
 
 \--- task ---
 
-Open `style.css`.
+打开 `style.css`。
 
-Set the `opacity` property of `.fact` to `0`.
+将 `.fact` 的 `opacity` 属性设置为 `0`。
 
 ## --- code ---
 
@@ -42,11 +42,11 @@ opacity: 0;
 
 \--- /task ---
 
-Make the facts visible again when the user hovers over it.
+当用户将鼠标悬停在事实上时，使其再次可见。
 
 \--- task ---
 
-Add a new selector `.fact:hover`.
+添加一个新的选择器 `.fact:hover`。
 
 ## --- code ---
 
@@ -57,7 +57,7 @@ line_number_start: 129
 line_highlights: 130-132
 -------------------------------------------------------------
 
-/\* Fact hover \*/
+/\* 事实悬停 \*/
 .fact:hover {
 opacity: 1;
 }
@@ -68,15 +68,15 @@ opacity: 1;
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
 \--- /task ---
 
-Instead of switching right away, smooth out the change with a transition.
+不要立即切换，而是通过过渡来平滑变化。
 
 \--- task ---
 
-Add a `transition` property to `.fact`.
+向 `.fact` 添加 `transition` 属性。
 
 ## --- code ---
 
@@ -107,10 +107,10 @@ transition: .4s ease-in-out;
 
 \--- task ---
 
-**Click Run**
+**点击运行**
 
-Hover your mouse over the images to see your animation!
+将鼠标悬停在图像上即可查看动画！
 
 \--- /task ---
 
-Next, you will use a new grid arrangement to organise content in a different way to keep things interesting!
+接下来，你将使用新的网格排列以不同的方式组织内容，以保持内容的趣味性！
