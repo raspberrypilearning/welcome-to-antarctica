@@ -76,7 +76,7 @@ Et qu'il y a des marques `"` autour de `fact-holder`.
 
 Pour l'instant, les paragraphes occupent des espaces différents.
 
-![La page index.html après l'ajout de la grille. La flèche qui traverse toute la largeur indique 100 %. Underneath, an arrow spans the width of the first paragraph and is labelled 75%, next to it another arrow spans the width of the second paragraph and is labelled 25%.](images/grid_sizes.png)
+![La page index.html après l'ajout de la grille. La flèche qui traverse toute la largeur indique 100 %. En dessous, une flèche s'étend sur la largeur du premier paragraphe et indique 75 % ; à côté, une autre flèche s'étend sur la largeur du deuxième paragraphe et indique 25 %](images/grid_sizes.png)
 
 Tu peux modifier la largeur des colonnes de la grille pour les uniformiser.
 
