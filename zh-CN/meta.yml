@@ -1,34 +1,34 @@
 ---
-title: Welcome to Antarctica
+title: 欢迎来到南极洲
 hero_image: images/banner.png
-description: Use CSS to make a great website
+description: 使用 CSS 打造出色的网站
 version: 4
 listed: true
 copyedit: false
 last_tested: '2021-03-26'
 steps:
   - 
-    title: Introduction
+    title: 简介
   - 
-    title: Create a navbar
+    title: 创建导航栏
   - 
-    title: Style a navbar
+    title: 设置导航栏样式
     completion: engaged
   - 
-    title: Add hero images
+    title: 添加首页横幅图像
   - 
-    title: Using grids
+    title: 使用网格
   - 
-    title: Using animations
+    title: 使用动画
   - 
-    title: Different types of grids
+    title: 不同类型的网格
   - 
-    title: Responsive navigation bar
+    title: 响应式导航栏
   - 
-    title: Responsive grids
+    title: 响应式网格
     completion: internal
   - 
-    title: Reflection
+    title: 回顾与思考
     completion: external
     knowledge_quiz:
       path: quiz1
@@ -36,4 +36,4 @@ steps:
       questions: 3
       passing_score: 3
   - 
-    title: Upgrade your project
+    title: 升级你的项目
